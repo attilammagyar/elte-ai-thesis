@@ -1,0 +1,79 @@
+\documentclass[noindent,nohyp,parspace,titlepage,twoside,12pt]{article}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[type={CC},modifier={by-sa},version={4.0}]{doclicense}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{pgfplots}
+\usepackage{xparse}
+
+\usetikzlibrary{shapes,matrix}
+
+\hypersetup{
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=black
+}
+
+\pgfplotsset{compat=1.18}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+\def\TITLE{Title}
+\def\AUTHOR{Attila M. Magyar}
+
+\title{\TITLE}
+\author{\AUTHOR}
+
+\linespread{1.25}
+\begin{document}
+
+\begin{titlepage}
+
+  \begin{center}
+    \Huge\textbf{\TITLE}\normalsize
+  \end{center}
+  \begin{center}
+    \Large Thesis \normalsize
+  \end{center}
+
+  \vfill
+
+% TODO: author, supervisor
+
+  \vfill
+
+  \begin{center}
+    \Large Mathematics Expert in Data Analytics and Machine Learning
+    \normalsize
+  \end{center}
+
+  \begin{center}
+    \includegraphics[scale=0.2]{img/logo.png} \\
+  \end{center}
+
+  \begin{center}
+    \Large Eötvös Loránd University \\
+    \Large Faculty of Science \normalsize
+  \end{center}
+
+  \begin{center}
+    \Large Budapest, 2025 \normalsize
+  \end{center}
+
+\end{titlepage}
+
+  \tableofcontents
+
+\newpage
+
+  \section{Lorem ipsum}
+
+    Lorem ipsum dolor sit amet...
+
+\end{document}
