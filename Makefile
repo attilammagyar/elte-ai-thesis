@@ -33,6 +33,8 @@ RM ?= rm -vf
 MKDIR ?= mkdir -v
 COPY ?= cp -v
 PDFLATEX ?= /usr/bin/pdflatex
+BIBTEX ?= /usr/bin/bibtex
+BIBER ?= /usr/bin/biber
 
 OUT_FILE_NAME = thesis
 
@@ -41,6 +43,9 @@ PDFLATEX_FLAGS = \
 	-file-line-error \
 	-output-directory $(BUILD_DIR)
 
+BIBER_FLAGS = \
+	--output-directory $(BUILD_DIR)
+
 .PHONY: all clean
 
 all: $(OUT_FILE_NAME).pdf
@@ -48,9 +53,13 @@ all: $(OUT_FILE_NAME).pdf
 clean:
 	$(RM) \
 		$(BUILD_DIR)/$(OUT_FILE_NAME).aux \
+		$(BUILD_DIR)/$(OUT_FILE_NAME).bbl \
+		$(BUILD_DIR)/$(OUT_FILE_NAME).bcf \
+		$(BUILD_DIR)/$(OUT_FILE_NAME).blg \
 		$(BUILD_DIR)/$(OUT_FILE_NAME).log \
 		$(BUILD_DIR)/$(OUT_FILE_NAME).out \
 		$(BUILD_DIR)/$(OUT_FILE_NAME).pdf \
+		$(BUILD_DIR)/$(OUT_FILE_NAME).run.xml \
 		$(BUILD_DIR)/$(OUT_FILE_NAME).toc
 
 $(OUT_FILE_NAME).pdf: $(BUILD_DIR)/$(OUT_FILE_NAME).pdf
@@ -58,10 +67,14 @@ $(OUT_FILE_NAME).pdf: $(BUILD_DIR)/$(OUT_FILE_NAME).pdf
 
 $(BUILD_DIR)/$(OUT_FILE_NAME).pdf: \
 		$(OUT_FILE_NAME).tex \
+		$(OUT_FILE_NAME).bib \
 		img/logo.png \
 		| $(BUILD_DIR)
 	$(PDFLATEX) $(PDFLATEX_FLAGS) $<
+	$(BIBER) $(BIBER_FLAGS) $(OUT_FILE_NAME)
 	$(PDFLATEX) $(PDFLATEX_FLAGS) $<
+	$(PDFLATEX) $(PDFLATEX_FLAGS) $<
+
 
 $(BUILD_DIR):
 	$(MKDIR) $@

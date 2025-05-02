@@ -4,11 +4,14 @@
 \usepackage{algpseudocode}
 \usepackage{amsfonts}
 \usepackage{amsmath}
-\usepackage[type={CC},modifier={by-sa},version={4.0}]{doclicense}
+\usepackage[backend=biber,sorting=none]{biblatex}
+% \usepackage[type={CC},modifier={by-sa},version={4.0}]{doclicense}
 \usepackage{geometry}
 \usepackage{hyperref}
 \usepackage{pgfplots}
 \usepackage{xparse}
+
+\addbibresource{thesis.bib}
 
 \usetikzlibrary{shapes,matrix}
 
@@ -24,7 +27,10 @@
 \setcounter{secnumdepth}{5}
 \setcounter{tocdepth}{5}
 
-\def\TITLE{Title}
+\def\TITLE{\
+  Investigating Bias \\
+  in LLM Self-Evaluation\
+}
 \def\AUTHOR{Attila M. Magyar}
 
 \title{\TITLE}
@@ -72,8 +78,106 @@
 
 \newpage
 
-  \section{Lorem ipsum}
+  \section{Introduction}
 
-    Lorem ipsum dolor sit amet...
+    \subsection{A Brief Introduction to LLMs}
+
+      A language model is a machine learning model designed to perform a wide
+      range of tasks that involve natural language processing (NLP), including
+      text summarization, translation, sentiment analysis, spam detection,
+      content moderation, text generation, etc.
+
+      Significant advancements in deep learning \cite{attention,gpt3,gpt4} led
+      to the emergence of \textbf{large language models} (LLMs) --- particularly
+      generative LLMs --- which in the early 2020s became productized and
+      widely adopted in both industry and popular discourse.
+
+      A generative large language model is a model which has a parameter count
+      on the order of billions or more, and predicts the conditional
+      probability \cite{llms}
+
+      \begin{align} \label{eqautoreg}
+        P(w_m | w_0, \cdots, w_{m-1})
+      \end{align}
+
+      where $m \in \mathbb{N}$, $w_0$ is a special start symbol, and $w_k$ is
+      the $k$-th token (for $1 \le k \le m$) in a sequence of tokens that form
+      a piece of text in some (natural) language. The interpretation of the
+      tokens depends on the exact tokenization strategy used, which may define
+      tokens as words, word pieces, n-grams, or individual characters, and
+      spaces, punctuation marks, etc.
+
+      Text generation then is an autoregressive process where given a
+      sequence of tokens as a prefix --- known as the \textbf{prompt} --- the
+      model estimates the probability distribution of the next token, takes a
+      sample from that distribution, appends it to the sequence, and repeats
+      the process with the extended sequence until a given stopping condition
+      is met.
+
+      The sampling can usually be controlled via numerical parameters; a
+      commonly used one is the \textbf{temperature}: the closer it is to 0, the
+      more the sampling will lean toward the most probable token --- making the
+      algorithm more deterministic ---, while higher values increase the
+      randomization, making the generated text feel more \emph{creative} until,
+      above a certain threshold, it becomes incoherent and semantically
+      meaningless. If $v \in \mathbb{N}$ denotes the number of all possible
+      tokens available for the model (vocabulary size), and
+      $\mathbf{s} \in \mathbb{R}^v$ is an output vector of the model assigning
+      a score to each token as the continuation of a given input, then the
+      distribution for the sampling, with respect to the temperature $T \in
+      \mathbb{R}$ is calculated via the softmax function:
+
+      \begin{align} \label{eqsoftmax}
+        \text{softmax}(\mathbf{s};T)
+          = \left[
+              \frac{\exp(\frac{s_i}{T})}{\sum_{j=1}^v \exp(\frac{s_j}{T})}
+            \right]_{i=1}^v
+      \end{align}
+
+      In practice, if $T$ is sufficiently close or exactly equal to $0$, then
+      the sampling is usually replaced with the deterministic argmax function
+      in order to preserve numerical stability. Non-zero $T$ values control
+      the flatness of the distribution, leading to the aforementioned behavior.
+
+      With sufficiently large model complexity and training corpora size and
+      diversity, LLMs start to exhibit capabilities which rival that of top
+      performer humans in a broad class of problems \cite{gpt3,gpt4}. The
+      versatility of the models is often utilized in a setting where the prompt
+      is composed of two parts, each consisting of instructions given in
+      natural language:
+
+      \begin{itemize}
+        \item the \textbf{system prompt} can instruct the model to behave in a
+              certain way, for example, to act like a helpful AI assistant,
+              an expert in a domain, or to generate its texts in the style of
+              fictional 18th-century Caribbean pirates,
+
+        \item and the \textbf{user prompt} which describes a task to be carried
+              out by the model, ranging from text translation or summarization
+              to solving complex programming problems or pointing out business
+              risks in legal documents, and more.
+      \end{itemize}
+
+      Generative models with sufficient generalization capabilities can predict
+      likely continuations of such prompts with so high accuracy that the
+      generated text will often contain an actual solution to the proposed
+      problem. This instruction-following paradigm enables models to perform
+      \textbf{few-shot learning} \cite{gpt3} or even \textbf{zero-shot learning}
+      by interpreting tasks directly from the natural language description,
+      based on just a few or zero examples, respectively, without specific
+      training or fine-tuning.
+
+      The problem solving performance of LLMs can be improved further by
+      prompt engineering techniques like \textbf{chain-of-thought} prompting
+      \cite{cot}, where the model is provided with a step-by-step example
+      solution to a related problem in the prompt, encouraging it to also
+      articulate intermediate reasoning steps.
+
+    \subsection{LLM Evaluators, LLM-as-a-Judge}
+
+\newpage
+
+  \nocite{*}
+  \printbibliography[heading=bibintoc]
 
 \end{document}

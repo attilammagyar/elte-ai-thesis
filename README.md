@@ -24,8 +24,10 @@ LaTeX
 -----
 
     apt install \
+        biber \
         tex-common \
         texlive-base \
+        texlive-bibtex-extra \
         texlive-extra-utils \
         texlive-fonts-extra \
         texlive-latex-base \
