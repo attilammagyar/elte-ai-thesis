@@ -55,7 +55,9 @@ def parse_bib_file(bib_filename):
 
                 if parsed_attr:
                     key = parsed_attr[1].strip().lower()
-                    value = braces_re.sub("", parsed_attr[2].strip())
+                    value = convert_inline_formattings(
+                        braces_re.sub("", parsed_attr[2].strip())
+                    )
 
                     if key == "author":
                         authors = value.split(" and ")
@@ -70,6 +72,15 @@ def parse_bib_file(bib_filename):
             bib[entry_id] = attributes
 
     return bib
+
+
+def convert_inline_formattings(text):
+    text = text.replace("---", "&mdash;")
+    text = text.replace("--", "&ndash;")
+    text = re.subn(r"\\textbf{([^}]*)}", r"**\1**", text)[0]
+    text = re.subn(r"\\emph{([^}]*)}", r"*\1*", text)[0]
+
+    return text
 
 
 def print_bib(bib):
@@ -212,10 +223,8 @@ def tex_to_markdown(tex_filename, bib):
     text = text.replace("\\newpage", "")
     text = text.replace("\\nocite{*}", "")
     text = text.replace("\\printbibliography[heading=bibintoc]", "")
-    text = text.replace("---", "&mdash;")
-    text = text.replace("--", "&ndash;")
-    text = re.subn(r"\\textbf{([^}]*)}", r"**\1**", text)[0]
-    text = re.subn(r"\\emph{([^}]*)}", r"*\1*", text)[0]
+
+    text = convert_inline_formattings(text)
 
     for eq_label, eq_number in equations.items():
         text = text.replace("\\ref{" + eq_label + "}", str(eq_number))
