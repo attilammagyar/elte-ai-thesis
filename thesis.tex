@@ -115,17 +115,17 @@
       is met.
 
       The sampling can usually be controlled via numerical parameters; a
-      commonly used one is the \textbf{temperature}: the closer it is to 0, the
-      more the sampling will lean toward the most probable token --- making the
-      algorithm more deterministic ---, while higher values increase the
-      randomization, making the generated text feel more \emph{creative} until,
-      above a certain threshold, it becomes incoherent and semantically
-      meaningless. If $v \in \mathbb{N}$ denotes the number of all possible
-      tokens available for the model (vocabulary size), and
-      $\mathbf{s} \in \mathbb{R}^v$ is an output vector of the model assigning
-      a score to each token as the continuation of a given input, then the
-      distribution for the sampling, with respect to the temperature $T \in
-      \mathbb{R}$ is calculated via the softmax function:
+      commonly used one is the \textbf{temperature} \cite{temperature}: the
+      closer it is to 0, the more the sampling will lean toward the most
+      probable token --- making the algorithm more deterministic ---, while
+      higher values increase the randomization, making the generated text feel
+      more \emph{creative} until, above a certain threshold, it becomes
+      incoherent and semantically meaningless. If $v \in \mathbb{N}$ denotes
+      the number of all possible tokens available for the model (vocabulary
+      size), and $\mathbf{s} \in \mathbb{R}^v$ is an output vector of the model
+      assigning a score to each token as the continuation of a given input,
+      then the distribution for the sampling, with respect to the temperature
+      $T \in \mathbb{R}$ is calculated via the softmax function:
 
       \begin{align} \label{eqsoftmax}
         \text{softmax}(\mathbf{s};T)
