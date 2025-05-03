@@ -28,17 +28,21 @@ def parse_bib_file(bib_filename):
     with open(bib_filename, "r") as f:
         text = f.read()
 
+    entries_split_re = re.compile(r"@(article|book|inbook|incollection|inproceedings|masterthesis|misc|phdthesis)")
     to_single_line_re = re.compile(r"\n *", flags=re.MULTILINE)
 
     # Not dealing with more than 1 level of nested braces.
-    attribute_re = re.compile(r"[a-zA-Z0-9_-]+=\{((\{[^\}]+\})*|[^{}]*)*\},?")
+    attribute_re = re.compile(r"[a-zA-Z0-9_-]+ *= *\{((\{[^\}]+\})*|[^{}]*)*\},?")
 
     id_re = re.compile(r"^ *\{ *([a-zA-Z0-9_-]+),")
-    key_value_re = re.compile(r"([a-zA-Z0-9_-]+)=\{ *(.*) *\},?$")
+    key_value_re = re.compile(r"([a-zA-Z0-9_-]+) *= *\{ *(.*) *\},?$")
     author_separator_re = re.compile(r" +and +")
     braces_re = re.compile(r"[{}]")
 
-    for entry in text.strip().split("@article"):
+    for entry in entries_split_re.split(text.strip()):
+        if "{" not in entry:
+            continue
+
         entry = to_single_line_re.subn(" ", entry.strip())[0].strip()
 
         if entry != "":
@@ -50,11 +54,11 @@ def parse_bib_file(bib_filename):
                 parsed_attr = key_value_re.search(attribute)
 
                 if parsed_attr:
-                    key = parsed_attr[1].strip()
-                    value = parsed_attr[2].strip()
+                    key = parsed_attr[1].strip().lower()
+                    value = braces_re.sub("", parsed_attr[2].strip())
 
                     if key == "author":
-                        authors = braces_re.sub("", value).split(" and ")
+                        authors = value.split(" and ")
 
                         if len(authors) > 3:
                             value = authors[0].strip() + " et. al."
@@ -74,7 +78,7 @@ def print_bib(bib):
 
     for citation, attributes in sorted(bib.items(), key=lambda e: e[1]["id"]):
         year = f"({attributes['year']})"
-        pub = attributes.get("journal", "")
+        pub = attributes.get("journal", attributes.get("booktitle", ""))
 
         if pub == "":
             pub = year
@@ -89,10 +93,11 @@ def print_bib(bib):
 
         ref = ""
 
-        for ref_type, ref_key in (("URL", "url"), ("DOI", "DOI")):
+        for ref_type, ref_key in (("URL", "url"), ("DOI", "doi")):
             ref = (f"{ref_type}: <" + attributes.get(ref_key) + ">") if ref_key in attributes else ref
 
-        print(f"{attributes['id']:3}. {attributes['author']} \"{attributes['title']}\"")
+        print(f"{attributes['id']:3}. {attributes['author'].rstrip('.')}.")
+        print(f"     \"{attributes['title']}\"")
         print(f"     In: {pub}.")
         print(f"     {ref}")
         print("")
@@ -208,6 +213,7 @@ def tex_to_markdown(tex_filename, bib):
     text = text.replace("\\nocite{*}", "")
     text = text.replace("\\printbibliography[heading=bibintoc]", "")
     text = text.replace("---", "&mdash;")
+    text = text.replace("--", "&ndash;")
     text = re.subn(r"\\textbf{([^}]*)}", r"**\1**", text)[0]
     text = re.subn(r"\\emph{([^}]*)}", r"*\1*", text)[0]
 
