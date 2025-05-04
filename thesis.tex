@@ -89,11 +89,11 @@
 
       Significant advancements in deep learning \cite{attention,gpt3,gpt4} led
       to the emergence of \textbf{large language models} (LLMs) --- particularly
-      generative LLMs --- which in the early 2020s became productized and
+      generative LLMs --- which in the early 2020s became commercialized and
       widely adopted in both industry and popular discourse.
 
-      A generative large language model is a model which has a parameter count
-      on the order of billions or more, and predicts the conditional
+      A generative LLM is a model which has a parameter count on the order of
+      billions or more (hence "large"), and predicts the conditional
       probability \cite{llms}
 
       \begin{align} \label{eqautoreg}
@@ -102,20 +102,21 @@
 
       where $m \in \mathbb{N}$, $w_0$ is a special start symbol, and $w_k$ is
       the $k$-th token (for $1 \le k \le m$) in a sequence of tokens that form
-      a piece of text in some (natural) language. The interpretation of the
-      tokens depends on the exact tokenization strategy used, which may define
-      tokens as words, word pieces, n-grams, or individual characters, and
-      spaces, punctuation marks, etc.
+      a piece of text in some language, be it a natural language or a formal
+      one like programming languages. The interpretation of the tokens depends
+      on the exact tokenization strategy used, which may define tokens as
+      words, word pieces, n-grams, or individual characters, and spaces,
+      punctuation marks, etc.
 
-      Text generation then is an autoregressive process where given a
+      Text generation is then an autoregressive process where given a
       sequence of tokens as a prefix --- known as the \textbf{prompt} --- the
       model estimates the probability distribution of the next token, takes a
       sample from that distribution, appends it to the sequence, and repeats
-      the process with the extended sequence until a given stopping condition
-      is met.
+      the process with the extended sequence until certain stopping conditions
+      are met.
 
       The sampling can usually be controlled via numerical parameters; a
-      commonly used one is the \textbf{temperature} \cite{temperature}: the
+      frequently used one is the \textbf{temperature} \cite{temperature}: the
       closer it is to 0, the more the sampling will lean toward the most
       probable token --- making the algorithm more deterministic ---, while
       higher values increase the randomization, making the generated text feel
@@ -128,16 +129,17 @@
       $T \in \mathbb{R}$ can be calculated via the softmax function:
 
       \begin{align} \label{eqsoftmax}
-        \text{softmax}(\mathbf{s};T)
+        \text{softmax}\left(\frac{1}{T} \mathbf{s}\right)
           = \left[
               \frac{\exp(\frac{s_i}{T})}{\sum_{j=1}^v \exp(\frac{s_j}{T})}
             \right]_{i=1}^v
       \end{align}
 
-      In practice, if $T$ is sufficiently close or exactly equal to $0$, then
-      the sampling is usually replaced with the deterministic argmax function
-      in order to preserve numerical stability. Non-zero $T$ values control
-      the flatness of the distribution, leading to the aforementioned behavior.
+      In practical implementations, if $T$ is sufficiently close or exactly
+      equal to $0$, then the sampling is usually replaced with the
+      deterministic argmax function in order to preserve numerical stability.
+      Non-zero $T$ values control the flatness of the distribution, leading to
+      the aforementioned behavior.
 
       With sufficiently large model complexity and training corpora size and
       diversity, LLMs start to exhibit capabilities which rival that of top
@@ -159,21 +161,182 @@
       \end{itemize}
 
       Generative models with sufficient generalization capabilities can predict
-      likely continuations of such prompts with so high accuracy that the
-      generated text will often contain an actual solution to the proposed
-      problem. This instruction-following paradigm enables models to perform
-      \textbf{few-shot learning} \cite{gpt3} or even \textbf{zero-shot learning}
-      by interpreting tasks directly from the natural language description,
-      based on just a few or zero examples, respectively, without specific
-      training or fine-tuning.
+      likely continuations of such prompts with such high accuracy that as an
+      emergent phenomenon, the generated text will often contain an actual
+      solution to the proposed problem. This instruction-following paradigm
+      enables models to perform \textbf{few-shot learning} \cite{gpt3} or even
+      \textbf{zero-shot learning} by interpreting tasks directly from the
+      natural language description, based on just a few or zero examples,
+      respectively, without specific training or fine-tuning.
 
       The problem solving performance of LLMs can be improved further by
       prompt engineering techniques like \textbf{chain-of-thought} prompting
-      \cite{cot}, where the model is provided with a step-by-step example
-      solution to a related problem in the prompt, encouraging it to also
-      articulate intermediate reasoning steps.
+      \cite{cot}, where the model is provided with step-by-step example
+      solutions to related problems in the prompt, encouraging it to also
+      articulate intermediate reasoning steps before arriving at its final
+      answer. It is worth emphasizing that --- recalling equation
+      \ref{eqautoreg} and the autoregressive text generation process --- the
+      chain-of-thought is only effective if it is placed \emph{before} the
+      final answer.
 
     \subsection{LLM Evaluators, LLM-as-a-Judge}
+
+      The continuing development of LLMs and their integration into more and
+      more systems to support a growing number of use cases necessitates regular
+      measurement of their capabilities and monitoring their alignment with
+      human preferences.
+
+      While evaluating the quality of LLM-generated text by utilizing human
+      labor does not scale well, may suffer from human error or subjective
+      personal preference bias, and can be expensive, traditional algorithmic
+      metrics which often rely on surface-level similarities to reference
+      examples (like BLEU for machine translation \cite{bleu} or ROUGE for
+      summarization and translation \cite{rouge}), often fall short of achieving
+      acceptable correlation levels with human judgement.
+
+      In recent years, in order to overcome these problems, the
+      \textbf{LLM-based evaluation} or \textbf{LLM-as-a-judge} paradigm has
+      been proposed \cite{gptscore,chatgptgoodeval,reffree,geval},
+      where --- taking advantage of the instruction following and the zero-shot
+      and few-shot learning capabilities of LLMs --- a model is instructed to
+      act as a fair judge and generate a quality assessment for a piece of
+      generated text either in the form of a single score, or one accompanied by
+      an explanation or a list of problems. An advantage of the latter approach
+      --- besides easier interpretability --- is that enumerating evidences
+      before giving a final result can influence the score via the
+      autoregressive generation process, similarly to the improvements achieved
+      by making large models include a chain-of-thought breakdown of complex
+      problems before the final answer.
+
+      \subsubsection{LLM-Judge Prompting Basics}
+
+        There are numerous strategies to implement LLM-judges in practice
+        \cite{judgetaxonomy}, but a robust LLM-judge prompt usually includes
+        the following elements:
+
+        \begin{itemize}
+          \item \textbf{Instructions} which clearly specify the evaluation task.
+
+          \item Evaluation \textbf{aspects}, e.g. clarity, consistency,
+                coherence, factuality, fluency, grammaticality,
+                informativeness, structure, understandability, etc.
+
+          \item Scoring \textbf{criteria} to specify the definitions for each
+                score or score range.
+
+          \item \textbf{Output format} specification so that the output of the
+                judge can be programmatically parsed and interpreted.
+
+          \item The \textbf{sample} itself to be evaluated or a pair of samples
+                to be compared against each other.
+        \end{itemize}
+
+        Depending on the chosen evaluation strategy and aspect, additional
+        elements may be included as well:
+
+        \begin{itemize}
+          \item Human-annotated \textbf{example} samples and their associated
+                scores in few-shot evaluation scenarios.
+
+          \item A \textbf{reference} answer for comparison with the evaluated
+                sample, e.g. a human expert made translation, text summary,
+                trivia answer, etc.
+
+          \item The \textbf{source} data from which the evaluation sample was
+                derived. (The original text to be translated, summarized, or
+                the question to be answered, etc.)
+
+          \item \textbf{Guidelines}, for example to help an LLM resolve the
+                confusion that may arise in reference answer-based evaluations
+                where some of the provided reference answers seem to contradict
+                the model's own knowledge, e.g. "\emph{Don't worry
+                about factuality with respect to the real world, just judge the
+                example based on what you see.  No need to overthink this task,
+                it really comes down to just soft matching.}" \cite{juries}.
+        \end{itemize}
+
+        The juding model may also be fine-tuned using evaluation data
+        constructed either manually or with the assistance of advanced models
+        like GPT-4.
+
+      \subsubsection{Metrics}
+
+        Popular choices for scoring strategy include:
+
+        \begin{itemize}
+          \item \textbf{Binary classification}: the judge is expected to
+                provide a "\emph{yes}" vs. "\emph{no}", or a $0$ vs. $1$
+                verdict.
+
+          \item \textbf{Pairwise comparison}: the judge is given two candidate
+                answers, and has to select the one that is a better fit for the
+                evaluation criteria, or declare a tie between them.
+
+          \item \textbf{Multiclass classification}: the judge has to place the
+                candidate on a discrete scale, usually between 1 and 5 points
+                where 1 is the worst and 5 is the best.
+
+          \item \textbf{Likert-style}: the judge has to rank the candidate
+                answer along multiple dimensions using discrete scores, usually
+                between 1 and 3 points where a higher score is better, then
+                provide an overall 1 to 5 rating based on these scores.
+
+          \item \textbf{Continuous score}: the candidate answer is scored with
+                a number between 0 and 100.
+        \end{itemize}
+
+        If the judge LLM's interface makes the raw token probabilities
+        available, then they can be used for refining discrete scores and
+        making them into continuous ones by taking the sum of the discrete
+        score values weighted by the probabilities of the respective tokens, as
+        seen in the \textsc{G-Eval} framework \cite{geval}:
+
+        \begin{align*}
+          \text{score} = \sum_{i=1}^n p(s_i) \times s_i
+        \end{align*}
+
+        where $S = \{s_1, s_2, \ldots, s_n\}$ is the set of scores predefined
+        in the prompt, and $p(s_i)$ are the probabilities of the respective
+        tokens for the score values, as calculated by the model.
+
+        Another way to turn a discrete score into a continuous one is used
+        in the \textsc{Gemba} metric \cite{gemba} for assessing translation
+        quality: it requires the candidate answer to be dividable into smaller
+        segments which are then evaluated one-by-one, and the resulting scores
+        are averaged.
+
+      \subsubsection{AutoCalibrate: Let the LLM Define the Criteria}
+
+        Constructing the prompt template for a consistent, reproducible, and
+        unbiased LLM-judge which also aligns well with human preferences is
+        usually an iterative process, where the prompt is refined step-by-step
+        until the LLM-judge can reliably produce evaluations that are
+        sufficiently close to a set of human-labeled examples. A crucial part
+        in this process is to come up with well-defined evaluation criteria.
+
+        The \textsc{AutoCalibrate} method \cite{autocal} attempts to automate
+        this process by utilizing a sufficiently large model:
+
+        \begin{itemize}
+          \item The LLM is presented with a random selection of human expert
+                labeled examples, and instructed to infer the scoring
+                criteria behind them. This is repeated multiple times with
+                different samples, producing a set of draft candidate criteria.
+
+          \item These drafts are then tested in evaluation rounds, and those
+                which achieve the highest correlation with the human expert
+                evaluation results are kept.
+
+          \item Then a similar process takes place, but now the randomly
+                selected examples come from the set of the mis-aligned
+                examples, and the LLM is instructed to refine the draft
+                criteria by applying small modifications, paraphrasing,
+                clarifying some aspects or details, etc. instead of coming up
+                with new ones from scratch.
+
+          \item Finally, the criteria that produce the highest agreement with
+                the human experts are chosen.
+      \end{itemize}
 
 \newpage
 
