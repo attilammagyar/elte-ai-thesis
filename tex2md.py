@@ -77,8 +77,16 @@ def parse_bib_file(bib_filename):
 def convert_inline_formattings(text):
     text = text.replace("---", "&mdash;")
     text = text.replace("--", "&ndash;")
-    text = re.subn(r"\\textbf{([^}]*)}", r"**\1**", text)[0]
-    text = re.subn(r"\\emph{([^}]*)}", r"*\1*", text)[0]
+    text = re.subn(r"\\textbf\{([^}]*)\}", r"**\1**", text)[0]
+    text = re.subn(r"\\emph\{([^}]*)\}", r"*\1*", text)[0]
+
+    small_caps = []
+
+    for text_sc in re.finditer(r"\\textsc\{([^}]*)\}", text):
+        small_caps.append((text_sc[0], text_sc[1].upper()))
+
+    for pattern, replacement in small_caps:
+        text = text.replace(pattern, replacement)
 
     return text
 
