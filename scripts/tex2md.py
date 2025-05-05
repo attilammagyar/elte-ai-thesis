@@ -164,13 +164,19 @@ def tex_to_markdown(tex_filename, bib):
 
         inside_eq = False
         inside_list = False
+        inside_figure = False
         indentation = ""
         equations = {}
         eq_begin = None
         eq_label = None
 
         for line in lines:
-            if inside_eq:
+            if inside_figure:
+                if "\\end{figure}" in line:
+                    inside_figure = False
+
+                line = None
+            elif inside_eq:
                 if eq_end_re.search(line):
                     inside_eq = False
                     line = "\\end{align*}"
@@ -189,7 +195,10 @@ def tex_to_markdown(tex_filename, bib):
                     prefix = " * " if "\\item" in line else "   "
                     line = prefix + line.replace("\\item", "").strip()
             else:
-                if "\\begin{itemize}" in line:
+                if "\\begin{figure}" in line:
+                    inside_figure=True
+                    line = None
+                elif "\\begin{itemize}" in line:
                     inside_list = True
                     line = ""
                 elif eq_begin := eq_begin_re.search(line):
@@ -205,7 +214,8 @@ def tex_to_markdown(tex_filename, bib):
                     for title_re, repl in titles:
                         line = title_re.sub(repl, line.strip())
 
-            body.append(line)
+            if line is not None:
+                body.append(line)
 
         return body, equations
 

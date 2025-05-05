@@ -1,5 +1,6 @@
 \documentclass[noindent,nohyp,parspace,titlepage,twoside,12pt]{article}
 
+\usepackage{adjustbox}
 \usepackage{algorithm}
 \usepackage{algpseudocode}
 \usepackage{amsfonts}
@@ -8,12 +9,15 @@
 % \usepackage[type={CC},modifier={by-sa},version={4.0}]{doclicense}
 \usepackage{geometry}
 \usepackage{hyperref}
+\usepackage{listings}
 \usepackage{pgfplots}
 \usepackage{xparse}
 
 \addbibresource{thesis.bib}
 
 \usetikzlibrary{shapes,matrix}
+
+\graphicspath{{img/}}
 
 \hypersetup{
   colorlinks,
@@ -141,6 +145,12 @@
       Non-zero $T$ values control the flatness of the distribution, leading to
       the aforementioned behavior.
 
+      \begin{figure}[hbtp]
+        \label{figtemperature}
+        \includegraphics[width=\textwidth]{softmax-temperature}
+        \caption{Effect of the temperature parameter.}
+      \end{figure}
+
       With sufficiently large model complexity and training corpora size and
       diversity, LLMs start to exhibit capabilities which rival that of top
       performer humans in a broad class of problems \cite{gpt3,gpt4}. The
@@ -174,7 +184,7 @@
       \cite{cot}, where the model is provided with step-by-step example
       solutions to related problems in the prompt, encouraging it to also
       articulate intermediate reasoning steps before arriving at its final
-      answer. It is worth emphasizing that --- recalling equation
+      answer. It is worth emphasizing that --- recalling formula
       \ref{eqautoreg} and the autoregressive text generation process --- the
       chain-of-thought is only effective if it is placed \emph{before} the
       final answer.
@@ -205,8 +215,8 @@
       --- besides easier interpretability --- is that enumerating evidences
       before giving a final result can influence the score via the
       autoregressive generation process, similarly to the improvements achieved
-      by making large models include a chain-of-thought breakdown of complex
-      problems before the final answer.
+      by making large models include a chain-of-thought \cite{cot} breakdown of
+      complex problems before the final answer.
 
       \subsubsection{LLM-Judge Prompting Basics}
 
@@ -254,6 +264,37 @@
                 example based on what you see.  No need to overthink this task,
                 it really comes down to just soft matching.}" \cite{juries}.
         \end{itemize}
+
+        \begin{figure}[hbtp]
+          \label{figprompt}
+          \begin{lstlisting}[frame=single,linewidth=\textwidth,basicstyle=\scriptsize]
+Please act as an impartial judge and evaluate the quality of the response provided
+by an AI assistant to the user question displayed below. Your evaluation should
+consider factors such as the helpfulness, relevance, accuracy, depth, creativity,
+and level of detail of the response. Begin your evaluation by providing a short
+explanation. Be as objective as possible. After providing your explanation, please
+rate the response on a scale of 1 to 10 by strictly following this format:
+"[[rating]]", for example: "Rating: [[5]]".
+          \end{lstlisting}
+          \begin{lstlisting}[frame=single,linewidth=\textwidth,basicstyle=\scriptsize]
+[Question]
+{question}
+
+[The Start of Assistant's Answer]
+{answer}
+[The End of Assistant's Answer]
+          \end{lstlisting}
+          \caption{%
+            System prompt with chain-of-thought and user prompt template for an
+            LLM-judge \cite{arena}.
+          }
+        \end{figure}
+
+        Constructing the prompt template for a consistent, reproducible, and
+        unbiased LLM-judge which also aligns well with human preferences is
+        usually an iterative process, where the prompt is refined step-by-step
+        until the LLM-judge can reliably produce evaluations that are
+        sufficiently close to a set of human-labeled examples.
 
         The juding model may also be fine-tuned using evaluation data
         constructed either manually or with the assistance of advanced models
@@ -305,14 +346,10 @@
         segments which are then evaluated one-by-one, and the resulting scores
         are averaged.
 
-      \subsubsection{AutoCalibrate: Let the LLM Define the Criteria}
+      \subsubsection{AutoCalibrate: Using an LLM to Find Criteria}
 
-        Constructing the prompt template for a consistent, reproducible, and
-        unbiased LLM-judge which also aligns well with human preferences is
-        usually an iterative process, where the prompt is refined step-by-step
-        until the LLM-judge can reliably produce evaluations that are
-        sufficiently close to a set of human-labeled examples. A crucial part
-        in this process is to come up with well-defined evaluation criteria.
+        A crucial part in the refinement process of an LLM-judge prompt is to
+        come up with well-defined evaluation criteria.
 
         The \textsc{AutoCalibrate} method \cite{autocal} attempts to automate
         this process by utilizing a sufficiently large model:
