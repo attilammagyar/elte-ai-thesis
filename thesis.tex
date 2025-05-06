@@ -126,20 +126,32 @@
       words, word pieces, n-grams, or individual characters, and spaces,
       punctuation marks, etc.
 
-      Text generation is then an autoregressive process where given a
+      \textbf{Encoding} is the process which converts human-readable textual
+      tokens into integers which uniquely identify each token within the
+      predetermined vocabulary of the model, and the inverse of this mapping
+      is called \textbf{decoding}.
+
+      (Internally, the token numbers are mapped by a trainable model to vectors
+      within a vector space called the \textbf{embedding space}. The choice for
+      the dimensionality of this space allows a significant dimensionality
+      reduction compared to what would be necessary for example to represent the
+      tokens with one-hot encoding. An interesting property of the embedding
+      space is that it tends to map tokens that are close to each other in
+      meaning to vectors which are close to each other in the space.)
+
+      Text generation is an autoregressive process where given a
       sequence of tokens as a prefix --- known as the \textbf{prompt} --- the
       model estimates the probability distribution of the next token, takes a
       sample from that distribution, appends it to the sequence, and repeats
-      the process with the extended sequence until certain stopping conditions
-      are met.
+      the process with the extended sequence until a stopping condition is met.
 
-      The sampling can usually be controlled via numerical parameters; a
-      frequently used one is the \textbf{temperature} \cite{temperature}: the
-      closer it is to 0, the more the sampling will lean toward the most
-      probable token --- making the algorithm more deterministic ---, while
-      higher values increase the randomization, making the generated text feel
-      more \emph{creative} until, above a certain threshold, it becomes
-      incoherent and semantically meaningless.
+      A frequently used parameter to control the sampling is called the
+      \textbf{temperature} \cite{temperature}: the closer it is to 0, the more
+      the sampling will lean toward the most probable token --- making the
+      algorithm more deterministic ---, while higher values increase the
+      randomization, making the generated text feel more \emph{creative} until,
+      above a certain threshold, it becomes incoherent and semantically
+      meaningless.
 
       \begin{figure}[hbtp]
         \label{figtemperature}
@@ -178,12 +190,12 @@
         \item the \textbf{system prompt} can instruct the model to behave in a
               certain way, for example, to act like a helpful AI assistant,
               an expert in a domain, or to generate its texts in the style of
-              fictional 18th-century Caribbean pirates,
+              fictional 18th-century Caribbean pirates, etc.
 
-        \item and the \textbf{user prompt} which describes a task to be carried
-              out by the model, ranging from text translation or summarization
-              to solving complex programming problems or pointing out business
-              risks in legal documents, and more.
+        \item and the \textbf{user prompt} which describes the task to be
+              carried out by the model, ranging from text translation or
+              summarization to solving complex programming problems or pointing
+              out business risks in legal documents, and more.
       \end{itemize}
 
       Generative models with sufficient generalization capabilities can predict
