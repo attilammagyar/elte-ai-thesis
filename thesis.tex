@@ -82,7 +82,21 @@
 
 \newpage
 
+  \section*{Abstract}
+  \addcontentsline{toc}{section}{\protect\numberline{}Abstract}
+
+    This thesis explores whether large language models (LLMs) tend to
+    overestimate the quality of their own outputs when serving as judges or
+    evaluators. Preliminary observations suggest that using the same or
+    closely related LLM as both generator and judge may inflate performance
+    metrics. Through systematic experiments, the project will quantify this
+    potential bias and discuss its implications for AI evaluation, fairness,
+    and trustworthiness in model benchmarking.
+
   \section{Introduction}
+
+    This section introduces the key terms and core concepts that will be used
+    in later sections.
 
     \subsection{A Brief Introduction to LLMs}
 
@@ -125,12 +139,20 @@
       probable token --- making the algorithm more deterministic ---, while
       higher values increase the randomization, making the generated text feel
       more \emph{creative} until, above a certain threshold, it becomes
-      incoherent and semantically meaningless. If $v \in \mathbb{N}$ denotes
-      the number of all possible tokens available for the model (vocabulary
-      size), and $\mathbf{s} \in \mathbb{R}^v$ is an output vector of the model
-      assigning a score to each token as the continuation of a given input,
-      then the distribution for the sampling, with respect to the temperature
-      $T \in \mathbb{R}$ can be calculated via the softmax function:
+      incoherent and semantically meaningless.
+
+      \begin{figure}[hbtp]
+        \label{figtemperature}
+        \includegraphics[width=\textwidth]{softmax-temperature}
+        \caption{Effect of the temperature parameter on token probabilities.}
+      \end{figure}
+
+      If $v \in \mathbb{N}$ denotes the number of all possible tokens available
+      for the model (vocabulary size), and $\mathbf{s} \in \mathbb{R}^v$ is an
+      output vector of the model assigning a score to each token as the
+      continuation of a given input, then the distribution for the sampling,
+      with respect to the temperature $T \in \mathbb{R}$ can be calculated
+      via the softmax function:
 
       \begin{align} \label{eqsoftmax}
         \text{softmax}\left(\frac{1}{T} \mathbf{s}\right)
@@ -144,12 +166,6 @@
       deterministic argmax function in order to preserve numerical stability.
       Non-zero $T$ values control the flatness of the distribution, leading to
       the aforementioned behavior.
-
-      \begin{figure}[hbtp]
-        \label{figtemperature}
-        \includegraphics[width=\textwidth]{softmax-temperature}
-        \caption{Effect of the temperature parameter.}
-      \end{figure}
 
       With sufficiently large model complexity and training corpora size and
       diversity, LLMs start to exhibit capabilities which rival that of top
@@ -311,7 +327,11 @@ rate the response on a scale of 1 to 10 by strictly following this format:
 
           \item \textbf{Pairwise comparison}: the judge is given two candidate
                 answers, and has to select the one that is a better fit for the
-                evaluation criteria, or declare a tie between them.
+                evaluation criteria. This strategy can be generalized as
+                \textbf{listwise comparison} where the judge is asked to select
+                the best candidate among 3 or more candidates.
+
+                Optionally, the judge may be allowed to declare a tie.
 
           \item \textbf{Multiclass classification}: the judge has to place the
                 candidate on a discrete scale, usually between 1 and 5 points
@@ -332,9 +352,9 @@ rate the response on a scale of 1 to 10 by strictly following this format:
         score values weighted by the probabilities of the respective tokens, as
         seen in the \textsc{G-Eval} framework \cite{geval}:
 
-        \begin{align*}
+        \begin{align}
           \text{score} = \sum_{i=1}^n p(s_i) \times s_i
-        \end{align*}
+        \end{align}
 
         where $S = \{s_1, s_2, \ldots, s_n\}$ is the set of scores predefined
         in the prompt, and $p(s_i)$ are the probabilities of the respective
@@ -374,6 +394,78 @@ rate the response on a scale of 1 to 10 by strictly following this format:
           \item Finally, the criteria that produce the highest agreement with
                 the human experts are chosen.
       \end{itemize}
+
+  \section{LLM-Judge Biases, Limitations, and Mitigation in the Literature}
+
+    The assessment results from a fair and reliable LLM-judge should depend on
+    nothing but the quality of the evaluated content with regards to the
+    evaluation criteria, so if evidence emerges for the contrary, then it is a
+    problem which must be addressed. Researchers have identified multiple
+    phenomena which can cause unwanted factors to influence the judgement of
+    LLMs, and proposed various techniques to mitigate them.
+
+    Though the focus of this essay is the investigation of LLM self-preference,
+    other types of biases need to be studied as well in order to minimize their
+    effects in experiments.
+
+    \subsection{Position Bias}
+
+      Positional bias occurs in pairwise or listwise comparison tasks when a
+      judge is presented with the same prompt template and the same set of
+      candiate responses, the only difference being the order of the candidates,
+      and this alone is enough to change the evaluation outcome
+      \cite{biaspos,fair}.
+
+      The probability of this phenomenon occurring is observed to be inversely
+      correlated with the quality gap between the candidate answers, i.e.
+      judgement of similar quality candidates is more likely to be affected by
+      position permutation. (The quality of an answer in the presence of
+      positional bias can be estimated by the overall win rate of the answer
+      accross all experiments, given that the cases where position changes
+      were observed to be influencing the evaluation outcome are considered as
+      ties.)
+
+      \subsubsection{Mitigation}
+
+        \begin{itemize}
+          \item \textbf{Prompting}: some experimenters explicitly instruct the
+                LLM-judge in the prompt not to let its judgement be influenced
+                by the ordering of the candidate answers or any kind of bias.
+
+          \item \textbf{Multiple Evidence Calibration (MEC)}: evidence
+                calibration (EC) takes advantage of the autoregressive
+                generation process by instructing the judge to first express a
+                comprehensive explanation for its judgement, and only then
+                provide the final decision. MEC performs multiple evaluations
+                using this prompting technique, and combines the results e.g.
+                by averaging.
+
+          \item \textbf{Balanced Position Calibration}: the same set of
+                candidates is evaluated multiple times with the same prompt
+                template, but with permutations ensuring that each candidate
+                appears at each position the same number of times, i.e. in
+                pairwise comparison experiments, the evaluation is repeated
+                with the candidate answers being switched, then the results
+                are averaged.
+        \end{itemize}
+
+    \subsection{Length Bias}
+
+      \subsubsection{Mitigation}
+
+    \subsection{Prompt Injection}
+
+      \subsubsection{Mitigation}
+
+    \subsection{Self-Preference Bias}
+
+      \subsubsection{Mitigation}
+
+  \section{Experiments}
+
+  \section{Results}
+
+  \section{Conclusion}
 
 \newpage
 
