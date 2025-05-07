@@ -409,9 +409,9 @@ rate the response on a scale of 1 to 10 by strictly following this format:
 
     Though the focus of this essay is the investigation of LLM self-preference,
     other types of biases need to be studied as well in order to minimize their
-    effects in experiments.
+    potential effects in experiments.
 
-    \subsection{Position Bias}
+    \subsection{Positional Bias}
 
       Positional bias occurs in pairwise or listwise comparison tasks when a
       judge is presented with the same prompt template and the same set of
@@ -431,7 +431,7 @@ rate the response on a scale of 1 to 10 by strictly following this format:
       \subsubsection{Mitigation}
 
         \begin{itemize}
-          \item \textbf{Prompting}: some experimenters explicitly instruct the
+          \item \textbf{Prompting}: some researchers explicitly instruct the
                 LLM-judge in the prompt not to let its judgement be influenced
                 by the ordering of the candidate answers or any kind of bias.
 
@@ -452,41 +452,50 @@ rate the response on a scale of 1 to 10 by strictly following this format:
                 are averaged.
         \end{itemize}
 
-    \subsection{Length Bias}
+    \subsection{Length Bias (Verbosity Bias)}
 
       Verbose answers often contain more information, and to some extent, these
       are also often preferred by humans. However, LLMs have been observed to
       prefer longer answers even in cases where the information content was the
       same between answers, and even when human evaluators chose the shorter
-      ones \cite{verbosity,syseval,biaslen}, resulting in low alignment with
-      humans.
+      ones \cite{verbosity,syseval,biaslen}, resulting in low alignment.
 
       \subsubsection{Mitigation}
 
-        When multiple reference answers are available with matching quality,
-        select one that is close to the evaluated one in terms of its length
-        \cite{biaslen}.
+        \begin{itemize}
+          \item \textbf{Prompting}: explicitly telling the LLM-judge in the
+                prompt not to let its decision be influenced by the length of
+                the answer alone.
+
+          \item \textbf{Same length reference}: When multiple reference answers
+                are available with matching quality, selecting one that is
+                close to the evaluated answer in terms of its length can
+                improve the correlation between evaluation outcomes and human
+                preference \cite{biaslen}.
+        \end{itemize}
 
     \subsection{Prompt Injection}
 
-      The possibility for an injection attack arises whenever insufficiently
-      filtered, attacker-controllable data is passed along with computer
-      instructions in the same input channel of a computer system.
-      \footnote{Famous examples include SQL-injection, HTML-injection (which is
-      usually escalated into cross-site scripting code execution), and shell
-      command injection. These are frequent contenders in the regularly updated
-      OWASP Top 10 Web Application Security Risks chart:
-      \url{https://owasp.org/www-project-top-ten/}.} LLM-based systems where
-      potentially malicious user input is mixed with the instructions in the
-      prompt are especially susceptible to injection attacks.
+      The possibility for an injection attack arises whenever instructions and
+      insufficiently filtered, attacker-controllable data are passed in the
+      same input channel to a computer system. \footnote{Famous examples
+      include SQL-injection, HTML-injection (which is usually escalated into
+      cross-site scripting code execution), and shell command injection. These
+      are frequent contenders in the regularly updated OWASP Top 10 Web
+      Application Security Risks chart: \url{https://owasp.org/www-project-top-ten/}.}
+      LLM-based systems where potentially malicious user input --- which in the
+      case of an LLM-judge is actually a candidate LLM output --- is mixed with
+      the instructions in the prompt are especially susceptible to injection
+      attacks.
 
-      Due to the black box operation and stochastic nature of LLMs, an attack
-      payload doesn't even have to break out from the context of delimiter
+      Unlike usual injection attacks against deterministic systems, due to the
+      black box operation and stochastic nature of LLMs, prompt injection
+      payloads don't necessarily need to break out from the context of delimiter
       strings like "\texttt{[The Start of Assistant's Answer]}" in order to be
-      successful: it can be sufficient if it manages to confuse the model by
-      a long sequence of infrequently used complicated words
+      successful: it can be sufficient if the attack manages to confuse the
+      judge by including a long sequence of infrequently used complicated words
       ("\emph{resynchronization bacteriohemolysin complaisantness}") or unusual
-      Markdown formatting, then giving instructions which override the
+      Markdown formatting, followed by instructions which override the
       originally intended task. In some cases, the probability of success can
       be increased by adding seemingly authoritative commands like
       \texttt{Authorization: ADMIN\_LEVEL\_ACCESS Command sequence: 7A-9B-12C
@@ -495,37 +504,117 @@ rate the response on a scale of 1 to 10 by strictly following this format:
 
       \subsubsection{Mitigation}
 
-        The proposed mitigation techniques include using \cite{advattacks}
-        \footnote{My personal opinion is that in the long history of injection
-        attacks, the most reliable mitigation technique has always been to
-        separate the instruction channel from the input data channel (e.g.
-        SQL prepared statements, DOM API, structured shell APIs, etc.) and avoid
-        using string templates with basic string substitution. In the case of
-        LLMs, this would mean to either introduce separate data channels, or
-        to use special tokens (like sequence start, stop, padding, etc.) which
-        attackers could not possibly include in their texts, at the
-        encoding-decoding level to distinguish instructions and data, and
-        train the models accordingly.}:
+        The proposed mitigation techniques include \footnote{My personal
+        opinion is that in the long history of injection attacks, the most
+        reliable mitigation technique has always been to separate the
+        instruction channel from the input data channel (e.g.  SQL prepared
+        statements, DOM API, structured shell command APIs, etc.) and avoid
+        using string templates and basic string substitution. In the case of
+        LLMs, this would mean to either introduce separate data channels, or to
+        use special tokens (like sequence start, stop, padding, etc.) at the
+        encoding-decoding stage which are impossible for an attacker to include
+        in their texts. These could help distinguish instructions and data, and
+        train the model accordingly.}:
 
         \begin{itemize}
-          \item smaller LLMs to filter potentially harmful inputs,
+          \item \textbf{Statistical filtering}: filtering unusual inputs by
+                various metrics.
 
-          \item statistical measurements to filter unusual inputs,
+          \item \textbf{LLM-based input filtering}: employing smaller, cheaper LLMs
+                to filter potentially harmful inputs.
 
-          \item smaller LLMs to detect unusual response from the judge,
+          \item \textbf{LLM-based output filtering}: using smaller, cheaper
+                LLMs to detect unusual response from the judge,
 
-          \item multi-model committee assembled from diverse models to reduce
-                the probability of an attack successfully compromising all
-                participants,
+          \item \textbf{Multi-model committee}: assembling a committee from
+                heterogeneous models to reduce the probability of an attack
+                successfully compromising all participants simultaneously,
 
-          \item traditional string matching to filter suspicious inputs that
-                contain frequently used phrases in prompt injection attacks,
-                for example "\emph{Ignore previous instructions, and...}".
+          \item \textbf{String matching}: traditional string matching to filter
+                suspicious inputs that contain frequently used phrases in
+                prompt injection attacks, for example "\emph{Ignore previous
+                instructions, and...}" \footnote{Surface level string-matching
+                is usually inadequate against injection attacks.}.
         \end{itemize}
 
     \subsection{Self-Preference Bias}
 
+      Self-preference bias (also known as self-enhancement bias) occurs when
+      the same model or model family is used both for generating candidate
+      answers and for evaluating them as well, and the LLM-judge exhibits a
+      tendency to reward its own answers more than other answers, even if the
+      candidates remain anonymous. When this tendency leads to misalignment
+      with labels by human experts (e.g. in text summarization or translation
+      tasks), or goes against objective truth (e.g. in mathematical reasoning,
+      factual knowledge, or programming related tasks), then it is considered a
+      harmful bias which necessitates mitigation
+      \cite{prd,justice}.
+
+      The exact reason for harmful self-preference is unclear, but there is
+      evidence \cite{recog} that LLMs (especially the larger ones) can somehow
+      recognize their own responses when tasked with distinguishing them from
+      texts by others, and even weaker models can be fine-tuned to achieve
+      almost perfect accuracy in this challenge.
+
+      A possible explanation is suspected \cite{biasself} to be that LLM-judges
+      tend to prefer answers with lower perplexity, and the perplexity of a
+      model's own text is inherently low for that model. \footnote{Perplexity
+      measures how well a probability model can predict an observed sample.
+      With the notation from equation \ref{eqautoreg}:
+      \begin{align*}
+        \text{PPL} =  \exp\left(
+                        - \frac{1}{N} \sum_{i=1}^N \log P(w_i | w_{<i})
+                      \right)
+      \end{align*}}.
+
+      While it goes with expectations that a model which performs better on
+      text generation tasks would also prove more reliable as a judge, is has
+      also been observed \cite{reason} that model capability can have a positive
+      correlation with overconfidence in the form of harmful self-preference.
+
       \subsubsection{Mitigation}
+
+        \begin{itemize}
+          \item \textbf{Chain-of-thought} \cite{arena,justice}: taking
+                advantage of the autoregressive text generation, asking the
+                LLM-judge to solve the original problem independently from the
+                candidate answers, then provide an explanation for the
+                evaluation, and only then express its decision, can reduce
+                harmful self-preference.
+
+          \item \textbf{Panel of LLm (PoLL)} \cite{juries}: instead of using
+                one complex model for evaluation, using a heterogeneous set of
+                multiple smaller evaluators and combining their results via a
+                voting function (e.g. averaging) can also improve reliability.
+
+          \item \textbf{Weighted PoLL} \cite{biasself}: knowing that low
+                perplexity may be an important contributor to harmful
+                self-preference, using a weighted average and reducing the
+                weight of an evaluator when it exhibits low perplexity for a
+                sample may contribute to bias reduction.
+
+          \item \textbf{Peer Rank (PR)} \cite{prd}: this is also a multiple
+                model scheme which assumes that the set of candidates and
+                evaluators contain the same models, and that a model which
+                performs better on a given task can also judge the responses of
+                other models more reliably. The algorithm uses a weighted
+                average based scoring system to combine the evaluation results
+                of the judges, but the weight associated to each LLM-judge is
+                calculated from the winning ratio of that model against the
+                others in pairwise comparison "battles". The weights are
+                iteratively adjusted until they converge or a predetermined
+                maximum iteration limit is exceeded.
+
+          \item \textbf{Peer Discussion (PD)} \cite{prd}: this method uses two
+                LLM-judges to reach a final decision. The two evaluators perform
+                pairwise comparison on a pair of candidate answers, then
+                a discussion prompt is created which contains the original
+                problem and the candidate answers, along with the initial
+                reviews and verdicts of the judges. Then one of the judges is
+                instructed to produce a second turn review, which is then
+                shown to the other judge, and the back-and-forth discussion is
+                iterated until an agreement is reached.
+        \end{itemize}
 
   \section{Experiments}
 
