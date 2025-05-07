@@ -79,6 +79,8 @@ def convert_inline_formattings(text):
     text = text.replace("--", "&ndash;")
     text = re.subn(r"\\textbf\{([^}]*)\}", r"**\1**", text)[0]
     text = re.subn(r"\\emph\{([^}]*)\}", r"*\1*", text)[0]
+    text = re.subn(r"\\footnote\{(((\\url\{[^}]*\})|[^}]|(\$[^$]*\$))*)\}", r"", text)[0]
+    text = re.subn(r"\\texttt\{([^}]*)\}", r"`\1`", text)[0]
 
     small_caps = []
 
@@ -151,11 +153,11 @@ def tex_to_markdown(tex_filename, bib):
         body = []
 
         titles = (
-            (re.compile(r"\\section\{(.*)\}"), "## \\1"),
-            (re.compile(r"\\subsection\{(.*)\}"), "### \\1"),
-            (re.compile(r"\\subsubsection\{(.*)\}"), "#### \\1"),
-            (re.compile(r"\\paragraph\{(.*)\}"), "##### \\1"),
-            (re.compile(r"\\subparagraph\{(.*)\}"), "###### \\1"),
+            (re.compile(r"\\section\*?\{(.*)\}"), "## \\1"),
+            (re.compile(r"\\subsection\*?\{(.*)\}"), "### \\1"),
+            (re.compile(r"\\subsubsection\*?\{(.*)\}"), "#### \\1"),
+            (re.compile(r"\\paragraph\*?\{(.*)\}"), "##### \\1"),
+            (re.compile(r"\\subparagraph\*?\{(.*)\}"), "###### \\1"),
         )
 
         indentation_re = re.compile(r"^ *")
@@ -213,6 +215,9 @@ def tex_to_markdown(tex_filename, bib):
                 else:
                     for title_re, repl in titles:
                         line = title_re.sub(repl, line.strip())
+
+            if line is not None and "\\addcontentsline" in line:
+                line = None
 
             if line is not None:
                 body.append(line)

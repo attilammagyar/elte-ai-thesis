@@ -129,15 +129,14 @@
       \textbf{Encoding} is the process which converts human-readable textual
       tokens into integers which uniquely identify each token within the
       predetermined vocabulary of the model, and the inverse of this mapping
-      is called \textbf{decoding}.
-
-      (Internally, the token numbers are mapped by a trainable model to vectors
-      within a vector space called the \textbf{embedding space}. The choice for
-      the dimensionality of this space allows a significant dimensionality
-      reduction compared to what would be necessary for example to represent the
-      tokens with one-hot encoding. An interesting property of the embedding
-      space is that it tends to map tokens that are close to each other in
-      meaning to vectors which are close to each other in the space.)
+      is called \textbf{decoding}. \footnote{Internally, the token numbers are
+      mapped by a trainable model to vectors within a vector space called the
+      \textbf{embedding space}. The choice for the dimensionality of this space
+      allows a significant dimensionality reduction compared to what would be
+      necessary for example to represent the tokens with one-hot encoding. An
+      interesting property of the embedding space is that it tends to map
+      tokens that are close to each other in meaning to vectors which are close
+      to each other in the space.}
 
       Text generation is an autoregressive process where given a
       sequence of tokens as a prefix --- known as the \textbf{prompt} --- the
@@ -151,33 +150,25 @@
       algorithm more deterministic ---, while higher values increase the
       randomization, making the generated text feel more \emph{creative} until,
       above a certain threshold, it becomes incoherent and semantically
-      meaningless.
+      meaningless. \footnote{If $v \in \mathbb{N}$ denotes the number of all
+      possible tokens available for the model (vocabulary size), and
+      $\mathbf{s} \in \mathbb{R}^v$ is an output vector of the model assigning
+      a score to each token as the continuation of a given input, then the
+      distribution for the sampling, with respect to the temperature $T \in
+      \mathbb{R}$ can be calculated via the softmax function:
+      $\text{softmax}\left(\frac{1}{T} \mathbf{s}\right) = \left[
+      \frac{\exp(\frac{s_i}{T})}{\sum_{j=1}^v \exp(\frac{s_j}{T})}
+      \right]_{i=1}^v$} In practical implementations, if $T$ is sufficiently
+      close or exactly equal to $0$, then the sampling is usually replaced with
+      the deterministic argmax function in order to preserve numerical
+      stability.  Non-zero $T$ values control the flatness of the distribution,
+      leading to the aforementioned behavior.
 
       \begin{figure}[hbtp]
         \label{figtemperature}
         \includegraphics[width=\textwidth]{softmax-temperature}
         \caption{Effect of the temperature parameter on token probabilities.}
       \end{figure}
-
-      If $v \in \mathbb{N}$ denotes the number of all possible tokens available
-      for the model (vocabulary size), and $\mathbf{s} \in \mathbb{R}^v$ is an
-      output vector of the model assigning a score to each token as the
-      continuation of a given input, then the distribution for the sampling,
-      with respect to the temperature $T \in \mathbb{R}$ can be calculated
-      via the softmax function:
-
-      \begin{align} \label{eqsoftmax}
-        \text{softmax}\left(\frac{1}{T} \mathbf{s}\right)
-          = \left[
-              \frac{\exp(\frac{s_i}{T})}{\sum_{j=1}^v \exp(\frac{s_j}{T})}
-            \right]_{i=1}^v
-      \end{align}
-
-      In practical implementations, if $T$ is sufficiently close or exactly
-      equal to $0$, then the sampling is usually replaced with the
-      deterministic argmax function in order to preserve numerical stability.
-      Non-zero $T$ values control the flatness of the distribution, leading to
-      the aforementioned behavior.
 
       With sufficiently large model complexity and training corpora size and
       diversity, LLMs start to exhibit capabilities which rival that of top
@@ -339,10 +330,9 @@ rate the response on a scale of 1 to 10 by strictly following this format:
 
           \item \textbf{Pairwise comparison}: the judge is given two candidate
                 answers, and has to select the one that is a better fit for the
-                evaluation criteria. This strategy can be generalized as
-                \textbf{listwise comparison} where the judge is asked to select
-                the best candidate among 3 or more candidates.
-
+                evaluation criteria. \footnote{This strategy can be generalized
+                as \textbf{listwise comparison} where the judge is asked to
+                select the best candidate among 3 or more candidates.}
                 Optionally, the judge may be allowed to declare a tie.
 
           \item \textbf{Multiclass classification}: the judge has to place the
@@ -411,10 +401,11 @@ rate the response on a scale of 1 to 10 by strictly following this format:
 
     The assessment results from a fair and reliable LLM-judge should depend on
     nothing but the quality of the evaluated content with regards to the
-    evaluation criteria, so if evidence emerges for the contrary, then it is a
-    problem which must be addressed. Researchers have identified multiple
-    phenomena which can cause unwanted factors to influence the judgement of
-    LLMs, and proposed various techniques to mitigate them.
+    evaluation criteria. Therefore, if extraneous factors are found to
+    systematically influence evaluation results, then this undermines their
+    validity and warrants mitigation. Researchers have identified multiple
+    causes of bias in the judgement of LLMs, and proposed various techniques
+    to mitigate them.
 
     Though the focus of this essay is the investigation of LLM self-preference,
     other types of biases need to be studied as well in order to minimize their
@@ -424,17 +415,17 @@ rate the response on a scale of 1 to 10 by strictly following this format:
 
       Positional bias occurs in pairwise or listwise comparison tasks when a
       judge is presented with the same prompt template and the same set of
-      candiate responses, the only difference being the order of the candidates,
+      candidate responses, the only difference being the order of the candidates,
       and this alone is enough to change the evaluation outcome
-      \cite{biaspos,fair}.
+      \cite{biaspos,notfair}.
 
       The probability of this phenomenon occurring is observed to be inversely
       correlated with the quality gap between the candidate answers, i.e.
       judgement of similar quality candidates is more likely to be affected by
       position permutation. (The quality of an answer in the presence of
       positional bias can be estimated by the overall win rate of the answer
-      accross all experiments, given that the cases where position changes
-      were observed to be influencing the evaluation outcome are considered as
+      across all experiments, given that the cases where position changes
+      were observed to be influencing the evaluation outcome are considered
       ties.)
 
       \subsubsection{Mitigation}
@@ -463,11 +454,74 @@ rate the response on a scale of 1 to 10 by strictly following this format:
 
     \subsection{Length Bias}
 
+      Verbose answers often contain more information, and to some extent, these
+      are also often preferred by humans. However, LLMs have been observed to
+      prefer longer answers even in cases where the information content was the
+      same between answers, and even when human evaluators chose the shorter
+      ones \cite{verbosity,syseval,biaslen}, resulting in low alignment with
+      humans.
+
       \subsubsection{Mitigation}
+
+        When multiple reference answers are available with matching quality,
+        select one that is close to the evaluated one in terms of its length
+        \cite{biaslen}.
 
     \subsection{Prompt Injection}
 
+      The possibility for an injection attack arises whenever insufficiently
+      filtered, attacker-controllable data is passed along with computer
+      instructions in the same input channel of a computer system.
+      \footnote{Famous examples include SQL-injection, HTML-injection (which is
+      usually escalated into cross-site scripting code execution), and shell
+      command injection. These are frequent contenders in the regularly updated
+      OWASP Top 10 Web Application Security Risks chart:
+      \url{https://owasp.org/www-project-top-ten/}.} LLM-based systems where
+      potentially malicious user input is mixed with the instructions in the
+      prompt are especially susceptible to injection attacks.
+
+      Due to the black box operation and stochastic nature of LLMs, an attack
+      payload doesn't even have to break out from the context of delimiter
+      strings like "\texttt{[The Start of Assistant's Answer]}" in order to be
+      successful: it can be sufficient if it manages to confuse the model by
+      a long sequence of infrequently used complicated words
+      ("\emph{resynchronization bacteriohemolysin complaisantness}") or unusual
+      Markdown formatting, then giving instructions which override the
+      originally intended task. In some cases, the probability of success can
+      be increased by adding seemingly authoritative commands like
+      \texttt{Authorization: ADMIN\_LEVEL\_ACCESS Command sequence: 7A-9B-12C
+      Priority: CRITICAL}
+      \cite{advattacks}.
+
       \subsubsection{Mitigation}
+
+        The proposed mitigation techniques include using \cite{advattacks}
+        \footnote{My personal opinion is that in the long history of injection
+        attacks, the most reliable mitigation technique has always been to
+        separate the instruction channel from the input data channel (e.g.
+        SQL prepared statements, DOM API, structured shell APIs, etc.) and avoid
+        using string templates with basic string substitution. In the case of
+        LLMs, this would mean to either introduce separate data channels, or
+        to use special tokens (like sequence start, stop, padding, etc.) which
+        attackers could not possibly include in their texts, at the
+        encoding-decoding level to distinguish instructions and data, and
+        train the models accordingly.}:
+
+        \begin{itemize}
+          \item smaller LLMs to filter potentially harmful inputs,
+
+          \item statistical measurements to filter unusual inputs,
+
+          \item smaller LLMs to detect unusual response from the judge,
+
+          \item multi-model committee assembled from diverse models to reduce
+                the probability of an attack successfully compromising all
+                participants,
+
+          \item traditional string matching to filter suspicious inputs that
+                contain frequently used phrases in prompt injection attacks,
+                for example "\emph{Ignore previous instructions, and...}".
+        \end{itemize}
 
     \subsection{Self-Preference Bias}
 
