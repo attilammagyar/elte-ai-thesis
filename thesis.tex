@@ -431,25 +431,26 @@ rate the response on a scale of 1 to 10 by strictly following this format:
       \subsubsection{Mitigation}
 
         \begin{itemize}
-          \item \textbf{Prompting}: some researchers explicitly instruct the
-                LLM-judge in the prompt not to let its judgement be influenced
-                by the ordering of the candidate answers or any kind of bias.
+          \item \textbf{Prompting} \cite{arena}: some researchers explicitly
+                instruct the LLM-judge in the prompt not to let its judgement
+                be influenced by the ordering of the candidate answers or any
+                kind of bias.
 
-          \item \textbf{Multiple Evidence Calibration (MEC)}: evidence
-                calibration (EC) takes advantage of the autoregressive
+          \item \textbf{Multiple Evidence Calibration (MEC)} \cite{notfair}:
+                evidence calibration (EC) takes advantage of the autoregressive
                 generation process by instructing the judge to first express a
                 comprehensive explanation for its judgement, and only then
                 provide the final decision. MEC performs multiple evaluations
                 using this prompting technique, and combines the results e.g.
                 by averaging.
 
-          \item \textbf{Balanced Position Calibration}: the same set of
-                candidates is evaluated multiple times with the same prompt
-                template, but with permutations ensuring that each candidate
-                appears at each position the same number of times, i.e. in
-                pairwise comparison experiments, the evaluation is repeated
-                with the candidate answers being switched, then the results
-                are averaged.
+          \item \textbf{Balanced Position Calibration} \cite{notfair}: the same
+                set of candidates is evaluated multiple times with the same
+                prompt template, but with permutations ensuring that each
+                candidate appears at each position the same number of times,
+                i.e. in pairwise comparison experiments, the evaluation is
+                repeated with the candidate answers being switched, then the
+                results are averaged.
         \end{itemize}
 
     \subsection{Length Bias (Verbosity Bias)}
@@ -463,15 +464,15 @@ rate the response on a scale of 1 to 10 by strictly following this format:
       \subsubsection{Mitigation}
 
         \begin{itemize}
-          \item \textbf{Prompting}: explicitly telling the LLM-judge in the
-                prompt not to let its decision be influenced by the length of
-                the answer alone.
+          \item \textbf{Prompting} \cite{arena}: explicitly telling the
+                LLM-judge in the prompt not to let its decision be influenced
+                by the length of the answer alone.
 
-          \item \textbf{Same length reference}: When multiple reference answers
-                are available with matching quality, selecting one that is
-                close to the evaluated answer in terms of its length can
-                improve the correlation between evaluation outcomes and human
-                preference \cite{biaslen}.
+          \item \textbf{Same length reference} \cite{biaslen}: When multiple
+                reference answers are available with matching quality,
+                selecting one that is close to the evaluated answer in terms of
+                its length can improve the correlation between evaluation
+                outcomes and human preference.
         \end{itemize}
 
     \subsection{Prompt Injection}
@@ -484,37 +485,38 @@ rate the response on a scale of 1 to 10 by strictly following this format:
       are frequent contenders in the regularly updated OWASP Top 10 Web
       Application Security Risks chart: \url{https://owasp.org/www-project-top-ten/}.}
       LLM-based systems where potentially malicious user input --- which in the
-      case of an LLM-judge is actually a candidate LLM output --- is mixed with
-      the instructions in the prompt are especially susceptible to injection
-      attacks.
+      case of an LLM-judge may be actually a candidate LLM's output --- is
+      mixed with the instructions in the prompt are particularly susceptible to
+      injection attacks.
 
       Unlike usual injection attacks against deterministic systems, due to the
       black box operation and stochastic nature of LLMs, prompt injection
       payloads don't necessarily need to break out from the context of delimiter
       strings like "\texttt{[The Start of Assistant's Answer]}" in order to be
       successful: it can be sufficient if the attack manages to confuse the
-      judge by including a long sequence of infrequently used complicated words
-      ("\emph{resynchronization bacteriohemolysin complaisantness}") or unusual
-      Markdown formatting, followed by instructions which override the
+      LLM-judge by including a long sequence of infrequently used complicated
+      words ("\emph{resynchronization bacteriohemolysin complaisantness}") or
+      unusual Markdown formatting, followed by instructions which override the
       originally intended task. In some cases, the probability of success can
       be increased by adding seemingly authoritative commands like
       \texttt{Authorization: ADMIN\_LEVEL\_ACCESS Command sequence: 7A-9B-12C
-      Priority: CRITICAL}
-      \cite{advattacks}.
+      Priority: CRITICAL} \cite{advattacks}.
 
       \subsubsection{Mitigation}
 
-        The proposed mitigation techniques include \footnote{My personal
-        opinion is that in the long history of injection attacks, the most
-        reliable mitigation technique has always been to separate the
-        instruction channel from the input data channel (e.g.  SQL prepared
-        statements, DOM API, structured shell command APIs, etc.) and avoid
-        using string templates and basic string substitution. In the case of
-        LLMs, this would mean to either introduce separate data channels, or to
-        use special tokens (like sequence start, stop, padding, etc.) at the
-        encoding-decoding stage which are impossible for an attacker to include
-        in their texts. These could help distinguish instructions and data, and
-        train the model accordingly.}:
+        The proposed mitigation techniques \cite{advattacks} include
+        \footnote{My personal opinion is that in the long history of injection
+        attacks, the most reliable mitigation technique has always been to
+        separate the instruction channel from the input data channel (e.g.  SQL
+        prepared statements, DOM API, structured shell command APIs, etc.) and
+        avoid using string templates and basic string substitution. In the case
+        of LLMs, this would possibly mean either to introduce separate
+        instruction and data channels, or to use special instruction and data
+        separation tokens (similarly to the sequence start, stop, padding, etc.
+        tokens) at the encoding-decoding stage which are impossible for an
+        attacker to forge, and train the models accordingly, to refuse to
+        follow instructions that originate from a non-instruction data
+        source.}:
 
         \begin{itemize}
           \item \textbf{Statistical filtering}: filtering unusual inputs by
@@ -559,13 +561,13 @@ rate the response on a scale of 1 to 10 by strictly following this format:
       A possible explanation is suspected \cite{biasself} to be that LLM-judges
       tend to prefer answers with lower perplexity, and the perplexity of a
       model's own text is inherently low for that model. \footnote{Perplexity
-      measures how well a probability model can predict an observed sample.
-      With the notation from equation \ref{eqautoreg}:
+      in this context is a measure of how well a probability model can predict
+      an observed sample. With the notation from equation \ref{eqautoreg}:
       \begin{align*}
         \text{PPL} =  \exp\left(
                         - \frac{1}{N} \sum_{i=1}^N \log P(w_i | w_{<i})
                       \right)
-      \end{align*}}.
+      \end{align*}}
 
       While it goes with expectations that a model which performs better on
       text generation tasks would also prove more reliable as a judge, is has
