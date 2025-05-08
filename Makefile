@@ -69,6 +69,7 @@ $(BUILD_DIR)/$(OUT_FILE_NAME).pdf: \
 		$(OUT_FILE_NAME).tex \
 		$(OUT_FILE_NAME).bib \
 		img/logo.png \
+		img/softmax-temperature.png \
 		| $(BUILD_DIR)
 	$(PDFLATEX) $(PDFLATEX_FLAGS) $<
 	$(BIBER) $(BIBER_FLAGS) $(OUT_FILE_NAME)
