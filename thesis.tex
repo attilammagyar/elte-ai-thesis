@@ -157,12 +157,12 @@
       distribution for the sampling, with respect to the temperature $T \in
       \mathbb{R}$ can be calculated via the softmax function:
       $\text{softmax}\left(\frac{1}{T} \mathbf{s}\right) = \left[
-      \frac{\exp(\frac{s_i}{T})}{\sum_{j=1}^v \exp(\frac{s_j}{T})}
-      \right]_{i=1}^v$} In practical implementations, if $T$ is sufficiently
-      close or exactly equal to $0$, then the sampling is usually replaced with
-      the deterministic argmax function in order to preserve numerical
-      stability.  Non-zero $T$ values control the flatness of the distribution,
-      leading to the aforementioned behavior.
+      \frac{\exp(\frac{1}{T} s_i)}{\sum_{j=1}^v \exp(\frac{1}{T} s_j)}
+      \right]_{i=1}^v$} In practical implementations, if the temperature is
+      sufficiently close or exactly equal to $0$, then the sampling is usually
+      replaced with the deterministic argmax function in order to preserve
+      numerical stability. Non-zero temperature values control the flatness of
+      the distribution, leading to the aforementioned behavior.
 
       \begin{figure}[hbtp]
         \label{figtemperature}
