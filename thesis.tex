@@ -562,10 +562,13 @@ rate the response on a scale of 1 to 10 by strictly following this format:
       tend to prefer answers with lower perplexity, and the perplexity of a
       model's own text is inherently low for that model. \footnote{Perplexity
       in this context is a measure of how well a probability model can predict
-      an observed sample. With the notation from equation \ref{eqautoreg}:
+      an observed sample. With the notation from equation \ref{eqautoreg}, and
+      $p_\theta$ denoting the model's estimation of $P$:
       \begin{align*}
         \text{PPL} =  \exp\left(
-                        - \frac{1}{N} \sum_{i=1}^N \log P(w_i | w_{<i})
+                        - \frac{1}{N}
+                        \sum_{i=1}^N
+                          \log p_\theta \left( w_i | w_{<i} \right)
                       \right)
       \end{align*}}
 
@@ -593,7 +596,9 @@ rate the response on a scale of 1 to 10 by strictly following this format:
                 perplexity may be an important contributor to harmful
                 self-preference, using a weighted average and reducing the
                 weight of an evaluator when it exhibits low perplexity for a
-                sample may contribute to bias reduction.
+                sample may contribute to bias reduction. (Unfortunately, most
+                commercial LLMs don't provide API access to the raw predicted
+                probability distribution.)
 
           \item \textbf{Peer Rank (PR)} \cite{prd}: this is also a multiple
                 model scheme which assumes that the set of candidates and
