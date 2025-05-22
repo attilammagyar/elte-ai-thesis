@@ -84,6 +84,7 @@ class ExecRequestHandler(http.server.BaseHTTPRequestHandler):
                 200,
                 {"exit_code": exit_code, "stdout": stdout, "stderr": stderr}
             )
+            self.log_message(f"STDOUT:\n{stdout}\n\nSTDERR:\n{stderr}")
 
         except Exception as exc:
             msg = f"{type(exc)}: {exc}"
