@@ -36,8 +36,6 @@ PDFLATEX ?= /usr/bin/pdflatex
 BIBTEX ?= /usr/bin/bibtex
 BIBER ?= /usr/bin/biber
 
-OUT_FILE_NAME = thesis
-
 PDFLATEX_FLAGS = \
 	-halt-on-error \
 	-file-line-error \
@@ -48,31 +46,32 @@ BIBER_FLAGS = \
 
 .PHONY: all clean
 
-all: $(OUT_FILE_NAME).pdf
+all: thesis.pdf
 
 clean:
 	$(RM) \
-		$(BUILD_DIR)/$(OUT_FILE_NAME).aux \
-		$(BUILD_DIR)/$(OUT_FILE_NAME).bbl \
-		$(BUILD_DIR)/$(OUT_FILE_NAME).bcf \
-		$(BUILD_DIR)/$(OUT_FILE_NAME).blg \
-		$(BUILD_DIR)/$(OUT_FILE_NAME).log \
-		$(BUILD_DIR)/$(OUT_FILE_NAME).out \
-		$(BUILD_DIR)/$(OUT_FILE_NAME).pdf \
-		$(BUILD_DIR)/$(OUT_FILE_NAME).run.xml \
-		$(BUILD_DIR)/$(OUT_FILE_NAME).toc
+		$(BUILD_DIR)/thesis.aux \
+		$(BUILD_DIR)/thesis.bbl \
+		$(BUILD_DIR)/thesis.bcf \
+		$(BUILD_DIR)/thesis.blg \
+		$(BUILD_DIR)/thesis.log \
+		$(BUILD_DIR)/thesis.out \
+		$(BUILD_DIR)/thesis.pdf \
+		$(BUILD_DIR)/thesis.run.xml \
+		$(BUILD_DIR)/thesis.toc
 
-$(OUT_FILE_NAME).pdf: $(BUILD_DIR)/$(OUT_FILE_NAME).pdf
+thesis.pdf: $(BUILD_DIR)/thesis.pdf
 	$(COPY) $< $@
 
-$(BUILD_DIR)/$(OUT_FILE_NAME).pdf: \
-		$(OUT_FILE_NAME).tex \
-		$(OUT_FILE_NAME).bib \
+$(BUILD_DIR)/thesis.pdf: \
+		thesis.tex \
+		thesis.bib \
+		thesis-results.tex \
 		img/logo.png \
 		img/softmax-temperature.png \
 		| $(BUILD_DIR)
 	$(PDFLATEX) $(PDFLATEX_FLAGS) $<
-	$(BIBER) $(BIBER_FLAGS) $(OUT_FILE_NAME)
+	$(BIBER) $(BIBER_FLAGS) thesis
 	$(PDFLATEX) $(PDFLATEX_FLAGS) $<
 	$(PDFLATEX) $(PDFLATEX_FLAGS) $<
 
