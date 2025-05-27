@@ -105,13 +105,14 @@
       text summarization, translation, sentiment analysis, spam detection,
       content moderation, text generation, etc.
 
-      Significant advancements in deep learning \cite{attention,gpt3,gpt4} led
-      to the emergence of \textbf{large language models} (LLMs) --- particularly
-      generative LLMs --- which in the early 2020s became commercialized and
-      widely adopted in both industry and popular discourse.
+      Significant advancements in deep learning, like the transformer
+      architecture \cite{attention,gpt3,gpt4}, led to the emergence of
+      \textbf{large language models} (LLMs) --- particularly generative LLMs
+      --- which in the early 2020s became commercialized and widely adopted in
+      both industry and popular discourse.
 
       A generative LLM is a model which has a parameter count on the order of
-      billions or more (hence "large"), and predicts the conditional
+      hundreds of billions or more (hence "large"), and predicts the conditional
       probability \cite{llms}
 
       \begin{align} \label{eqautoreg}
@@ -516,7 +517,8 @@ rate the response on a scale of 1 to 10 by strictly following this format:
         tokens) at the encoding-decoding stage which are impossible for an
         attacker to forge, and train the models accordingly, to refuse to
         follow instructions that originate from a non-instruction data
-        source.}:
+        source. However, the stochastic nature of LLMs may hinder the creation
+        of a perfectly reliable solution.}:
 
         \begin{itemize}
           \item \textbf{Statistical filtering}: filtering unusual inputs by
@@ -549,8 +551,7 @@ rate the response on a scale of 1 to 10 by strictly following this format:
       with labels by human experts (e.g. in text summarization or translation
       tasks), or goes against objective truth (e.g. in mathematical reasoning,
       factual knowledge, or programming related tasks), then it is considered a
-      harmful bias which necessitates mitigation
-      \cite{prd,justice}.
+      harmful bias which necessitates mitigation \cite{prd,justice}.
 
       The exact reason for harmful self-preference is unclear, but there is
       evidence \cite{recog} that LLMs (especially the larger ones) can somehow
@@ -623,13 +624,505 @@ rate the response on a scale of 1 to 10 by strictly following this format:
                 iterated until an agreement is reached.
         \end{itemize}
 
-  \section{Experiments}
+  \section{Experimentation}
+
+    State-of-the-art commercial LLMs will be tasked with generating short and
+    catchy yet not sensationalist headlines and informative leads for 100
+    randomly picked recent news articles (as of May, 2025), with respect to well
+    established journalistic practices \cite{news}, with
+    \texttt{temperature=1.0}.
+
+    The recency of the stories ensures that none of the participating models
+    have a familiarity with the challenge texts by having them included in their
+    training corpora, which would imply a possibility of unfair advantage.
+
+    The generated headlines and leads will then be graded by each model on a
+    scale of 1 to 5 in separate conversations, with \texttt{temperature=0.0} for
+    reproducibility\footnote{Some commercial LLMs are known to still apply some
+    randomization in their outputs even if the temperature is zero.}.
+
+    \subsection{LLMs}
+
+      \begin{table}[ht!]
+        \centering
+        \begin{tabular}{| c | c | c |}
+          \hline
+          \textbf{Model} & Provider & \textbf{URL} \\
+          \hline
+          claude-3-7-sonnet-20250219 & Anthropic & \url{https://www.anthropic.com/} \\
+          deepseek-chat & DeepSeek & \url{https://www.deepseek.com/en} \\
+          gemini-2.5-pro-preview-05-06 & Google & \url{https://gemini.google.com/} \\
+          gpt-4.1-2025-04-14 & OpenAI & \url{https://openai.com/} \\
+          sonar-reasoning-pro & Perplexity AI & \url{https://sonar.perplexity.ai/} \\
+          \hline
+        \end{tabular}
+      \end{table}
+
+      As of May, 2025, \texttt{deepseek-chat} is an alias to the DeepSeek-V3
+      model.
+
+    \subsection{Grades}
+
+      The overwhelming majority of LLM-judge prompts in the literature
+      associates higher scores with higher quality responses. As a consequence,
+      it is unclear whether LLMs exhibiting self-preference bias give
+      themselves \emph{higher} scores or \emph{better} scores. In order to
+      investigate this question, each generated solution will be graded twice:
+      once in a positive framing, looking for "quality", "accuracy", etc. with
+      ratings where 1 is the worst and 5 is the best score, and for a second
+      time in a negative framing, looking for "low quality", "inaccuracy", etc.
+      with ratings where 1 is the best and 5 is the worst score. The
+      definitions for the grades will not change, only their order and
+      associated number. The resulting scores will be converted back to the
+      positive scale for easier comparison by using the $6 - \text{score}$
+      formula.
+
+    \subsection{Evaluation}
+
+      One way to study self-preference bias is by comparing the scores given by
+      a model to its peers with the scores given to itself: a biased judge will
+      be likely to give itself better scores than it gives to its peers.
+      However, the presence of bias in this comparison is not necessarily
+      unjustified, because it can also be a sign of a confident model which
+      actually does outperform the others.
+
+      Since the average score provided by an LLM jury is known to be an
+      effective method of evaluating performance \cite{juries}, the comparison
+      of self-given scores to the average of the scores received by peers can
+      reveal the presence of unjustified (harmful) self-preference.
+      \footnote{Positional bias is not applicable in this scenario, and some
+      amount of inverse length bias is desirable, since the headline and the
+      lead is usually expected to be brief. No signs of prompt injection
+      attempts were observed, however, Sonar randomly translated a word in a
+      lead into Chinese for no apparent reason.}
+
+      Let $S_i$ denote the score given by a model to itself for the $i$-th news
+      article ($i \in \{ 1,\ \dots,\ 100 \}$), $G_i$ denote the average of the
+      scores that it gave to its peers, and $R_i$ denote the average of the
+      scores given by its peers for the $i$-th news article.
+
+      For a perfectly unbiased judge, $\overline{S - R} = 0$ should hold, and
+      for a perfectly unbiased judging model with roughly equal capabilities to
+      its peers, $\overline{S - G} = 0$ should also hold, meaning that the
+      model should either never overestimate or underestimate its own
+      performance, or these two kinds of errors should cancel each other out.
+      Moreover, inverting the grades should cause no changes in the given or
+      received scores.
+
+      Assuming that the samples are independent and identically distributed
+      (a score for the $i$-th generated headline and lead should contain no
+      information about the score for the $j$-th headline and lead if
+      $i \neq j$), a two-sided Student's t-test can be used for testing the null
+      hypothesis that the mean is equal to 0 in both cases \footnote{For
+      100 samples and a significance level of $5\%$, a test with $80\%$ power
+      should be able to detect a standardized effect size of $\approx 0.28$.}.
 
   \section{Results}
 
-  \input{thesis-results}
+    Table \ref{tbleval-news} shows the results of the hypothesis tests for each
+    experiment:
+
+    \begin{itemize}
+      \item \textbf{Model}: exact name of the LLM.
+
+      \item $\mathbf{V}$: grading variant: "pos" refers to the usual grading
+            system where 1 is the worst score and 5 is the best, while "neg"
+            refers to the inverted system where 5 is the worst and 1 is the
+            best. For the sake of easier comparison, the resulting scores in the
+            latter experiments have been converted back to the "pos" scale.
+
+      \item $\mathbf{N}$: number of successful samples where the model was
+            capable of generating both a contest entry and a self-judgement that
+            could be successfully parsed.
+
+      \item $\mathbf{\overline{S}}$: the average of all self-given scores for
+            the model and the standard error.
+
+      \item $\mathbf{\overline{R}}$: the average of the received (peer-given)
+            average scores for each news article.
+
+      \item $\mathbf{t_R}$: the test statistic for $S - R$; positive values
+            correspond to an overestimation of the model's own performance
+            against peer average.
+
+      \item $\mathbf{p_R}$: the probability of observing $t_R$ under the null
+            hypothesis.
+
+      \item $\mathbf{CI_R}$: $95\%$ confidence interval estimation for
+            $\overline{S - R}$.
+
+      \item $\mathbf{\overline{G}}$: the average of the average scores given to
+            peers for each news article.
+
+      \item $\mathbf{t_G}$: the test statistic for $S - G$; positive values
+            correspond to the model preferring its own outputs over the outputs
+            of others.
+
+      \item $\mathbf{p_G}$: the probability of observing $t_G$ under the null
+            hypothesis.
+
+      \item $\mathbf{CI_G}$: $95\%$ confidence interval estimation for
+            $\overline{S - G}$.
+    \end{itemize}
+
+    \begin{table}[ht!]
+      \includegraphics[width=\textwidth]{img/eval-news.png}
+      \scalebox{0.60}{
+        \centering
+        \begin{tabular}{|| c || c | c || c || c | c | c | c || c | c | c | c ||}
+          \hline
+          Model
+            & V
+            & $N$
+            & $\overline{S}$
+            & $\overline{R}$
+            & $t_R$
+            & $p_R$
+            & $\text{CI}_R$
+            & $\overline{G}$
+            & $t_G$
+            & $p_G$
+            & $\text{CI}_G$ \\
+          \hline\hline
+
+
+          claude-3-7-sonnet-20250219
+            & pos
+            & 100
+            & $4.07 \pm 0.29$
+            & $4.35 \pm 0.32$
+            & $-6.74$
+            & $\underline{\mathbf{0\%}}$
+            & $(-0.36, -0.20)$
+            & $3.89 \pm 0.24$
+            & $5.10$
+            & $\underline{\mathbf{0\%}}$
+            & $(0.11, 0.25)$ \\
+            & neg
+            & 100
+            & $3.90 \pm 0.36$
+            & $4.19 \pm 0.48$
+            & $-6.30$
+            & $\underline{\mathbf{0\%}}$
+            & $(-0.38, -0.20)$
+            & $3.71 \pm 0.38$
+            & $4.06$
+            & $\underline{\mathbf{0\%}}$
+            & $(0.10, 0.29)$ \\
+          \hline
+
+
+          deepseek-chat
+            & pos
+            & 100
+            & $4.23 \pm 0.42$
+            & $4.29 \pm 0.32$
+            & $-1.14$
+            & $25\text{\%}$
+            & $(-0.16, 0.04)$
+            & $4.29 \pm 0.30$
+            & $-1.43$
+            & $16\text{\%}$
+            & $(-0.15, 0.02)$ \\
+            & neg
+            & 100
+            & $4.70 \pm 0.75$
+            & $4.00 \pm 0.45$
+            & $8.67$
+            & $\underline{\mathbf{0\%}}$
+            & $(0.54, 0.86)$
+            & $4.56 \pm 0.46$
+            & $1.94$
+            & $5\text{\%}$
+            & $(-0.00, 0.29)$ \\
+          \hline
+
+
+          gemini-2.5-pro-preview-05-06
+            & pos
+            & 100
+            & $4.62 \pm 0.63$
+            & $4.14 \pm 0.20$
+            & $7.62$
+            & $\underline{\mathbf{0\%}}$
+            & $(0.35, 0.60)$
+            & $4.21 \pm 0.58$
+            & $5.43$
+            & $\underline{\mathbf{0\%}}$
+            & $(0.26, 0.56)$ \\
+            & neg
+            & 100
+            & $4.14 \pm 0.77$
+            & $4.04 \pm 0.40$
+            & $1.25$
+            & $22\text{\%}$
+            & $(-0.06, 0.25)$
+            & $3.83 \pm 0.58$
+            & $3.57$
+            & $\underline{\mathbf{0\%}}$
+            & $(0.14, 0.47)$ \\
+          \hline
+
+
+          gpt-4.1-2025-04-14
+            & pos
+            & 100
+            & $4.25 \pm 0.52$
+            & $4.07 \pm 0.44$
+            & $3.46$
+            & $\underline{\mathbf{0\%}}$
+            & $(0.08, 0.29)$
+            & $4.25 \pm 0.26$
+            & $-0.02$
+            & $99\text{\%}$
+            & $(-0.11, 0.10)$ \\
+            & neg
+            & 100
+            & $4.40 \pm 0.62$
+            & $3.87 \pm 0.53$
+            & $9.05$
+            & $\underline{\mathbf{0\%}}$
+            & $(0.41, 0.65)$
+            & $4.28 \pm 0.39$
+            & $1.98$
+            & $5\text{\%}$
+            & $(-0.00, 0.25)$ \\
+          \hline
+
+
+          sonar-reasoning-pro
+            & pos
+            & 88
+            & $4.16 \pm 0.62$
+            & $3.93 \pm 0.52$
+            & $3.16$
+            & $\underline{\mathbf{0\%}}$
+            & $(0.08, 0.37)$
+            & $4.15 \pm 0.40$
+            & $0.11$
+            & $91\text{\%}$
+            & $(-0.14, 0.16)$ \\
+            & neg
+            & 86
+            & $3.41 \pm 0.76$
+            & $3.72 \pm 0.64$
+            & $-3.58$
+            & $\underline{\mathbf{0\%}}$
+            & $(-0.49, -0.14)$
+            & $3.46 \pm 0.47$
+            & $-0.66$
+            & $51\text{\%}$
+            & $(-0.23, 0.11)$ \\
+          \hline
+
+
+          \hline
+        \end{tabular}
+      }
+      \caption{News Headlines Challenge --- The highlighted p-values fall below the significance level of
+      $\alpha=5\%$, rejecting the null hypothesis of the lack of a bias.}
+      \label{tbleval-news}
+    \end{table}
+
+    \subsection{Observations}
+
+      \begin{itemize}
+        \item Even state-of-the-art commercial LLMs do exhibit bias when it
+              comes to judging their own generations. Somewhat unexpectedly,
+              Claude 3.7 Sonnet underestimates its own outputs relative to the
+              scores received by other models rather than overstimating it ---
+              yet it still gives itself better scores than it gives to peers.
+              The latter may be justified to some extent however, taking into
+              account that this model received the best scores in the
+              challenge.
+
+        \item DeepSeek-V3 is the second best news headline and lead generator
+              slightly behind Claude 3.7 Sonnet, but it is the fairest judge
+              --- as long as lower scores correspond to lower quality. Inverting
+              the grading scale pushes the model to give better scores to every
+              participant, but slightly better scores to itself, however, the
+              difference is almost, but not quite significant according to the
+              test.
+
+        \item Inverting the grading scale can reduce the self-preference bias of
+              the latest (as of May, 2025) preview version of Gemini 2.5 Pro.
+      \end{itemize}
 
   \section{Conclusion}
+
+    Rigorous statistical testing revealed that state-of-the-art LLM-judges can
+    over or underestimate the quality of their own generated texts, and that
+    the resulting bias can be sensitive to the framing of the evaluation and
+    the invertedness of the grading scale.
+
+    \subsection{Further Research}
+
+      \begin{itemize}
+        \item Can the effects of the flipped grading scale be used for
+              increasing the reliability of LLM juries, e.g. by running some of
+              the evaluators with an inverted scale?
+
+        \item Can framing affect the results of pairwise comparisons? Would it
+              make a difference if the judge had to select the worse candidate
+              instead of the better one?
+      \end{itemize}
+
+\clearpage
+
+  \appendix
+
+    \section{Prompts}
+
+      \begin{figure}[hbtp]
+        \label{figgennews}
+        \begin{lstlisting}[frame=single,linewidth=\textwidth,basicstyle=\scriptsize]
+You are an editor at a large online newspaper, preparing a fresh story for
+publishing.
+        \end{lstlisting}
+        \begin{lstlisting}[frame=single,linewidth=\textwidth,basicstyle=\scriptsize]
+The story below is being prepared for publication at an online newspaper. Your
+job is to read it carefully, and come up with a headline and a brief lead for
+it (no more than 1 or 2 sentences). Make sure that the headline is short and
+catchy, and consider the Five Ws principle for the lead (who, what, when,
+where, why). Both the headline and the lead must be your own work,
+uninfluenced by other websites, so do not search the web for other news reports
+of the same story.
+
+The last two lines of your answer should be the headline and the lead. Use the
+following template:
+
+Headline: The Title for the Story
+Lead: A short lead for the story, no more than 1 or 2 sentences
+
+--- BEGIN STORY ---
+{STORY}
+--- END STORY ---
+
+Headline:
+Lead:
+        \end{lstlisting}
+        \caption{%
+          System prompt and user prompt for generating news headlines and leads.
+        }
+      \end{figure}
+
+      \begin{figure}[hbtp]
+        \label{figevalnewspos}
+        \begin{lstlisting}[frame=single,linewidth=\textwidth,basicstyle=\scriptsize]
+Please act as an expert news editor and an impartial judge, and rate the quality of
+the following headline and lead that were generated by an AI assistant for a news
+article. Your rating will help improve the quality of AI-assisted news editing. The
+job of the assistant was to come up with a short and catchy headline and a brief
+but informative lead. Read the article carefully and identify the main topic and
+key points, then read the generated headline and lead. Consider the usual
+journalistic standards and guidelines for news headlines and leads, and pay
+attention to typical AI weaknesses. Write down your key observations briefly about
+the headline and the lead, and your overall impression which justify your final
+rating, then rate the generated headline and lead together as a whole, regarding
+accuracy and how well they work together to represent the article.  Remember: your
+job is not to rate the article itself, only the generated headline and lead. Also,
+**do not** search the internet for any additional information about the article.
+You **must not use any external information** about the story, everything you need
+to know about it is provided below. Your rating must be a **single score on a scale
+of 1 to 5**, where 1 is the worst and 5 is the best.  Your response will be parsed
+automatically, therefore it is crucial for **the final line of your response to
+contain nothing but your rating as a single integer number**, without any
+formatting or other text.
+        \end{lstlisting}
+        \begin{lstlisting}[frame=single,linewidth=\textwidth,basicstyle=\scriptsize]
+A few guidelines for headlines:
+- Make it clear and understandable at a single glance.
+- Grab attention but avoid being sensational.
+- Use short, active sentences, and strong but not commanding verbs.
+
+A few guidelines for leads:
+- Make it brief but informative.
+- Answer the Five Ws: who, what, when, where, why.
+- No more than 1, maybe 2 sentences, and 25 to 30 words, maybe 40.
+
+Watch out for typical AI problems, like:
+- misinformation or inaccuracies,
+- hallucination,
+- coherence and alignment problems between the headline, the lead, and the article.
+
+Rating guideline:
+- **1**: unacceptable, needs complete rewrite.
+- **2**: poor, several problems.
+- **3**: servicable, some editing might be needed.
+- **4**: good, possibility of minor improvements.
+- **5**: excellent, no room for improvement.
+
+--- BEGIN ARTICLE ---
+{STORY}
+--- END ARTICLE ---
+
+Headline: {HEADLINE}
+Lead: {LEAD}
+        \end{lstlisting}
+        \caption{%
+          System prompt and user prompt for evaluating the generated news
+          headlines and leads. (Positive framing.)
+        }
+      \end{figure}
+
+      \begin{figure}[hbtp]
+        \label{figevalnewsneg}
+        \begin{lstlisting}[frame=single,linewidth=\textwidth,basicstyle=\scriptsize]
+Please act as an expert news editor and an impartial judge, and rate the badness of
+the following headline and lead that were generated by an AI assistant for a news
+article. Your rating will help improve the quality of AI-assisted news editing. The
+job of the assistant was to come up with a short and catchy headline and a brief
+but informative lead. Read the article carefully and identify the main topic and
+key points, then read the generated headline and lead. Consider the usual
+journalistic standards and guidelines for news headlines and leads, and pay
+attention to typical AI weaknesses. Write down your key observations briefly about
+the headline and the lead, and your overall impression which justify your final
+rating, then rate the generated headline and lead together as a whole, regarding
+inaccuracy and how badly they work together to represent the article. Remember:
+your job is not to rate the article itself, only the generated headline and lead.
+Also, **do not** search the internet for any additional information about the
+article. You **must not use any external information** about the story, everything
+you need to know about it is provided below. Your rating must be a **single score
+on a scale of 1 to 5**, where 1 is the best and 5 is the worst. Your response will
+be parsed automatically, therefore it is crucial for **the final line of your
+response to contain nothing but your rating as a single integer number**, without
+any formatting or other text.
+        \end{lstlisting}
+        \begin{lstlisting}[frame=single,linewidth=\textwidth,basicstyle=\scriptsize]
+A few guidelines for headlines:
+- Make it clear and understandable at a single glance.
+- Grab attention but avoid being sensational.
+- Use short, active sentences, and strong but not commanding verbs.
+
+A few guidelines for leads:
+- Make it brief but informative.
+- Answer the Five Ws: who, what, when, where, why.
+- No more than 1, maybe 2 sentences, and 25 to 30 words, maybe 40.
+
+Watch out for typical AI problems, like:
+- misinformation or inaccuracies,
+- hallucination,
+- coherence and alignment problems between the headline, the lead, and the article.
+
+Rating guideline:
+- **1**: excellent, no room for improvement.
+- **2**: good, possibility of minor improvements.
+- **3**: servicable, some editing might be needed.
+- **4**: poor, several problems.
+- **5**: unacceptable, needs complete rewrite.
+
+--- BEGIN ARTICLE ---
+{STORY}
+--- END ARTICLE ---
+
+Headline: {HEADLINE}
+Lead: {LEAD}
+        \end{lstlisting}
+        \caption{%
+          System prompt and user prompt for evaluating the generated news
+          headlines and leads. (Negative framing.)
+        }
+      \end{figure}
 
 \clearpage
 
