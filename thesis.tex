@@ -29,13 +29,13 @@
 
 \pgfplotsset{compat=1.18}
 \setcounter{secnumdepth}{5}
-\setcounter{tocdepth}{5}
+\setcounter{tocdepth}{2}
 
 \def\TITLE{\
   Investigating Bias \\
   in LLM Self-Evaluation\
 }
-\def\AUTHOR{Attila M. Magyar}
+\def\AUTHOR{Attila Mihály Magyar}
 
 \title{\TITLE}
 \author{\AUTHOR}
@@ -89,12 +89,24 @@
 
 \end{titlepage}
 
+  \section*{Acknowledgements}
+
+    I would like to express my gratitude to my supervisor, Fausztin Asztrik
+    Virág, for his invaluable guidance and patience throughout the course of
+    this work. I am also thankful to the program coordinator, Dr. András
+    Zempléni, as well as to all the lecturers for their dedication and effort
+    in providing this excellent program.
+
+  \vfill
+
+\clearpage
+
   \tableofcontents
 
 \clearpage
 
-  \section*{Abstract}
-  \addcontentsline{toc}{section}{\protect\numberline{}Abstract}
+  \section*{Topic Description}
+  \addcontentsline{toc}{section}{\protect\numberline{}Topic Description}
 
     This thesis explores whether large language models (LLMs) tend to
     overestimate the quality of their own outputs when serving as judges or
@@ -104,10 +116,12 @@
     potential bias and discuss its implications for AI evaluation, fairness,
     and trustworthiness in model benchmarking.
 
+\clearpage
+
   \section{Introduction}
 
     This section introduces the key terms and core concepts that will be used
-    in later sections.
+    in subsequent sections.
 
     \subsection{A Brief Introduction to LLMs}
 
@@ -156,6 +170,12 @@
       sample from that distribution, appends it to the sequence, and repeats
       the process with the extended sequence until a stopping condition is met.
 
+      \begin{figure}[hbtp]
+        \label{figtemperature}
+        \includegraphics[width=\textwidth]{softmax-temperature}
+        \caption{Effect of the temperature parameter on token probabilities.}
+      \end{figure}
+
       A frequently used parameter to control the sampling is called the
       \textbf{temperature} \cite{temperature}: the closer it is to 0, the more
       the sampling will lean toward the most probable token --- making the
@@ -175,12 +195,6 @@
       replaced with the deterministic argmax function in order to preserve
       numerical stability. Non-zero temperature values control the flatness of
       the distribution, leading to the aforementioned behavior.
-
-      \begin{figure}[hbtp]
-        \label{figtemperature}
-        \includegraphics[width=\textwidth]{softmax-temperature}
-        \caption{Effect of the temperature parameter on token probabilities.}
-      \end{figure}
 
       With sufficiently large model complexity and training corpora size and
       diversity, LLMs start to exhibit capabilities which rival that of top
@@ -317,7 +331,7 @@ rate the response on a scale of 1 to 10 by strictly following this format:
           \end{lstlisting}
           \caption{%
             System prompt with chain-of-thought and user prompt template for an
-            LLM-judge \cite{arena}.
+            LLM-judge from the literature \cite{arena}.
           }
         \end{figure}
 
@@ -658,7 +672,7 @@ rate the response on a scale of 1 to 10 by strictly following this format:
         \centering
         \begin{tabular}{| c | c | c |}
           \hline
-          \textbf{Model} & Provider & \textbf{URL} \\
+          \textbf{Model} & \textbf{Provider} & \textbf{URL} \\
           \hline
           claude-3-7-sonnet-20250219 & Anthropic & \url{https://www.anthropic.com/} \\
           deepseek-chat & DeepSeek & \url{https://www.deepseek.com/en} \\
@@ -734,7 +748,7 @@ rate the response on a scale of 1 to 10 by strictly following this format:
     experiment:
 
     \begin{itemize}
-      \item \textbf{Model}: exact name of the LLM.
+      \item \textbf{Judge}: exact name of the LLM performing the evaluation.
 
       \item $\mathbf{V}$: grading variant: "pos" refers to the usual grading
             system where 1 is the worst score and 5 is the best, while "neg"
@@ -782,7 +796,7 @@ rate the response on a scale of 1 to 10 by strictly following this format:
         \centering
         \begin{tabular}{|| c || c | c || c || c | c | c | c || c | c | c | c ||}
           \hline
-          Model
+          Judge
             & V
             & $N$
             & $\overline{S}$
@@ -960,10 +974,10 @@ rate the response on a scale of 1 to 10 by strictly following this format:
 
   \section{Conclusion}
 
-    Rigorous statistical testing revealed that state-of-the-art LLM-judges can
-    over or underestimate the quality of their own generated texts, and that
-    the resulting bias can be sensitive to the framing of the evaluation and
-    the invertedness of the grading scale.
+    Rigorous statistical testing confirmed that state-of-the-art LLM-judges can
+    systematically over or underestimate the quality of their own generated
+    texts, and that the resulting bias can be sensitive to the framing of the
+    evaluation and the invertedness of the grading scale.
 
     \subsection{Further Research}
 
@@ -1138,5 +1152,58 @@ Lead: {LEAD}
 
   \nocite{*}
   \printbibliography[heading=bibintoc]
+
+\clearpage
+
+  \section*{Nyilatkozatok}
+  \addcontentsline{toc}{section}{\protect\numberline{}Nyilatkozatok}
+
+    \subsection*{MI eszközök használata}
+    \addcontentsline{toc}{subsection}{\protect\numberline{}MI eszközök használata}
+
+      Alulírott Magyar Attila Mihály nyilatkozom, hogy szakdolgozatom
+      elkészítése során az alább felsorolt feladatok elvégzésére a megadott
+      MI alapú eszközöket alkalmaztam:
+
+      \begin{table}[ht!]
+        \scalebox{0.90}{
+          \begin{tabular}{| c | c | c | c |}
+            \hline
+            \textbf{Feladat}
+            & \textbf{Felhasznált eszköz}
+            & \textbf{Felhasználás helye}
+            & \textbf{Megjegyzés} \\
+            \hline
+            \begin{tabular}{@{}c@{}}
+              Nyelvhelyességi \\
+              és stilisztikai ellenőrzés
+            \end{tabular}
+              & GPT-4o & Teljes dolgozat & \\
+            \hline
+            \begin{tabular}{@{}c@{}}
+              Prompt finomítás \\
+              és tesztelés
+            \end{tabular}
+              & GPT-4o, Gemini 2.5 Pro & Függelék & \\
+            \hline
+            \begin{tabular}{@{}c@{}}
+              Kiértékelendő szövegek \\
+              és értékelések generálása
+            \end{tabular}
+              & \begin{tabular}{@{}c@{}}
+                  Claude 3.7 Sonnet, \\
+                  DeepSeek-V3, \\
+                  Gemini 2.5 Pro, \\
+                  GPT 4.1, \\
+                  Sonar Reasoning Pro
+                \end{tabular}
+              & 4. fejezet
+              & \\
+            \hline
+          \end{tabular}
+        }
+      \end{table}
+
+      A felsoroltakon túl más MI alapú eszközt nem használtam.
 
 \end{document}
