@@ -1156,7 +1156,9 @@ Lead: {LEAD}
     The LLMs were tasked with generating a short program which applies volume
     increase and a non-linear function with anti-aliasing to a piece of audio,
     with various constraints. Each model generated 36 programs for the
-    following combinations:
+    following combinations \footnote{For 36 samples and a significance level of
+    $5\%$, a test with $80\%$ power should be able to detect a standardized
+    effect size of $\approx 0.48$.}:
 
     \begin{itemize}
       \item Non-linearity: $\tanh(x)$ or $\frac{x}{\sqrt{x^2 + 1}}$.
@@ -1801,6 +1803,13 @@ Lead: {LEAD}
       $\alpha=5\%$, rejecting the null hypothesis of the lack of a bias.}
       \label{tbleval-distortion-signal_score}
     \end{table}
+
+\clearpage
+
+  \section{Data and Source Code}
+
+    The generated data and the source code for generating and processing it
+    are available on GitHub at \url{https://github.com/attilammagyar/elte-ai-thesis}.
 
 \clearpage
 
