@@ -521,8 +521,8 @@ strictly following this format: "[[rating]]", for example: "Rating: [[5]]".
       insufficiently filtered, attacker-controllable data are passed in the
       same input channel to a computer system. \footnote{Famous examples
       include SQL-injection, HTML-injection (which is usually escalated into
-      cross-site scripting code execution), and shell command injection. These
-      are frequent contenders in the regularly updated OWASP Top 10 Web
+      cross-site scripting code execution, XSS), and shell command injection.
+      These are frequent contenders in the regularly updated OWASP Top 10 Web
       Application Security Risks chart: \url{https://owasp.org/www-project-top-ten/}.}
       LLM-based systems where potentially malicious user input --- which in the
       case of an LLM-judge may be actually a candidate LLM's output --- is
@@ -979,8 +979,9 @@ strictly following this format: "[[rating]]", for example: "Rating: [[5]]".
         \item DeepSeek-V3 is the second best news headline and lead generator
               slightly behind Claude 3.7 Sonnet, but it is the fairest judge
               --- as long as lower scores correspond to lower quality. Inverting
-              the grading scale pushes the model to give better scores to every
-              participant, but slightly better scores to itself, introducing the
+              the grading scale and using negative framing in the evaluation
+              pushes the model to give better scores to every participant, but
+              slightly better scores to itself, introducing the
               self-enhancement bias.
 
         \item Inverting the grading scale can slightly reduce the
@@ -1491,7 +1492,7 @@ tighter.
                   GPT 4.1, \\
                   Sonar Reasoning Pro
                 \end{tabular}
-              & 4. fejezet, C Függelék
+              & 4. fejezet 1. táblázat, C Függelék
               & \\
             \hline
           \end{tabular}
