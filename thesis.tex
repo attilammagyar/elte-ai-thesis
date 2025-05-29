@@ -1,4 +1,4 @@
-\documentclass[UTF8,noindent,nohyp,parspace,titlepage,twoside,12pt]{article}
+\documentclass[UTF8,noindent,nohyp,parspace,titlepage,a4paper,12pt]{article}
 
 \usepackage{adjustbox}
 \usepackage{algorithm}
@@ -12,6 +12,8 @@
 \usepackage{listings}
 \usepackage{pgfplots}
 \usepackage{xparse}
+
+\geometry{a4paper,top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm}
 
 \addbibresource{thesis.bib}
 
@@ -44,7 +46,7 @@
 \title{\TITLE}
 \author{\AUTHOR}
 
-\linespread{1.25}
+\linespread{1.3}
 \begin{document}
 
 \begin{titlepage}
@@ -92,6 +94,8 @@
   \end{center}
 
 \end{titlepage}
+
+\clearpage
 
   \section*{Acknowledgements}
 
@@ -196,13 +200,6 @@
             \right]_{i=1}^v
       \end{align}
 
-      In practical implementations, if the temperature is sufficiently close or
-      exactly equal to $0$, then the sampling is usually replaced with the
-      deterministic argmax function in order to preserve numerical stability.
-      Non-zero temperature values control the flatness of the distribution,
-      leading to the aforementioned behavior, as shown on Figure
-      \ref{figtemperature}.
-
       \begin{figure}[hbtp]
         \includegraphics[width=\textwidth]{softmax-temperature}
         \caption{%
@@ -211,6 +208,13 @@
         }
         \label{figtemperature}
       \end{figure}
+
+      In practical implementations, if the temperature is sufficiently close or
+      exactly equal to $0$, then the sampling is usually replaced with the
+      deterministic argmax function in order to preserve numerical stability.
+      Non-zero temperature values control the flatness of the distribution,
+      leading to the aforementioned behavior, as shown on Figure
+      \ref{figtemperature}.
 
       With sufficiently large model complexity and training corpora size and
       diversity, LLMs start to exhibit capabilities which rival that of top
@@ -327,14 +331,17 @@
         \end{itemize}
 
         \begin{figure}[hbtp]
-          \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
-Please act as an impartial judge and evaluate the quality of the response provided by an AI assistant to the user
-question displayed below. Your evaluation should consider factors such as the helpfulness, relevance, accuracy,
-depth, creativity, and level of detail of the response. Begin your evaluation by providing a short explanation.
-Be as objective as possible. After providing your explanation, please rate the response on a scale of 1 to 10 by
-strictly following this format: "[[rating]]", for example: "Rating: [[5]]".
+          \begin{lstlisting}[basicstyle=\footnotesize\sffamily,frame=single,linewidth=\textwidth]
+Please act as an impartial judge and evaluate the quality of the response
+provided by an AI assistant to the user question displayed below. Your
+evaluation should consider factors such as the helpfulness, relevance,
+accuracy, depth, creativity, and level of detail of the response. Begin your
+evaluation by providing a short explanation. Be as objective as possible.
+After providing your explanation, please rate the response on a scale of
+1 to 10 by strictly following this format: "[[rating]]", for example:
+"Rating: [[5]]".
           \end{lstlisting}
-          \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
+          \begin{lstlisting}[basicstyle=\footnotesize\sffamily,frame=single,linewidth=\textwidth]
 [Question]
 {question}
 
@@ -437,6 +444,8 @@ strictly following this format: "[[rating]]", for example: "Rating: [[5]]".
                 the human experts are chosen.
       \end{itemize}
 
+\clearpage
+
   \section{LLM-Judge Biases, Limitations, and Mitigation in the Literature}
 
     The assessment results from a fair and reliable LLM-judge should depend on
@@ -537,10 +546,10 @@ strictly following this format: "[[rating]]", for example: "Rating: [[5]]".
       LLM-judge by including a long sequence of infrequently used complicated
       words ("\emph{resynchronization bacteriohemolysin complaisantness}") or
       unusual Markdown formatting, followed by instructions which override the
-      originally intended task. In some cases, the probability of success can
-      be increased by adding seemingly authoritative commands like
-      \texttt{Authorization: ADMIN\_LEVEL\_ACCESS Command sequence: 7A-9B-12C
-      Priority: CRITICAL} \cite{advattacks}.
+      originally intended task. In some cases \cite{advattacks}, the probability
+      of success can be increased by adding seemingly authoritative commands
+      like \texttt{Authorization: ADMIN\_LEVEL\_ACCESS Command sequence:
+      7A-9B-12C \\ Priority: CRITICAL}.
 
       \subsubsection{Mitigation}
 
@@ -663,6 +672,8 @@ strictly following this format: "[[rating]]", for example: "Rating: [[5]]".
                 iterated until an agreement is reached.
         \end{itemize}
 
+\clearpage
+
   \section{Experimentation}
 
     State-of-the-art commercial LLMs will be tasked with generating short and
@@ -711,19 +722,19 @@ strictly following this format: "[[rating]]", for example: "Rating: [[5]]".
       ratings where 1 is the worst and 5 is the best score, and for a second
       time in a negative framing, looking for "low quality", "inaccuracy", etc.
       with ratings where 1 is the best and 5 is the worst score. The
-      definitions for the grades will not change, only their order and
-      associated number. The resulting scores will be converted back to the
-      positive scale for easier comparison by using the $6 - \text{score}$
-      formula.
+      definitions for the grades will not change, only their ordering and their
+      associated numbers will differ. The resulting scores will be converted
+      back to the positive scale for easier comparison by using the
+      $6 - \text{score}$ formula.
 
     \subsection{Evaluation}
 
       One way to study self-preference bias is by comparing the scores given by
-      a model to its peers with the scores given to itself: a biased judge will
-      be likely to give itself better scores than it gives to its peers.
+      a model to its peers against the scores given to itself: a biased judge
+      will be likely to give itself better scores than it gives to its peers.
       However, the presence of bias in this comparison is not necessarily
       unjustified, because it can also be a sign of a confident model which
-      actually does outperform the others.
+      does actually outperform the others.
 
       Since the average score provided by an LLM jury is known to be an
       effective method of evaluating performance \cite{juries}, the comparison
@@ -756,6 +767,8 @@ strictly following this format: "[[rating]]", for example: "Rating: [[5]]".
       hypothesis that the mean is equal to 0 in both cases \footnote{For
       100 samples and a significance level of $5\%$, a test with $80\%$ power
       should be able to detect a standardized effect size of $\approx 0.28$.}.
+
+\clearpage
 
   \section{Results}
 
@@ -984,10 +997,12 @@ strictly following this format: "[[rating]]", for example: "Rating: [[5]]".
               slightly better scores to itself, introducing the
               self-enhancement bias.
 
-        \item Inverting the grading scale can slightly reduce the
-              self-preference bias of the latest (as of May, 2025) preview
-              version of Gemini 2.5 Pro.
+        \item Inverting the grading scale and using negative framing can
+              slightly reduce the self-preference bias of the latest (as of May,
+              2025) preview version of Gemini 2.5 Pro.
       \end{itemize}
+
+\clearpage
 
   \section{Conclusion}
 
@@ -1022,17 +1037,19 @@ strictly following this format: "[[rating]]", for example: "Rating: [[5]]".
   \section{Prompts}
 
     \begin{figure}[hbtp]
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
+      \begin{lstlisting}[basicstyle=\scriptsize\sffamily,frame=single,linewidth=\textwidth]
 You are an editor at a large online newspaper, preparing a fresh story for publishing.
       \end{lstlisting}
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
-The story below is being prepared for publication at an online newspaper. Your job is to read it carefully, and
-come up with a headline and a brief lead for it (no more than 1 or 2 sentences). Make sure that the headline is
-short and catchy, and consider the Five Ws principle for the lead (who, what, when, where, why). Both the
-headline and the lead must be your own work, uninfluenced by other websites, so do not search the web for other
-news reports of the same story.
+      \begin{lstlisting}[basicstyle=\scriptsize\sffamily,frame=single,linewidth=\textwidth]
+The story below is being prepared for publication at an online newspaper. Your job is to
+read it carefully, and come up with a headline and a brief lead for it (no more than 1 or
+2 sentences). Make sure that the headline is short and catchy, and consider the Five Ws
+principle for the lead (who, what, when, where, why). Both the headline and the lead must
+be your own work, uninfluenced by other websites, so do not search the web for other news
+reports of the same story.
 
-The last two lines of your answer should be the headline and the lead. Use the following template:
+The last two lines of your answer should be the headline and the lead. Use the following
+template:
 
 Headline: The Title for the Story
 Lead: A short lead for the story, no more than 1 or 2 sentences
@@ -1051,23 +1068,27 @@ Lead:
     \end{figure}
 
     \begin{figure}[hbtp]
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
-Please act as an expert news editor and an impartial judge, and rate the quality of the following headline and
-lead that were generated by an AI assistant for a news article. Your rating will help improve the quality of
-AI-assisted news editing. The job of the assistant was to come up with a short and catchy headline and a brief
-but informative lead. Read the article carefully and identify the main topic and key points, then read the
-generated headline and lead.  Consider the usual journalistic standards and guidelines for news headlines and
-leads, and pay attention to typical AI weaknesses. Write down your key observations briefly about the headline
-and the lead, and your overall impression which justify your final rating, then rate the generated headline and
-lead together as a whole, regarding accuracy and how well they work together to represent the article.  Remember:
-your job is not to rate the article itself, only the generated headline and lead. Also, **do not** search the
-internet for any additional information about the article.  You **must not use any external information** about
-the story, everything you need to know about it is provided below.  Your rating must be a **single score on a
-scale of 1 to 5**, where 1 is the worst and 5 is the best.  Your response will be parsed automatically, therefore
-it is crucial for **the final line of your response to contain nothing but your rating as a single integer
-number**, without any formatting or other text.
+      \begin{lstlisting}[basicstyle=\scriptsize\sffamily,frame=single,linewidth=\textwidth]
+Please act as an expert news editor and an impartial judge, and rate the quality of the
+following headline and lead that were generated by an AI assistant for a news article.
+Your rating will help improve the quality of AI-assisted news editing. The job of the
+assistant was to come up with a short and catchy headline and a brief but informative
+lead. Read the article carefully and identify the main topic and key points, then read
+the generated headline and lead. Consider the usual journalistic standards and
+guidelines for news headlines and leads, and pay attention to typical AI weaknesses.
+Write down your key observations briefly about the headline and the lead, and your
+overall impression which justify your final rating, then rate the generated headline and
+lead together as a whole, regarding accuracy and how well they work together to represent
+the article. Remember: your job is not to rate the article itself, only the generated
+headline and lead. Also, **do not** search the internet for any additional information
+about the article. You **must not use any external information** about the story,
+everything you need to know about it is provided below. Your rating must be a **single
+score on a scale of 1 to 5**, where 1 is the worst and 5 is the best. Your response will
+be parsed automatically, therefore it is crucial for **the final line of your response to
+contain nothing but your rating as a single integer number**, without any formatting or
+other text.
       \end{lstlisting}
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
+      \begin{lstlisting}[basicstyle=\scriptsize\sffamily,frame=single,linewidth=\textwidth]
 A few guidelines for headlines:
 - Make it clear and understandable at a single glance.
 - Grab attention but avoid being sensational.
@@ -1105,23 +1126,27 @@ Lead: {LEAD}
     \end{figure}
 
     \begin{figure}[hbtp]
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
-Please act as an expert news editor and an impartial judge, and rate the badness of the following headline and
-lead that were generated by an AI assistant for a news article. Your rating will help improve the quality of
-AI-assisted news editing. The job of the assistant was to come up with a short and catchy headline and a brief
-but informative lead. Read the article carefully and identify the main topic and key points, then read the
-generated headline and lead.  Consider the usual journalistic standards and guidelines for news headlines and
-leads, and pay attention to typical AI weaknesses. Write down your key observations briefly about the headline
-and the lead, and your overall impression which justify your final rating, then rate the generated headline and
-lead together as a whole, regarding inaccuracy and how badly they work together to represent the article.
-Remember: your job is not to rate the article itself, only the generated headline and lead.  Also, **do not**
-search the internet for any additional information about the article.  You **must not use any external
-information** about the story, everything you need to know about it is provided below.  Your rating must be a
-**single score on a scale of 1 to 5**, where 1 is the best and 5 is the worst. Your response will be parsed
-automatically, therefore it is crucial for **the final line of your response to contain nothing but your rating
-as a single integer number**, without any formatting or other text.
+      \begin{lstlisting}[basicstyle=\scriptsize\sffamily,frame=single,linewidth=\textwidth]
+Please act as an expert news editor and an impartial judge, and rate the (@\underline{badness}@) of the
+following headline and lead that were generated by an AI assistant for a news article.
+Your rating will help improve the quality of AI-assisted news editing. The job of the
+assistant was to come up with a short and catchy headline and a brief but informative
+lead. Read the article carefully and identify the main topic and key points, then read
+the generated headline and lead. Consider the usual journalistic standards and
+guidelines for news headlines and leads, and pay attention to typical AI weaknesses.
+Write down your key observations briefly about the headline and the lead, and your
+overall impression which justify your final rating, then rate the generated headline and
+lead together as a whole, regarding (@\underline{inaccuracy}@) and how (@\underline{badly}@) they work together to represent
+the article. Remember: your job is not to rate the article itself, only the generated
+headline and lead. Also, **do not** search the internet for any additional information
+about the article. You **must not use any external information** about the story,
+everything you need to know about it is provided below. Your rating must be a **single
+score on a scale of 1 to 5**, where 1 is the (@\underline{best}@) and 5 is the (@\underline{worst}@). Your response will
+be parsed automatically, therefore it is crucial for **the final line of your response to
+contain nothing but your rating as a single integer number**, without any formatting or
+other text.
       \end{lstlisting}
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
+      \begin{lstlisting}[basicstyle=\scriptsize\sffamily,frame=single,linewidth=\textwidth]
 A few guidelines for headlines:
 - Make it clear and understandable at a single glance.
 - Grab attention but avoid being sensational.
@@ -1137,7 +1162,7 @@ Watch out for typical AI problems, like:
 - hallucination,
 - coherence and alignment problems between the headline, the lead, and the article.
 
-Rating guideline:
+(@\underline{Rating guideline:}@)
 - **1**: excellent, no room for improvement.
 - **2**: good, possibility of minor improvements.
 - **3**: servicable, some editing might be needed.
@@ -1153,7 +1178,8 @@ Lead: {LEAD}
       \end{lstlisting}
       \caption{%
         System prompt and user prompt for evaluating the generated news
-        headlines and leads. (Negative framing.)
+        headlines and leads. (Negative framing with the differences from
+        figure \ref{figevalnewspos} highlighted.)
       }
       \label{figevalnewsneg}
     \end{figure}
@@ -1163,49 +1189,48 @@ Lead: {LEAD}
   \section{Model Output Samples}
 
     \begin{figure}[!hbtp]
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
+      \begin{lstlisting}[basicstyle=\fontsize{7pt}{8pt}\selectfont\sffamily,frame=single,linewidth=\textwidth]
 Headline: Google to Pay $1.4 Billion in Texas Privacy Settlement
-Lead: Google has agreed to pay Texas $1.375 billion to settle lawsuits alleging the tech giant unlawfully
-collected residents' biometric and location data, making it the state's largest privacy-related settlement,
-Attorney General Ken Paxton announced Monday.
+Lead: Google has agreed to pay Texas $1.375 billion to settle lawsuits alleging the tech giant
+unlawfully collected residents' biometric and location data, making it the state's largest
+privacy-related settlement, Attorney General Ken Paxton announced Monday.
 
 (@\underline{Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14}@)
 Key Observations:
 
 Headline:
-- The headline rounds up the settlement amount to $1.4 billion, while the actual figure is $1.375 billion. This
-is inaccurate, especially since the article also mentions a separate $1.4 billion Meta settlement, which could
-cause confusion.
+- The headline rounds up the settlement amount to $1.4 billion, while the actual figure is $1.375
+billion. This is inaccurate, especially since the article also mentions a separate $1.4 billion Meta
+settlement, which could cause confusion.
 - The headline is clear and concise, but the inaccuracy in the amount is a significant issue.
 
 Lead:
-- The lead accurately states the settlement amount ($1.375 billion) and the nature of the lawsuits (biometric and
-location data collection).
-- It mentions the significance of the settlement (largest privacy-related settlement in Texas) and attributes the
-announcement to Attorney General Ken Paxton.
+- The lead accurately states the settlement amount ($1.375 billion) and the nature of the lawsuits
+(biometric and location data collection).
+- It mentions the significance of the settlement (largest privacy-related settlement in Texas) and
+attributes the announcement to Attorney General Ken Paxton.
 - The lead is a bit long (over 40 words) and could be tightened, but it covers the essential Five Ws.
 
 Overall Impression:
-- The main issue is the mismatch between the headline and the lead/article regarding the settlement amount, which
-is a factual inaccuracy.
-- The headline and lead are otherwise well-aligned in terms of
-content and focus.
-- The lead is informative and mostly meets journalistic standards, but the headline's
-inaccuracy is a notable flaw.
+- The main issue is the mismatch between the headline and the lead/article regarding the settlement
+amount, which is a factual inaccuracy.
+- The headline and lead are otherwise well-aligned in terms of content and focus.
+- The lead is informative and mostly meets journalistic standards, but the headline's inaccuracy is a
+notable flaw.
 
 2
 
 (@\underline{Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat}@)
-The headline inaccurately states the settlement amount as $1.4 billion, while the article clearly states it is
-$1.375 billion. This is a significant factual error. The lead correctly states the amount as $1.375 billion,
-which creates a mismatch between the headline and lead.
+The headline inaccurately states the settlement amount as $1.4 billion, while the article clearly
+states it is $1.375 billion. This is a significant factual error. The lead correctly states the amount
+as $1.375 billion, which creates a mismatch between the headline and lead.
 
-The lead itself is well-written and informative, covering the key points: who (Google), what (settlement), where
-(Texas), why (privacy violations), and when (Monday). It also includes the significance (largest privacy-related
-settlement) and attribution (Attorney General Ken Paxton).
+The lead itself is well-written and informative, covering the key points: who (Google), what
+(settlement), where (Texas), why (privacy violations), and when (Monday). It also includes the
+significance (largest privacy-related settlement) and attribution (Attorney General Ken Paxton).
 
-The headline's inaccuracy is a major flaw, especially since it contradicts the lead and the article. While the
-lead is strong, the headline's error drags down the overall quality.
+The headline's inaccuracy is a major flaw, especially since it contradicts the lead and the article.
+While the lead is strong, the headline's error drags down the overall quality.
 
 3
       \end{lstlisting}
@@ -1217,52 +1242,54 @@ lead is strong, the headline's error drags down the overall quality.
     \end{figure}
 
     \begin{figure}[!hbtp]
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
+      \begin{lstlisting}[basicstyle=\fontsize{7pt}{8pt}\selectfont\sffamily,frame=single,linewidth=\textwidth]
 Headline: Cornell Team Unveils Breakthrough in Durable, High-Efficiency Perovskite Solar Cells
-Lead: Researchers at Cornell University developed a hybrid 2D/3D perovskite solar cell material that achieves
-25.3% efficiency while withstanding heat and moisture, overcoming a critical barrier to commercial viability.
+Lead: Researchers at Cornell University developed a hybrid 2D/3D perovskite solar cell material that
+achieves 25.3% efficiency while withstanding heat and moisture, overcoming a critical barrier to
+commercial viability.
 
 (@\underline{Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06}@)
 **Headline Observations:**
-The headline "Cornell Team Unveils Breakthrough in Durable, High-Efficiency Perovskite Solar Cells" is clear,
-concise, and accurately reflects the main topic of the article. It uses a strong verb ("Unveils") and highlights
-key aspects: the source (Cornell Team), the nature of the development (Breakthrough), the subject (Perovskite
-Solar Cells), and its benefits (Durable, High-Efficiency). It successfully grabs attention without being overly
-sensational.
+The headline "Cornell Team Unveils Breakthrough in Durable, High-Efficiency Perovskite Solar Cells" is
+clear, concise, and accurately reflects the main topic of the article. It uses a strong verb
+("Unveils") and highlights key aspects: the source (Cornell Team), the nature of the development
+(Breakthrough), the subject (Perovskite Solar Cells), and its benefits (Durable, High-Efficiency). It
+successfully grabs attention without being overly sensational.
 
 **Lead Observations:**
-The lead "Researchers at Cornell University developed a hybrid 2D/3D perovskite solar cell material that achieves
-25.3% efficiency while withstanding heat and moisture, overcoming a critical barrier to commercial viability" is
-brief (31 words, one sentence) and highly informative. It effectively summarizes the "who" (Researchers at
-Cornell University), "what" (developed a hybrid 2D/3D perovskite solar cell material), and "why/so what"
-(achieves 25.3% efficiency, withstands harsh conditions, overcomes commercialization barrier). It accurately
-pulls key data (25.3% efficiency) and concepts (hybrid 2D/3D structure, durability, commercial viability) from
-the article.
+The lead "Researchers at Cornell University developed a hybrid 2D/3D perovskite solar cell material
+that achieves 25.3% efficiency while withstanding heat and moisture, overcoming a critical barrier to
+commercial viability" is brief (31 words, one sentence) and highly informative. It effectively
+summarizes the "who" (Researchers at Cornell University), "what" (developed a hybrid 2D/3D perovskite
+solar cell material), and "why/so what" (achieves 25.3% efficiency, withstands harsh conditions,
+overcomes commercialization barrier). It accurately pulls key data (25.3% efficiency) and concepts
+(hybrid 2D/3D structure, durability, commercial viability) from the article.
 
 **Overall Impression:**
-The headline and lead are excellent. They are well-aligned with each other and with the article's content. The
-language is professional and adheres to journalistic standards. The AI successfully identified the core message
-and key details, presenting them in a compelling and accurate manner. There are no signs of misinformation,
-hallucination, or significant coherence problems. The lead correctly identifies the specific efficiency and the
-nature of the material. Both components work together effectively to inform the reader about the article's
-content.
+The headline and lead are excellent. They are well-aligned with each other and with the article's
+content. The language is professional and adheres to journalistic standards. The AI successfully
+identified the core message and key details, presenting them in a compelling and accurate manner.
+There are no signs of misinformation, hallucination, or significant coherence problems. The lead
+correctly identifies the specific efficiency and the nature of the material. Both components work
+together effectively to inform the reader about the article's content.
 
 1
 
 (@\underline{Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14}@)
 Key observations:
-- The headline is clear, concise, and accurately summarizes the main achievement: a breakthrough in durable,
-high-efficiency perovskite solar cells by a Cornell team.
-- The lead provides the essential information: who (Cornell researchers), what (hybrid 2D/3D perovskite
-material), the achievement (25.3% efficiency, durability), and the significance (overcoming a barrier to
-commercialization).
-- Both headline and lead are well-aligned with the article's main points and do not contain inaccuracies or
-hallucinations.
+- The headline is clear, concise, and accurately summarizes the main achievement: a breakthrough in
+durable, high-efficiency perovskite solar cells by a Cornell team.
+- The lead provides the essential information: who (Cornell researchers), what (hybrid 2D/3D
+perovskite material), the achievement (25.3% efficiency, durability), and the significance (overcoming
+a barrier to commercialization).
+- Both headline and lead are well-aligned with the article's main points and do not contain
+inaccuracies or hallucinations.
 - The lead is brief, informative, and answers the Five Ws sufficiently for a news brief.
-- Minor improvement: The lead could mention the U.S. location for full context, but this is a minor omission.
+- Minor improvement: The lead could mention the U.S. location for full context, but this is a minor
+omission.
 
-Overall impression: The headline and lead work well together, are accurate, and meet journalistic standards with
-only minor room for improvement.
+Overall impression: The headline and lead work well together, are accurate, and meet journalistic
+standards with only minor room for improvement.
 
 1
       \end{lstlisting}
@@ -1275,35 +1302,39 @@ only minor room for improvement.
     \end{figure}
 
     \begin{figure}[!hbtp]
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
+      \begin{lstlisting}[basicstyle=\fontsize{7pt}{8pt}\selectfont\sffamily,frame=single,linewidth=\textwidth]
 Headline: Google Boosts Android Security with Advanced Protection and Anti-Theft Features
-Lead: Google is rolling out enhanced security measures in Android 16, including AI-powered scam detection,
-stricter biometric checks, and anti-theft tools, to better protect users from fraud and device theft.
+Lead: Google is rolling out enhanced security measures in Android 16, including AI-powered scam
+detection, stricter biometric checks, and anti-theft tools, to better protect users from fraud and
+device theft.
 
 (@\underline{Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06}@)
 **Headline Observations:**
-The headline "Google Boosts Android Security with Advanced Protection and Anti-Theft Features" is clear, uses an
-active verb ("Boosts"), and highlights key new aspects mentioned in the article ("Advanced Protection,"
-"Anti-Theft Features"). It is reasonably catchy and concise. "Advanced Protection" is explicitly an Android 16
-feature, and many "Anti-Theft Features" discussed are also tied to Android 16.
+The headline "Google Boosts Android Security with Advanced Protection and Anti-Theft Features" is
+clear, uses an active verb ("Boosts"), and highlights key new aspects mentioned in the article
+("Advanced Protection," "Anti-Theft Features"). It is reasonably catchy and concise. "Advanced
+Protection" is explicitly an Android 16 feature, and many "Anti-Theft Features" discussed are also
+tied to Android 16.
 
 **Lead Observations:**
-The lead "Google is rolling out enhanced security measures in Android 16, including AI-powered scam detection,
-stricter biometric checks, and anti-theft tools, to better protect users from fraud and device theft" is brief
-(29 words) and attempts to cover the 5Ws. However, it contains a significant inaccuracy: it states that
-"AI-powered scam detection" is part of the "enhanced security measures in Android 16." The article includes an
-explicit update: "...the scam detection and key verifier improvements Google announced during the Android Show
-presentation are not dependent on upgrading to Android 16." This makes the lead misleading on a key point that
-the article itself corrected. The mention of "stricter biometric checks" and "anti-theft tools" as part of
-Android 16 is largely correct.
+The lead "Google is rolling out enhanced security measures in Android 16, including AI-powered scam
+detection, stricter biometric checks, and anti-theft tools, to better protect users from fraud and
+device theft" is brief (29 words) and attempts to cover the 5Ws. However, it contains a significant
+inaccuracy: it states that "AI-powered scam detection" is part of the "enhanced security measures in
+Android 16." The article includes an explicit update: "...the scam detection and key verifier
+improvements Google announced during the Android Show presentation are not dependent on upgrading to
+Android 16." This makes the lead misleading on a key point that the article itself corrected. The
+mention of "stricter biometric checks" and "anti-theft tools" as part of Android 16 is largely
+correct.
 
 **Overall Impression:**
-The headline is generally good and accurate in its focus. However, the lead's factual error regarding the
-AI-powered scam detection being tied to Android 16 is a major flaw. This error directly contradicts the update
-provided at the end of the article, indicating the AI failed to properly process or integrate this crucial piece
-of corrective information. While the structure of the lead is fine, the misinformation significantly undermines
-its quality and its coherence with the full article. The headline and lead, when taken together, present a
-partially inaccurate picture due to the lead's error.
+The headline is generally good and accurate in its focus. However, the lead's factual error regarding
+the AI-powered scam detection being tied to Android 16 is a major flaw. This error directly
+contradicts the update provided at the end of the article, indicating the AI failed to properly
+process or integrate this crucial piece of corrective information. While the structure of the lead is
+fine, the misinformation significantly undermines its quality and its coherence with the full article.
+The headline and lead, when taken together, present a partially inaccurate picture due to the lead's
+error.
 
 4
 
@@ -1319,50 +1350,52 @@ partially inaccurate picture due to the lead's error.
     \end{figure}
 
     \begin{figure}[!hbtp]
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=\textwidth]
+      \begin{lstlisting}[basicstyle=\fontsize{7pt}{8pt}\selectfont\sffamily,frame=single,linewidth=\textwidth]
 Headline: Springsteen Launches EU Tour with Fiery Condemnation of Trump Era
-Lead: During the opening night of his 2025 European tour in Manchester, Bruce Springsteen delivered a blistering
-critique of Donald Trump's presidency, decrying policies on university defunding, deportations, and democratic
-backsliding while reaffirming faith in core American ideals.
+Lead: During the opening night of his 2025 European tour in Manchester, Bruce Springsteen delivered a
+blistering critique of Donald Trump's presidency, decrying policies on university defunding,
+deportations, and democratic backsliding while reaffirming faith in core American ideals.
 
 (@\underline{Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat}@)
-The headline and lead effectively capture the main topic of Bruce Springsteen's political speech during his 2025
-EU tour opening. The headline is catchy and clear, using strong verbs like "Launches" and "Fiery Condemnation" to
-grab attention without being sensational. The lead succinctly answers the Five Ws: who (Bruce Springsteen), what
-(delivered a blistering critique), when (opening night of 2025 European tour), where (Manchester), and why
-(decrying policies on university defunding, deportations, and democratic backsliding). Both the headline and lead
-align well with the article's content, avoiding misinformation or hallucination. They work cohesively to
-represent the article's key points.
+The headline and lead effectively capture the main topic of Bruce Springsteen's political speech
+during his 2025 EU tour opening. The headline is catchy and clear, using strong verbs like "Launches"
+and "Fiery Condemnation" to grab attention without being sensational. The lead succinctly answers the
+Five Ws: who (Bruce Springsteen), what (delivered a blistering critique), when (opening night of 2025
+European tour), where (Manchester), and why (decrying policies on university defunding, deportations,
+and democratic backsliding). Both the headline and lead align well with the article's content,
+avoiding misinformation or hallucination. They work cohesively to represent the article's key points.
 
 5
 
 (@\underline{Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro}@)
 **Headline and Lead Evaluation**
-The headline and lead effectively capture attention but exhibit notable issues in accuracy and specificity.
+The headline and lead effectively capture attention but exhibit notable issues in accuracy and
+specificity.
 
 **Headline Analysis**
 - **Strengths**: Uses active verbs ("Launches") and highlights the tour's political angle.
 - **Weaknesses**:
   - Refers to an "EU Tour," but Manchester is in the UK (not part of the EU), creating a geographical
   inaccuracy[1][3].
-  - The phrase "Fiery Condemnation of Trump Era" overstates the article's content, which describes political
-  commentary without explicitly naming Trump[4][5].
+  - The phrase "Fiery Condemnation of Trump Era" overstates the article's content, which describes
+  political commentary without explicitly naming Trump[4][5].
 
 **Lead Analysis**
-- **Strengths**: Answers "who" (Springsteen), "what" (tour opener with political critique), "when" (2025), and
-"where" (Manchester).
+- **Strengths**: Answers "who" (Springsteen), "what" (tour opener with political critique), "when"
+(2025), and "where" (Manchester).
 - **Weaknesses**:
-  - Specific references to "university defunding" and "deportations" are unsupported by the article or sources,
-  indicating potential hallucination[4][5].
+  - Specific references to "university defunding" and "deportations" are unsupported by the article or
+  sources, indicating potential hallucination[4][5].
   - Exceeds recommended word count (46 words), reducing conciseness.
 
 **Coherence and Accuracy**
-- The headline and lead align thematically but introduce unsourced details, risking misinformation. The article
-emphasizes Springsteen's broader critique of U.S. societal issues, not a direct attack on Trump[4][5].
+- The headline and lead align thematically but introduce unsourced details, risking misinformation.
+The article emphasizes Springsteen's broader critique of U.S. societal issues, not a direct attack on
+Trump[4][5].
 
 **Overall Impression**
-While engaging, the headline and lead contain factual inaccuracies and unsupported claims, requiring significant
-edits to meet journalistic standards.
+While engaging, the headline and lead contain factual inaccuracies and unsupported claims, requiring
+significant edits to meet journalistic standards.
 
 2
       \end{lstlisting}
@@ -1378,35 +1411,38 @@ edits to meet journalistic standards.
     \end{figure}
 
     \begin{figure}[!hbtp]
-      \begin{lstlisting}[basicstyle=\tiny\sffamily,frame=single,linewidth=1.057\textwidth]
+      \begin{lstlisting}[basicstyle=\fontsize{7pt}{8pt}\selectfont\sffamily,frame=single,linewidth=1.057\textwidth]
 Headline: Gen Z Ditches Pubs for Gym Bros and Sauna Chats
-Lead: Young adults are swapping(@\includegraphics[height=1em]{img/ch-bar}@) nights for gym memberships, driven by health-conscious lifestyles, rising alcohol
-costs, and fitness centers' emerging role as social hubs where workouts meet community building.
+Lead: Young adults are swapping(@\includegraphics[height=1em]{img/ch-bar}@) nights for gym memberships, driven by health-conscious lifestyles, rising
+alcohol costs, and fitness centers' emerging role as social hubs where workouts meet community building.
 
 (@\underline{Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06}@)
 **Headline Observations:**
-The headline "Gen Z Ditches Pubs for Gym Bros and Sauna Chats" is catchy and uses a strong active verb ("Ditches").
-"Gen Z Ditches Pubs" accurately reflects a core theme of the article. "Sauna Chats" highlights a specific, interesting
-detail from the piece. However, the term "Gym Bros" is problematic. While the article features male examples (Louis and
-Niyi), it also prominently features Erin, and describes diverse social interactions beyond a stereotypical "bro" culture
-(e.g., meeting grandmothers, intergenerational connections).  "Gym Bros" narrows the scope, feels overly colloquial,
-and could be seen as slightly stereotypical, not fully representing the breadth of social experiences described.
+The headline "Gen Z Ditches Pubs for Gym Bros and Sauna Chats" is catchy and uses a strong active verb
+("Ditches"). "Gen Z Ditches Pubs" accurately reflects a core theme of the article. "Sauna Chats" highlights
+a specific, interesting detail from the piece. However, the term "Gym Bros" is problematic.  While the
+article features male examples (Louis and Niyi), it also prominently features Erin, and describes diverse
+social interactions beyond a stereotypical "bro" culture (e.g., meeting grandmothers, intergenerational
+connections). "Gym Bros" narrows the scope, feels overly colloquial, and could be seen as slightly
+stereotypical, not fully representing the breadth of social experiences described.
 
 **Lead Observations:**
-The lead, "Young adults are swapping(@\includegraphics[height=1em]{img/ch-bar}@) nights for gym memberships, driven by health-conscious lifestyles, rising
-alcohol costs, and fitness centers' emerging role as social hubs where workouts meet community building," attempts to
-be informative and cover the key drivers. It correctly identifies the "who" (young adults/Gen Z), "what" (swapping pubs
-for gyms), and "why" (health, cost, social aspect). However, it contains a critical error:
-the inclusion of "(@\includegraphics[height=1em]{img/ch-bar}@)" (the Chinese word for "pub"). This is a significant AI malfunction, rendering the lead partially
-unintelligible to an English reader without knowledge of Chinese and unacceptable for publication as is. If "(@\includegraphics[height=1em]{img/ch-bar}@)" were
-"pub," the lead would be concise (29 words) and effectively summarize the main points.
+The lead, "Young adults are swapping(@\includegraphics[height=1em]{img/ch-bar}@) nights for gym memberships, driven by health-conscious lifestyles,
+rising alcohol costs, and fitness centers' emerging role as social hubs where workouts meet community
+building," attempts to be informative and cover the key drivers. It correctly identifies the "who"
+(young adults/Gen Z), "what" (swapping pubs for gyms), and "why" (health, cost, social aspect). However,
+it contains a critical error: the inclusion of "(@\includegraphics[height=1em]{img/ch-bar}@)" (the Chinese word for "pub"). This is a significant
+AI malfunction, rendering the lead partially unintelligible to an English reader without knowledge of
+Chinese and unacceptable for publication as is. If "(@\includegraphics[height=1em]{img/ch-bar}@)" were "pub," the lead would be concise (29 words)
+and effectively summarize the main points.
 
 **Overall Impression:**
-The headline is attention-grabbing but its use of "Gym Bros" makes it less accurate and potentially alienating.  It
-captures a part of the story but not the whole, and the tone might not be suitable for all news outlets. The lead's
-core message is good, but the inclusion of "(@\includegraphics[height=1em]{img/ch-bar}@)" is a major flaw, indicating a significant AI error. This error makes
-the lead unusable without correction. Together, the headline and lead suffer from issues of nuanced accuracy (headline)
-and a critical generation error (lead). The lead's error is particularly damaging to the overall quality.
+The headline is attention-grabbing but its use of "Gym Bros" makes it less accurate and potentially
+alienating.  It captures a part of the story but not the whole, and the tone might not be suitable for
+all news outlets. The lead's core message is good, but the inclusion of "(@\includegraphics[height=1em]{img/ch-bar}@)" is a major flaw, indicating
+a significant AI error. This error makes the lead unusable without correction. Together, the headline
+and lead suffer from issues of nuanced accuracy (headline) and a critical generation error (lead). The
+lead's error is particularly damaging to the overall quality.
 
 2
 
@@ -1414,25 +1450,27 @@ and a critical generation error (lead). The lead's error is particularly damagin
 Key Observations:
 
 Headline:
-- The headline is catchy and somewhat playful, but "Gym Bros" is a loaded, gendered term that doesn't accurately
-reflect the article's focus on both men and women, and may trivialize the broader trend.
-- "Sauna Chats" is a fun detail, but it may be too specific for a headline, as the article is more broadly about gyms
-as social spaces.
+- The headline is catchy and somewhat playful, but "Gym Bros" is a loaded, gendered term that doesn't
+accurately reflect the article's focus on both men and women, and may trivialize the broader trend.
+- "Sauna Chats" is a fun detail, but it may be too specific for a headline, as the article is more
+broadly about gyms as social spaces.
 - "Ditches Pubs" is accurate, but the overall tone is a bit sensational and could be more neutral.
 
 Lead:
-- The lead is mostly informative and covers the who (young adults), what (swapping bar nights for gym memberships), and
-why (health, cost, social aspect).
+- The lead is mostly informative and covers the who (young adults), what (swapping bar nights for gym
+memberships), and why (health, cost, social aspect).
 - The use of "(@\includegraphics[height=1em]{img/ch-bar}@)" (Chinese for "bar") is an error and inappropriate in an English-language news lead.
 - The lead is a bit long and could be more concise.
-- The lead aligns with the article's main points, but the phrase "where workouts meet community building" is a bit
-vague.
+- The lead aligns with the article's main points, but the phrase "where workouts meet community
+building" is a bit vague.
 
 Overall Impression:
-- The headline and lead together capture the main topic: Gen Z's shift from pub culture to gym-based socializing.
-- However, the headline's tone and word choice are slightly off, and the lead contains a language error and could be
-tighter.
-- There are no major inaccuracies or hallucinations, but some editing is needed for professionalism and clarity.
+- The headline and lead together capture the main topic: Gen Z's shift from pub culture to gym-based
+socializing.
+- However, the headline's tone and word choice are slightly off, and the lead contains a language
+error and could be tighter.
+- There are no major inaccuracies or hallucinations, but some editing is needed for professionalism
+and clarity.
 
 3
       \end{lstlisting}
@@ -1480,7 +1518,11 @@ tighter.
               Prompt finomítás \\
               és tesztelés
             \end{tabular}
-              & GPT-4o, Gemini 2.5 Pro & B Függelék & \\
+              & \begin{tabular}{@{}c@{}}
+                  GPT-4o, \\
+                  Gemini 2.5 Pro
+                \end{tabular}
+              & B Függelék & \\
             \hline
             \begin{tabular}{@{}c@{}}
               Kiértékelendő szövegek \\
@@ -1493,7 +1535,10 @@ tighter.
                   GPT 4.1, \\
                   Sonar Reasoning Pro
                 \end{tabular}
-              & 4. fejezet 1. táblázat, C Függelék
+              & \begin{tabular}{@{}c@{}}
+                  4. fejezet 1. táblázat, \\
+                  C Függelék
+                \end{tabular}
               & \\
             \hline
           \end{tabular}
