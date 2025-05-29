@@ -31,6 +31,8 @@
 \setcounter{secnumdepth}{5}
 \setcounter{tocdepth}{2}
 
+\interfootnotelinepenalty=10000
+
 \def\TITLE{\
   Investigating Bias \\
   in LLM Self-Evaluation\
@@ -170,31 +172,43 @@
       sample from that distribution, appends it to the sequence, and repeats
       the process with the extended sequence until a stopping condition is met.
 
-      \begin{figure}[hbtp]
-        \label{figtemperature}
-        \includegraphics[width=\textwidth]{softmax-temperature}
-        \caption{Effect of the temperature parameter on token probabilities.}
-      \end{figure}
-
       A frequently used parameter to control the sampling is called the
       \textbf{temperature} \cite{temperature}: the closer it is to 0, the more
       the sampling will lean toward the most probable token --- making the
       algorithm more deterministic ---, while higher values increase the
       randomization, making the generated text feel more \emph{creative} until,
       above a certain threshold, it becomes incoherent and semantically
-      meaningless. \footnote{If $v \in \mathbb{N}$ denotes the number of all
-      possible tokens available for the model (vocabulary size), and
-      $\mathbf{s} \in \mathbb{R}^v$ is an output vector of the model assigning
-      a score to each token as the continuation of a given input, then the
-      distribution for the sampling, with respect to the temperature $T \in
-      \mathbb{R}$ can be calculated via the softmax function:
-      $\text{softmax}\left(\frac{1}{T} \mathbf{s}\right) = \left[
-      \frac{\exp(\frac{1}{T} s_i)}{\sum_{j=1}^v \exp(\frac{1}{T} s_j)}
-      \right]_{i=1}^v$} In practical implementations, if the temperature is
-      sufficiently close or exactly equal to $0$, then the sampling is usually
-      replaced with the deterministic argmax function in order to preserve
-      numerical stability. Non-zero temperature values control the flatness of
-      the distribution, leading to the aforementioned behavior.
+      meaningless.
+
+      If $v \in \mathbb{N}$ denotes the number of all possible tokens available
+      for the model (vocabulary size), and $\mathbf{s} \in \mathbb{R}^v$ is an
+      output vector of the model assigning a score to each token as the
+      continuation of a given input, then the distribution for the sampling,
+      with respect to the temperature $T \in \mathbb{R}$ can be calculated
+      via the softmax function:
+
+      \begin{align} \label{eqsoftmax}
+        \text{softmax}\left(\frac{1}{T} \mathbf{s}\right)
+          = \left[
+              \frac{\exp(\frac{1}{T} s_i)}{\sum_{j=1}^v \exp(\frac{1}{T} s_j)}
+            \right]_{i=1}^v
+      \end{align}
+
+      In practical implementations, if the temperature is sufficiently close or
+      exactly equal to $0$, then the sampling is usually replaced with the
+      deterministic argmax function in order to preserve numerical stability.
+      Non-zero temperature values control the flatness of the distribution,
+      leading to the aforementioned behavior, as shown on Figure
+      \ref{figtemperature}.
+
+      \begin{figure}[hbtp]
+        \label{figtemperature}
+        \includegraphics[width=\textwidth]{softmax-temperature}
+        \caption{%
+          Visualization of the effect of the temperature parameter on token
+          probabilities.
+        }
+      \end{figure}
 
       With sufficiently large model complexity and training corpora size and
       diversity, LLMs start to exhibit capabilities which rival that of top
@@ -226,10 +240,10 @@
 
       The problem solving performance of LLMs can be improved further by
       prompt engineering techniques like \textbf{chain-of-thought} prompting
-      \cite{cot}, where the model is provided with step-by-step example
-      solutions to related problems in the prompt, encouraging it to also
-      articulate intermediate reasoning steps before arriving at its final
-      answer. It is worth emphasizing that --- recalling formula
+      \cite{cot,zscot}, where the model is instructed to articulate intermediate
+      reasoning steps before arriving at its final answer ("Let's think step by
+      step"), optionally with examples provided to step by step solutions to
+      related problems. It is worth emphasizing that --- recalling formula
       \ref{eqautoreg} and the autoregressive text generation process --- the
       chain-of-thought is only effective if it is placed \emph{before} the
       final answer.
@@ -996,6 +1010,13 @@ rate the response on a scale of 1 to 10 by strictly following this format:
 
   \appendix
 
+  \section{Data and Source Code}
+
+    The generated data and the source code for generating and processing it
+    are available on GitHub at \url{https://github.com/attilammagyar/elte-ai-thesis}.
+
+\clearpage
+
     \section{Prompts}
 
       \begin{figure}[hbtp]
@@ -1148,11 +1169,6 @@ Lead: {LEAD}
           headlines and leads. (Negative framing.)
         }
       \end{figure}
-
-  \section{Data and Source Code}
-
-    The generated data and the source code for generating and processing it
-    are available on GitHub at \url{https://github.com/attilammagyar/elte-ai-thesis}.
 
 \clearpage
 
