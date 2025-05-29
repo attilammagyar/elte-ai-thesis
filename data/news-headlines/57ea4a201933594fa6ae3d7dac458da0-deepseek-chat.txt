@@ -1,0 +1,257 @@
+URL: https://www.engadget.com/gaming/nows-a-good-time-to-check-in-on-your-steam-account-security-205807479.html
+Generator: deepseek-chat
+Headline: Steam Denies Data Breach, Says Leaked SMS Codes Pose No Risk
+Lead: Valve confirmed that Steam's systems were not hacked and no sensitive user data was stolen, clarifying that leaked one-time SMS codes from a third-party vendor were outdated and unlinked to accounts.
+
+Article:
+
+Update May 14, 6:38PM ET:  Valve has confirmed that Steam systems were...
+
+(...1996 characters...)
+
+...en compromised, be extra alert to possible phishing attempts via text.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article content and journalistic standards.
+
+Headline: "Steam Denies Data Breach, Says Leaked SMS Codes Pose No Risk"
+- Accurate representation of the article's main update
+- Clear and understandable at a glance
+- Balanced tone without being sensational
+- Uses active language ("Steam Denies")
+- Concisely captures the key information
+
+Lead: "Valve confirmed that Steam's systems were not hacked and no sensitive user data was stolen, clarifying that leaked one-time SMS codes from a third-party vendor were outdated and unlinked to accounts."
+- Informative and covers the main points
+- Addresses who (Valve/Steam), what (no breach, outdated SMS codes leaked), and why (codes were unlinked to accounts)
+- Length is appropriate (29 words)
+- Accurately reflects the updated information from Valve's blog post
+- Provides context about the nature of the leaked data
+
+The headline and lead work well together to accurately represent the article's primary focus - Valve's update denying a system breach. They correctly emphasize that while there was a leak of SMS codes, Steam systems weren't compromised and user data remains secure. The headline avoids sensationalism while still conveying the importance of the update, and the lead provides the necessary context and details.
+
+Both elements accurately reflect the most current information in the article (the May 14 update) rather than focusing on the original allegations, which is appropriate for news reporting.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+**Key Observations:**
+
+1. **Headline:**
+   - Clear and concise, accurately summarizing the main point of the article.
+   - Avoids sensationalism while still being attention-grabbing.
+   - Uses strong verbs ("Denies," "Pose") effectively.
+
+2. **Lead:**
+   - Brief and informative, answering the key "who, what, when, where, why" questions.
+   - Aligns well with the headline, providing additional context without redundancy.
+   - No misinformation or inaccuracies detected.
+
+3. **Alignment:**
+   - Both the headline and lead accurately reflect the article's content.
+   - No coherence or alignment issues between the headline, lead, and article.
+
+4. **Overall Impression:**
+   - The headline and lead work well together to represent the article.
+   - No typical AI weaknesses (e.g., hallucination, misinformation) are present.
+   - Minor improvements could include slightly more detail in the lead about the third-party vendor, but this is not necessary for clarity.
+
+**Final Rating:** 5
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   Accurately reflects the main point of the article, especially Valve's definitive statement.
+*   Clear, concise, and uses active verbs ("Denies," "Pose").
+*   Not sensational, focuses on the resolution/clarification.
+
+**Lead Observations:**
+*   Effectively summarizes Valve's confirmation and clarification, which is the latest and most crucial information in the article.
+*   Answers the key Ws (Who: Valve/Steam; What: systems not hacked, data safe, nature of leaked codes; Why: to clarify breach concerns).
+*   Brief (29 words) and informative.
+*   Accurately mentions "third-party vendor," "outdated," and "unlinked to accounts," which are key details from Valve's statement.
+
+**Overall Impression:**
+The headline and lead are excellent. They correctly prioritize the update provided by Valve, which is the most current and definitive information in the article. They are accurate, concise, and adhere well to journalistic standards. There's strong coherence between the headline, the lead, and the primary message of the article (Valve's denial and explanation). No AI weaknesses like misinformation or hallucination are present.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear, concise, and accurately reflects Valve's denial of a data breach.
+- It avoids sensationalism and uses strong, active language ("Denies," "Says").
+- It summarizes the main point: Valve's response and the nature of the leaked data.
+
+Lead:
+- The lead is brief and informative, summarizing Valve's confirmation that no sensitive data was stolen and clarifying the nature of the leaked SMS codes.
+- It answers the key questions: who (Valve), what (confirmed no hack, clarified leak), and some of the how/why (codes outdated, unlinked).
+- It could be slightly improved by specifying the time frame (recent incident) and perhaps mentioning the context of the alleged breach, but it is within the word limit and covers the essentials.
+
+Alignment:
+- The headline and lead are well-aligned with each other and with the article's main points.
+- No evidence of misinformation, hallucination, or misalignment.
+
+Overall impression:
+- The headline and lead together provide an accurate, clear, and concise summary of the article's main developments.
+- Only minor improvements could be made for additional context, but they are not strictly necessary.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for the article about the Steam data breach. The user wants an expert evaluation based on journalistic standards, focusing on accuracy, clarity, and how well the headline and lead work together. 
+
+First, I'll read the article carefully to grasp the main points. The article explains that Valve denied a data breach, stating that leaked SMS codes were old, not linked to accounts, and didn't compromise sensitive data. The original reports suggested a breach via a third-party vendor, possibly Twilio, but Valve clarified they don't use Twilio. They also mentioned that the leak's source is under investigation, and users should still practice good security.
+
+Now, looking at the headline: "Steam Denies Data Breach, Says Leaked SMS Codes Pose No Risk." The headline is clear and concise. It uses active verbs ("Denies," "Says") and accurately reflects Valve's stance. It avoids sensationalism by stating facts without alarmist language. However, "Pose No Risk" might be slightly overconfident since the article mentions ongoing investigations and advises caution, implying some residual risk.
+
+The lead: "Valve confirmed that Steam's systems were not hacked and no sensitive user data was stolen, clarifying that leaked one-time SMS codes from a third-party vendor were outdated and unlinked to accounts." It answers the Five Ws: who (Valve), what (denied breach, explained leak), when (implied by the update date), where (Steam's systems), why (third-party vendor issue). It's concise, under 40 words. However, "third-party vendor" isn't mentioned in the headline, which could cause a slight coherence gap. The article mentions Twilio was suspected but Valve denied using them, so the lead's reference to a third-party vendor is accurate but vague.
+
+Checking for AI weaknesses: The headline and lead don't contain misinformation. They align with the article's content. The coherence between them is good, but the lead adds detail about the third-party vendor, which the headline omits. The headline's "Pose No Risk" might understate the article's advice on security practices, which could be a minor alignment issue.
+
+Rating guidelines: The headline and lead are accurate and clear, but there's a slight overstatement in "No Risk" and a minor coherence gap. They don't reach a 5 because of these issues, but they're mostly good. I'd rate it a 4, as there's room for minor improvements, like adjusting "No Risk" to reflect the article's nuanced advice.
+</think>
+
+**Headline Analysis**  
+- **Clarity and Accuracy**: The headline clearly states Valve's denial and the nature of the leak. "Pose No Risk" slightly overstates Valve’s position, as the article notes ongoing investigations and advises security precautions, implying residual risks.  
+- **Sensationalism**: Avoids alarmist language but could better reflect the article’s nuanced stance (e.g., "minimal risk" instead of "no risk").  
+
+**Lead Analysis**  
+- **Completeness**: Answers key questions (who, what, why) but omits "when" (May 14 update). The mention of a "third-party vendor" aligns with the article’s discussion of Twilio suspicions, though Valve’s denial of using Twilio isn’t explicitly addressed.  
+- **Conciseness**: At 34 words, it meets length guidelines but could integrate Valve’s investigation into the leak’s source for fuller context.  
+
+**Coherence and Alignment**  
+- The headline and lead work well together, but the lead’s "third-party vendor" detail isn’t mirrored in the headline, creating a minor disconnect. The article’s emphasis on user precautions (e.g., Steam Guard) isn’t reflected in either element.  
+
+**Improvements**  
+- Headline: *"Valve Confirms No Steam Breach, Says Leaked SMS Codes Expired and Unlinked"*  
+- Lead: *"Valve stated on May 14 that Steam’s systems were not compromised, clarifying that leaked one-time SMS codes—originating from an external provider—were expired and unrelated to user accounts or sensitive data."*  
+
+**Final Rating**:  
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article content and journalistic standards.
+
+Headline: "Steam Denies Data Breach, Says Leaked SMS Codes Pose No Risk"
+- Accurately reflects the updated information in the article
+- Clear and understandable at a glance
+- Uses active language without being sensational
+- Captures the key point that Steam is denying a system breach
+
+Lead: "Valve confirmed that Steam's systems were not hacked and no sensitive user data was stolen, clarifying that leaked one-time SMS codes from a third-party vendor were outdated and unlinked to accounts."
+- Provides the essential information from the update
+- Covers who (Valve/Steam), what (denial of breach), and additional context
+- Accurately summarizes Steam's position that the leaked data poses minimal risk
+- Length is appropriate at 29 words
+
+Key observations:
+- The headline and lead prioritize the updated information (Valve's denial), which is appropriate since it's the most recent development
+- Both accurately represent the article's content without exaggeration
+- They work well together to provide a complete picture of the current situation
+- The lead clarifies the nature of the leaked data mentioned in the headline
+- No factual errors or hallucinations detected
+
+Overall impression:
+The headline and lead effectively communicate the most important and current information from the article. They are accurate, clear, and work well together. The only minor improvement might be to acknowledge the alleged breach more explicitly in the lead, but this is a very minor point.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline accurately reflects the main point of the article's update: Valve's denial of a system breach and their assessment of the leaked SMS codes.
+*   It is clear, concise, and uses strong verbs ("Denies," "Pose").
+*   "Pose No Risk" is a strong statement but aligns with Valve's clarification that "Old text messages cannot be used to breach the security of your Steam account." It refers specifically to the risk from the codes themselves for account compromise.
+
+**Lead Observations:**
+*   The lead correctly summarizes Valve's statement from the update, which is the most current and crucial information.
+*   It answers the key "W" questions: Who (Valve), What (confirmed no hack, no sensitive data stolen, clarified nature of leaked codes), and implicitly When (recent update).
+*   It is brief (29 words) and informative.
+*   It accurately states that the codes were "outdated" (valid for 15 mins, older messages) and "unlinked to accounts."
+*   Mentioning "from a third-party vendor" is consistent with the article's content.
+
+**Overall Impression:**
+The AI did an excellent job of prioritizing the update information, which is the most significant news in the provided text. The headline and lead are well-aligned with each other and accurately convey Valve's official stance on the situation. They are clear, concise, and adhere to journalistic standards. There are no apparent AI weaknesses like misinformation or hallucination. The phrasing "Pose No Risk" in the headline is a fair representation of Valve's statement regarding the inability of the old codes to breach accounts.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is clear and concise, accurately reflecting Valve's denial of a breach and the nature of the leaked data.
+- The headline avoids sensationalism and uses active, strong verbs.
+- The lead is brief, informative, and answers the main questions: who (Valve/Steam), what (no hack, no sensitive data stolen, clarification about SMS codes), and why (codes were outdated and unlinked).
+- Both headline and lead are well-aligned with the article's main update and focus on Valve's clarification.
+- There are no major inaccuracies or hallucinations.
+- Minor improvement: The lead could mention the timing (recent incident) or the context (in response to breach claims), but this is not a significant omission.
+
+Overall impression: The headline and lead work well together, are accurate, and meet journalistic standards with only minor room for improvement.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to understand the article and the generated headline and lead. The article is about a reported data breach involving Steam, where a hacker claimed to sell user records. Valve denied a breach, explaining the leaked data were old SMS codes from a third-party vendor, not linked to accounts or sensitive info.
+
+The headline is "Steam Denies Data Breach, Says Leaked SMS Codes Pose No Risk." Let's check guidelines. It's clear and not sensational. Uses active verbs like "Denies" and "Says." But "Pose No Risk" might be slightly overconfident since Valve is downplaying the risk, but the article mentions potential phishing, so maybe "No Risk" is too strong. Also, the breach claim was from a third-party vendor, which the headline doesn't specify, but the lead does.
+
+The lead: "Valve confirmed that Steam's systems were not hacked and no sensitive user data was stolen, clarifying that leaked one-time SMS codes from a third-party vendor were outdated and unlinked to accounts." It answers who (Valve), what (confirmed no breach), when (implied recent), where (Steam), why (third-party vendor issue). It's concise, under 40 words. However, the article mentions Valve is still investigating the source, which the lead doesn't include. Also, the article notes that the codes were only valid for 15 minutes, which the lead mentions as "outdated," which is accurate.
+
+Potential issues: The headline's "Pose No Risk" might understate the article's mention of phishing risks. The lead doesn't mention the investigation ongoing, which could be a minor omission. Also, the article initially mentioned Twilio but later clarified Steam doesn't use them. The lead refers to a third-party vendor, which aligns with the article's details. 
+
+Coherence between headline and lead: Both focus on denial of breach and the nature of leaked data. They align well. However, the headline's "Pose No Risk" might not fully capture the article's caution about phishing, which is a minor misalignment. 
+
+Inaccuracies: The headline says "no risk," but the article advises vigilance against phishing. So the headline might be slightly misleading. The lead accurately reflects Valve's statement but doesn't mention the ongoing investigation. 
+
+Overall, the headline and lead are mostly accurate but could improve by acknowledging residual risks like phishing. The score would be a 2 because they're good but have minor areas for improvement.
+</think>
+
+**Headline Analysis**  
+The headline effectively communicates Valve's denial and the nature of the leak but slightly overstates safety by claiming SMS codes "pose no risk." While the codes themselves were expired, the article warns about potential phishing attempts linked to leaked phone numbers, which the headline omits. This creates a minor discrepancy in risk portrayal.  
+
+**Lead Analysis**  
+The lead concisely summarizes Valve’s position and the scope of the leak, addressing the "who" (Valve), "what" (denial of breach), and "why" (outdated codes from a third-party vendor). However, it does not mention the ongoing investigation into the leak’s source or the article’s advice about phishing risks, leaving a gap in contextual completeness.  
+
+**Coherence and Alignment**  
+The headline and lead align in emphasizing Valve’s denial and the non-connection to accounts. However, the headline’s "no risk" assertion clashes with the article’s caution about phishing, creating a subtle coherence issue.  
+
+**Overall Impression**  
+The headline and lead are largely accurate but could better reflect residual risks and the investigation’s ongoing nature. These omissions keep the rating from being excellent, though they remain serviceable with minor edits.  
+
+4
+
+

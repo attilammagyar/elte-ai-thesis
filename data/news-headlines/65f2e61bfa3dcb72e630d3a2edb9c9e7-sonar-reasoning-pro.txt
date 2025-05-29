@@ -1,0 +1,259 @@
+URL: https://www.europarl.europa.eu/news/en/press-room/20250502IPR28218/european-parliament-endorses-new-screening-rules-for-foreign-investment-in-eu
+Generator: sonar-reasoning-pro
+Headline: EU Tightens Foreign Investment Scrutiny to Safeguard Critical Sectors
+Lead: The European Parliament approved stringent foreign investment screening regulations on Wednesday, mandating EU member states to vet deals in media, critical resources, and infrastructure to prevent security threats, following a 378-173 vote aimed at unifying oversight and shielding strategic industries.
+
+Article:
+
+Under the new rules, sectors such as media services, critical raw mate...
+
+(...2602 characters...)
+
+...l must adopt the final legislative act before it can enter into force.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about EU foreign investment screening regulations.
+
+**Headline: "EU Tightens Foreign Investment Scrutiny to Safeguard Critical Sectors"**
+- Clear and understandable at a glance
+- Accurately captures the main topic of the article
+- Uses active language without being sensational
+- Appropriately concise while conveying the key point
+
+**Lead: "The European Parliament approved stringent foreign investment screening regulations on Wednesday, mandating EU member states to vet deals in media, critical resources, and infrastructure to prevent security threats, following a 378-173 vote aimed at unifying oversight and shielding strategic industries."**
+
+Observations:
+- Covers most of the Five Ws (who, what, why, how)
+- Accurately reflects the article's content about mandatory screening in specific sectors
+- Mentions the vote count correctly (378-173)
+- Includes the purpose of unifying oversight and protecting strategic industries
+- However, the lead contains an inaccuracy: it states the approval happened "on Wednesday," but the article doesn't specify which day the vote took place
+- The lead is slightly longer than ideal (46 words)
+
+Overall impression:
+The headline is excellent - clear, accurate, and appropriately framed. The lead is generally strong and informative but contains one factual error (adding a specific day that isn't mentioned in the article) and is somewhat lengthy. The headline and lead work well together to represent the article's content, but the date inaccuracy is a notable issue that should be corrected.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "EU Tightens Foreign Investment Scrutiny to Safeguard Critical Sectors" is clear, concise, and accurately reflects the main topic of the article. It uses a strong active verb ("Tightens") and effectively communicates the purpose of the new EU rules. It grabs attention without being sensational.
+
+**Lead Observations:**
+The lead is informative and attempts to cover the Five Ws. It correctly identifies the European Parliament's action, the key sectors involved (media, critical resources/raw materials, infrastructure), the vote count, and the overall aim of the regulations.
+However, there are a few issues:
+1.  **Factual inaccuracy/Hallucination:** The lead states the regulations were approved "on Wednesday." The provided article does not specify the day of the week for the vote, only that the proposal was adopted. This is a significant error as it introduces unverified information.
+2.  **Minor wording difference:** The lead uses "critical resources," while the article specifies "critical raw materials." While related, the article's term is more precise.
+3.  **Length:** At 40 words, the lead is at the maximum suggested length and could be slightly more concise.
+
+**Overall Impression and Justification:**
+The headline is strong and well-crafted. The lead captures most key elements effectively but is marred by the inclusion of an unsubstantiated day ("Wednesday"), which is a critical flaw in a news lead where accuracy is paramount. This appears to be an AI hallucination. The minor wording difference regarding "critical resources" also slightly detracts from precision. While the headline and lead work well together thematically, the factual error in the lead requires correction. The core information is largely present, making it serviceable with edits, but the inaccuracy prevents a higher rating.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear, concise, and accurately reflects the main action: the EU is tightening scrutiny on foreign investment.
+- It highlights the purpose ("to safeguard critical sectors") without being sensational.
+- The wording is active and direct.
+
+Lead:
+- The lead provides the essential information: who (European Parliament), what (approved new regulations), when (Wednesday), and why (to prevent security threats and unify oversight).
+- It mentions the sectors affected (media, critical resources, infrastructure) and the vote count, which adds specificity and credibility.
+- The lead is a bit long and dense, bordering on exceeding the ideal word count, but it remains informative and coherent.
+- The lead and headline are well-aligned and accurately represent the article’s content.
+
+Overall Impression:
+- The headline and lead work well together, are accurate, and meet journalistic standards.
+- Minor improvement could be made by slightly shortening the lead for clarity and ease of reading, but this is a minor issue.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to act as an expert news editor and judge, rating the headline and lead generated by an AI for a news article about the EU's new foreign investment screening rules. 
+
+First, I need to understand the article's main points. The key points are the EU Parliament passing new regulations to screen foreign investments in sectors like media, critical raw materials, and transport infrastructure. The rules aim to address security and public order risks, harmonize procedures across member states, allow the Commission to intervene, and cover intra-EU transactions controlled by non-EU entities. The vote was 378 in favor, 173 against, with 24 abstentions. The rapporteur, Raphaël Glucksmann, emphasized the need to protect economic sovereignty.
+
+Next, I'll evaluate the headline: "EU Tightens Foreign Investment Scrutiny to Safeguard Critical Sectors." It's clear and concise, using active verbs like "tightens" and "safeguard." It mentions the main action (tightening scrutiny) and the purpose (safeguarding critical sectors), which aligns with the article's focus on mandatory screening in specific sectors. The headline avoids sensationalism and is straightforward.
+
+Now the lead: "The European Parliament approved stringent foreign investment screening regulations on Wednesday, mandating EU member states to vet deals in media, critical resources, and infrastructure to prevent security threats, following a 378-173 vote aimed at unifying oversight and shielding strategic industries." The lead answers the Five Ws: who (European Parliament), what (approved regulations), when (Wednesday), where (EU), why (prevent security threats, unify oversight). It's concise, under 40 words. It mentions the sectors and the vote outcome, which are crucial. However, the date "Wednesday" is vague since the article's date isn't clear, but the search results mention May 8, 2025, which was a Thursday. Wait, the current date given is May 19, 2025, so if the article is from May 8, that's a Thursday. The lead says "Wednesday," which might be incorrect. That's a potential inaccuracy. Also, the lead mentions "critical resources" while the article says "critical raw materials." "Resources" is a bit broader but acceptable. The lead combines the vote result with the purpose effectively. The mention of shielding strategic industries ties back to the rapporteur's quote.
+
+Checking for AI weaknesses: The headline and lead accurately reflect the article. No misinformation except the possible date discrepancy. The lead uses "Wednesday," but the article's date in search result [1] is May 8, 2025, which is a Thursday. That's an inaccuracy. Also, the article mentions transport infrastructure, which the lead shortens to infrastructure, which is okay. The headline uses "scrutiny" and "safeguard," which match the article's intent. The lead's mention of "unifying oversight" aligns with the harmonized procedures and Commission's role. 
+
+Coherence between headline and lead: Both focus on tightening rules, safeguarding sectors, and the vote. They work well together. The headline sets the stage, and the lead provides specifics. 
+
+Potential issues: The date inaccuracy (Wednesday vs. Thursday) is a problem. Also, the lead could specify that the regulations also cover intra-EU transactions controlled by non-EU entities, which is a key point from the article. However, the lead is already concise, and adding that might make it too long. The vote count in the lead is correct (378-173), and the abstentions are omitted, which is standard. 
+
+Overall, the headline and lead are accurate except for the date. The structure is good, they're concise, and they capture the main points. The date error might be a minor inaccuracy but could affect the score. Since the guidelines mention watching for inaccuracies, this would lower the rating. However, the rest is solid. Considering the rating guidelines, a score of 4 seems appropriate because it's good with minor improvements needed (correcting the date and possibly including intra-EU transactions). But if the date is a significant error, maybe a 3. Wait, the article in the search results [1] is dated 2025-05-08, which is a Thursday. The lead says "Wednesday," which is incorrect. That's a factual error. Since the lead includes the wrong day, that's a misinformation issue, which the guidelines list as a typical AI problem. That would bring the score down. However, the rest of the lead is accurate. Depending on how critical the date is, it might be a 3 or 4. If the date is a minor detail, maybe 4. If it's a major inaccuracy, 3. But in news, the date is important. The article's date is May 8, so the correct day is Thursday. The lead says Wednesday, which is wrong. That's a clear inaccuracy. So the lead has a factual error. Therefore, the score should be lower. But the headline is accurate. The lead's error is significant enough to affect the rating. So maybe a 3 because of the date mistake, but other parts are good. Alternatively, if the date isn't crucial to the main point, maybe a 4. The guidelines say "misinformation or inaccuracies" are a problem. Since the date is part of the Five Ws (when), it's a key element. Therefore, the lead's inaccuracy would warrant a lower score. However, the user might not have provided the actual publication date in the article text, but the search results indicate May 8. The article provided in the query doesn't include a date, but the search results [1] and [2] have dates. The lead in the query's article says "on Wednesday," but without the article's date, maybe the AI didn't have that info. Wait, the user provided the article text, which includes "The proposal was adopted by 378 votes in favour, 173 against and with 24 abstentions." But no date. The search results [1] mention the date as 2025-05-08, which is the European Parliament's press release date. The AI generating the headline and lead might not have access to that date unless it's in the article. The article provided in the query under "--- BEGIN ARTICLE ---" doesn't have a date, but the lead says "on Wednesday." If the AI generated the lead without knowing the actual date, it might have hallucinated "Wednesday." Since the article text doesn't include the date, the AI shouldn't have added it. Therefore, including "on Wednesday" is a hallucination, as the date isn't present in the provided article. That's a major issue. The AI added a date that wasn't in the source, which is a hallucination. That's a critical error. Therefore, the lead has an inaccuracy/hallucination, which is a severe problem. This would bring the score down to 2 or 3. 
+
+Additionally, the lead mentions "critical resources" instead of "critical raw materials" as in the article. While similar, "raw materials" is more precise. "Resources" could be seen as a slight inaccuracy but not a major one. 
+
+Another point: the lead says "mandating EU member states to vet deals," but the article states that member states must establish screening mechanisms and harmonize procedures. The term "vet deals" is a bit vague but generally accurate. 
+
+Considering the hallucinated date and the slight inaccuracy in terminology, the lead has significant issues. The headline is accurate. The coherence between headline and lead is good, but the lead's errors are problematic. 
+
+Following the rating guidelines:
+- 1: Unacceptable. Not the case here.
+- 2: Poor, several problems. The date hallucination and terminology issue.
+- 3: Serviceable, some editing needed. If the main points are correct but with notable errors.
+- 4: Good, minor improvements. If the errors are minor.
+- 5: Excellent. Not applicable.
+
+Given the date hallucination is a factual error in the lead, which is a key part of the Five Ws, this is a significant issue. Therefore, the rating should be 3, as it's serviceable but needs editing to correct the date and terminology. Alternatively, if the date is considered a major flaw, maybe 2. However, the rest of the lead is accurate and concise. The headline is strong. The main issue is the incorrect date and slight terminology choice. 
+
+In conclusion, considering the guidelines, the score would be 3 due to the hallucinated date and minor inaccuracies, but the overall structure and alignment with the article are good. However, if the date error is severe enough, it might be a 2. But since the rest is well-done, a 3 seems appropriate.
+</think>
+
+The headline and lead effectively capture the essence of the article but have minor inaccuracies and room for improvement. The headline is clear and focused, using strong verbs like "tightens" and "safeguard" to emphasize the regulatory shift. It avoids sensationalism while highlighting the protection of critical sectors, aligning with the article’s emphasis on media, raw materials, and infrastructure[1][2]. However, "critical resources" in the lead slightly deviates from the article’s specific mention of "critical raw materials," which could affect precision[1][5].  
+
+The lead answers most Five Ws but includes an incorrect date ("Wednesday") not supported by the article or search results, which reference May 8, 2025 (a Thursday)[1]. This hallucination undermines credibility. Additionally, while the lead mentions the vote tally and harmonized oversight, it omits the regulation’s extension to intra-EU transactions controlled by non-EU entities—a key detail in the article[1][5].  
+
+Coherence between the headline and lead is strong, with both emphasizing unified oversight and security risks. However, the date error and partial coverage of the regulation’s scope prevent a higher score.  
+
+**Rating: 3**  
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about EU foreign investment screening regulations.
+
+**Headline: "EU Tightens Foreign Investment Scrutiny to Safeguard Critical Sectors"**
+- Clear and understandable at a glance
+- Accurately captures the main topic of the article
+- Uses active language without being sensational
+- Appropriately highlights the key point about increased scrutiny for critical sectors
+
+**Lead: "The European Parliament approved stringent foreign investment screening regulations on Wednesday, mandating EU member states to vet deals in media, critical resources, and infrastructure to prevent security threats, following a 378-173 vote aimed at unifying oversight and shielding strategic industries."**
+
+Issues with the lead:
+- Contains inaccuracy: The article doesn't mention the vote happening "on Wednesday" - this appears to be a hallucination
+- Slightly too long at approximately 43 words
+- Otherwise accurately captures the key information about what happened, which sectors are affected, and the vote count
+- Correctly conveys the purpose of unifying oversight and protecting strategic industries
+
+**Overall impression:**
+The headline is strong and accurate. The lead is mostly good but contains a factual error by specifying "Wednesday" as the day of the vote when this isn't mentioned in the article. This is a typical AI hallucination - inserting a specific detail that seems plausible but isn't supported by the source material. The lead is also slightly longer than the recommended length. Otherwise, both elements work well together to represent the article's content.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "EU Tightens Foreign Investment Scrutiny to Safeguard Critical Sectors" is clear, concise, and uses a strong active verb ("Tightens").
+*   It accurately reflects the general intent and subject matter of the article – increased control over foreign investments to protect key EU interests.
+*   It grabs attention without being overly sensational.
+
+**Lead Observations:**
+*   The lead states, "The European Parliament approved stringent foreign investment screening regulations..." This is a significant inaccuracy. The article clearly indicates that "The proposal was adopted by 378 votes..." and "Now that the report has been adopted in plenary, negotiations with member states on the final shape of the law can begin." This means the Parliament adopted its position on a proposal, or a report, not the final "regulations" or law. The law is not yet approved or in force.
+*   The lead includes "on Wednesday," which is not mentioned anywhere in the provided article. This is a hallucination of a specific detail.
+*   While it correctly mentions the vote count (378-173), the purpose (prevent security threats, unify oversight, shield strategic industries), and the affected sectors (media, critical resources, infrastructure), the misrepresentation of the legislative stage is a major flaw.
+*   The length (40 words) is at the upper limit of the guideline but acceptable.
+
+**Overall Impression:**
+The headline is generally good and captures the main theme. However, the lead contains a critical inaccuracy regarding the status of the "regulations," making it sound as if the law has been finalized by the Parliament, which contradicts the article's explanation of the legislative process (negotiations are still to come). Additionally, the inclusion of "on Wednesday" is a hallucinated detail not supported by the text.
+
+These inaccuracies in the lead significantly undermine its quality and its ability to correctly inform the reader about the core news event. While the headline is decent, the lead's flaws are substantial, making the pair problematic as a whole. The lead fails to accurately convey the "What" of the story in terms of legislative finality.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear and understandable, accurately reflecting the main action: the EU is tightening scrutiny on foreign investment.
+- It mentions the purpose ("to safeguard critical sectors"), which aligns with the article's focus on security and public order risks.
+- The headline is concise and avoids sensationalism.
+
+Lead:
+- The lead is informative and covers the Five Ws: who (European Parliament), what (approved stringent regulations), when (Wednesday), where (EU), why (to prevent security threats and unify oversight).
+- It specifies the sectors affected (media, critical resources, infrastructure) and mentions the vote count, which adds detail.
+- The lead is a bit long and dense, bordering on exceeding the ideal word count, but it remains within a reasonable range.
+- The lead and headline are coherent and aligned with the article content.
+
+Overall Impression:
+- The headline and lead together accurately and clearly represent the article.
+- There are no major inaccuracies, hallucinations, or misalignments.
+- Minor improvement could be made by slightly shortening the lead for readability, but this is a minor issue.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided based on the given article and guidelines. The user wants me to act as an expert news editor and judge, focusing on the badness of the generated headline and lead. The rating is from 1 (best) to 5 (worst). 
+
+First, I'll read the article carefully to grasp the main points. The article discusses new EU foreign investment screening rules. Key points include mandatory screening in sectors like media, critical raw materials, and transport infrastructure. The procedures are being harmonized, and the Commission can intervene in disputes. The proposal passed with 378 votes in favor. The rapporteur mentions fragmentation and the need to protect security and economic sovereignty.
+
+Next, I'll look at the headline: "EU Tightens Foreign Investment Scrutiny to Safeguard Critical Sectors." It's clear and uses active verbs. "Tightens" and "safeguard" are strong. It mentions the main action (tightening scrutiny) and the sectors involved. However, "scrutiny" might be a bit vague, but overall, it's concise and accurate.
+
+The lead: "The European Parliament approved stringent foreign investment screening regulations on Wednesday, mandating EU member states to vet deals in media, critical resources, and infrastructure to prevent security threats, following a 378-173 vote aimed at unifying oversight and shielding strategic industries." Let's check the Five Ws. Who: European Parliament. What: approved regulations. When: Wednesday (but the article doesn't specify a Wednesday; the search results mention May 8, 2025, which was a Thursday). Where: EU. Why: to prevent security threats. The lead includes the vote count and mentions the sectors. However, the article states the vote was 378-173 with 24 abstentions, but the lead only mentions 378-173, which is accurate. The term "vet deals" is correct. The lead is a bit long (around 40 words), which is within the upper limit. 
+
+Potential issues: The headline uses "safeguard," which aligns with the article's intent. The lead mentions "Wednesday," but the actual date in the search result [1] is May 8, 2025, which was a Thursday. That's an inaccuracy. Also, the lead says "mandating EU member states to vet deals," but the article mentions that member states will have mandatory screening, which is correct. The lead combines the vote outcome with the purpose, which is okay. However, the Commission's role in intervention isn't mentioned in the lead, but maybe that's too detailed. 
+
+Coherence between headline and lead: Both focus on tightening scrutiny and protecting sectors. The lead adds details about the vote and sectors, which aligns with the headline. No major coherence issues. 
+
+Checking for AI weaknesses: The date inaccuracy is a problem. Also, the lead could be more concise. The headline is good, but the lead's date error is a factual inaccuracy. 
+
+Rating: The headline is strong, but the lead has a factual error (wrong day of the week). That's a significant issue because it's misinformation. Even though the rest is accurate, the date mistake is a key part of the Five Ws. So, this would push the rating to a 4 because of inaccuracy, despite other elements being good. Alternatively, if the date isn't crucial, maybe a 3. But since the date is part of the lead's "when," it's important. The guidelines say 5 is unacceptable, 4 is poor with several problems. Here, the main issue is the date inaccuracy. Maybe that's a single but significant problem, so 4.
+</think>
+
+**Headline Observations**  
+- **Clarity and Accuracy**: The headline clearly conveys the EU's action and purpose. "Tightens Foreign Investment Scrutiny" aligns with the article's focus on harmonized screening rules. "Safeguard Critical Sectors" accurately reflects the sectors mentioned (media, critical raw materials, transport).  
+- **Sensationalism**: Avoids sensational language, using neutral terms like "scrutiny" and "safeguard."  
+- **Verb Choice**: "Tightens" is active and appropriate, though "scrutiny" could be slightly vague.  
+
+**Lead Observations**  
+- **Five Ws**:  
+  - **Who**: European Parliament.  
+  - **What**: Approved stringent screening regulations.  
+  - **When**: "Wednesday" is incorrect—the vote occurred on May 8, 2025 (a Thursday)[1].  
+  - **Where**: EU member states.  
+  - **Why**: To prevent security threats and unify oversight.  
+- **Brevity**: At ~40 words, it meets length guidelines but feels dense.  
+- **Accuracy Issues**:  
+  - Incorrect day of the week ("Wednesday" vs. actual Thursday)[1].  
+  - Omits the Commission’s expanded intervention powers, a key detail from the article.  
+- **Coherence with Headline**: The lead supports the headline’s focus on stricter rules but lacks specificity about the Commission’s role.  
+
+**Overall Impression**  
+The headline is strong but slightly generic. The lead contains a factual error (incorrect day) and omits critical information about the Commission’s authority, reducing its alignment with the article. While the structure is functional, these inaccuracies and omissions undermine reliability.  
+
+4
+
+

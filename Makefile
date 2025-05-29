@@ -68,6 +68,7 @@ $(BUILD_DIR)/thesis.pdf: \
 		thesis.bib \
 		img/logo.png \
 		img/softmax-temperature.png \
+		img/ch-bar.png \
 		img/eval-dictionary-correctness_score.png \
 		img/eval-dictionary-space_score.png \
 		img/eval-dictionary-time_score.png \

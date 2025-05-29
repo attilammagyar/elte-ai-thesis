@@ -1,0 +1,214 @@
+URL: https://interestingengineering.com/innovation/us-robot-solve-rubiks-cube
+Generator: claude-3-7-sonnet-20250219
+Headline: Purdue Robot Solves Rubik's Cube Faster Than a Human Blink
+Lead: A team of Purdue University students has shattered the Guinness World Record for the fastest robotic Rubik's Cube solve, with their "Purdubik's Cube" completing the puzzle in just 0.103 seconds—less than half the time it takes to blink an eye.
+
+Article:
+
+A high-speed robotic system named Purdubik’s Cube has shattered the Gu...
+
+(...3550 characters...)
+
+...or of electrical and computer engineering at Purdue, in a  statement .
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about the record-breaking Rubik's Cube solving robot.
+
+**Headline: "Purdue Robot Solves Rubik's Cube Faster Than a Human Blink"**
+
+Observations:
+- Clear and understandable at a glance
+- Captures the key achievement (speed faster than blinking)
+- Uses active voice with a strong verb ("solves")
+- Accurately represents the main point of the article
+- Good length and readability
+
+**Lead: "A team of Purdue University students has shattered the Guinness World Record for the fastest robotic Rubik's Cube solve, with their "Purdubik's Cube" completing the puzzle in just 0.103 seconds—less than half the time it takes to blink an eye."**
+
+Observations:
+- Covers the essential who (Purdue students), what (broke record), how (with Purdubik's Cube), and the impressive time (0.103 seconds)
+- Accurately compares the time to a human blink, which is mentioned in the article
+- Includes the name of the robot system
+- Provides context that this is a Guinness World Record
+- Slightly long but still readable and informative
+
+**Overall impression:**
+The headline and lead work very well together. The headline grabs attention with the eye-catching comparison to blinking, while the lead fills in all the necessary details. Both are accurate to the article content, with no hallucinations or misrepresentations. The lead effectively expands on the headline's claim by providing the specific time and context. The comparison to blinking is directly supported by the article quote: "We solve in 103 milliseconds. A human blink takes about 200 to 300 milliseconds."
+
+The only minor issue is that the lead is slightly longer than the ideal 25-30 words, but it remains concise and effective.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+The headline effectively captures the main point of the article—the record-breaking speed of the Purdue robot—and uses a relatable comparison (human blink) to emphasize the achievement. It is clear, concise, and avoids sensationalism. The lead expands on the headline by providing key details: the team behind the achievement, the name of the robot, and the exact time of the solve, while also reinforcing the comparison to a human blink. Both the headline and lead align well with the article's content, accurately summarizing the key points without any inaccuracies or hallucinations. They work together cohesively to present the news in an engaging and informative manner.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+Key Observations:
+
+**Headline:**
+*   The headline "Purdue Robot Solves Rubik's Cube Faster Than a Human Blink" is excellent.
+*   It is clear, concise, and immediately understandable.
+*   The phrase "Faster Than a Human Blink" is an effective, attention-grabbing hook that is factually supported by the article (0.103s solve time vs. 0.2s-0.3s blink time).
+*   It uses active voice ("Solves") and accurately identifies the subject (Purdue Robot) and the feat.
+
+**Lead:**
+*   The lead "A team of Purdue University students has shattered the Guinness World Record for the fastest robotic Rubik's Cube solve, with their "Purdubik's Cube" completing the puzzle in just 0.103 seconds—less than half the time it takes to blink an eye" is generally very good.
+*   It is brief (38 words) and informative, successfully covering the key elements: Who (Purdue students), What (shattered GWR for fastest Rubik's Cube solve), How (with "Purdubik's Cube" in 0.103 seconds).
+*   It accurately includes the robot's name and the record time.
+*   The phrase "less than half the time it takes to blink an eye" is a strong follow-up to the headline's hook. However, its precision is slightly debatable: the article states a blink takes "about 200 to 300 milliseconds" (0.2s to 0.3s). The robot's time (0.103s) is less than half of 0.3s (which is 0.15s), but not less than half of 0.2s (which is 0.1s). So, the claim is true for a significant portion of the blink time range but not the fastest blinks within that range. This is a minor point of contention.
+
+Overall Impression:
+The headline and lead work very well together as a cohesive unit, accurately representing the core information of the article. The headline is outstanding. The lead effectively summarizes the main facts and reinforces the headline's engaging comparison. The slight imprecision in the "less than half the time it takes to blink" comparison in the lead is a minor issue that doesn't significantly undermine the overall quality, especially as it's a common journalistic technique to make statistics relatable. The AI successfully extracted the most important details and presented them in a compelling way, adhering well to journalistic standards.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+- The headline is clear, concise, and attention-grabbing. It accurately summarizes the main achievement and uses the "faster than a human blink" comparison, which is both accurate and compelling.
+- The lead answers the Five Ws: who (Purdue University students), what (shattered the Guinness World Record for fastest robotic Rubik's Cube solve), when (implied as recent, though not specific), where (Purdue University), and why (record-breaking speed). It also includes the robot's name and the exact time, which are key details.
+- The headline and lead are well-aligned and coherent with the article's content.
+- The lead is slightly long (41 words), but still within acceptable range and remains clear and informative.
+- No evidence of misinformation, hallucination, or misalignment.
+- Minor improvement could be made by specifying the date or "recently" in the lead, but this is not a significant issue.
+
+Overall Impression:
+- The headline and lead work very well together, are accurate, and represent the article faithfully. Only very minor improvements could be made.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to evaluate the headline and lead based on the provided guidelines and the article content. 
+
+Starting with the headline: "Purdue Robot Solves Rubik's Cube Faster Than a Human Blink." The guidelines mention clarity, attention-grabbing without sensationalism, and using active verbs. The headline is clear and uses "solves" as an active verb. It mentions Purdue Robot and the key point about being faster than a blink. The article states the robot's name is Purdubik’s Cube, but the headline uses "Purdue Robot," which is a simplified version. That's acceptable for brevity. However, the actual time (0.103s) isn't included, but comparing to a human blink (200-300ms) is effective. It's not sensational, just factual.
+
+Now the lead: "A team of Purdue University students has shattered the Guinness World Record for the fastest robotic Rubik's Cube solve, with their 'Purdubik's Cube' completing the puzzle in just 0.103 seconds—less than half the time it takes to blink an eye." The lead answers who (Purdue students), what (shattered record), when (implied recent as the article mentions December 2024), where (Purdue University), and why (showcasing robotic speed). It's concise, under 40 words. The mention of the time and comparison to a blink aligns with the article's details. 
+
+Checking for AI weaknesses: No misinformation here. The headline and lead match the article's content. The robot's name is correctly mentioned in the lead. The time and comparison are accurate per the article. Coherence between headline and lead is good; both focus on the record time and the blink comparison. 
+
+Possible improvements: The headline could include the robot's actual name "Purdubik’s Cube" for specificity, but using "Purdue Robot" is more immediately understandable. The lead is strong, but "less than half the time" is slightly off since 0.103s is about a third of 0.3s (blink time). The article says "less than the blink of an eye," which is accurate, so the lead's phrasing is acceptable. 
+
+Overall, the headline and lead are accurate, concise, and work well together. They effectively summarize the key points without sensationalism. Minor tweaks could be made, but they're solid as is.
+</think>
+
+4  
+The headline and lead effectively summarize the article's key points with clarity and accuracy. The headline uses active verbs and a relatable comparison (human blink) to highlight the record-breaking speed, though it simplifies the robot's name ("Purdubik’s Cube" becomes "Purdue Robot") for brevity. The lead concisely answers the Five Ws, includes the exact time (0.103 seconds), and reinforces the blink analogy. Both avoid sensationalism and align well with the article’s details. However, the lead’s claim that the solve time is "less than half the time it takes to blink" slightly understates the achievement (0.103s is roughly a third of the 300ms blink mentioned in the article). This minor inaccuracy and the headline’s name simplification prevent a top score.  
+
+5
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about the record-breaking Rubik's Cube solving robot.
+
+**Headline: "Purdue Robot Solves Rubik's Cube Faster Than a Human Blink"**
+
+Observations:
+- Clear and understandable at a glance
+- Captures the key achievement accurately
+- Uses the human blink comparison which is mentioned in the article
+- Active and concise
+- Accurately identifies Purdue as the source of the robot
+
+**Lead: "A team of Purdue University students has shattered the Guinness World Record for the fastest robotic Rubik's Cube solve, with their 'Purdubik's Cube' completing the puzzle in just 0.103 seconds—less than half the time it takes to blink an eye."**
+
+Observations:
+- Covers the key who (Purdue University students), what (broke the world record), and how (with their robot solving in 0.103 seconds)
+- Includes the name of the robot ("Purdubik's Cube")
+- Accurately compares the time to a human blink, which is mentioned in the article
+- Correctly states it's a Guinness World Record
+- Slightly long at approximately 40 words, but still within acceptable range
+- Accurately conveys the magnitude of the achievement with "shattered"
+
+**Overall impression:**
+The headline and lead work well together to accurately represent the article's main points. The headline is catchy without being sensational, and the lead provides the essential details that expand on the headline. The human blink comparison is used effectively in both, which is appropriate since it's mentioned in the article. The lead correctly identifies that this was a student project and includes the precise record time. There are no inaccuracies or hallucinations, and both elements align well with the article content.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Purdue Robot Solves Rubik's Cube Faster Than a Human Blink" is clear, concise (9 words), and attention-grabbing.
+*   It accurately identifies the key entities (Purdue Robot, Rubik's Cube) and the core achievement (solves it very fast).
+*   The comparison "Faster Than a Human Blink" is effective and supported by the article's data (0.103 seconds for the robot vs. 0.2-0.3 seconds for a blink).
+*   Uses an active verb ("Solves").
+
+**Lead Observations:**
+*   The lead is informative, providing key details: who (Purdue University students), what (shattered Guinness World Record for fastest robotic Rubik's Cube solve), the robot's name ("Purdubik's Cube"), and the record time (0.103 seconds).
+*   It is brief (38 words), fitting within typical guidelines.
+*   The phrase "less than half the time it takes to blink an eye" is a slight inaccuracy. The article states a human blink takes "about 200 to 300 milliseconds." The robot's time is 103 milliseconds. Half of 200ms is 100ms, so 103ms is *more* than half of the quickest blink time mentioned. It is less than half of blinks towards the 300ms end of the range (e.g., half of 250ms is 125ms). This makes the claim not universally true within the provided range.
+
+**Overall Impression:**
+The headline is excellent – catchy, accurate, and informative. The lead is largely very good, successfully summarizing the main points. However, the attempt to quantify the "faster than a blink" comparison with "less than half the time" introduces a minor imprecision. While the robot is indeed much faster than a blink, the "less than half" claim isn't consistently accurate across the entire stated blink time range. This is a small detail but affects journalistic precision. The headline and lead work well together thematically. The AI has done a good job identifying the core story and presenting it, with just one minor point of improvement needed in the lead for full accuracy.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+- The headline is clear, concise, and attention-grabbing. It accurately conveys the main achievement: a Purdue robot solving a Rubik's Cube faster than a human blink.
+- The lead is brief, informative, and answers the Five Ws: who (Purdue University students), what (shattered Guinness World Record for fastest robotic Rubik's Cube solve), when (implied as recent), where (Purdue University), and why (record-breaking speed).
+- The lead provides the robot's name, the exact time, and a relatable comparison (blink of an eye), which aligns well with the article.
+- Both headline and lead are accurate, free of sensationalism, and work well together.
+- Minor improvement: The lead could specify the previous record for added context, but this is not strictly necessary.
+
+Overall Impression:
+- The headline and lead are well-aligned, accurate, and engaging, with only minor room for improvement.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to rate the headline and lead based on the provided guidelines and the article. First, I need to understand the guidelines for headlines and leads. The headline should be clear, use active verbs, and avoid sensationalism. The lead needs to answer the Five Ws concisely, under 30-40 words. Also, watch out for AI issues like inaccuracies or coherence problems.
+
+Looking at the headline: "Purdue Robot Solves Rubik's Cube Faster Than a Human Blink." It's clear and attention-grabbing. Uses "solves" as an active verb. But wait, the article mentions the robot is named Purdubik’s Cube, not just "Purdue Robot." Maybe the name should be included for accuracy. Also, the previous record was 0.305 seconds, and the new time is 0.103, which is almost three times faster, not just "faster than a blink." The article says a human blink is 200-300ms, so 0.103 is indeed less than that. But the headline might be slightly sensational by comparing to a human blink, though it's accurate. However, the official name of the robot isn't used, which could be a minor inaccuracy.
+
+Now the lead: "A team of Purdue University students has shattered the Guinness World Record for the fastest robotic Rubik's Cube solve, with their 'Purdubik's Cube' completing the puzzle in just 0.103 seconds—less than half the time it takes to blink an eye." The lead mentions who (Purdue students), what (shattered record), when (implied recent as the article is from 2025), where (Purdue), why (showcasing robotic precision). The word count is around 40, which fits the guideline. However, the lead says "less than half the time," but the article states the blink is 200-300ms, so 0.103 is actually about a third to a fifth, not half. That's an inaccuracy. Also, the lead uses "Purdubik's Cube" correctly, which the headline didn't. The headline and lead together have a coherence issue because the headline doesn't mention the robot's name, while the lead does. Also, the lead's "less than half" is incorrect based on the article's data. That's a factual error, which is a bigger problem. Additionally, the headline uses "Purdue Robot" which is a bit vague, whereas the lead specifies the robot's name. They should align better. The guidelines mention avoiding misinformation and ensuring coherence between headline and lead. The lead's inaccuracy about the blink time and the mismatch in naming the robot are issues. The headline could be improved by including the robot's name and being precise about the time comparison. The lead needs to correct the blink time comparison. These points would likely place the rating around a 3 or 4 due to inaccuracies and coherence issues. However, the headline and lead are mostly clear and engaging, so maybe a 3. But the factual error in the lead's comparison is significant, so maybe a 4. Let me check the article again. The article says, "A human blink takes about 200 to 300 milliseconds. So, before you even realize it’s moving, we’ve solved it." The lead says "less than half the time," but 0.103 is less than half of 200 (which is 100), but 200 is the lower end. So 0.103 is about half of 200ms (0.2 seconds), but the article's exact numbers make it a third of 0.305s. The lead's phrasing is a bit misleading. Also, the headline's comparison to a blink is accurate but the lead's "less than half" is not precise. This could confuse readers. Therefore, the inaccuracy in the lead and the naming inconsistency between headline and lead are issues. The headline is catchy but could be more precise. The lead has a factual error. Considering the rating guidelines, a 4 seems appropriate because there are several problems that need editing, but it's not completely unacceptable. Alternatively, if the main issue is the lead's inaccuracy and the coherence, maybe a 3. However, since the lead contains misinformation, which is a critical issue per the guidelines, it might warrant a 4. The headline's lack of the robot's name is a minor issue, but the lead's error is major. So overall, I'd rate it a 4.
+</think>
+
+**Headline Observations**  
+- **Clarity**: The headline clearly conveys the achievement but omits the robot’s official name (“Purdubik’s Cube”), which is central to the story.  
+- **Sensationalism**: The comparison to a human blink is accurate but risks oversimplification, as the article emphasizes the threefold improvement over the previous record.  
+- **Active Language**: Uses “solves” effectively but misses an opportunity to highlight the team or technical innovation.  
+
+**Lead Observations**  
+- **Accuracy**: The claim “less than half the time it takes to blink an eye” is misleading. The article states a blink takes 200–300 ms, making 0.103 seconds roughly **1/3 to 1/5** of that duration.  
+- **Five Ws**: Answers *who* (Purdue students), *what* (record-breaking solve), *when* (implied recent), *where* (Purdue), and *why* (showcasing robotic precision).  
+- **Coherence with Headline**: The lead includes the robot’s name, while the headline does not, creating a slight disconnect.  
+
+**Overall Impression**  
+The headline and lead are engaging but contain inaccuracies and misaligned details. The lead’s numerical comparison misrepresents the article’s data, and the headline’s omission of the robot’s name weakens specificity. While structurally sound, these issues detract from clarity and precision.  
+
+4
+
+

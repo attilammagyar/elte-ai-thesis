@@ -1,0 +1,250 @@
+URL: https://www.theguardian.com/environment/2025/may/14/toxic-wildfire-pollution-infiltrates-homes-of-1bn-people-a-year-study-finds
+Generator: deepseek-chat
+Headline: Wildfire Smoke Invades Homes of Over a Billion Yearly, Study Reveals
+Lead: Toxic wildfire pollution has seeped into the homes of more than a billion people annually over the past two decades, posing severe health risks and highlighting climate injustice, according to a groundbreaking global study published in *Science Advances*.
+
+Article:
+
+Toxic pollution from  wildfires  has infiltrated the homes of more tha...
+
+(...4097 characters...)
+
+...ease in cooking indoors during wildfires adds to the pollution levels.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and how well they represent the article.
+
+**Headline: "Wildfire Smoke Invades Homes of Over a Billion Yearly, Study Reveals"**
+
+Observations:
+- Clear and understandable at a glance
+- Uses strong verb "invades" which is attention-grabbing without being sensational
+- Accurately captures the main finding of the study
+- Includes the key number (over a billion people) which is central to the article
+- Appropriately mentions it's based on a study
+
+**Lead: "Toxic wildfire pollution has seeped into the homes of more than a billion people annually over the past two decades, posing severe health risks and highlighting climate injustice, according to a groundbreaking global study published in *Science Advances*."**
+
+Observations:
+- Informative and expands on the headline
+- Covers key elements: what (toxic wildfire pollution), who (billion people), when (past two decades), where (homes), why (climate crisis implied)
+- Mentions health risks and climate injustice, which are important themes in the article
+- Correctly cites the journal where the study was published
+- Slightly long at approximately 40 words, but still within acceptable range
+
+**Overall impression:**
+The headline and lead work well together to accurately represent the article's main points. The headline is concise and captures attention with the key finding, while the lead expands with important context about health risks and climate injustice. Both are factually accurate and avoid common AI pitfalls like hallucination or misrepresentation. The lead could perhaps be slightly shorter, but it effectively communicates the essential information.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline is clear, concise (10 words), and immediately understandable.
+*   It uses a strong, active verb ("Invades") that grabs attention without being overly sensational.
+*   It accurately reflects the main finding of the article: the vast number of people affected annually by wildfire smoke in their homes, and that this is based on a study.
+
+**Lead Observations:**
+*   The lead is brief (36 words, one sentence) yet highly informative.
+*   It successfully incorporates several key "Ws":
+    *   **Who:** More than a billion people annually.
+    *   **What:** Affected by toxic wildfire pollution in their homes, posing severe health risks and highlighting climate injustice.
+    *   **When:** Over the past two decades.
+    *   **Where:** Implied globally by "global study" and the scale.
+    *   **Why (source/context):** According to a groundbreaking global study published in *Science Advances*.
+*   It accurately summarizes crucial secondary points from the article, such as "severe health risks" and "climate injustice," which add significant depth.
+*   The term "groundbreaking" is justified by the article's description of the study as "the first global, high-resolution study of indoor spikes in wildfire pollution."
+
+**Overall Impression:**
+The headline and lead work exceptionally well together. The headline captures the core issue and scale, while the lead effectively expands on it, providing essential context and impact within a concise format. Both are accurate and well-aligned with the article's content. The language is appropriate for a news report. There are no discernible AI weaknesses like misinformation or hallucination. The AI has successfully identified and synthesized the most critical information into a compelling headline and lead that adhere to journalistic standards.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear, concise, and accurately reflects the main finding of the article: that wildfire smoke is affecting over a billion people annually.
+- The phrase "Invades Homes" is attention-grabbing but not overly sensational.
+- "Study Reveals" is a standard journalistic phrase that signals the source of the information.
+
+Lead:
+- The lead summarizes the key points: the scale (over a billion people annually), the timeframe (past two decades), the health risks, and the issue of climate injustice.
+- It mentions the source (a global study published in *Science Advances*), which adds credibility.
+- The lead is a bit long (about 40 words), but it remains within acceptable limits and is informative.
+- It covers the Five Ws: who (over a billion people), what (toxic wildfire pollution in homes), when (past two decades), where (globally), and why (climate injustice and health risks).
+
+Overall Impression:
+- The headline and lead work well together, accurately representing the article's main findings and context.
+- There are no major issues with coherence, accuracy, or alignment.
+- Minor improvement could be made by making the lead slightly more concise, but it is already strong and informative.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to carefully read the article and then evaluate the headline and lead provided. The user wants me to act as an expert news editor and judge, so I should focus on journalistic standards and typical AI weaknesses.
+
+Starting with the headline: "Wildfire Smoke Invades Homes of Over a Billion Yearly, Study Reveals." The headline is clear and grabs attention with "invades," which is a strong verb. It mentions the key point about a billion people affected, which is from the study. However, "over a billion yearly" might be slightly ambiguous. The study says "more than 1 billion people a year had at least one day..." so the headline accurately reflects that, but "yearly" could be misinterpreted as each year the same billion are affected, which might not be the case. Still, it's concise and informative.
+
+The lead: "Toxic wildfire pollution has seeped into the homes of more than a billion people annually over the past two decades, posing severe health risks and highlighting climate injustice, according to a groundbreaking global study published in *Science Advances*." The lead answers the who (study), what (pollution in homes), when (past two decades), where (globally), and why (climate injustice). It's a bit long at around 40 words but stays within guidelines. The mention of "climate injustice" ties into the study's point about low-income countries, which is good. However, "seeped" might be a bit passive; maybe "infiltrated" from the article is stronger. Also, "groundbreaking" is a bit subjective but acceptable as the study is the first global analysis.
+
+Checking for accuracy: The headline and lead match the article's content. The study is indeed in *Science Advances*, and the billion figure is correct. The lead mentions health risks and climate injustice, both covered in the article. No misinformation here.
+
+Coherence between headline and lead: Both focus on the scale of indoor pollution and the study's findings. They align well without sensationalism. The headline uses "invades," and the lead uses "seeped," which are consistent in tone.
+
+Potential issues: The headline's "over a billion yearly" could be slightly misleading if not read carefully, but it's technically accurate. The lead's length is on the upper edge but still acceptable. The use of "groundbreaking" might be a bit promotional, but since it's the first global study, it's justified. No hallucinations or coherence issues detected.
+
+Rating: The headline and lead are accurate, clear, and aligned. They effectively summarize the study's key points without sensationalism. Minor quibbles with word choice don't detract significantly. I'd rate this a 4 because it's good with minor room for improvement, like tightening the lead slightly or adjusting "yearly" for clarity. However, considering the guidelines, maybe it's a 4. But wait, the user's rating guideline says 5 is excellent with no room for improvement. Since the issues are very minor and don't affect the overall effectiveness, maybe a 4 is appropriate. Alternatively, if the minor issues are negligible, a 5. Hmm. Let me check again. The headline is strong, the lead covers all key points, and there's no misinformation. The coherence is solid. Maybe the lead could be a touch shorter, but it's within the word limit. I think it's a 4 because "groundbreaking" might be a bit much, and "seeped" vs. "infiltrated." But some editors might find this acceptable. Alternatively, if those are too minor, a 5. Given the strict guidelines, I'll go with 4.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and their accuracy in representing the article.
+
+**Headline: "Wildfire Smoke Invades Homes of Over a Billion Yearly, Study Reveals"**
+
+Observations:
+- Clear and understandable at a glance
+- Uses strong verb "invades" which is appropriate but not sensational
+- Accurately captures the main finding of the study
+- Includes the key number (over a billion people) which is accurate
+- Indicates it's based on research ("study reveals")
+
+**Lead: "Toxic wildfire pollution has seeped into the homes of more than a billion people annually over the past two decades, posing severe health risks and highlighting climate injustice, according to a groundbreaking global study published in Science Advances."**
+
+Observations:
+- Accurately reflects the article's opening statement about toxic pollution affecting over a billion people
+- Correctly states the timeframe (two decades)
+- Mentions health risks, which is covered in the article
+- References climate injustice, which is mentioned in the article
+- Correctly identifies the journal (Science Advances)
+- Slightly long at approximately 40 words, but still within acceptable range
+- The term "groundbreaking" is somewhat promotional but the study is described as "the first global, high-resolution study" so it's not entirely unjustified
+
+**Overall impression:**
+The headline and lead work well together and accurately represent the main points of the article. The headline is concise and attention-grabbing without being misleading. The lead expands on this with key details including the timeframe, health implications, and source of the information. There are no factual errors or hallucinations. The lead is at the upper limit of recommended length but remains effective.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Wildfire Smoke Invades Homes of Over a Billion Yearly, Study Reveals" is clear, concise, and impactful.
+*   It uses a strong active verb ("Invades") and highlights the scale of the issue ("Over a Billion Yearly"), effectively grabbing attention.
+*   It accurately reflects a primary finding of the article and correctly attributes it to a study.
+*   It meets journalistic standards for a good headline.
+
+**Lead Observations:**
+*   The lead "Toxic wildfire pollution has seeped into the homes of more than a billion people annually over the past two decades, posing severe health risks and highlighting climate injustice, according to a groundbreaking global study published in *Science Advances*." is informative and covers several key aspects of the article.
+*   It successfully incorporates the "who" (over a billion people), "what" (toxic pollution in homes), "when" (annually, past two decades), the consequences (health risks, climate injustice), and the source (study in *Science Advances*).
+*   The term "groundbreaking" is justified by the article's description of the study as the "first global, high-resolution study of indoor spikes."
+*   At 36 words, the single-sentence lead is on the longer side of the preferred 25-30 words but falls within the acceptable "maybe 40 words" guideline. It remains coherent and impactful.
+
+**Overall Impression:**
+The headline and lead work very well together. The headline presents the core shocking statistic, and the lead immediately expands on it, providing context about the nature of the pollution, its broader impacts (health risks, climate injustice), the timeframe, and the study's significance. There are no apparent inaccuracies, hallucinations, or significant coherence problems. The AI has done a good job of identifying and summarizing the main points of the article in a journalistically sound manner. While the lead is dense, it effectively conveys crucial information. Minor stylistic preferences might lead an editor to slightly rephrase or shorten the lead, but it's of high quality as is.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear and understandable at a glance.
+- It accurately summarizes the main finding: wildfire smoke affecting over a billion people yearly.
+- The phrase "Invades Homes" is attention-grabbing but not overly sensational.
+- The headline is concise and uses active language.
+
+Lead:
+- The lead is brief and informative, summarizing the who (over a billion people), what (toxic wildfire pollution seeping into homes), when (over the past two decades), and why (severe health risks, climate injustice).
+- It mentions the source of the study and the publication, which adds credibility.
+- The lead is slightly long (about 38 words), but still within acceptable range.
+- It effectively highlights both the health risks and the climate justice angle, which are key points in the article.
+
+Overall Impression:
+- The headline and lead are well-aligned with the article’s main points.
+- There are no inaccuracies or hallucinations.
+- The tone is appropriate and not sensational.
+- Both headline and lead work well together to represent the article.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to understand the article's main points. The study highlights that wildfire smoke has affected over a billion people annually indoors over two decades, with health risks and climate injustice aspects. The headline says "Wildfire Smoke Invades Homes of Over a Billion Yearly, Study Reveals." The lead mentions toxic pollution seeping into homes, severe health risks, and climate injustice, citing the study in Science Advances.
+
+Checking the headline guidelines: It should be clear and attention-grabbing without sensationalism. "Invades" is a strong verb but maybe a bit dramatic. The headline accurately reflects the study's finding about the billion people affected. It's concise and uses active voice. Good.
+
+The lead needs to answer the Five Ws. Who: the study by Tsinghua University and others. What: toxic pollution in homes. When: past two decades. Where: globally, especially South America, Africa, etc. Why: climate crisis. The lead mentions the billion people, health risks, climate injustice, and the journal. It's brief but covers the main points. However, the "climate injustice" part is more of a consequence than a why. The why is the climate crisis driving wildfires. The lead might be slightly missing the direct cause but does mention climate injustice as a highlighted issue.
+
+Checking for AI weaknesses: The headline and lead align with the article. No misinformation spotted. The study is global, uses satellite data, and mentions indoor pollution specifically. The lead correctly notes it's a global study. The term "seeped" might be less precise than "infiltrated" from the article, but it's similar. The lead includes the journal name, which is accurate.
+
+Potential issues: The headline uses "invades," which is a bit strong but not inaccurate. The lead mentions "climate injustice," which the article discusses in the context of low-income countries unable to afford purifiers. However, the lead could be more specific about the regions most affected. Also, the article emphasizes the cost-effectiveness of purifiers versus health costs, which the lead doesn't mention. But the lead is supposed to be brief, so maybe that's okay.
+
+Coherence between headline and lead: Both focus on the billion people affected and the study's revelation. They work together well. The lead adds the health risks and climate injustice, which are key points from the article. 
+
+Rating: The headline and lead are accurate, concise, and cover the main points. The only minor issues might be the slight dramatization of "invades" and the lead not explicitly mentioning the climate crisis as the driver. However, the study does link wildfires to climate change, which the lead implies through "climate injustice." Overall, it's good but could have minor improvements, so a 2.
+</think>
+
+**Headline Analysis**  
+- **Clarity and Accuracy**: The headline clearly states the main finding (over a billion people affected annually) and specifies the source (study). The term "invades" is attention-grabbing but slightly dramatic, though not inaccurate.  
+- **Sensationalism**: While "invades" is strong, it aligns with the article’s emphasis on pervasive indoor pollution.  
+
+**Lead Analysis**  
+- **Five Ws**:  
+  - **Who**: Implied by the study’s findings.  
+  - **What**: Toxic wildfire pollution in homes.  
+  - **When**: Past two decades.  
+  - **Where**: Global scope (mentioned in the article but not explicitly in the lead).  
+  - **Why**: Climate injustice and health risks.  
+- **Conciseness**: The lead is 37 words, within the recommended limit.  
+- **Alignment with Article**: Accurately highlights key points (health risks, climate injustice, global scale) and cites the journal (*Science Advances*).  
+
+**Coherence and AI Weaknesses**  
+- **Headline-Lead Alignment**: Both emphasize the scale of exposure and the study’s significance.  
+- **Potential Issues**:  
+  - The lead could better specify regions most affected (e.g., South America, Africa) for geographic context.  
+  - “Climate injustice” is correctly highlighted but could link more explicitly to the cost disparities mentioned in the article.  
+
+**Overall Impression**  
+The headline and lead are clear, accurate, and effectively summarize the study’s scope and implications. Minor improvements could enhance geographic specificity and tighten the link between climate injustice and economic barriers.  
+
+**Rating**: 2  
+
+2
+
+

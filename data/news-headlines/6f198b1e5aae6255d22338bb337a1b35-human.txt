@@ -1,0 +1,239 @@
+URL: https://interestingengineering.com/innovation/us-robot-solve-rubiks-cube
+Generator: human
+Headline: Blink and miss: US students’ robot solves Rubik’s Cube in record 0.103 seconds
+Lead: The system uses machine vision, custom algorithms, and precision hardware to solve cubes with sub-millisecond accuracy.
+
+Article:
+
+A high-speed robotic system named Purdubik’s Cube has shattered the Gu...
+
+(...3550 characters...)
+
+...or of electrical and computer engineering at Purdue, in a  statement .
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about the record-breaking Rubik's Cube solving robot.
+
+**Headline Analysis:**
+"Blink and miss: US students' robot solves Rubik's Cube in record 0.103 seconds"
+- Clear and understandable at a glance
+- Effectively uses the "blink" metaphor that's actually mentioned in the article
+- Captures the key achievement (record time) and who did it (US students)
+- Good length and active language
+
+**Lead Analysis:**
+"The system uses machine vision, custom algorithms, and precision hardware to solve cubes with sub-millisecond accuracy."
+- The lead fails to identify WHO created the system (Purdue University students)
+- Doesn't mention this is a world record or Guinness record
+- Focuses on technical details rather than the main news (breaking the previous record)
+- Missing when this happened
+- The "sub-millisecond accuracy" is not explicitly stated in the article
+
+**Overall Impression:**
+The headline is strong and captures the essence of the story well. However, the lead has significant issues - it reads more like a technical description than a news lead. It misses crucial elements of the story (who, when, the record-breaking aspect) and instead focuses on technical details that, while mentioned in the article, aren't the primary news value. The lead should have mentioned Purdue University, the Guinness World Record, and how much faster this is than the previous record.
+
+The headline and lead don't work well together - the headline tells the main story while the lead veers into technical specifications without establishing the basic news elements.
+
+2
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+**Key Observations:**
+
+1. **Headline:**
+   - **Strengths:** The headline is catchy and uses a playful phrase ("Blink and miss") to grab attention. It clearly states the main achievement (solving a Rubik’s Cube in record time) and includes the key detail (0.103 seconds).
+   - **Weaknesses:** The phrase "Blink and miss" is slightly sensational but still within acceptable bounds. The headline could be more concise by omitting "US students’" to focus on the robot's achievement.
+
+2. **Lead:**
+   - **Strengths:** The lead is brief and informative, mentioning the key technologies (machine vision, custom algorithms, precision hardware) and the sub-millisecond accuracy, which aligns well with the article.
+   - **Weaknesses:** It doesn’t explicitly mention the record-breaking aspect or the team behind the robot, which are central to the story. The lead could be slightly more engaging by including the record-breaking context.
+
+**Overall Impression:**
+The headline and lead work well together to represent the article, though the lead could better highlight the record-breaking achievement. The headline is strong but slightly verbose. Both are accurate and coherent with the article.
+
+**Rating:**
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Blink and miss: US students’ robot solves Rubik’s Cube in record 0.103 seconds" is catchy, using the "blink and miss" phrase which directly relates to the article's comparison of the solving time to a human blink.
+*   It is clear, concise, and accurately conveys the main news: US students, a robot, solving a Rubik's Cube (puzzle cube), and the record time.
+*   It uses an active verb ("solves") and specifies key elements (who, what, a measure of when/how fast).
+
+**Lead Observations:**
+*   The lead "The system uses machine vision, custom algorithms, and precision hardware to solve cubes with sub-millisecond accuracy" is brief (19 words).
+*   It attempts to explain *how* the robot works, which is a good function for a lead.
+*   However, the phrase "sub-millisecond accuracy" is problematic and likely inaccurate or at least highly misleading. The article states the robot solves the cube in 0.103 seconds (103 milliseconds). It also mentions "sub-millisecond synchronization and control" for its movements. The lead conflates this internal control precision with the overall "accuracy" of solving the cube, which is confusing. The solving *time* is 103 milliseconds; the *accuracy* refers to the cube being correctly solved. Phrasing it as "solves cubes with sub-millisecond accuracy" incorrectly implies either a solve time that is sub-millisecond or an undefined measure of accuracy.
+*   The lead is also a bit weak on the 5Ws, as "The system" is vague without immediate reference to the headline, and it doesn't explicitly state who developed it or where, though the headline covers "US students."
+
+**Overall Impression:**
+The headline is strong, engaging, and accurate. It effectively captures the essence of the story.
+The lead, while concise, suffers from a significant inaccuracy or misleading statement regarding "sub-millisecond accuracy." This undermines its informativeness and journalistic quality. While it correctly lists some of the technology used, the claim about accuracy is not well-supported by the article in the way it's phrased. The lead should accurately summarize key facts, and this one introduces confusion or misinformation about a technical detail. The two parts do not work together as well as they could due to the lead's flaw. The lead requires a factual correction, not just minor stylistic editing.
+
+2
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is catchy and clear, using the phrase "Blink and miss" to highlight the speed, which is supported by the article.
+- It accurately states that US students’ robot solved a Rubik’s Cube in a record 0.103 seconds.
+- The headline is concise, attention-grabbing, and avoids sensationalism.
+
+Lead:
+- The lead describes the system’s use of machine vision, custom algorithms, and precision hardware, which are key technical aspects mentioned in the article.
+- However, the lead does not mention the Five Ws: who (Purdue University students), what (broke the world record for solving a Rubik’s Cube), when (recently, but no date), where (Purdue University, US), or why (to break the record and advance robotics).
+- The lead is too general and technical, lacking the news value and context provided in the article. It does not mention the record-breaking achievement or the speed, which are the main news points.
+
+Overall impression:
+- The headline is strong and well-aligned with the article.
+- The lead, while factually correct, misses the main news point and lacks context, making it less effective as an introduction to the story.
+- The headline and lead do not work together as well as they could; the headline promises a record-breaking achievement, but the lead does not deliver the essential details.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to evaluate the headline and lead based on the provided guidelines and the article content. 
+
+Starting with the headline: "Blink and miss: US students’ robot solves Rubik’s Cube in record 0.103 seconds." The phrase "Blink and miss" is catchy and relates to the speed mentioned in the article, which is faster than a human blink. It includes the key elements: who (US students), what (robot solves Rubik's Cube), and the record time. The use of "record" emphasizes the achievement. However, the actual name of the robot, Purdubik’s Cube, isn't mentioned, which might be a minor omission. The headline is concise, uses active verbs, and avoids unnecessary words. It's under 60 characters if we consider the main part before the colon, which aligns with SEO practices mentioned in the sources.
+
+Next, the lead: "The system uses machine vision, custom algorithms, and precision hardware to solve cubes with sub-millisecond accuracy." It answers the what (system's components and achievement), but doesn't mention the who (Purdue students), when (December 2024), where (Purdue University), or why (advancement in robotics). The lead is brief but could be more informative by including more of the Five Ws. It's 25 words, which fits the guideline, but maybe too focused on technical aspects without context.
+
+Checking for AI issues: The headline and lead align with the article content. No misinformation here. The headline's "Blink and miss" is a creative touch that's supported by the article's mention of the blink duration. The lead accurately reflects the technology used. Coherence between headline and lead is good, both focusing on speed and technology. However, the lead could better connect to the record-breaking aspect highlighted in the headline.
+
+Potential improvements: Including the university's name in the headline might add clarity. The lead could incorporate the who and when, making it more complete. Also, specifying that it's a Guinness World Record in the headline or lead would strengthen it. 
+
+Considering the guidelines from the sources, the headline uses a colon effectively, has a keyphrase ("robot solves Rubik’s Cube"), and is attention-grabbing. The lead mentions technical components but misses some key details. Overall, it's good but has room for minor tweaks. I'd rate this a 4 because it's effective but could be slightly improved for completeness.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about the record-breaking Rubik's Cube solving robot.
+
+**Headline Analysis:**
+"Blink and miss: US students' robot solves Rubik's Cube in record 0.103 seconds"
+- Clear and understandable at a glance
+- Captures attention with the "blink and miss" phrase, which is actually relevant since the article mentions the solve is faster than a human blink
+- Accurately states the key facts: US students, robot, Rubik's Cube, record time of 0.103 seconds
+- Good length and active phrasing
+
+**Lead Analysis:**
+"The system uses machine vision, custom algorithms, and precision hardware to solve cubes with sub-millisecond accuracy."
+- Fails to identify WHO created the robot (Purdue University students)
+- Doesn't mention this is a world record or Guinness record
+- Focuses on technical details rather than the main achievement
+- Missing the comparison to the previous record
+- Doesn't capture the significance of the achievement
+- Lacks the "when" element of the Five Ws
+
+**Overall Impression:**
+The headline is quite good and captures the essence of the story accurately. However, the lead fails to provide the most important information from the article and instead focuses on technical details that, while present in the article, aren't the primary news value. The lead should have mentioned Purdue University, the Guinness World Record, and the comparison to the previous record. The technical details would be better placed later in the article.
+
+The headline works well, but the lead needs significant improvement to properly represent the article's main points.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+Headline:
+- The headline "Blink and miss: US students’ robot solves Rubik’s Cube in record 0.103 seconds" is catchy, clear, and accurate.
+- It effectively highlights the main topic (robot solving Rubik's Cube), the key achievement (record time of 0.103 seconds), and who was involved (US students).
+- The phrase "Blink and miss" is engaging and directly relates to the article's content about the robot's speed being faster than a human blink.
+
+Lead:
+- The lead "The system uses machine vision, custom algorithms, and precision hardware to solve cubes with sub-millisecond accuracy" is brief.
+- It correctly identifies some of the technology used (machine vision, custom algorithms, precision hardware).
+- However, the phrase "to solve cubes with sub-millisecond accuracy" is problematic and misleading. The article states the robot solves the cube in 0.103 seconds (103 milliseconds) and has "sub-millisecond synchronization and control." This refers to the precision of its internal operations, not that the cube is solved "with sub-millisecond accuracy" or in sub-millisecond time. This phrasing could confuse readers into thinking the solve time itself is sub-millisecond or that the "accuracy" metric is sub-millisecond, which is not clearly supported and misrepresents the information.
+- The lead also fails to adequately summarize the core news (the record, the students involved) and jumps into technical details with this ambiguous and potentially inaccurate claim. It doesn't effectively cover the 5Ws.
+
+Overall Impression:
+The headline is strong and meets journalistic standards well. However, the lead significantly detracts from the overall quality due to the misleading statement about "sub-millisecond accuracy." This inaccuracy is a critical flaw in a news lead, which must be precise and factual. While the lead attempts to provide technical insight, its poor phrasing on a key detail and its failure to reinforce the main news elements make the headline and lead work poorly together as a whole. The clarity of the headline is followed by a confusing and potentially incorrect statement in the lead.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is catchy and clear, referencing the speed ("Blink and miss") and specifying the achievement (US students’ robot solves Rubik’s Cube in record 0.103 seconds).
+- It accurately reflects the main news: a record-breaking robot built by US students.
+- The headline is concise and understandable at a glance.
+
+Lead:
+- The lead is brief but lacks key information: it does not mention who (Purdue University students), what (broke the world record for fastest Rubik’s Cube solve), when, or where.
+- It focuses on the technical aspects (machine vision, custom algorithms, precision hardware) but omits the record-breaking achievement, which is the main news.
+- The lead does not align well with the headline or the article’s main point, missing the Five Ws and the news value.
+
+Overall impression:
+- The headline is strong and accurate, but the lead is weak, generic, and fails to inform the reader of the main news event.
+- There is a coherence problem: the headline promises a record-breaking achievement, but the lead does not deliver or explain it.
+- The combination does not meet journalistic standards for a news headline and lead, mainly due to the lead’s shortcomings.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to evaluate the headline and lead based on the guidelines provided. The headline is "Blink and miss: US students’ robot solves Rubik’s Cube in record 0.103 seconds." The lead is "The system uses machine vision, custom algorithms, and precision hardware to solve cubes with sub-millisecond accuracy."
+
+Starting with the headline. The guidelines say it should be clear, attention-grabbing without being sensational, use short active sentences. "Blink and miss" is catchy and relates to the speed (since a blink is 200-300ms, and the robot solves it in 0.103s). It mentions the key points: US students, robot, Rubik's Cube, record time. The time is accurate as per the article. The verb "solves" is active. However, "US students’" might be a bit vague, but the article does specify Purdue University students. Maybe "Purdue students" would be more precise, but it's still accurate. The headline is under 15 words, so it's concise. No obvious inaccuracies here.
+
+Now the lead. It needs to answer the Five Ws briefly. The lead here focuses on the how (machine vision, algorithms, hardware) and mentions sub-millisecond accuracy. However, the Five Ws are who (students at Purdue), what (robot solves cube), when (recently, as the record was set in 2025), where (Purdue University), why (to break the record and advance robotics). The lead doesn't mention the who, when, or where. It jumps into the technical aspects. The lead is 22 words, which is within the 25-30 range, so length is okay. But it's missing some key Ws. Also, "sub-millisecond accuracy" is a bit technical and might not be as clear to a general audience. The article mentions the time being faster than a blink, which the lead doesn't include. The lead's focus is on the technology, which is part of the article, but maybe the main news is the record itself, not just the tech specs.
+
+Checking for AI weaknesses: The headline and lead are coherent in that both talk about the robot's speed and technology. No misinformation apparent. The headline's "Blink and miss" is a creative way to emphasize speed, which is supported by the article. The lead's technical details are accurate as per the article's mention of machine vision, custom algorithms, and Kollmorgen hardware. However, the lead doesn't mention the record-breaking aspect, which is the main news. The headline mentions the record, but the lead doesn't. That's a coherence issue because the lead should support the headline's claim with more context.
+
+Another point: The headline uses "US students" which is correct, but the article specifies Purdue University. Using the university's name might add more credibility and specificity. However, "US students" isn't wrong. The lead's mention of "sub-millisecond accuracy" is accurate because the system's movements are synchronized in sub-millisecond times, as per the article's details on motion control.
+
+Potential issues: The lead doesn't answer all Five Ws. It's missing the who (Purdue students), when (2025), and where (Purdue University). The why is implied through the technical achievement. The headline is strong but could be more specific. The lead focuses on the how but misses the main news point—the record. The article's first paragraph states the record, so the lead should reflect that. The current lead dives into technical details, which are important but secondary to the main achievement.
+
+Rating guideline: The headline and lead together have some alignment issues. The headline announces the record, but the lead doesn't mention it, instead focusing on the technology. A better lead would combine both the record and the technology. Also, the lead's technical jargon might not be as accessible. Considering the guidelines, the rating would be a 3 because it's serviceable but needs editing to better align the lead with the headline and include more of the Five Ws. The headline is good, but the lead's focus on technical specs over the main news event brings it down.
+</think>
+
+**Headline Observations**  
+- **Clarity & Engagement**: "Blink and miss" creatively emphasizes speed, aligning with the article’s comparison to a human blink (200–300 ms). The time (0.103 seconds) and key actors ("US students") are included, but "Purdue" would add specificity.  
+- **Accuracy**: Correctly states the record time and context, though "US students" is slightly vague compared to the article’s mention of Purdue University.  
+
+**Lead Observations**  
+- **Technical Focus**: Highlights machine vision, algorithms, and hardware but omits the record-breaking achievement, which is the article’s primary focus.  
+- **Missing Context**: Fails to address the "who" (Purdue team), "when" (2025), and "why" (advancing robotics). The term "sub-millisecond accuracy" is precise but may be overly technical for general audiences.  
+
+**Coherence & Alignment**  
+- The headline emphasizes the record, while the lead shifts to technical details without connecting them to the broader achievement. This creates a slight disconnect between the two.  
+
+**Overall Impression**  
+- The headline is strong but could be more specific. The lead, while accurate, misses opportunities to succinctly summarize the record and its significance. Minor edits to align the lead with the headline’s focus and include key details would improve clarity and impact.  
+
+3
+
+

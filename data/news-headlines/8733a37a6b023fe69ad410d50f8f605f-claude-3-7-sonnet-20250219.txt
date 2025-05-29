@@ -1,0 +1,225 @@
+URL: https://www.theguardian.com/money/2025/may/14/52-hour-week-work-brain
+Generator: claude-3-7-sonnet-20250219
+Headline: Long Working Hours Physically Alter Brain Structure, Study Reveals
+Lead: A new study published in Occupational and Environmental Medicine has found that working more than 52 hours weekly causes physical changes to the brain that could lead to "emotional instability or reduced cognitive efficiency" over time.
+
+Article:
+
+Name:  The 52-hour work week.
+
+Age:  Relatively new – our hunter-gathe...
+
+(...2301 characters...)
+
+...ple who work fewer than 20 hours a week? Because I’d like to sign up.”
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+# Evaluation of Headline and Lead
+
+## Headline: "Long Working Hours Physically Alter Brain Structure, Study Reveals"
+
+**Observations:**
+- Clear and understandable at a glance
+- Accurately captures the main finding of the study
+- Uses strong but not sensational language
+- Appropriately highlights the scientific discovery aspect
+- Avoids exaggeration while maintaining interest
+
+## Lead: "A new study published in Occupational and Environmental Medicine has found that working more than 52 hours weekly causes physical changes to the brain that could lead to 'emotional instability or reduced cognitive efficiency' over time."
+
+**Observations:**
+- Informative and concise (36 words)
+- Answers key questions: what (brain changes), who (implied: workers), why (working >52 hours)
+- Includes the source of information (journal name)
+- Accurately quotes the study's findings about potential consequences
+- Appropriately uses "could lead to" rather than making definitive claims
+
+## Overall Assessment:
+The headline and lead work well together to represent the article accurately. The headline captures attention with the key finding about physical brain changes, while the lead expands on this with specific details about the study and its implications. Both are factually accurate to the article and avoid common AI pitfalls like hallucination or misrepresentation. The lead could potentially mention South Korean healthcare workers to add the "who" element more explicitly, but this is a minor point.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+The headline "Long Working Hours Physically Alter Brain Structure, Study Reveals" is clear and attention-grabbing without being sensational. It accurately reflects the main topic of the article, which is the physical changes in the brain caused by working long hours. The use of "Physically Alter Brain Structure" is strong and specific, aligning well with the article's content.
+
+The lead "A new study published in Occupational and Environmental Medicine has found that working more than 52 hours weekly causes physical changes to the brain that could lead to 'emotional instability or reduced cognitive efficiency' over time" is concise and informative. It answers the key questions: who (the study), what (physical changes to the brain), when (new study), where (published in the journal), and why (due to working more than 52 hours weekly). It also directly quotes the article, ensuring accuracy.
+
+Both the headline and lead work well together, providing a clear and accurate summary of the article's main points. There are no signs of misinformation, hallucination, or coherence issues. The headline and lead adhere to journalistic standards and effectively capture the essence of the article.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline is clear, concise, and attention-grabbing without being overly sensational.
+*   "Physically Alter Brain Structure" is a strong and accurate representation of the article's key finding.
+*   It uses active voice ("Alter," "Reveals").
+*   It accurately reflects the main topic of the article.
+
+**Lead Observations:**
+*   The lead is brief (32 words) and highly informative.
+*   It correctly identifies the source of the study (*Occupational and Environmental Medicine*).
+*   It specifies the threshold (more than 52 hours weekly) and the potential negative consequences, using a direct quote from the article ("emotional instability or reduced cognitive efficiency").
+*   It effectively answers the key Ws (Who - researchers/study, What - brain changes from overwork, When - new study, Where - journal).
+*   It aligns perfectly with the headline, elaborating on the "physical alterations" and their implications.
+
+**Overall Impression:**
+The headline and lead are excellent. They accurately capture the most important information from the article. The headline is impactful and draws the reader in, while the lead provides essential context and details concisely. There are no apparent inaccuracies, hallucinations, or coherence issues. The AI has done a very good job of distilling the core news from the somewhat informally structured article and presenting it in a standard journalistic format.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+- The headline is clear, concise, and accurately summarizes the main finding of the article: that long working hours can physically alter brain structure, according to a study.
+- The headline avoids sensationalism and uses strong, active language ("Physically Alter").
+- The lead is brief, informative, and answers the Five Ws: who (study in Occupational and Environmental Medicine), what (working more than 52 hours causes physical brain changes), when (implied as recent), where (not specified, but the article mentions South Korea), and why (could lead to emotional instability or reduced cognitive efficiency).
+- The lead is well-aligned with the headline and the article content, focusing on the key finding.
+- Minor improvement could be made by specifying the study's focus on healthcare workers in South Korea, but the omission does not significantly detract from accuracy or clarity.
+- No evidence of misinformation, hallucination, or misalignment.
+
+Overall Impression:
+- The headline and lead work well together, are accurate, and represent the article's main points effectively. Only minor improvements could be made for added specificity.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to act as an expert news editor and judge, rating the headline and lead generated by an AI for a news article. The article is about a study linking long work hours (specifically over 52 hours a week) to physical brain changes affecting emotional stability and cognitive function.
+
+First, I need to understand the main points of the article. The key elements are the 52-hour workweek threshold, the physical brain changes observed (increased volume in areas related to executive function and emotional regulation), the comparison to non-overworked groups, the context of South Korea's labor laws, and the implications of these findings. The tone is a bit humorous, especially in the Q&A sections, but the core information is serious.
+
+Now, looking at the provided headline: "Long Working Hours Physically Alter Brain Structure, Study Reveals." The headline is clear and uses active verbs. It mentions the main finding (physical alteration of brain structure) and the source (a study). It's concise and grabs attention without being sensational. However, it doesn't specify the 52-hour threshold mentioned in the article, which might be a minor omission. The term "alter" is accurate, as the study talks about increased brain volume.
+
+The lead: "A new study published in Occupational and Environmental Medicine has found that working more than 52 hours weekly causes physical changes to the brain that could lead to 'emotional instability or reduced cognitive efficiency' over time." The lead answers the Five Ws: who (study), what (physical brain changes), when (new study, so recent), where (published in the journal), why (due to overwork). It's concise, within the word limit, and includes a direct quote from the study. It also specifies the 52-hour threshold, which is crucial. The lead aligns well with the headline, expanding on the "physical changes" mentioned.
+
+Checking for AI weaknesses: The headline and lead accurately reflect the article's content. There's no misinformation here. The study is correctly cited, and the findings are presented without exaggeration. The coherence between headline and lead is strong; both focus on the physical brain changes due to long hours. The use of "could lead to" in the lead is cautious, avoiding overstatement. The quote from the study is appropriately used and matches the article's content.
+
+Potential improvements: The headline could include the 52-hour benchmark for clarity, but it's already mentioned in the lead. The lead is well-structured, but maybe "causes" could be softened to "linked to" since the study shows correlation, not necessarily causation. However, the article itself uses "could suffer effects," so the lead's wording is consistent. 
+
+Considering journalistic standards, the headline and lead are effective. They're informative, accurate, and avoid passive voice. The headline uses strong verbs, and the lead is concise. No major issues with tautology or unnecessary adjectives. The rating would be a 5, as there's no significant room for improvement. Both elements work well together and accurately represent the article's content without any detected AI flaws.
+</think>
+
+The headline "Long Working Hours Physically Alter Brain Structure, Study Reveals" effectively summarizes the study's core finding with clarity and precision. It uses active language ("alter") and avoids sensationalism while emphasizing the physiological impact. The lead concisely specifies the 52-hour threshold, journal source, and potential long-term consequences, aligning tightly with the headline. Both elements avoid passive voice and maintain factual accuracy, accurately reflecting the article’s focus on structural brain changes linked to overwork. While the headline could explicitly mention the 52-hour benchmark for added context, this detail is sufficiently covered in the lead. The pairing achieves coherence and journalistic rigor without detectable inaccuracies or AI-generated artifacts.
+
+5
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and their accuracy in representing the article.
+
+**Headline Analysis:**
+The headline "Long Working Hours Physically Alter Brain Structure, Study Reveals" is clear and uses active language. It captures the main scientific finding from the article - that overwork is associated with physical brain changes. However, it could be more specific about the "52-hour" threshold mentioned in the article, which is a key detail.
+
+**Lead Analysis:**
+The lead accurately summarizes the core finding that working more than 52 hours weekly is associated with brain changes that could affect emotional stability and cognitive efficiency. It correctly cites the journal where the study was published. The lead is concise (36 words) and covers the what, where, and why elements.
+
+**Accuracy Assessment:**
+Both the headline and lead accurately represent the article's main point about brain changes from overwork. The lead correctly quotes the potential effects as "emotional instability or reduced cognitive efficiency" from the article.
+
+**Coherence:**
+The headline and lead work well together and align with the article's content. They focus on the scientific finding rather than the more conversational aspects of the article.
+
+**Overall Impression:**
+The headline and lead are factually accurate and represent the article well. The headline could be more specific about the 52-hour threshold, but this is covered in the lead. Together they provide a clear, accurate summary of the article's main scientific finding without sensationalism.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline and lead are generally well-crafted and align with the article's content. The headline is clear, attention-grabbing, and avoids sensationalism while summarizing the main finding of the study. The lead is concise, answers the key questions (who, what, when, where, why), and stays within the recommended word limit. Both accurately reflect the article's focus on the physical brain changes caused by working over 52 hours a week. There are no inaccuracies or hallucinations, and they work well together to represent the article. Minor improvements could be made to the headline to make it slightly more engaging, but overall, it is a strong effort.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+Key Observations:
+
+Headline:
+*   **Strengths:** The headline is concise, clear, and attention-grabbing ("Physically Alter Brain Structure") without being overly sensational. It uses strong verbs ("Alter," "Reveals") and accurately reflects a central finding of the article – that a new study shows physical changes in the brain due to long working hours.
+*   **Minor Points:** "Physically Alter Brain Structure" is a reasonable summary of "increased brain volume in specific areas" mentioned in the article, though "alter structure" is a slight generalization.
+
+Lead:
+*   **Strengths:** The lead is brief (31 words, one sentence) and informative, successfully covering the key "Five Ws." It correctly identifies the study, the journal, the threshold for long working hours (52 hours), the nature of the findings (physical brain changes), and the potential negative consequences, including a direct quote from the article ("emotional instability or reduced cognitive efficiency"). It accurately reflects the article's statement that the study "shows that working too hard produces physical changes in the brain."
+*   **Minor Points:** The use of "causes" ("causes physical changes") is a strong assertion. While the article uses the word "produces," which is similar, some scientific reporting might prefer a more cautious term like "is linked to" or "is associated with" if the study design isn't explicitly causal. However, given the source article's language, "causes" is a defensible interpretation here.
+
+Overall Impression:
+The headline and lead work very well together. The headline makes a strong, clear statement about the study's findings, and the lead effectively elaborates on this with essential details. They accurately extract the core news element from the provided article, which has a somewhat informal and stylized presentation, and present it in a standard, factual news format. There are no significant inaccuracies or hallucinations. The alignment between the headline, lead, and the article's main points about the new study is excellent. The AI has successfully identified the most newsworthy aspects and summarized them according to journalistic standards. The minor points mentioned are very subtle and largely matters of nuanced interpretation rather than clear errors.
+
+Rating:
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is clear, concise, and accurately reflects the main finding of the article: that long working hours can physically alter brain structure, according to a study.
+- The headline avoids sensationalism and uses strong, active language.
+- The lead is brief, informative, and answers the Five Ws: who (study in Occupational and Environmental Medicine), what (working more than 52 hours causes brain changes), when (implied as recent), where (not specified, but not critical for the lead), why (potential for emotional instability or reduced cognitive efficiency).
+- The lead is slightly long but stays within reasonable limits and summarizes the key point well.
+- There is good alignment between the headline, lead, and article content.
+- No evidence of misinformation, hallucination, or major coherence issues.
+
+Overall impression:
+- The headline and lead work well together, are accurate, and represent the article faithfully. There is little room for improvement, though the lead could be trimmed slightly for brevity.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to act as an expert news editor and judge, rating the badness of a generated headline and lead for a news article. The article is about a study linking long working hours (specifically over 52 hours a week) to physical changes in the brain, which could affect emotional stability and cognitive function.
+
+First, I need to understand the guidelines provided. The headline should be clear, attention-grabbing without being sensational, use short active sentences, and strong verbs. The lead needs to be brief, answer the Five Ws, and be concise (25-40 words). I also need to watch out for AI-generated issues like misinformation, hallucinations, and coherence problems between the headline, lead, and article.
+
+Looking at the headline: "Long Working Hours Physically Alter Brain Structure, Study Reveals." The article does mention physical changes in the brain, like increased brain volume in certain areas. The study is from the journal mentioned, so that's accurate. The headline uses active verbs and is clear. However, the article notes that these changes are in specific areas related to executive function and emotional regulation. The headline says "alter brain structure," which is a bit broad but still accurate. It's concise and attention-grabbing without being overly sensational. Maybe "specific brain regions" could be more precise, but it's still okay.
+
+The lead: "A new study published in Occupational and Environmental Medicine has found that working more than 52 hours weekly causes physical changes to the brain that could lead to 'emotional instability or reduced cognitive efficiency' over time." The lead mentions the journal correctly, the 52-hour threshold, and the potential consequences. It answers who (study), what (physical brain changes), when (new study, so recent), where (South Korea, but the lead doesn't specify), why (health risks). The lead is a bit long—around 35 words, which is within the guideline. However, the article mentions that the study was on South Korean healthcare workers, which isn't in the lead. Including the population might add context but isn't a must for brevity. The lead accurately reflects the study's findings without adding misinformation. The quote is from the article, so that's good.
+
+Checking for coherence: The headline and lead align. Both mention physical brain changes due to long hours. The lead adds the specific journal and the consequences, which the headline doesn't. No major misalignment. The study's key points are covered.
+
+Potential issues: The headline uses "physically alter brain structure," which is correct but could be more specific. The lead doesn't mention the South Korean context, which might be a minor omission but not critical. The lead also states "causes physical changes," which the study shows a correlation, not necessarily causation. The article says the study "suggests" and "shows," so implying causation might be a slight overstep. That's a possible inaccuracy. Also, the lead uses "could lead to," which is cautious but the study's wording is "could suffer effects including," so it's consistent.
+
+Another point: The article mentions that increased brain volume in certain areas might have negative impacts, but the headline and lead frame it as a negative outcome. The study's findings are presented as potentially harmful, so the headline and lead's angle is appropriate.
+
+Considering the AI weaknesses: No hallucinations here; both headline and lead stick to the article's content. The coherence is good. The main issue might be the causation vs. correlation in the lead and the broadness of "brain structure" in the headline. Also, the lead could be more concise but is within word limits.
+
+Rating: The headline and lead are mostly accurate, clear, and aligned. The main drawbacks are the potential implication of causation and lack of specificity in the brain regions. However, these are minor issues. I'd rate this a 2 because it's good but has room for minor improvements, like specifying correlation and adding context about the study population if possible without exceeding word limits.
+</think>
+
+**Headline Analysis**  
+The headline "Long Working Hours Physically Alter Brain Structure, Study Reveals" is clear and attention-grabbing. It uses active language ("alter") and accurately reflects the study’s focus on structural brain changes. However, it generalizes "brain structure" without specifying the regions involved (executive function and emotional regulation areas), which risks oversimplification.  
+
+**Lead Analysis**  
+The lead succinctly summarizes the study’s key findings, including the 52-hour threshold and the journal name. It answers the "what" (physical brain changes), "why" (health risks), and "when" (new study). However, it omits the study’s specific population (South Korean healthcare workers) and implies causation ("causes physical changes") where the article notes correlation. The quoted phrase aligns with the source but lacks context about short-term vs. long-term effects mentioned in the article.  
+
+**Coherence and Alignment**  
+The headline and lead align well, both emphasizing the link between overwork and brain changes. However, the lead’s omission of the study’s geographic scope and its causal phrasing slightly misrepresent the article’s nuanced language (e.g., "suggests" and "could suffer").  
+
+**Overall Impression**  
+While accurate and concise, the headline and lead could improve by specifying brain regions, clarifying correlation vs. causation, and including the study’s demographic focus. These are minor issues that warrant a **2** (good, with room for minor edits).  
+
+2
+
+

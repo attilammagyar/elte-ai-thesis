@@ -1,0 +1,240 @@
+URL: https://interestingengineering.com/energy/tough-solar-cell-hits-25-efficiency
+Generator: gpt-4.1-2025-04-14
+Headline: Solar Breakthrough: Durable Perovskite Cells Set New Efficiency Record
+Lead: Scientists at Cornell University have developed a new hybrid material that boosts perovskite solar cell efficiency to 25.3%, offering greater stability and performance under intense heat and light, as reported in a study published this week.
+
+Article:
+
+A team of scientists in the U.S. have developed a new material that si...
+
+(...3720 characters...)
+
+...hat we learn.”
+
+The study has been  published  in the journal  Joule .
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and how well they represent the article.
+
+**Headline Analysis:**
+"Solar Breakthrough: Durable Perovskite Cells Set New Efficiency Record"
+- Clear and understandable at a glance
+- Captures attention without being sensational
+- Uses strong verbs and concise language
+- Accurately reflects the main achievement described in the article
+- The term "record" might be slightly misleading as the article doesn't explicitly state this is a record, only that it's "highly competitive"
+
+**Lead Analysis:**
+"Scientists at Cornell University have developed a new hybrid material that boosts perovskite solar cell efficiency to 25.3%, offering greater stability and performance under intense heat and light, as reported in a study published this week."
+- Informative and concise
+- Covers who (Cornell scientists), what (developed hybrid material), and how much (25.3% efficiency)
+- Includes the key benefit (stability under heat and light)
+- Mentions publication but lacks the "when" element clearly
+- Minor inaccuracy: "this week" timing isn't specified in the article
+- Length is appropriate at 37 words
+
+**Overall Impression:**
+The headline and lead work well together to represent the article's core information. They accurately convey the main achievement (improved durability and efficiency of perovskite solar cells) and the significance of the research. The headline is attention-grabbing without overpromising, and the lead provides the essential details. There are minor issues: the headline implies a "record" that isn't explicitly stated in the article, and the lead mentions "this week" which isn't in the original text. However, these are relatively minor concerns that don't significantly detract from the overall quality.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Solar Breakthrough: Durable Perovskite Cells Set New Efficiency Record" is catchy and uses strong terms like "Breakthrough" and "New Efficiency Record."
+*   It accurately identifies the core subject (durable perovskite cells) and a key outcome (efficiency).
+*   The term "Record" might be slightly strong, as the article states "a highly competitive figure" rather than explicitly claiming a world record, but it conveys a significant achievement. It's generally acceptable for a headline.
+*   It is clear, understandable, and uses active voice.
+
+**Lead Observations:**
+*   The lead "Scientists at Cornell University have developed a new hybrid material that boosts perovskite solar cell efficiency to 25.3%, offering greater stability and performance under intense heat and light, as reported in a study published this week" is concise (35 words) and informative.
+*   It correctly identifies the Who (Scientists at Cornell), What (developed new material, boosted efficiency to 25.3%, greater stability), and implies the Why (better solar cells).
+*   A key issue is the phrase "published this week." The article states the study "has been published in the journal Joule" but provides no information about *when* it was published relative to "this week." This is an AI hallucination, adding unverified temporal information.
+*   Otherwise, the lead accurately reflects the article's content regarding the material, efficiency, and improved properties.
+
+**Overall Impression:**
+The headline is largely effective and attention-grabbing, with a minor point on the strength of "Record." The lead is mostly accurate and informative but contains a significant factual inaccuracy ("published this week") which is a common AI weakness. This error regarding the publication timing detracts from its quality. Together, they convey the main story but the lead's error requires correction for journalistic accuracy. The core information is present, but the unverified detail in the lead is a notable flaw.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear, concise, and attention-grabbing without being sensational.
+- It accurately highlights the main achievement: improved durability and a new efficiency record for perovskite solar cells.
+- The phrase "Solar Breakthrough" is strong but appropriate given the context.
+
+Lead:
+- The lead identifies the "who" (Cornell University scientists), "what" (developed a new hybrid material for perovskite solar cells), and "what happened" (boosts efficiency to 25.3% and offers greater stability).
+- It mentions the "where" (Cornell University) and "when" (published this week), though the exact date is not specified, which is acceptable for a brief lead.
+- The "why" (greater stability and performance under intense heat and light) is included.
+- The lead is informative, concise, and aligns well with the headline and article content.
+
+Overall Impression:
+- The headline and lead work well together, accurately representing the article's main points.
+- There are no major inaccuracies, hallucinations, or coherence issues.
+- Minor improvement could be made by specifying the publication name ("Joule") in the lead, but this is not essential for a brief news lead.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to act as an expert news editor and judge, rating the headline and lead generated by an AI for a news article about a perovskite solar cell breakthrough. The main task is to evaluate based on accuracy, adherence to guidelines, and how well they represent the article.
+
+First, I need to read the article carefully to understand the key points. The article discusses a team at Cornell University developing a new hybrid material using formamidinium (FA) in a 2D-3D perovskite structure. This innovation addresses stability issues by using lattice matching, achieving 25.3% efficiency and only 5% performance loss after 50 days under stress tests. The study was published in Joule.
+
+Now, looking at the provided headline: "Solar Breakthrough: Durable Perovskite Cells Set New Efficiency Record". The headline is clear and attention-grabbing. It mentions durability and efficiency, which are the main points. However, the article specifies 25.3% efficiency, but it's unclear if this is a record. The sources mention other efficiencies, like 23.2% in [1] and 25.3% here. Since the article doesn't claim a record, the headline might be overstating. Also, "Durable" is accurate as the cells lost only 5% efficiency after testing.
+
+The lead states: "Scientists at Cornell University have developed a new hybrid material that boosts perovskite solar cell efficiency to 25.3%, offering greater stability and performance under intense heat and light, as reported in a study published this week." It answers who, what, when, where, why. It's concise, but the study's publication timing isn't specified in the article. The article mentions the study was published in Joule, but not "this week," which could be a minor inaccuracy if the actual publication date differs. Also, the lead mentions "intense heat and light," but the article's tests were under heat, light, and humidity. Omitting humidity might be a slight oversight.
+
+Checking for AI weaknesses: The headline's "Set New Efficiency Record" might be a hallucination if the article doesn't claim a record. The lead's "this week" could be inaccurate if the publication date isn't recent. However, the sources provided are from 2025, and the current date is May 2025, so if the study was published around the same time, "this week" might be acceptable. But without explicit dates in the article, it's a risk.
+
+Coherence between headline and lead: Both focus on efficiency and durability, aligning with the article's main points. The headline's "Durable" and lead's "greater stability" match the article's emphasis on improved longevity.
+
+Potential issues: The headline's "Record" claim isn't supported in the article. The lead's omission of humidity in testing conditions and the vague "this week" publication time. Also, the article mentions the University of Cornell, but the correct name is Cornell University, which the lead gets right.
+
+Considering the guidelines: The headline is clear and uses active verbs but may overstate with "Record." The lead is concise and informative but has minor inaccuracies. Overall, the rating would consider these factors. The score might be a 4 because it's good but has minor issues that need editing, like verifying the record claim and publication timing.
+</think>
+
+4  
+The headline and lead effectively capture the article's main points but have minor inaccuracies. The headline's "efficiency record" claim isn't explicitly supported by the article, and the lead's "this week" publication timeframe is unspecified. However, both elements align well with the research's focus on durability and performance improvements.  
+
+**Headline analysis**  
+- **Clarity**: Clearly states the breakthrough and key benefits (durability, efficiency).  
+- **Accuracy**: "Durable" is justified (5% performance loss after 50 days), but "record" isn’t explicitly confirmed in the article.  
+- **Sensationalism**: "Breakthrough" is appropriate, but "record" risks overstatement[5].  
+
+**Lead analysis**  
+- **Five Ws**: Covers who (Cornell), what (hybrid material), why (stability/efficiency), and where (study publication).  
+- **Brevity**: 34 words, within guidelines.  
+- **Omissions**: Fails to mention humidity testing and lattice-matching innovation, which are central to the study[3][4].  
+
+**Coherence**  
+- The headline and lead align on durability and efficiency gains but omit technical nuances (e.g., FA-based lattice matching).  
+
+**Improvements**  
+- Replace "record" with "25.3%" in the headline for precision.  
+- Specify "heat, light, and humidity" in the lead instead of "intense heat and light."  
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and their accuracy in representing the article.
+
+**Headline: "Solar Breakthrough: Durable Perovskite Cells Set New Efficiency Record"**
+
+Observations:
+- Clear and understandable at a glance
+- Appropriately highlights the key breakthrough
+- "Set New Efficiency Record" is potentially misleading - the article doesn't explicitly state this is a record, only that it's "highly competitive"
+- Good use of active language and strong verbs
+
+**Lead: "Scientists at Cornell University have developed a new hybrid material that boosts perovskite solar cell efficiency to 25.3%, offering greater stability and performance under intense heat and light, as reported in a study published this week."**
+
+Observations:
+- Covers who (Cornell scientists), what (new hybrid material), and how much (25.3% efficiency)
+- Accurately represents the main achievement
+- "This week" is not mentioned in the article - this is a minor hallucination
+- Slightly long at approximately 35 words
+- Doesn't mention the key innovation of combining two types of perovskite materials
+
+**Overall impression:**
+The headline and lead work well together to convey the main point of the article. The headline is attention-grabbing without being sensational, though the "record" claim isn't explicitly supported by the article. The lead accurately captures the essence of the breakthrough but includes a minor hallucination about timing ("this week") and misses the opportunity to mention the specific innovation of the 2D-on-3D structure. The content is mostly accurate and represents the article well, but has room for improvement.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+Key observations:
+
+**Headline: "Solar Breakthrough: Durable Perovskite Cells Set New Efficiency Record"**
+*   **Strengths:** Catchy ("Solar Breakthrough"), uses strong verb ("Set"), and highlights key aspects (durability, perovskite, efficiency).
+*   **Weaknesses:** The claim "Set New Efficiency Record" is strong. While the article mentions a "highly competitive figure" of 25.3% efficiency, it does not explicitly state that this is a "record" for perovskite cells or in general. This could be an overstatement or sensationalism not fully supported by the provided text.
+
+**Lead: "Scientists at Cornell University have developed a new hybrid material that boosts perovskite solar cell efficiency to 25.3%, offering greater stability and performance under intense heat and light, as reported in a study published this week."**
+*   **Strengths:** Clearly identifies the Who (Cornell scientists), What (new hybrid material, 25.3% efficiency, improved stability/performance), and Where (Cornell). It is concise (35 words) and covers key information.
+*   **Weaknesses:** Contains a factual inaccuracy: "published this week." The article states the study "has been published in the journal Joule" but provides no specific timeframe like "this week." This is a typical AI hallucination, adding unverified temporal information.
+
+**Overall Impression:**
+The headline is attention-grabbing but makes a claim ("New Efficiency Record") that isn't explicitly substantiated by the article's more cautious phrasing ("highly competitive figure"). The lead is mostly accurate and informative but includes a clear factual error ("published this week") regarding the publication date, which is a significant flaw for a news item. This error is a common AI weakness (hallucination of specific details). While the core scientific achievement is conveyed, the inaccuracies in both the headline (potential overstatement) and particularly the lead (factual error) require notable editing to meet journalistic standards.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is clear, concise, and attention-grabbing. It accurately highlights the main achievement: improved durability and a new efficiency record for perovskite solar cells.
+- The lead provides the who (Cornell University scientists), what (developed a new hybrid material for perovskite solar cells), and the main result (25.3% efficiency, greater stability under heat and light). It also mentions the publication of the study.
+- The lead is slightly long but remains within reasonable limits and is informative.
+- Both headline and lead are well-aligned with the article’s main points and do not contain inaccuracies or hallucinations.
+- Minor improvement: The headline could mention the stability aspect, not just efficiency, but this is not a major flaw.
+
+Overall impression: The headline and lead work well together, are accurate, and meet journalistic standards with only minor room for improvement.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for the article about perovskite solar cells. The user wants me to act as an expert news editor and judge, focusing on inaccuracies and how well the headline and lead work together. 
+
+First, I'll read the article carefully to grasp the main points. The article discusses a breakthrough by Cornell University researchers who developed a hybrid perovskite material. They used formamidinium (FA) instead of methylammonium (MA) to create a 2D protective layer over 3D perovskite, improving efficiency to 25.3% and enhancing durability under stress tests. The study was published in Joule.
+
+Now, looking at the headline: "Solar Breakthrough: Durable Perovskite Cells Set New Efficiency Record". The headline mentions durability and a new efficiency record. The article does state 25.3% efficiency, which is competitive, but it's not clear if this is a record. The durability improvement is a key point, as the cells lost only 5% performance after 50 days. However, the headline's use of "Set New Efficiency Record" might be an overstatement unless the article specifies it's a record. The article doesn't mention breaking a previous record, just that it's a competitive figure. This could be a minor inaccuracy.
+
+The lead: "Scientists at Cornell University have developed a new hybrid material that boosts perovskite solar cell efficiency to 25.3%, offering greater stability and performance under intense heat and light, as reported in a study published this week." The lead answers who, what, when, where, and why. It mentions Cornell, the hybrid material, the efficiency, stability, and the study's publication. However, the article specifies the study was published in Joule, but the lead just says "this week," which is vague. Also, the article mentions testing under heat, light, and humidity, but the lead only mentions heat and light. Omitting humidity might be a minor oversight. The lead is concise and aligns with the headline's focus on efficiency and durability.
+
+Checking for typical AI issues: The headline's "Set New Efficiency Record" might be a hallucination if there's no evidence of a record in the article. The lead's "this week" is vague compared to the actual journal mention. The coherence between headline and lead is good, both emphasizing efficiency and durability. However, the headline's claim of a record might not be supported, leading to potential misinformation. The lead accurately reflects the study's findings but could be more precise about the journal and include humidity in the testing conditions.
+
+Considering the guidelines, the headline should be clear and avoid sensationalism. "Set New Efficiency Record" could be seen as sensational if it's not a verified record. The lead is brief but misses some specifics. Overall, the main issues are the possible exaggeration in the headline and the vagueness in the lead's publication details. These points might place the rating around a 3 or 4. However, since the inaccuracies are not severe and the alignment is mostly good, a 3 seems appropriate, indicating some editing is needed for clarity and accuracy.
+</think>
+
+**Headline Observations:**  
+- **Clarity and Accuracy:** The term "Set New Efficiency Record" is potentially misleading. While the article mentions 25.3% efficiency as "highly competitive," it does not explicitly state this is a record. This could imply an unverified claim.  
+- **Sensationalism:** "Breakthrough" and "Record" lean toward hype, though the durability improvement is a valid highlight.  
+
+**Lead Observations:**  
+- **Completeness:** Mentions efficiency, stability, and testing under heat/light but omits humidity (a key stressor in the study).  
+- **Specificity:** "Published this week" is vague compared to citing *Joule*, the actual journal.  
+- **Alignment with Article:** Accurately summarizes the hybrid material and efficiency gain but underrepresents the full scope of durability testing.  
+
+**Overall Impression:**  
+The headline and lead are coherent and highlight the study’s core advancements. However, the headline’s "Record" claim risks inaccuracy, and the lead lacks specificity about the journal and testing conditions. These issues detract from precision but do not constitute major misinformation.  
+
+**Rating:** 3  
+
+3
+
+

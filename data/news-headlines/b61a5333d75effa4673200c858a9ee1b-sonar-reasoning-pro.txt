@@ -1,0 +1,246 @@
+URL: https://www.engadget.com/entertainment/music/soundcloud-backtracks-on-too-broad-ai-terms-of-service-201023013.html
+Generator: sonar-reasoning-pro
+Headline: SoundCloud Reverses AI Training Policy After Artist Backlash
+Lead: SoundCloud updated its Terms of Use on May 14, 2025, banning AI training on user content without explicit opt-in consent, reversing a controversial 2024 clause after widespread criticism from artists, CEO Eliah Seton announced in an open letter.
+
+Article:
+
+SoundCloud is updating its Terms of Use again after  angering users  w...
+
+(...1590 characters...)
+
+...craped music without artists' consent and  been fairly open about it .
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and accuracy.
+
+**Headline observations:**
+- Clear and concise, communicates the main point
+- Uses active language ("Reverses")
+- Accurately captures the core of the story - SoundCloud changing its policy after user backlash
+- Avoids sensationalism while still being attention-grabbing
+
+**Lead observations:**
+- MAJOR INACCURACY: States the update happened on "May 14, 2025" - this is a hallucination as the article doesn't mention any specific date, and refers to a future date
+- Incorrectly states the new terms are already implemented when the article says they're "rolling out in the next few weeks"
+- Otherwise covers most of the key information (what happened, who was involved)
+- Slightly exceeds recommended length
+
+**Overall impression:**
+The headline is strong and accurately represents the article. However, the lead contains significant factual errors - inventing a specific date that doesn't appear in the article and incorrectly suggesting the terms are already updated when they're still forthcoming. These are serious hallucinations that undermine the credibility of the reporting. The lead also doesn't mention that SoundCloud claims it never used artist content to train AI in the first place, which is an important context from the article.
+
+2
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+The headline effectively captures the main topic (SoundCloud's policy reversal on AI training) and the reason (artist backlash), making it clear and attention-grabbing without being sensational. The lead provides key details: who (SoundCloud), what (updated Terms of Use), when (May 14, 2025), where (in an open letter), and why (artist backlash). It succinctly summarizes the article's main points and aligns well with the headline. 
+
+However, the date "May 14, 2025" is not mentioned in the article, which could be a minor hallucination or inaccuracy. The lead could also be slightly more concise. Overall, the headline and lead work well together and accurately represent the article, with only minor room for improvement.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "SoundCloud Reverses AI Training Policy After Artist Backlash" is clear, concise, and uses a strong active verb ("Reverses"). It accurately captures the core conflict and resolution described in the article – SoundCloud changing its stance on AI training due to user criticism. It effectively grabs attention without being overly sensational.
+
+**Lead Observations:**
+The lead "SoundCloud updated its Terms of Use on May 14, 2025, banning AI training on user content without explicit opt-in consent, reversing a controversial 2024 clause after widespread criticism from artists, CEO Eliah Seton announced in an open letter" has a major flaw.
+The most significant issue is the inclusion of a specific date, "May 14, 2025," for the Terms of Use update. The article states the new terms are "rolling out in the next few weeks" and mentions a previous update in "February 2024." The date "May 14, 2025" is not mentioned in the article and appears to be a hallucination. This is a critical inaccuracy.
+Otherwise, the lead does attempt to cover the key Ws: Who (SoundCloud, CEO Eliah Seton), What (updated ToS, banning certain AI training), Why (artist criticism, 2024 clause). The "When" is incorrect. At 36 words, it's on the longer side of the suggested length but could be acceptable if accurate.
+
+**Overall Impression:**
+The headline is well-crafted and suitable for the article. However, the lead contains a significant piece of misinformation (the fabricated date), which is a serious journalistic error and a typical AI hallucination. While the rest of the lead's content is largely aligned with the article, this factual inaccuracy severely undermines the credibility of the lead and, consequently, the headline/lead pair as a whole. The headline and lead work together thematically, but the lead's error makes the combination unreliable without substantial correction.
+
+2
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear and concise, accurately reflecting the main development: SoundCloud reversing its AI training policy due to artist backlash.
+- It uses active language and is attention-grabbing without being sensational.
+- The phrase "Reverses AI Training Policy" is accurate, as the article details a change in policy following criticism.
+
+Lead:
+- The lead is informative and covers the Five Ws: who (SoundCloud), what (updated Terms of Use, banning AI training on user content without explicit opt-in), when (May 14, 2025), why (reversing a controversial 2024 clause after criticism), and how (announced by CEO in an open letter).
+- It is a bit long (about 40 words), but still within acceptable range for a lead.
+- The date "May 14, 2025" is not supported by the article, which only says the new terms are rolling out "in the next few weeks" and does not specify a date. This is a factual inaccuracy.
+- The lead accurately summarizes the main points, but the inclusion of a specific date is a significant error.
+
+Overall Impression:
+- The headline and lead work well together and accurately represent the article's content, except for the incorrect date in the lead.
+- The lead could be slightly tightened for brevity and accuracy.
+- The main issue is the hallucinated date, which is a notable factual error.
+
+Rating justification: The headline is strong, but the lead's invented date is a significant flaw, requiring editing. Otherwise, the summary and alignment are good.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to rate the headline and lead provided for the article about SoundCloud's updated Terms of Use regarding AI training. The guidelines mention checking for clarity, accuracy, adherence to journalistic standards, and typical AI issues like misinformation or coherence problems.
+
+First, I'll read the article carefully. The main points are:
+- SoundCloud updated its Terms of Use again after backlash over AI-related language.
+- The CEO, Eliah Seton, clarified in an open letter that the new terms prohibit using user content to train generative AI without explicit consent.
+- The controversy started with a 2024 clause allowing AI training, which upset artists.
+- SoundCloud claims they never used artist content for AI training and acquired Musiio for AI music discovery tools.
+
+Now, looking at the headline: "SoundCloud Reverses AI Training Policy After Artist Backlash". It's concise and uses active verbs. "Reverses" indicates a policy change, which is accurate because they're rolling back the 2024 clause. "Artist Backlash" correctly references the user criticism. The headline is clear and attention-grabbing without being sensational.
+
+The lead: "SoundCloud updated its Terms of Use on May 14, 2025, banning AI training on user content without explicit opt-in consent, reversing a controversial 2024 clause after widespread criticism from artists, CEO Eliah Seton announced in an open letter." It answers the Five Ws: who (SoundCloud), what (updated Terms to ban AI training without consent), when (May 14, 2025), where (in an open letter), why (due to criticism). It's a bit long—around 40 words—but still within the guideline's upper limit. The lead effectively summarizes the key points, including the reversal of the 2024 clause and the CEO's announcement.
+
+Checking for accuracy: The headline mentions "reverses," which matches the article's content about rolling back the previous policy. The lead correctly states the date, the opt-in requirement, and the CEO's letter. No misinformation here.
+
+Coherence between headline and lead: Both mention the policy reversal and the reason (artist backlash/criticism). They align well, with the lead providing more detail.
+
+Potential issues: The headline uses "Reverses," which is accurate, but the article mentions that the 2024 clause allowed AI training, and the new terms forbid it without consent. So "reverses" is correct. The lead mentions "explicit opt-in consent," which the article quotes from the new terms. The article also notes that SoundCloud claims they never used artist content for AI training, which the lead doesn't include, but that's more background info. The lead focuses on the policy change, which is the main point.
+
+AI weaknesses: No hallucinations noticed. The information aligns with the search results, especially [2], [3], and [4], which mention the CEO's letter, the date, and the policy reversal. The lead's mention of "widespread criticism" is supported by [3] and [4]. The headline's "Artist Backlash" is consistent with the article's mention of user anger and criticism.
+
+Possible improvements: The lead is a bit lengthy. Maybe split into two sentences for better readability, but the guidelines allow up to 40 words. Also, the headline could specify "generative AI" to match the article's focus, but "AI Training" is sufficient for brevity.
+
+Overall, the headline and lead are accurate, concise, and work well together. They effectively communicate the key points without sensationalism. The rating would be a 4 because there's a minor room for tightening the lead, but it's still good.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article and journalistic standards.
+
+Headline: "SoundCloud Reverses AI Training Policy After Artist Backlash"
+- Accurately captures the main topic of SoundCloud changing its Terms of Use regarding AI
+- Clear and understandable
+- Uses active language without being sensational
+- Correctly identifies that there was user backlash
+
+Lead: "SoundCloud updated its Terms of Use on May 14, 2025, banning AI training on user content without explicit opt-in consent, reversing a controversial 2024 clause after widespread criticism from artists, CEO Eliah Seton announced in an open letter."
+- Major inaccuracy: Contains a future date (May 14, 2025) that is not mentioned in the article
+- The article states the changes will roll out "in the next few weeks" but doesn't give a specific date
+- Otherwise captures the key information about the policy change
+- Correctly mentions the CEO's open letter
+- Slightly too long at approximately 42 words
+
+Key problems:
+1. The lead contains a hallucinated specific date (May 14, 2025)
+2. The lead is slightly over the recommended word count
+3. While the headline is accurate, the lead contains misinformation that isn't supported by the article
+
+Overall impression: The headline is good, but the lead contains a significant factual error (hallucinated date) that undermines its credibility. This is a classic AI hallucination problem where specific details are invented that aren't in the source material.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline is clear and attention-grabbing, accurately summarizing the main point of the article about SoundCloud reversing its AI training policy due to backlash. However, it slightly oversimplifies the situation by not mentioning the broader context of the initial policy change.
+
+The lead is informative and answers the Five Ws, providing specific details about the date of the update, the nature of the change, and the reason behind it. It aligns well with the headline and the article content.
+
+Overall, the headline and lead work well together to represent the article, though the headline could be slightly more nuanced. The combination is good but has minor room for improvement.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+Key observations:
+
+**Headline:**
+*   The headline "SoundCloud Reverses AI Training Policy After Artist Backlash" is quite good.
+*   It's clear, concise, uses active voice ("Reverses"), and accurately reflects the main conflict and resolution described in the article.
+*   It grabs attention with "Reverses" and "Artist Backlash" without being overly sensational.
+
+**Lead:**
+*   The lead attempts to cover the Five Ws.
+*   **Major inaccuracy/hallucination:** It states the update occurred "on May 14, 2025." The article mentions the *previous* controversial update was in "February 2024" and the *new* terms are "rolling out in the next few weeks." There is no mention of May 14, 2025, in the article. This is a significant factual error.
+*   The lead is a single sentence of 39 words, which is at the upper limit of the suggested length and feels a bit dense.
+*   It correctly identifies the core change (banning AI training without opt-in consent) and the reason (reversing a controversial clause after criticism).
+
+**Overall Impression:**
+The headline is strong and accurately captures the essence of the article. However, the lead contains a critical piece of misinformation – a hallucinated date for the event. This significantly undermines the credibility of the lead and, by extension, the pair. While the rest of the lead's content is mostly accurate and it aligns thematically with the good headline, the factual error regarding the date is a major flaw typical of AI generation.
+
+Rating:
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear and understandable, accurately summarizing the main event: SoundCloud reversing its AI training policy due to artist backlash.
+- It is concise and avoids sensationalism.
+- The verb "Reverses" is strong and active.
+
+Lead:
+- The lead is informative and covers the Five Ws: who (SoundCloud), what (updated Terms of Use, banning AI training without consent), when (May 14, 2025), why (after criticism from artists), and how (announced by CEO in an open letter).
+- However, the date "May 14, 2025" is not supported by the article, which only mentions that the new terms are rolling out in the next few weeks, not a specific date.
+- The lead is a bit long (over 40 words) and could be more concise.
+- The phrase "reversing a controversial 2024 clause" is accurate, as the article describes the February 2024 update and subsequent reversal.
+
+Overall Impression:
+- The headline and lead are well-aligned and accurately represent the article's main points.
+- The only significant issue is the unsupported specific date in the lead, which is a factual inaccuracy.
+- Otherwise, the headline and lead are clear, informative, and follow journalistic standards.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to understand the article and the generated headline and lead. The article is about SoundCloud changing its Terms of Use regarding AI training on user content after backlash. The headline says "SoundCloud Reverses AI Training Policy After Artist Backlash" and the lead mentions the May 14, 2025 update, banning AI training without opt-in consent, reversing a 2024 clause, as announced by the CEO.
+
+Looking at the guidelines for headlines: it should be clear and attention-grabbing without being sensational. The headline here uses "Reverses" which implies a complete change, but according to the article, the 2024 clause allowed AI training, and the new policy restricts it unless there's opt-in. So "reverses" might be accurate, but maybe "revises" is more precise. Also, "Artist Backlash" is correct as per the article mentioning user anger.
+
+For the lead, it needs to answer the Five Ws. The lead mentions the date (when), SoundCloud (who), updated Terms (what), banning AI training without consent (why), after criticism (why), and CEO announcement (how). It's concise but maybe a bit long. The word count is around 40, which is within the limit. However, the article states that the new terms forbid using content to train generative AI that replicates artists without consent, which the lead captures. The 2024 clause is mentioned, which the lead includes as the controversial clause.
+
+Checking for inaccuracies: The headline says "reverses," but the article says the new terms restrict AI training unless opt-in, so it's a reversal of the previous policy. That seems accurate. The lead mentions "explicit opt-in consent," which matches the article's quote from the new terms. The article also notes that SoundCloud claims they never used artist content for AI training, which the lead doesn't mention, but the lead focuses on the policy change, which is correct.
+
+Coherence between headline and lead: Both mention the policy change due to backlash, which aligns. The headline's "reverses" and the lead's "reversing" are consistent. However, the article mentions that the 2024 clause allowed AI training, and the new policy restricts it, so the reversal is accurate.
+
+Potential issues: The headline uses "reverses," which might imply a complete 180, but the new policy still allows AI training with opt-in, so it's a partial reversal. The lead says "banning AI training on user content without explicit opt-in," which is correct. The article also mentions that SoundCloud acquired Musiio for AI music discovery, which they claim is their only use, but the lead doesn't get into that, which is okay since the lead focuses on the policy change.
+
+Another point is the article states the new terms are being rolled out "in the next few weeks," but the lead says the update was on May 14, 2025. The search results show that the CEO's letter was on May 14, so the lead is correct in the date of the announcement, even if implementation is pending.
+
+Ed Newton-Rex's criticism in search result [4] says the change doesn't go far enough, but the generated headline and lead don't mention this, which is fine because the lead focuses on the policy change itself, not external opinions.
+
+The headline and lead don't have misinformation. They accurately reflect the policy reversal, the date, the CEO's announcement, and the reason (backlash). They are coherent and aligned. The only minor issue might be the strength of "reverses" versus "revises," but it's still accurate. The lead is concise and answers the Five Ws. No hallucinations detected. So overall, it's a good headline and lead with minor room for improvement, maybe clarifying the extent of the reversal. Rating: 2.
+</think>
+
+**Headline Observations**  
+- Accurately captures the policy reversal and its cause ("Artist Backlash") but slightly overstates the scope with "Reverses," as the policy now permits opt-in AI training rather than a full ban[1][4].  
+- "AI Training Policy" is clear, though "replicates artist content" could add specificity[3][5].  
+
+**Lead Observations**  
+- Concise summary of key details: date, policy change, opt-in requirement, and CEO announcement[1][3].  
+- Mentions the 2024 clause reversal but omits context about SoundCloud’s prior AI uses (e.g., music discovery tools)[2][5].  
+- Slightly exceeds ideal word count (40+ words) but remains readable.  
+
+**Overall Impression**  
+The headline and lead align well, accurately reflecting the article’s core update. However, "reverses" slightly misrepresents the nuanced shift to opt-in consent, and the lead could clarify SoundCloud’s existing AI uses. Minor improvements would enhance precision.  
+
+2
+
+

@@ -1,0 +1,218 @@
+URL: https://www.engadget.com/entertainment/music/soundcloud-backtracks-on-too-broad-ai-terms-of-service-201023013.html
+Generator: human
+Headline: SoundCloud backtracks on 'too broad' AI terms of service
+Lead: After acknowledging AI in a way that angered users, the music platform is clarifying things.
+
+Article:
+
+SoundCloud is updating its Terms of Use again after  angering users  w...
+
+(...1590 characters...)
+
+...craped music without artists' consent and  been fairly open about it .
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and how well they represent the article.
+
+**Headline Analysis:**
+The headline "SoundCloud backtracks on 'too broad' AI terms of service" is accurate and clear. It correctly identifies that SoundCloud is changing its terms after criticism. The phrase "too broad" is appropriately quoted from the article. The headline is concise and uses active language without being sensational.
+
+**Lead Analysis:**
+The lead "After acknowledging AI in a way that angered users, the music platform is clarifying things" is somewhat vague and lacks specific information. It doesn't adequately address the key points of what exactly SoundCloud is changing or why users were angered. It fails to mention the specific update about not using content to train generative AI without consent. The lead is brief (16 words) but not sufficiently informative.
+
+**Key Observations:**
+- The headline is accurate and appropriate
+- The lead is too vague and misses important details
+- The lead doesn't answer enough of the Five Ws (particularly what the specific change is)
+- There's no factual inaccuracy, but the lead lacks substance
+- The headline and lead together don't give readers a complete picture of the article's main point
+
+**Overall Impression:**
+While the headline works well, the lead fails to deliver the necessary information about SoundCloud's specific policy changes regarding AI training. The lead needs more substance to properly inform readers about what's changing in the Terms of Use.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+**Key Observations:**
+
+1. **Headline:**
+   - The headline is clear and concise, accurately summarizing the main point of the article (SoundCloud's reversal on AI terms).
+   - It uses strong verbs ("backtracks") and avoids sensationalism.
+   - It captures attention while remaining factual.
+
+2. **Lead:**
+   - The lead is brief but informative, answering the "what" (SoundCloud clarifying AI terms) and "why" (user anger).
+   - It could be slightly more specific about the nature of the clarification (e.g., mentioning the ban on AI training without consent).
+   - It aligns well with the headline but could be more detailed.
+
+**Overall Impression:**
+- The headline and lead work well together, accurately representing the article's main points.
+- The headline is excellent, while the lead is good but could be slightly improved with more specificity.
+- No misinformation or coherence issues are present.
+
+**Rating:** 4
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "SoundCloud backtracks on 'too broad' AI terms of service" is strong. It's concise, uses an active verb ("backtracks"), and incorporates a key quote ("too broad") attributed to the company in the article. It accurately captures the main event and the reason for it. It is attention-grabbing without being sensational.
+
+**Lead Observations:**
+The lead "After acknowledging AI in a way that angered users, the music platform is clarifying things" is weak.
+1.  **Vagueness of Action:** "Clarifying things" significantly understates the action described in the article. SoundCloud is "updating its Terms of Use" to "forbid" specific AI uses without explicit consent. This is a material change and a restriction, not merely a clarification.
+2.  **Imprecise Cause:** "Acknowledging AI in a way that angered users" is a somewhat imprecise description of the cause. The anger stemmed from new terms that *allowed* SoundCloud to use content for AI training, not just the act of "acknowledging AI."
+3.  **Word Choice:** The phrasing is a bit clunky.
+4.  **Five Ws:** While brief, it's weak on the "What" (the action taken by SoundCloud).
+
+**Overall Impression and Justification:**
+The headline is good and accurately reflects a key aspect of the article. However, the lead is poor. It misrepresents the significance of SoundCloud's action by calling it "clarifying things" when the article details a more substantial update involving new prohibitions. This creates a mismatch between the headline, which suggests a significant reversal ("backtracks"), and the lead, which downplays the action. The lead also imprecisely describes the reason for user anger.
+
+For the headline and lead to work well together, the lead needs to accurately reflect the gravity of the situation implied by the headline and detailed in the article. The current lead fails to do this, making the overall package weak despite the strong headline. The lead requires more than minor editing; it needs to be rewritten to accurately convey the "what" of the story.
+
+**Rating:**
+2
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear and concise, accurately reflecting the main action: SoundCloud is revising its AI-related terms after backlash.
+- "Backtracks" is an appropriate verb, signaling a reversal without being sensational.
+- The phrase "'too broad' AI terms of service" is accurate and directly references the company's own language.
+
+Lead:
+- The lead is brief but lacks specificity. It mentions SoundCloud angering users and clarifying things, but does not specify what is being clarified or how.
+- It does not answer the Five Ws fully: "who" (SoundCloud), "what" (clarifying AI terms), "when" (recently, but not specified), "where" (on the platform), "why" (user anger over AI terms). The "what" and "why" are only vaguely addressed.
+- The lead could be improved by specifying that the clarification is about the use of artists' content for AI training.
+
+Overall Impression:
+- The headline and lead are aligned and accurate, but the lead is too vague and does not provide enough information for readers to understand the specifics of the story at a glance.
+- Minor improvements are needed, especially in the lead, to make it more informative and specific.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for the article about SoundCloud's updated Terms of Use regarding AI. The user wants a score from 1 to 5 based on accuracy, clarity, and how well they work together.
+
+First, I'll read the article carefully. The main points are: SoundCloud updated its Terms of Use after backlash over AI language, the CEO issued an open letter clarifying they won't use content to train generative AI without consent, and there's a history of user sensitivity around AI changes.
+
+Now, looking at the headline: "SoundCloud backtracks on 'too broad' AI terms of service." The word "backtracks" is strong and captures the reversal. Including "too broad" quotes the CEO, which is accurate. It mentions AI terms of service, which is the core issue. Good length and active verb.
+
+The lead: "After acknowledging AI in a way that angered users, the music platform is clarifying things." It starts with the consequence (angered users) and the action (clarifying). However, it's a bit vague. "Acknowledging AI" isn't specific—the issue was the terms allowing AI training. "Clarifying things" is too general. The lead should mention the Terms of Use change and the CEO's letter. Also, the Five Ws: who (SoundCloud), what (updating Terms), when (after backlash), why (AI concerns). The lead misses some specifics here.
+
+Checking for AI weaknesses: The headline is accurate. The lead is somewhat vague but not misleading. No hallucinations detected. The headline and lead align with the article's content, but the lead could be more precise. Coherence is okay, but the lead could better support the headline by specifying the changes made.
+
+Rating guidelines: The headline is strong (maybe a 4), but the lead is weaker (maybe a 3). Together, they might be a 3 or 4. Since the headline is good but the lead lacks specifics, I'll lean towards a 3. However, considering the overall clarity and that the main points are covered, maybe a 4. Wait, the lead does mention the platform is clarifying things after angering users, which is part of the Five Ws. It's brief but could be more informative. The headline effectively summarizes the backtracking. Maybe a 4 because they work together decently, but the lead has room for improvement.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article content and journalistic standards.
+
+Headline: "SoundCloud backtracks on 'too broad' AI terms of service"
+- Accurate: The article confirms SoundCloud is updating its Terms of Use after acknowledging language was "too broad"
+- Clear and understandable at a glance
+- Uses active language without being sensational
+- Captures the main point of the article
+
+Lead: "After acknowledging AI in a way that angered users, the music platform is clarifying things."
+- Too vague and lacks specific information
+- Doesn't adequately answer the Five Ws
+- Missing key details about what specifically is changing in the Terms of Use
+- Doesn't mention the explicit prohibition on using content to train generative AI without consent
+- At only 16 words, it's too brief and not informative enough
+- "clarifying things" is imprecise language that doesn't convey the substantive nature of the changes
+
+Key observations:
+- The headline is solid and accurately represents the article
+- The lead fails to provide essential information about what the actual changes are
+- The lead doesn't mention the CEO's open letter or the specific new language being added
+- The lead misses the opportunity to explain what was problematic about the previous terms
+
+Overall impression: While the headline works well, the lead is significantly lacking in specifics and fails to properly inform readers about the key points of the article. The headline and lead don't work well together because the headline promises information about a policy change that the lead fails to deliver.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline is clear and captures the main point of the article, which is SoundCloud revising its Terms of Use regarding AI. It uses the term "backtracks," which is accurate and attention-grabbing without being sensational. The lead, however, is somewhat vague and doesn't fully answer the Five Ws. It mentions the anger of users but doesn't specify what the clarification entails, missing key details like the prohibition of AI training without consent. The headline and lead together are serviceable but could be improved with a more informative lead. 
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "SoundCloud backtracks on 'too broad' AI terms of service" is strong, clear, and concise.
+*   It uses an active verb ("backtracks") and incorporates a key quote ("'too broad'") effectively, highlighting the company's admission.
+*   It accurately reflects the main point of the article: SoundCloud revising its AI policy due to criticism.
+*   It is attention-grabbing without being sensational.
+
+**Lead Observations:**
+*   The lead "After acknowledging AI in a way that angered users, the music platform is clarifying things" is very brief (16 words).
+*   It correctly identifies the "who" (SoundCloud, "the music platform") and the "why" (user anger over previous AI terms).
+*   However, the phrase "is clarifying things" is too vague and significantly understates the action SoundCloud is taking. The article specifies that SoundCloud is *updating its Terms of Use to forbid* using content for generative AI replication without explicit consent. "Clarifying things" doesn't convey this specific and important change.
+*   It fails to adequately inform the reader about the "what" – the actual substance of the update.
+
+**Overall Impression and Justification:**
+The headline is good and effectively summarizes the situation. However, the lead is weak and fails to deliver crucial information about the specific changes SoundCloud is implementing. While the lead isn't factually inaccurate, its vagueness ("clarifying things") doesn't capture the significance of the policy update (i.e., forbidding certain AI uses without opt-in consent). A good lead should be informative, and this one lacks the necessary detail about the core action being reported. The headline sets an expectation of a concrete change, which the lead then fails to specify, creating a slight misalignment. The lead needs substantial revision to be more informative.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is clear and concise, accurately reflecting that SoundCloud is revising its AI-related terms after backlash. The phrase "backtracks on 'too broad' AI terms of service" is attention-grabbing but not sensational.
+- The lead, however, is vague and lacks key information. It does not specify what SoundCloud is clarifying, what the controversy was about, or what changes are being made. It also fails to answer most of the Five Ws (who, what, when, where, why).
+- The lead does not mention the core issue: SoundCloud's terms regarding the use of uploaded content for AI training, or the new commitment not to use content to train generative AI without consent.
+- There is a coherence issue: the headline promises a specific story about AI terms, but the lead is too general and does not deliver the necessary context or details.
+- Overall, the headline is strong, but the lead is weak and would require significant editing to be informative and aligned with journalistic standards.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to understand the article and then evaluate the headline and lead based on the given guidelines.
+
+The article is about SoundCloud updating their Terms of Use again after user backlash over AI-related language. The CEO's open letter clarifies that they won't use user content to train generative AI models without explicit opt-in consent. The conflict started when users noticed a February 2024 terms update allowing AI training, but SoundCloud claims it's only for music discovery tools.
+
+Now, looking at the headline: "SoundCloud backtracks on 'too broad' AI terms of service". The word "backtracks" suggests they reversed their position, which aligns with the article mentioning they're updating terms after user anger. The use of "too broad" is in quotes, referencing the CEO's description, which is accurate. The headline is clear and uses active language.
+
+The lead: "After acknowledging AI in a way that angered users, the music platform is clarifying things." It mentions the 'what' (clarifying terms), 'who' (SoundCloud), 'why' (user anger), and 'when' (implied recent). However, it's a bit vague. "Acknowledging AI in a way that angered users" could be more specific—maybe mention the terms change. Also, "clarifying things" is too general. The lead doesn't mention the key point about requiring opt-in consent for AI training, which is central to the article.
+
+Checking for AI weaknesses: The headline and lead don't have inaccuracies but could be more precise. The lead lacks specific details about the opt-in mechanism, which is a main point. The coherence between headline and lead is okay, but the lead doesn't fully capture the article's focus on consent and policy changes. There's a minor alignment issue because the lead doesn't highlight the opt-in aspect, which is crucial.
+
+Rating: The headline is good, but the lead is too vague. Considering the guidelines, this would be a 3 because it's serviceable but needs editing for clarity and specificity. The lead should answer the Five Ws more effectively, especially the 'what' and 'why'.
+</think>
+
+3
+
+

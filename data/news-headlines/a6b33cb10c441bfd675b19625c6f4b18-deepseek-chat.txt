@@ -1,0 +1,204 @@
+URL: https://www.theguardian.com/technology/2025/may/14/ai-can-spontaneously-develop-human-like-communication-study-finds
+Generator: deepseek-chat
+Headline: AI Agents Develop Human-Like Social Norms, Study Reveals
+Lead: Researchers found that groups of AI language models can spontaneously form shared conventions and biases, mimicking human social behavior, in a study published in *Science Advances*.
+
+Article:
+
+Artificial intelligence can spontaneously develop human-like social co...
+
+(...3191 characters...)
+
+...Bias in LLM Populations, is published in the journal Science Advances.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and how well they represent the article.
+
+**Headline: "AI Agents Develop Human-Like Social Norms, Study Reveals"**
+- Clear and understandable at a glance
+- Accurately captures the main finding of the study
+- Uses active language without being sensational
+- Concise and informative
+
+**Lead: "Researchers found that groups of AI language models can spontaneously form shared conventions and biases, mimicking human social behavior, in a study published in *Science Advances*."**
+- Brief (30 words) and informative
+- Covers who (researchers), what (AI models forming conventions), and where (published in Science Advances)
+- Accurately summarizes the key finding of the study
+- The italicization of the journal name follows standard style
+
+**Key observations:**
+- The headline and lead accurately represent the core finding of the study without exaggeration
+- They work well together - the headline captures attention while the lead provides necessary context
+- The lead expands on the headline by mentioning both conventions and biases, which are key aspects of the research
+- Both are factually accurate and avoid common AI pitfalls like hallucination
+- The lead could have mentioned the specific universities involved (City St George's, University of London and IT University of Copenhagen), but this is a minor point given word constraints
+
+**Overall impression:**
+The headline and lead form a strong, accurate representation of the article. They capture the essence of the research findings without distortion and provide readers with a clear understanding of what the article is about. There are no inaccuracies or misrepresentations, and they follow journalistic conventions well.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "AI Agents Develop Human-Like Social Norms, Study Reveals" is clear, concise, and accurately reflects the main finding of the article. It uses active verbs ("Develop," "Reveals") and is attention-grabbing without being sensational. The term "Human-Like Social Norms" effectively conveys the core concept.
+
+**Lead Observations:**
+The lead "Researchers found that groups of AI language models can spontaneously form shared conventions and biases, mimicking human social behavior, in a study published in *Science Advances*." is brief (26 words, one sentence) yet highly informative. It successfully summarizes the key elements: who (researchers, AI language models), what (spontaneously form shared conventions and biases), how (mimicking human social behavior), and the source (study in *Science Advances*). It accurately captures crucial details like the "spontaneous" nature of the development and the inclusion of "biases" alongside "conventions."
+
+**Overall Impression:**
+The headline and lead work exceptionally well together. The headline piques interest and states the main point, while the lead provides a concise and accurate summary of the study's core findings and context. There are no apparent inaccuracies, hallucinations, or coherence issues. The AI has successfully identified the most important aspects of the article and presented them in a journalistically sound manner, adhering well to the provided guidelines. The language is appropriate for a news report.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear, concise, and accurately summarizes the main finding of the article.
+- It avoids sensationalism and uses strong, active language ("Develop," "Reveals").
+- The phrase "Human-Like Social Norms" captures the core discovery.
+
+Lead:
+- The lead is brief and informative, summarizing the who (researchers), what (AI language models form shared conventions and biases), and where (published in Science Advances).
+- It mentions the mimicking of human social behavior, which is central to the article.
+- The lead could be slightly improved by specifying the institutions involved or the experimental context, but it covers the main points well.
+
+Alignment:
+- The headline and lead are well-aligned with each other and with the article.
+- No evidence of hallucination, misinformation, or misalignment.
+- Both are clear and understandable at a glance.
+
+Overall Impression:
+- The headline and lead together provide an accurate, engaging, and informative entry point to the article.
+- Minor improvements could be made for specificity, but they are not strictly necessary.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to rate the provided headline and lead based on the given guidelines and the article content. First, I need to understand the article's main points. The study shows that AI agents, when interacting in groups, can form their own social norms without human intervention, similar to how humans develop conventions. The research was conducted by City St George’s and IT University of Copenhagen, led by Ariel Flint Ashery and Andrea Baronchelli, published in Science Advances.
+
+Now, looking at the headline: "AI Agents Develop Human-Like Social Norms, Study Reveals." It's clear and uses active verbs. It mentions the key finding (social norms) and that it's a study. The guidelines say to avoid sensationalism; this seems factual. However, "Human-Like" might be a bit broad, but the article does compare the AI behavior to human social conventions, so it's accurate.
+
+The lead: "Researchers found that groups of AI language models can spontaneously form shared conventions and biases, mimicking human social behavior, in a study published in *Science Advances*." It answers the who (researchers), what (AI forming conventions), and where (the journal). It's concise, under 40 words. The mention of "mimicking human social behavior" aligns with the article's comparison to human norms like the term "spam." 
+
+Checking for AI weaknesses: The headline and lead don't seem to have misinformation. They accurately reflect the study's findings. The coherence between headline and lead is good; both focus on the spontaneous formation of social norms. The lead could maybe specify the institutions involved, but the guidelines say to keep it brief. 
+
+Potential issues: The headline uses "Human-Like," which is correct as the study draws parallels to human behavior. The lead mentions "biases," which the article does discuss collective biases forming. Both are accurate. No hallucinations detected. 
+
+Rating: The headline and lead are clear, accurate, and concise. They follow the guidelines well. Minor improvements could be adding the institutions in the lead, but it's not necessary. I'd rate this a 4.5, but since the scale is integers, rounding up to 5. Wait, but maybe the lead could be slightly more specific. Let me check again. The lead mentions "groups of AI language models" which matches the study's use of LLM agents. It's accurate. No major issues. So a 5 is justified.
+</think>
+
+5
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and their accuracy in representing the article.
+
+**Headline: "AI Agents Develop Human-Like Social Norms, Study Reveals"**
+- Clear and understandable at a glance
+- Accurately captures the main finding of the study
+- Uses active language without being sensational
+- Concise and informative
+
+**Lead: "Researchers found that groups of AI language models can spontaneously form shared conventions and biases, mimicking human social behavior, in a study published in Science Advances."**
+- Covers the key who (researchers), what (AI models forming conventions), and where (published in Science Advances)
+- Accurately summarizes the main finding of the study
+- Appropriate length (26 words)
+- Provides context about the publication
+
+**Key observations:**
+- The headline and lead accurately represent the core finding of the study about AI developing human-like social conventions
+- Both are factually accurate and avoid hallucination
+- They work well together - the headline captures attention while the lead provides necessary context
+- The lead mentions "biases" which is an important secondary finding mentioned in the article
+- The headline and lead maintain appropriate tone without sensationalizing
+
+**Overall impression:**
+The headline and lead work very well together to represent the article accurately. They capture the main point that AI can develop social conventions spontaneously, similar to humans. The information is presented clearly and concisely without exaggeration. There are no factual errors or misrepresentations. The only minor improvement might be including the specific universities involved in the research, but this is not essential.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "AI Agents Develop Human-Like Social Norms, Study Reveals" is clear, concise, and accurately reflects the main finding of the article. It uses strong, active verbs ("Develop," "Reveals") and is attention-grabbing without being overly sensational. The term "AI Agents" is specific and appropriate.
+
+**Lead Observations:**
+The lead "Researchers found that groups of AI language models can spontaneously form shared conventions and biases, mimicking human social behavior, in a study published in *Science Advances*." is brief (27 words) yet highly informative. It successfully summarizes the core "who" (researchers, AI language models), "what" (spontaneously form shared conventions and biases, mimicking human social behavior), and "where" (study published in *Science Advances*), with "when" implied by the recent nature of the study. It accurately captures key elements like "spontaneously," "shared conventions and biases," and the comparison to human behavior.
+
+**Overall Impression:**
+The headline and lead work exceptionally well together. The lead directly expands on the claim made in the headline. Both are well-aligned with the article's content, accurately representing its main topic and key findings. There are no signs of misinformation, hallucination, or other typical AI weaknesses. The language is appropriate for a news report. The AI has successfully followed the guidelines for creating a short, catchy headline and a brief, informative lead.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is clear, concise, and accurately reflects the main finding of the article: AI agents developing human-like social norms.
+- The headline avoids sensationalism and uses strong, active language.
+- The lead is brief, informative, and answers the who (researchers), what (AI language models form shared conventions and biases), and where (in a study published in Science Advances). The when and why are less explicit, but the lead still gives a good summary.
+- Both headline and lead are well-aligned with the article’s main points, mentioning the spontaneous emergence of conventions and biases in AI groups, and the human-like aspect.
+- No major inaccuracies, hallucinations, or coherence issues are present.
+- Minor improvement: The lead could mention the institutions involved or the experimental setup for more specificity, but this is not essential.
+
+Overall impression: The headline and lead work well together, are accurate, and meet journalistic standards with only minor room for improvement.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to act as an expert news editor and judge, rating the badness of a generated headline and lead for a news article. The main task is to evaluate how well the headline and lead adhere to journalistic standards, considering typical AI weaknesses like inaccuracies, hallucinations, and coherence issues.
+
+First, I need to read the provided article carefully to understand its main points. The study discusses how AI agents, specifically large language models (LLMs), can autonomously develop social conventions through interaction, similar to humans. The research was conducted by Ariel Flint Ashery and Andrea Baronchelli from City St George’s and IT University of Copenhagen. The experiments involved groups of AI agents (24 to 100) interacting in pairs to select names, leading to emergent shared norms without explicit programming. Key findings include spontaneous convention formation, collective biases, and critical mass dynamics where small groups can influence larger populations.
+
+Next, I'll examine the generated headline: "AI Agents Develop Human-Like Social Norms, Study Reveals." The headline is clear and attention-grabbing. It uses active verbs and is concise. However, the term "human-like" might be slightly misleading. The study emphasizes that AI developed social conventions through interaction, which is a human-like process, but the norms themselves aren't necessarily human-like. The headline could be more precise by specifying "social conventions" instead of "norms," as the study focuses on conventions like naming, not broader social norms.
+
+Now the lead: "Researchers found that groups of AI language models can spontaneously form shared conventions and biases, mimicking human social behavior, in a study published in *Science Advances*." The lead answers the Five Ws: who (researchers), what (AI forming conventions and biases), when (implied by the study's publication), where (in the journal), why (to show AI's social behavior). It's concise, but "mimicking human social behavior" might overstate the findings. The study shows parallels in the process (emergent conventions) but doesn't claim the AI's behavior is identical to humans. Also, the lead mentions "biases," which the article discusses as collective biases emerging from interactions, so that's accurate.
+
+Checking for inaccuracies: The headline's "human-like" could be problematic. The study's focus is on the emergence process, not the content being human-like. The lead's "mimicking" might imply imitation, whereas the AI's behavior is self-organized, not copying humans. However, the article does compare the process to human examples like the term "spam," so "mimicking" might be acceptable in that context.
+
+Coherence between headline and lead: Both focus on AI developing social conventions, which aligns with the article. The headline mentions "norms," while the lead uses "conventions and biases." The article uses both terms but primarily "conventions." "Norms" might be a broader term than intended, but they are related. The lead's mention of "biases" adds detail from the study's findings, which is good.
+
+Potential AI weaknesses: The headline's "human-like" could be seen as a slight exaggeration. The lead accurately reflects the study but might overstate by using "mimicking." However, the study does draw parallels to human social processes, so it's not entirely off. There's no hallucination; both headline and lead are supported by the article. The coherence is good, as both elements focus on the study's main finding.
+
+Considering the guidelines: The headline is clear and uses active verbs but could be more precise. The lead is brief and informative, covering key points. The main issues are minor inaccuracies in terminology and possible overstatement. These don't severely misrepresent the article but could be improved for clarity.
+
+Rating: The headline and lead are mostly accurate and coherent but have minor issues with terminology and slight overstatement. They effectively convey the study's findings without major errors. This fits a rating of 2 (good, with minor improvements possible).
+</think>
+
+2
+
+

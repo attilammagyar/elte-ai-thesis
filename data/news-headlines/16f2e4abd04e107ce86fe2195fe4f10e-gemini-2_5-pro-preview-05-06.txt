@@ -1,0 +1,227 @@
+URL: https://interestingengineering.com/energy/tough-solar-cell-hits-25-efficiency
+Generator: gemini-2.5-pro-preview-05-06
+Headline: Cornell Breakthrough: Super-Durable Perovskite Solar Cells
+Lead: Scientists at New York's Cornell University have developed a groundbreaking protective material for perovskite solar cells, dramatically boosting their durability and efficiency to over 25% and tackling a key weakness that has hindered the promising technology's widespread use.
+
+Article:
+
+A team of scientists in the U.S. have developed a new material that si...
+
+(...3720 characters...)
+
+...hat we learn.”
+
+The study has been  published  in the journal  Joule .
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about Cornell's perovskite solar cell breakthrough.
+
+**Headline: "Cornell Breakthrough: Super-Durable Perovskite Solar Cells"**
+- Accurately identifies the key institution (Cornell)
+- Clearly communicates the main achievement (durability improvement for perovskite solar cells)
+- Concise and attention-grabbing without being sensational
+- Uses strong but appropriate language ("breakthrough")
+- Easily understood at a glance
+
+**Lead: "Scientists at New York's Cornell University have developed a groundbreaking protective material for perovskite solar cells, dramatically boosting their durability and efficiency to over 25% and tackling a key weakness that has hindered the promising technology's widespread use."**
+- Covers the essential who (Cornell scientists), what (developed protective material), and why (to improve durability and efficiency)
+- Accurately states the efficiency figure (over 25%)
+- Provides context about why this matters (addressing a key weakness hindering adoption)
+- Slightly long at approximately 42 words, but still readable
+- Aligns well with the article's content
+
+**Overall impression:**
+The headline and lead work very well together to accurately represent the article's content. The headline is appropriately concise while the lead expands with necessary details. Both capture the essence of the breakthrough - improving durability while maintaining high efficiency. The information is factually accurate and avoids common AI pitfalls like hallucination or misrepresentation. The only minor issue is that the lead is slightly longer than the ideal 25-30 word guideline, but it remains clear and informative.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "Cornell Breakthrough: Super-Durable Perovskite Solar Cells" is concise, clear, and attention-grabbing. It correctly identifies the institution involved ("Cornell") and the significance of the development ("Breakthrough"). The term "Super-Durable" effectively highlights a key improvement described in the article. It uses strong, impactful language without being overly sensational.
+
+**Lead Observations:**
+The lead "Scientists at New York's Cornell University have developed a groundbreaking protective material for perovskite solar cells, dramatically boosting their durability and efficiency to over 25% and tackling a key weakness that has hindered the promising technology's widespread use" is well-crafted. It successfully summarizes the core information:
+*   **Who:** Scientists at Cornell University.
+*   **What:** Developed a groundbreaking protective material for perovskite solar cells.
+*   **Why/Impact:** Dramatically boosting durability and efficiency (over 25%), tackling a key weakness hindering widespread use.
+*   **Where:** Cornell University.
+It is a single sentence of 39 words, which is within the desired length, and is highly informative.
+
+**Overall Impression and Justification:**
+The headline and lead work very well together. The headline piques interest, and the lead provides a solid, accurate summary of the article's main points. Both are aligned with the article's content, accurately reflecting the breakthrough in perovskite solar cell technology, the improved durability, the efficiency achieved (>25%), and the problem being solved. There are no apparent AI weaknesses like misinformation or hallucination. The language is appropriate for a news report. The lead effectively answers the key "W" questions.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear and understandable at a glance.
+- It uses the word "Breakthrough," which is attention-grabbing but not overly sensational.
+- "Super-Durable" is concise and accurately reflects the main achievement.
+- "Perovskite Solar Cells" is specific and relevant.
+- The headline credits Cornell, aligning with the article's focus.
+
+Lead:
+- The lead identifies the "who" (Cornell University scientists), "what" (developed a protective material for perovskite solar cells), and "why" (to boost durability and efficiency, addressing a key weakness).
+- It mentions the efficiency improvement ("over 25%"), which is a key detail from the article.
+- The lead is brief, informative, and mostly within the word limit.
+- It avoids technical jargon and is accessible to a general audience.
+- The lead and headline are well-aligned and coherent with the article's main points.
+
+Overall Impression:
+- The headline and lead work well together, accurately representing the article's content.
+- Both are clear, concise, and informative, with no major issues of inaccuracy or misalignment.
+- Minor improvement could be made by specifying that the "protective material" is a new 2D perovskite layer, but the current wording is still accurate and effective.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to read the article carefully to understand the main points. The article is about a team at Cornell University developing a new 2D-3D hybrid perovskite material that improves both efficiency and durability of solar cells. They achieved 25.3% efficiency and only 5% performance loss after 50 days under stress tests. The key innovation is using formamidinium (FA) instead of methylammonium (MA) for better stability, along with lattice matching to reduce internal strain.
+
+Now, looking at the headline: "Cornell Breakthrough: Super-Durable Perovskite Solar Cells". It mentions Cornell, which is correct. "Super-Durable" aligns with the article's focus on improved durability. The term "Breakthrough" is fitting as the study addresses a major commercialization hurdle. However, "Super-Durable" might be a bit vague. The article specifies the cells lost only 5% efficiency after 50 days, which could be more precise, but the headline is concise and attention-grabbing.
+
+The lead states: "Scientists at New York's Cornell University have developed a groundbreaking protective material for perovskite solar cells, dramatically boosting their durability and efficiency to over 25% and tackling a key weakness that has hindered the promising technology's widespread use." It answers who (Cornell scientists), what (protective material), why (improve durability/efficiency), and the significance (addressing a key weakness). The efficiency is accurately reported as over 25%, which matches the article's 25.3%. The lead is concise, under 40 words, and aligns well with the headline.
+
+Checking for AI weaknesses: No misinformation noticed. The headline and lead accurately reflect the article. Both are coherent, focusing on the same breakthrough. No sensationalism; terms like "groundbreaking" and "dramatically" are supported by the research results. The lead could mention the 50-day test result for more specificity, but it's not necessary as it's already concise. Overall, the headline and lead work well together, are accurate, and meet journalistic standards. I don't see major issues, so a high score is appropriate.
+</think>
+
+4  
+The headline effectively highlights the institution and the breakthrough, though "Super-Durable" could be more specific. The lead concisely summarizes the key achievement (25% efficiency, addressing durability) and context (hindered commercialization). Both align well with the article’s focus on FA-based lattice matching as the innovation. However, the lead omits the 50-day stability test result, a critical detail for assessing durability improvements. While accurate and coherent, minor enhancements in specificity would elevate the rating.  
+
+5
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about perovskite solar cell technology.
+
+**Headline: "Cornell Breakthrough: Super-Durable Perovskite Solar Cells"**
+- Accurately identifies Cornell University as the source of the research
+- Correctly focuses on the durability improvement, which is a key aspect of the breakthrough
+- Uses appropriate, active language without being overly sensational
+- Clear and understandable at a glance
+- Appropriately concise
+
+**Lead: "Scientists at New York's Cornell University have developed a groundbreaking protective material for perovskite solar cells, dramatically boosting their durability and efficiency to over 25% and tackling a key weakness that has hindered the promising technology's widespread use."**
+- Accurately identifies who (Cornell scientists), what (developed protective material), and why (to improve durability and efficiency)
+- Correctly states the efficiency figure of "over 25%" (article mentions 25.3%)
+- Appropriately explains the significance (addressing a key weakness hindering adoption)
+- Length is appropriate at 39 words
+- Captures the essence of the article's main point
+
+**Overall impression:**
+The headline and lead work well together to accurately represent the article's content. The headline is appropriately concise while highlighting the key breakthrough, and the lead expands on this with the necessary details. There are no factual errors or hallucinations. The information presented aligns perfectly with the article's content. The only minor improvement might be to make the lead slightly more concise, but it's still within acceptable length guidelines.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+Key observations:
+
+Headline:
+*   The headline "Cornell Breakthrough: Super-Durable Perovskite Solar Cells" is catchy and clear.
+*   It correctly identifies the institution (Cornell) and the nature of the news ("Breakthrough").
+*   It highlights a key achievement ("Super-Durable") related to the specific technology (Perovskite Solar Cells).
+*   "Super-Durable" is an attention-grabbing adjective that reflects the article's emphasis on significantly improved durability ("rugged, weather-resistant shield," "exceptional stability"). While effective, it might be considered slightly informal or leaning towards sensational for very conservative publications.
+*   It accurately reflects a core aspect of the article.
+
+Lead:
+*   The lead is a single, well-constructed sentence of 40 words: "Scientists at New York's Cornell University have developed a groundbreaking protective material for perovskite solar cells, dramatically boosting their durability and efficiency to over 25% and tackling a key weakness that has hindered the promising technology's widespread use."
+*   It is brief yet informative, successfully covering the key "Five Ws": Who (Cornell scientists), What (developed a protective material boosting durability and efficiency), Where (Cornell), and Why (tackling a key weakness).
+*   It accurately reports the efficiency ("over 25%") and the dual benefit of durability and efficiency.
+*   The use of terms like "groundbreaking" and "dramatically boosting" is strong. "Groundbreaking" aligns with the article's "breakthrough." "Dramatically boosting" is a strong interpretation of the article's "significantly boosts"; while the impact described could be seen as dramatic, "significantly" would be a more direct reflection.
+
+Overall Impression:
+*   The headline and lead are well-aligned with each other and accurately represent the main topic and key points of the article.
+*   There are no apparent inaccuracies or hallucinations.
+*   The AI successfully created a catchy headline and an informative lead. The language is engaging.
+*   The choices of "Super-Durable" and "dramatically" are impactful and largely justified by the article's content and tone (e.g., "breakthrough," "key challenge," "exceptional stability"). However, these strong descriptors might warrant slight moderation for more formal journalistic contexts, representing a possibility for minor stylistic refinement.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear and understandable, mentioning "Cornell," "breakthrough," and "super-durable perovskite solar cells."
+- "Super-Durable" is a bit informal and slightly sensational, but not egregiously so.
+- The headline accurately reflects the main achievement: improved durability of perovskite solar cells.
+
+Lead:
+- The lead identifies the who (Cornell scientists), what (developed a protective material for perovskite solar cells), and why (boosting durability and efficiency, tackling a key weakness).
+- It mentions the efficiency improvement to over 25%, which is accurate.
+- The lead is a bit long (about 41 words) but still within reasonable limits.
+- The phrase "dramatically boosting" is a little subjective, but not misleading.
+- The lead aligns well with the article's main points.
+
+Overall impression:
+- The headline and lead work well together, are accurate, and represent the article's content faithfully.
+- Minor improvements could be made for tone (less sensational language) and brevity, but there are no major issues.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to carefully read the article and then evaluate the provided headline and lead based on the guidelines.
+
+Starting with the headline: "Cornell Breakthrough: Super-Durable Perovskite Solar Cells". The guidelines say headlines should be clear, attention-grabbing without being sensational, use short sentences, and strong verbs. "Super-Durable" might be a bit hyperbolic, but the article does mention significant durability improvements. Including "Cornell" is good for the 'where' aspect. However, "Breakthrough" is a strong term, but the article does present a new method that addresses a major challenge, so it's justified. The headline is concise and highlights the main achievement.
+
+Now the lead: "Scientists at New York's Cornell University have developed a groundbreaking protective material for perovskite solar cells, dramatically boosting their durability and efficiency to over 25% and tackling a key weakness that has hindered the promising technology's widespread use." The lead should answer the Five Ws. Who: Cornell scientists. What: Developed a protective material. When: Not explicitly stated, but the study is recent. Where: Cornell. Why: To tackle durability issues. The efficiency of over 25% is mentioned in the article, and the key weakness (durability) is addressed. The lead is a bit long at around 40 words, which is at the upper limit of the guideline. It's informative but could be more concise.
+
+Checking for inaccuracies: The article states the efficiency is 25.3%, which matches the lead. The protective material is a 2D layer using FA and lattice matching, which the lead summarizes as "groundbreaking protective material". No misinformation here.
+
+Coherence between headline and lead: Both focus on durability and Cornell's role. The headline mentions "Super-Durable", and the lead elaborates on the protective material and efficiency. They align well.
+
+Potential issues: The headline uses "Super-Durable" which is catchy but slightly sensational. The lead is a bit wordy but covers all key points. No hallucinations detected; all claims are supported by the article. The lead could be tighter, maybe splitting into two sentences for clarity, but it's still within guidelines.
+
+Rating: Considering the guidelines, the headline and lead are accurate, coherent, and meet most criteria. Minor issues like slight hyperbole in the headline and lead length might warrant a 2, as there's room for minor improvements but overall good.
+</think>
+
+**Observations:**  
+- **Headline:** Accurately highlights the institution (Cornell) and the key advancement (durability). "Super-Durable" is slightly hyperbolic but aligns with the article's emphasis on improved stability.  
+- **Lead:** Clearly summarizes the "what" (protective material), "who" (Cornell scientists), and "why" (addressing durability/efficiency challenges). The efficiency figure (25%) and the technology’s commercialization hurdle are correctly stated. However, the lead is 40 words, pushing the upper limit of brevity.  
+- **Coherence:** Headline and lead align well, focusing on durability and efficiency gains. No factual inaccuracies or hallucinations detected.  
+
+**Improvements:**  
+- The headline could specify the innovation (e.g., "2D/3D Hybrid") for precision.  
+- The lead might split into two sentences for readability while maintaining conciseness.  
+
+**Rating:** 2  
+
+2
+
+

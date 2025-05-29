@@ -1,0 +1,242 @@
+URL: https://www.engadget.com/gaming/nows-a-good-time-to-check-in-on-your-steam-account-security-205807479.html
+Generator: sonar-reasoning-pro
+Headline: Valve Denies System Breach as 89 Million Steam Users Exposed in SMS Cache Leak
+Lead: Valve confirmed on May 14, 2025, that a leak of outdated SMS authentication codes linked to 89 million Steam accounts originated from third-party providers, stressing no passwords, payment details, or direct user data was compromised.
+
+Article:
+
+Update May 14, 6:38PM ET:  Valve has confirmed that Steam systems were...
+
+(...1996 characters...)
+
+...en compromised, be extra alert to possible phishing attempts via text.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and accuracy to the article.
+
+**Headline Analysis:**
+The headline "Valve Denies System Breach as 89 Million Steam Users Exposed in SMS Cache Leak" is problematic. While it captures attention, it contains inaccuracies. The article states that Valve confirmed Steam systems were NOT breached, but the headline implies users were definitely "exposed," which contradicts Valve's statement. The "89 million" figure is presented as fact in the headline, but the article describes this as an unconfirmed claim by a hacker.
+
+**Lead Analysis:**
+The lead has several issues:
+1. It incorrectly states the date as "May 14, 2025" (should be 2023 or 2024)
+2. It presents the "89 million" figure as confirmed when the article describes this as an alleged claim
+3. It states the leak "originated from third-party providers" as fact, but the article indicates uncertainty about the source
+4. It's slightly over the recommended length
+
+**Overall Impression:**
+The headline and lead present allegations as confirmed facts and contain a factual error (wrong year). They fail to convey the uncertainty expressed in the article about whether a significant breach actually occurred. The headline particularly contradicts Valve's statement by implying users were definitely "exposed" when Valve explicitly stated no identifying user data was stolen or accessed.
+
+2
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+**Key Observations:**
+
+1. **Headline:**
+   - The headline is attention-grabbing and clear, summarizing the main points: Valve's denial of a breach and the exposure of 89 million users via an SMS cache leak.
+   - It avoids sensationalism while still being impactful.
+   - The use of "exposed" is accurate but not overly alarming, given the context of outdated data.
+
+2. **Lead:**
+   - The lead succinctly answers the Five Ws: who (Valve), what (leak of outdated SMS codes), when (May 14, 2025), why (third-party providers), and where (Steam accounts).
+   - It clarifies that no sensitive data was compromised, aligning with the article's details.
+   - The lead is concise and informative, fitting within the recommended word count.
+
+3. **Alignment:**
+   - The headline and lead work well together, with the lead providing additional context and clarification to the headline.
+   - Both accurately reflect the article's content without misinformation or hallucination.
+
+**Overall Impression:**
+The headline and lead are well-crafted, adhering to journalistic standards and effectively summarizing the article's key points. They are clear, accurate, and complementary, with no significant issues.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline accurately captures Valve's denial of a system breach, which is a key point from the article's update.
+*   It mentions the "89 Million Steam Users Exposed" and "SMS Cache Leak," which reflects the hacker's claim and the nature of the leaked data.
+*   However, "Exposed" might be slightly strong given Valve's clarification that the leaked data did not directly link phone numbers to Steam accounts or compromise account security. The 89 million figure is from a hacker's *claim* and the headline presents it as a confirmed number of *exposed users*.
+*   "SMS Cache Leak" is a reasonable interpretation, though the article says "older text messages."
+
+**Lead Observations:**
+*   The lead correctly identifies Valve's confirmation, the date (May 14), the nature of the leak (outdated SMS codes from third-party providers), and Valve's assurance about passwords and payment details.
+*   **Major inaccuracy/hallucination:** The lead states the confirmation was on "May 14, 2025." The article only provides "May 14" without a year; "2025" is a hallucination.
+*   **Significant misrepresentation:** The lead states the leak was "linked to 89 million Steam accounts." However, Valve's statement, as quoted in the article, explicitly says: "The leaked data did not associate the phone numbers with a Steam account." This is a crucial distinction that the lead fails to make, instead presenting the hacker's claimed scope as a confirmed link within the leaked data.
+*   The lead is 36 words, which is a bit long but acceptable if accurate.
+
+**Overall Impression:**
+The headline and lead attempt to summarize the latest update in the article, which is good. However, they suffer from significant inaccuracies. The hallucinated year in the lead is a clear error. More importantly, both the headline (with "89 Million Steam Users Exposed") and the lead (with "linked to 89 million Steam accounts") misrepresent the information provided in Valve's clarification. Valve specifically stated the leaked data did *not* associate phone numbers with Steam accounts. While a hacker *claimed* 89 million user records, the AI's phrasing implies a direct, confirmed link or exposure of these accounts in a way that Valve refutes. This lack of nuance and the factual error make the generated content problematic.
+
+2
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear and attention-grabbing, but the phrase "89 Million Steam Users Exposed" is somewhat misleading. The article clarifies that only phone numbers and one-time codes (not directly linked to user accounts) were leaked, and Valve denies any system breach.
+- "Valve Denies System Breach" is accurate, but "as 89 Million Steam Users Exposed" overstates the impact, as the leak did not expose full user data or direct account information.
+
+Lead:
+- The lead is informative and includes the who (Valve), what (confirmed a leak of outdated SMS codes), when (May 14, 2025), and some of the what/why (originated from third-party providers, no sensitive data compromised).
+- However, it inaccurately states the codes were "linked to 89 million Steam accounts," which the article does not confirm. The leak involved phone numbers and codes, but not necessarily direct account linkage.
+- The lead is a bit long and could be more concise.
+
+Overall Impression:
+- Both headline and lead overstate the severity of the leak and the direct connection to user accounts, which is not fully supported by the article. There is a slight sensationalism and a risk of misleading readers about the nature and impact of the breach.
+- The headline and lead are aligned with each other but not perfectly with the article's nuance and Valve's clarification.
+- Some editing is needed for accuracy and tone.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for the article about the Steam data breach. The user wants an expert news editor's perspective, focusing on accuracy, adherence to guidelines, and how well the headline and lead work together.
+
+First, I'll read the article carefully to grasp the main points. The article states that Valve denied a breach of their systems, attributing the leak to third-party providers. The leaked data included old SMS messages with one-time codes and phone numbers, but no account credentials or payment info. The original reports suggested a hacker selling 89 million records, but Valve clarified the source wasn't their systems.
+
+Now, looking at the headline: "Valve Denies System Breach as 89 Million Steam Users Exposed in SMS Cache Leak." The headline uses "exposed," which might be a bit strong since the data was outdated and didn't include sensitive info. However, it accurately states Valve's denial and the scale. The term "SMS Cache Leak" is concise but could be clearer.
+
+The lead: "Valve confirmed on May 14, 2025, that a leak of outdated SMS authentication codes linked to 89 million Steam accounts originated from third-party providers, stressing no passwords, payment details, or direct user data was compromised." It answers the Five Ws—who (Valve), what (leak of SMS codes), when (May 14), where (third-party providers), why (no breach of their systems). It's concise, around 40 words, and aligns with the article's key points.
+
+Checking for AI weaknesses: The headline's "exposed" might be slightly sensational, but the article does mention 89 million records. The lead accurately reflects Valve's statement. There's no misinformation here. Coherence between headline and lead is good; both focus on Valve's denial and the nature of the leak.
+
+Rating guidelines: The headline and lead are accurate, concise, and work well together. Minor issues like "exposed" might warrant a 4, but since they're technically correct and the lead clarifies the lack of sensitive data, a 4 seems appropriate. However, considering the clarity and adherence to guidelines, maybe a 4. But wait, the instructions say to give a single integer. Let me double-check.
+
+Headline could be improved by replacing "exposed" with a less alarming term, but it's not incorrect. The lead is strong. Overall, it's good with minor room for improvement. So, a 4.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article content and journalistic standards.
+
+Headline: "Valve Denies System Breach as 89 Million Steam Users Exposed in SMS Cache Leak"
+
+Lead: "Valve confirmed on May 14, 2025, that a leak of outdated SMS authentication codes linked to 89 million Steam accounts originated from third-party providers, stressing no passwords, payment details, or direct user data was compromised."
+
+Key observations:
+
+1. Inaccuracy in date: The lead states "May 14, 2025" when the article clearly says "May 14" (presumably 2023 or 2024).
+
+2. Factual misrepresentation: The headline and lead present the 89 million figure as confirmed, when the article states this is an "alleged" breach with a hacker "claiming" to sell this data. The article specifically notes "details are scant and difficult to confirm."
+
+3. Misleading framing: The headline suggests users were "exposed" when Valve explicitly stated "identifying user data has not been stolen or accessed by hackers."
+
+4. Mischaracterization: The lead states the leak was "linked to 89 million Steam accounts" when Valve clarified that "the leaked data did not associate the phone numbers with a Steam account."
+
+5. Tone mismatch: The headline creates alarm while the article is more measured, noting this is an alleged breach and providing context about what Valve has confirmed.
+
+Overall impression:
+The headline and lead significantly misrepresent the article's content by presenting allegations as confirmed facts and contradicting Valve's explicit statements about the nature of the leak. They fail to accurately convey the uncertainty expressed in the article and overstate both the scope and severity of the incident.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline is somewhat sensational with "89 Million Steam Users Exposed," which could be misleading since the article clarifies that the leaked data was outdated and not directly linked to user accounts. The lead is more balanced but still emphasizes the 89 million figure, which might overstate the severity. Both the headline and lead correctly note that Valve denied a system breach and that the leak involved third-party providers, aligning with the article. However, the headline's phrasing could be clearer to avoid potential misinterpretation about the extent of user exposure.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline correctly captures Valve's denial of a system breach, which is a key point from the update.
+*   However, "as 89 Million Steam Users Exposed" is problematic. While the article mentions a hacker *claimed* to be selling 89 million user records, Valve's update clarifies that the leaked data (old SMS codes and phone numbers) "did not associate the phone numbers with a Steam account." So, stating "89 Million Steam Users Exposed" as a direct consequence alongside Valve's denial is misleading and overstates the confirmed impact on *users* themselves, as per Valve's clarification. The "exposure" was of phone numbers and old codes, not directly linked user accounts in the way "users exposed" implies.
+*   "SMS Cache Leak" is a reasonable interpretation of "older text messages."
+
+**Lead Observations:**
+*   **Hallucination:** The lead states "May 14, 2025." The article update only mentions "May 14," with no year. The year 2025 is a hallucination.
+*   **Misinformation/Inaccuracy:** The lead says the leak was "linked to 89 million Steam accounts." Valve's statement explicitly says the leaked data "did not associate the phone numbers with a Steam account." The 89 million figure comes from the hacker's unverified claim about "user records," not from Valve confirming that many *accounts* were directly implicated by the leaked data.
+*   The lead correctly notes the codes were outdated and that Valve stressed no passwords or payment details were compromised.
+*   The length (36 words) is slightly over the ideal 25-30 but acceptable.
+
+**Overall Impression:**
+The headline and lead attempt to incorporate the latest update from Valve but misrepresent key details. The headline overstates the confirmed "exposure" of users. The lead contains a significant factual error (hallucinated year) and misrepresents Valve's statement regarding the link between the leaked data and the "89 million Steam accounts." The AI seems to have conflated the hacker's claim with Valve's confirmed findings about the nature of the leak. The coherence between Valve's denial and the scale of the alleged exposure is poorly handled, especially in the lead which attributes the "89 million accounts" linkage to Valve's confirmation, which is incorrect.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is somewhat misleading. It says "Valve Denies System Breach as 89 Million Steam Users Exposed in SMS Cache Leak," which implies that 89 million users were actually exposed, while the article clarifies that only old SMS codes and phone numbers (not directly tied to accounts) were leaked, and no user data was compromised.
+- The phrase "Steam Users Exposed" is sensational and overstates the impact, given Valve's clarification.
+- The headline does capture the denial and the context of a leak, but the numbers and implication of exposure are not fully accurate.
+
+Lead:
+- The lead states that the leak was "linked to 89 million Steam accounts," but the article says the leaked SMS codes and phone numbers were not associated with Steam accounts.
+- The lead says Valve "confirmed" the leak originated from third-party providers, but Valve's statement is more cautious, saying they're still investigating the source.
+- The lead does correctly note that no passwords, payment details, or direct user data were compromised.
+
+Overall impression:
+- Both the headline and lead exaggerate the scope and certainty of the leak, misrepresenting the facts as clarified by Valve.
+- There are inaccuracies regarding the association of leaked data with Steam accounts and the source of the leak.
+- The tone is more sensational than warranted, and the headline/lead pair could mislead readers about the severity and nature of the incident.
+
+Final rating:
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided based on the given article and guidelines. The user wants an expert evaluation focusing on accuracy, adherence to journalistic standards, and common AI pitfalls.
+
+First, I'll read the article carefully. The main points are: Valve denied a breach of their systems, the leak involved old SMS codes from third-party providers, no passwords or payment info was compromised, and the data was from a third-party, not Steam directly. The headline is "Valve Denies System Breach as 89 Million Steam Users Exposed in SMS Cache Leak" and the lead mentions Valve confirming the leak's origin from third-party providers, stressing no sensitive data was compromised.
+
+Now, checking the headline against the guidelines. It should be clear and attention-grabbing without sensationalism. "Exposed" might be a bit strong here since the data was outdated and not linked to accounts. The article says the codes were only valid for 15 minutes, so "exposed" could be misleading, implying current risk. Also, "89 Million Steam Users Exposed" might not be accurate because the data didn't link phone numbers to accounts, so it's unclear if all 89 million were actually users. The headline uses "Denies System Breach" correctly, aligning with Valve's statement.
+
+Looking at the lead: It answers the Five Ws. Who: Valve. What: Leak of outdated SMS codes. When: May 14, 2025. Where: Third-party providers. Why: Not specified, but the lead mentions the origin. The lead is concise, around 40 words. However, "linked to 89 million Steam accounts" might be inaccurate because the article states the data didn't associate phone numbers with accounts. So the lead could be implying a direct link that doesn't exist.
+
+Checking for AI weaknesses. The headline's use of "Exposed" might be sensational, and the lead's implication of a direct link between SMS codes and accounts could be a misinformation issue. The coherence between headline and lead is okay, but both might overstate the risk. The article clarifies that the leak doesn't compromise account security, but the headline's "Exposed" and the lead's phrasing might make readers think otherwise.
+
+Rating guidelines: A score of 4 would mean several problems. The headline's inaccuracy with "exposed" and the lead's implication of account linkage are significant issues. However, the overall structure is okay, so maybe a 3? Wait, the headline's inaccuracy is a major problem because it could cause unnecessary panic. The lead also inaccurately states "linked to Steam accounts," which the article contradicts. That's a factual error, which is a serious issue. So that pushes it towards a 4 or 5. But the article does mention 89 million user records, even if not linked. The headline says "users exposed," which might be misleading. The lead's inaccuracy is a key point. Since the guidelines say 5 is unacceptable and needs a complete rewrite, but here the headline and lead have some accurate parts but major inaccuracies, maybe a 4. However, if the inaccuracies are severe enough, it could be a 5. Let me check again.
+
+The article states the leaked data didn't associate phone numbers with Steam accounts, so saying "linked to 89 million Steam accounts" in the lead is incorrect. The headline's "users exposed" is also misleading because the exposure wasn't of user accounts but of SMS codes sent to phone numbers, which weren't tied to accounts. This is a critical inaccuracy. Therefore, the headline and lead spread misinformation, which according to the rating guidelines, a 5 is for unacceptable needing a complete rewrite. But maybe the other parts are okay. Alternatively, a 4 if some parts are salvageable. Hmm. The main issue is the inaccuracy in both headline and lead, which is a major problem. So I think it's a 4 because there are several problems, but not completely beyond repair. Or maybe a 5 because the inaccuracies are fundamental. The user instructions say 5 is "unacceptable, needs complete rewrite." Since the headline and lead contain factual inaccuracies that misrepresent the article's content, it's a 5. But wait, the article does mention 89 million user records, even if not linked. So maybe the headline is partially accurate but misleading. The lead's inaccuracy is more severe. Given that, I'll rate it 4 because there are several issues, but not entirely wrong. Alternatively, if the inaccuracies are severe enough to make the headline and lead fundamentally wrong, then 5. I need to decide based on the guidelines. The key is "misinformation or inaccuracies" which are major issues here. So I think it's a 4 because while there are significant inaccuracies, the headline and lead aren't completely off. But the lead's statement is directly contradicted by the article, which is a major flaw. Therefore, a 4 might be too lenient. The rating guideline for 5 is "unacceptable, needs complete rewrite." Since the lead contains a factual error that's central to the story, it's a 5. However, the headline's "exposed" is misleading but not entirely false. The lead's inaccuracy is critical. So maybe 4. Let me check the examples in the sources. The article says the data didn't link phone numbers to accounts, so the lead's "linked to 89 million Steam accounts" is incorrect. That's a major inaccuracy. Therefore, the rating should be 4 or 5. Since the guidelines say 5 is for "unacceptable," and this inaccuracy is severe, I'll go with 4 because there are multiple issues but not completely wrong. Alternatively, maybe 3. Wait, the headline and lead together have coherence issues. The headline says "users exposed," which the article clarifies they weren't. The lead says "linked to Steam accounts," which is false. Both are inaccuracies. Therefore, it's a 4 because several problems exist, but the structure is there. Alternatively, 5 because the inaccuracies are fundamental. I think 4 is appropriate here.
+</think>
+
+**Headline Analysis**  
+The headline "Valve Denies System Breach as 89 Million Steam Users Exposed in SMS Cache Leak" contains inaccuracies and sensational language. While Valve’s denial aligns with the article, the phrase "89 Million Steam Users Exposed" is misleading. The article clarifies that the leaked data (expired 2FA codes and phone numbers) was not linked to Steam accounts, passwords, or payment details, making "exposed" an overstatement of risk. Additionally, "SMS Cache Leak" inaccurately implies the data originated from Steam’s systems rather than third-party providers.  
+
+**Lead Analysis**  
+The lead states: "Valve confirmed on May 14, 2025, that a leak of outdated SMS authentication codes linked to 89 million Steam accounts originated from third-party providers, stressing no passwords, payment details, or direct user data was compromised." While it captures the "who," "what," and "when," the claim that codes were "linked to 89 million Steam accounts" directly contradicts the article, which emphasizes that phone numbers were not associated with Steam accounts. This introduces misinformation.  
+
+**Coherence Issues**  
+The headline and lead together create a misleading narrative. The headline’s use of "exposed" and the lead’s assertion of a link to accounts amplify perceived severity beyond the article’s findings. The article explicitly states that the data lacked account associations and posed no direct security threat, which the generated text fails to convey accurately.  
+
+**Typical AI Weaknesses**  
+- **Misinformation**: The lead incorrectly ties leaked data to Steam accounts.  
+- **Sensationalism**: "Exposed" exaggerates the risk despite the codes being expired and unlinked.  
+- **Coherence gap**: The headline and lead misalign with the article’s emphasis on third-party origins and limited impact.  
+
+**Overall Impression**  
+While the headline and lead are structurally sound, critical inaccuracies and overstated risks undermine their credibility. The disconnect between the generated text and the article’s clarifications necessitates significant revisions to align with factual details.  
+
+4
+
+

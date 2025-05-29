@@ -1,0 +1,264 @@
+URL: https://www.europarl.europa.eu/news/en/press-room/20250502IPR28219/parliament-backs-extension-of-trade-liberalisation-measure-for-ukrainian-imports
+Generator: human
+Headline: Parliament backs extension of trade liberalisation measure for Ukrainian imports
+Lead: MEPs voted on Thursday to renew the suspension of import duties and quotas for certain imports from Ukraine, such as iron and steel, due to expire on 5 June 2025.
+
+Article:
+
+With the adoption of the  Autonomous Trade Measures (ATM) Re...
+
+(...1072 characters...)
+
+...m solution to offer economic certainty for EU-Ukraine trade.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and their accuracy in representing the article.
+
+**Headline Assessment:**
+The headline "Parliament backs extension of trade liberalisation measure for Ukrainian imports" is clear and accurately represents the main action described in the article. It uses active language ("backs") and clearly identifies who (Parliament) did what (backed extension of trade measures). It avoids sensationalism while conveying the key information.
+
+**Lead Assessment:**
+The lead has several issues:
+1. **Inaccuracy**: The lead states the measures expire on "5 June 2025," but the article says the current extension expires on "5 June" (presumably 2024) and the new regulation will be in force "until June 2028."
+2. **Specificity**: While the lead mentions "iron and steel," the article specifically mentions "steel" as the focus.
+3. **Missing information**: The lead doesn't mention that this is about providing Ukraine with export revenues during wartime, which is a key context.
+4. **Timing**: The lead specifies "Thursday" as when MEPs voted, but this timing detail isn't in the original article.
+
+**Overall Impression:**
+The headline is accurate and clear, but the lead contains factual errors and adds information not present in the article while missing important context. The headline works well, but the lead needs significant revision to accurately represent the article's content.
+
+2
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+**Key Observations:**
+
+1. **Headline:**
+   - Clear and concise, accurately summarizing the main action (Parliament backing the extension).
+   - Uses strong verbs ("backs") and avoids sensationalism.
+   - Could be slightly more specific about the focus on steel, but overall effective.
+
+2. **Lead:**
+   - Brief and informative, answering the key Ws (who: MEPs; what: voted to renew; when: Thursday; why: due to expire on 5 June 2025).
+   - Includes relevant details (import duties and quotas, focus on iron and steel).
+   - Aligns well with the headline and article content.
+
+**Overall Impression:**
+- The headline and lead work well together, accurately representing the article's main points.
+- Both are clear, concise, and free from AI-related issues like misinformation or incoherence.
+- Minor improvements could include specifying "steel" in the headline, but this is not critical.
+
+**Rating:** 4
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Parliament backs extension of trade liberalisation measure for Ukrainian imports" is clear, concise, and accurately reflects the main topic of the article.
+*   It uses active voice ("Parliament backs") and is not sensational.
+*   It correctly identifies the key actors (Parliament) and the subject (extension of trade liberalisation for Ukraine).
+
+**Lead Observations:**
+*   The lead "MEPs voted on Thursday to renew the suspension of import duties and quotas for certain imports from Ukraine, such as iron and steel, due to expire on 5 June 2025" is brief (26 words).
+*   It attempts to answer the Five Ws: Who (MEPs), What (voted to renew suspension), When ("on Thursday"), Where (implied EU Parliament), Why (implied support for Ukraine).
+*   **Accuracy Issues:**
+    *   "on Thursday": The article states "MEPs have now approved" but does not specify the day "Thursday." This appears to be an AI hallucination or addition of unverified information.
+    *   "due to expire on 5 June 2025": The article says the "most recent extension due to expire on 5 June" without specifying the year. The new regulation is for three years until June 2028. While June 2025 for the current expiry is a strong logical inference (if the new 3-year term starts immediately after and ends in June 2028), the article does not explicitly state "2025" for the current expiry. This is an assumption presented as fact.
+    *   "iron and steel": The article specifically mentions the measures "focus steel." While "iron and steel" are often linked, the lead expands on the article's specific wording. This is a minor point but a deviation.
+*   The lead correctly identifies the nature of the measures (suspension of import duties and quotas, which aligns with "trade liberalisation measures").
+
+**Overall Impression:**
+The headline is good and accurately captures the essence of the article. The lead is mostly informative but contains a significant factual inaccuracy ("on Thursday") which is a typical AI weakness (hallucination/adding unverified details). The specification of "2025" for the expiry date is a strong inference but not explicitly stated in the article for the *current* extension, and presenting it as a direct fact is a slight overstep. The expansion from "steel" to "iron and steel" is a minor point.
+
+The headline works well. The lead conveys the main point but the inclusion of "on Thursday" is a notable error. The "2025" date, while highly probable, is an inference. Together, the package is serviceable but requires editing to correct the factual inaccuracy in the lead and to clarify the basis of the date if kept.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear and understandable, accurately reflecting the main action: Parliament's backing of the extension of trade liberalisation measures for Ukrainian imports.
+- It is concise and avoids sensationalism.
+- The phrase "trade liberalisation measure" is a bit generic; specifying "for Ukrainian steel and other imports" could be more precise, as the article highlights steel in particular.
+
+Lead:
+- The lead is brief and informative, mentioning who (MEPs), what (voted to renew suspension of import duties and quotas), when (Thursday), and for what (certain imports from Ukraine, such as iron and steel).
+- However, there is a factual inaccuracy: the article states the current extension is due to expire on 5 June (presumably 2024), and the new regulation will last until June 2028. The lead says "due to expire on 5 June 2025," which is incorrect.
+- The lead could be improved by clarifying the duration of the extension and aligning the expiry date with the article.
+
+Overall Impression:
+- The headline and lead work together to represent the article, but the date error in the lead is a significant factual issue.
+- The focus on steel is appropriate, but the headline could be slightly more specific.
+- The lead otherwise covers the key points, but the date inaccuracy requires correction.
+
+Rating justification: The date error in the lead is a notable problem, but otherwise, the headline and lead are serviceable and mostly accurate. Some editing is needed.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for the given article. The user wants an expert evaluation based on journalistic standards and typical AI weaknesses. 
+
+First, I'll read the article carefully. The main points are: the EU has extended trade liberalization measures for Ukraine, specifically focusing on steel, to support their economy. The extension is for three years until June 2028, approved by Parliament with a vote of 354 in favor. The rapporteur, Karin Karlsbro, emphasized mutual benefits. The Commission is working on a longer-term solution.
+
+Now, looking at the headline: "Parliament backs extension of trade liberalisation measure for Ukrainian imports." It's clear and concise, mentions the main action (extension) and the subject (trade liberalisation for Ukraine). However, it doesn't specify the focus on steel, which is a key detail from the article. The headline uses "backs extension," which is active and appropriate.
+
+The lead: "MEPs voted on Thursday to renew the suspension of import duties and quotas for certain imports from Ukraine, such as iron and steel, due to expire on 5 June 2025." The lead answers who (MEPs), what (voted to renew suspension), when (Thursday, though the article doesn't specify the exact date), where (EU), why (expiry on 5 June 2025). However, the article states the current extension was due to expire on 5 June (year not specified in the article, but the new regulation is until 2028). The lead mentions 2025, which might be a mistake because the article's new regulation is until 2028. Also, the article mentions the focus is on steel, but the lead says "such as iron and steel," which is accurate. The lead is brief but could be more precise about the duration of the extension.
+
+Checking for AI weaknesses: The headline misses the steel focus, which is a key point. The lead has a possible inaccuracy with the 2025 date. The article says the most recent extension was expiring on 5 June (without a year), but the new regulation is until 2028. The lead mentions the expiry as 5 June 2025, which might be correct based on the search result [2] where the current measures are until 5 June 2025. Wait, in the article, the new regulation is until 2028, so the lead's mention of expiry on 5 June 2025 refers to the previous expiration date before the extension. The lead correctly states that the renewal is for measures expiring in 2025, leading to a new end in 2028. So maybe the lead is accurate. However, the article doesn't mention 2025; the search result [2] does. The user instructed not to use external info, only the article. The article says "the most recent extension due to expire on 5 June." The lead adds 2025, which isn't in the article. That's an inaccuracy because the article doesn't specify the year, so the AI might have hallucinated the 2025 date. That's a problem.
+
+Also, the headline says "measure" (singular), but the article mentions measures focusing on steel. The lead mentions "iron and steel," which is correct. The headline could be more specific about steel. The lead's mention of 2025 might be incorrect if the article doesn't specify, but according to the search results, [2] mentions the current measures until 5 June 2025. But the user said not to use external info, so based solely on the article, the lead's 2025 date is not present, making it a hallucination. That's a significant inaccuracy.
+
+Coherence between headline and lead: The headline talks about the extension, the lead explains the vote and expiry. They align but the headline could be more specific. The lead's mention of 2025 is problematic if the article doesn't state it. 
+
+Other points: The lead uses "Thursday," but the article doesn't mention the voting day. The search result [1] says the proposal was adopted on 2025-05-08, which is a Thursday. But again, the user said not to use external info. The article doesn't mention the date, so including "Thursday" is an assumption, possibly incorrect. 
+
+The headline is clear but lacks specificity on steel. The lead has inaccuracies regarding the date and possibly the day of the vote. These issues would lower the rating. The lead also could better explain the three-year extension to 2028, which is a key point from the article. 
+
+Considering the guidelines: Headline should be clear, which it is, but missing key detail. Lead has inaccuracies (dates) and could be more informative about the extension's duration. Typical AI issues here are inaccuracies (wrong date) and missing key details. 
+
+Rating: The headline is okay but not excellent. The lead has factual inaccuracies based on the article provided. So, I'd rate it a 2 or 3. But since the date in the lead (2025) might be correct according to the search results, but the user said not to use external info, so within the article's context, it's a hallucination. Therefore, the lead is misleading. That's a significant problem, so the rating would be lower. Maybe a 2 because of inaccuracies and missing key info in the headline.
+</think>
+
+**Headline Observations**  
+- **Clarity**: The headline clearly states the main action (Parliament backing an extension) and the subject (trade liberalization for Ukrainian imports).  
+- **Accuracy**: While generally accurate, it omits the specific focus on **steel** mentioned in the article, which is a key detail.  
+- **Sensationalism**: Avoids sensationalism but could be more precise (e.g., specifying steel).  
+
+**Lead Observations**  
+- **Five Ws**:  
+  - **Who**: MEPs.  
+  - **What**: Renewed suspension of import duties/quotas.  
+  - **When**: Thursday (date unspecified in the article).  
+  - **Why**: Measures expiring on 5 June 2025.  
+- **Inaccuracy**: The article does not mention **2025** (only "5 June"), and the new regulation extends measures until **June 2028**. The lead’s reference to 2025 is misleading.  
+- **Coherence**: The lead’s focus on "iron and steel" aligns with the article’s emphasis on steel, but the headline lacks this specificity.  
+
+**Overall Impression**  
+- The headline and lead are coherent but suffer from **omissions** (steel in the headline) and **inaccuracies** (2025 expiry date). The lead’s mention of "Thursday" is unsupported by the article. These issues reduce clarity and alignment with the source.  
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the provided guidelines and rate their quality.
+
+**Headline Analysis:**
+The headline "Parliament backs extension of trade liberalisation measure for Ukrainian imports" is clear and uses active language. It accurately reflects the main action (Parliament approving the extension of trade measures). However, it could be more specific about steel being the key focus mentioned in the article.
+
+**Lead Analysis:**
+The lead has several issues:
+1. **Inaccuracy**: It states the measures expire on "5 June 2025," but the article says the current extension expires on "5 June" (presumably 2024) and the new regulation will be in force "until June 2028."
+2. **Missing information**: It mentions "MEPs voted on Thursday" but the article doesn't specify the day of the vote.
+3. **Vagueness**: "Certain imports" is less specific than needed when the article clearly focuses on steel.
+
+**Overall impression:**
+While the headline is generally accurate, the lead contains factual errors about the expiration date and adds information not found in the article (the day of the vote). The lead fails to properly convey the timeline of the measures and misrepresents key details. The headline and lead together don't effectively highlight that steel is the primary focus of these measures, which the article emphasizes as "the backbone of the Ukrainian economy."
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline is clear and accurately reflects the main topic of the article, which is the EU Parliament's approval of extending trade liberalization measures for Ukraine. It uses strong verbs and is concise. The lead provides additional details, including the specific products affected (iron and steel) and the expiration date, aligning well with the headline. Both the headline and lead adhere to journalistic standards and avoid sensationalism. 
+
+Key observations:
+- Headline is accurate and attention-grabbing without being sensational.
+- Lead answers the Five Ws effectively and is brief.
+- Both work well together to represent the article's main points.
+
+Overall impression: The headline and lead are well-crafted and require no significant improvements.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Parliament backs extension of trade liberalisation measure for Ukrainian imports" is clear, concise, and accurately reflects the main topic of the article.
+*   It uses an active verb ("backs") and is easily understandable.
+*   It avoids sensationalism and adheres to journalistic standards for headlines.
+
+**Lead Observations:**
+*   The lead "MEPs voted on Thursday to renew the suspension of import duties and quotas for certain imports from Ukraine, such as iron and steel, due to expire on 5 June 2025" is brief (27 words) and largely informative.
+*   It correctly identifies the "who" (MEPs), "what" (voted to renew trade measures for Ukraine, focusing on iron and steel), and the timeline for the expiry of current measures (5 June 2025, which is correctly inferred from the article's details about the new three-year regulation ending in June 2028).
+*   **Key Issue:** The lead states the vote occurred "on Thursday." The provided article does not specify the day of the vote, only that "MEPs have now approved" and gives vote counts. The inclusion of "on Thursday" is an addition of information not present in the source text, a typical AI weakness (hallucination or use of unverified external information).
+
+**Overall Impression:**
+The headline is well-crafted and effective. The lead is mostly accurate and informative, correctly capturing key details like the nature of the measures, the focus on steel/iron, and the relevant expiry date. However, the unsupported assertion that the vote took place "on Thursday" is a significant flaw from a journalistic standpoint, as it introduces a specific detail not found in the provided article. This requires an editorial correction. While the rest of the lead and the headline are good, this inaccuracy prevents a higher rating. The package is serviceable but needs editing to remove the unverified temporal detail.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear and understandable, accurately reflecting the main action: Parliament backing the extension of trade liberalisation for Ukrainian imports.
+- It is concise and avoids sensationalism.
+- However, it could be slightly more specific by mentioning the focus on steel or the three-year extension.
+
+Lead:
+- The lead provides the who (MEPs), what (voted to renew suspension of import duties and quotas), and some of the what (for certain imports from Ukraine, such as iron and steel).
+- There is a factual inaccuracy: the article states the current extension is due to expire on 5 June (presumably 2024), and the new regulation will be in force for three years until June 2028. The lead incorrectly says the suspension was due to expire on 5 June 2025.
+- The lead does not mention the three-year duration of the new regulation, which is a key point.
+- The lead is otherwise brief and mostly informative, but the date error is significant.
+
+Overall impression:
+- The headline is solid, but the lead contains a notable inaccuracy regarding the expiration date, and omits the duration of the new extension. This misleads the reader about the timeline and scope of the measure.
+- The two work together in terms of topic, but the lead's factual error and omission of the three-year extension are significant weaknesses.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided based on the given article. The user wants me to act as an expert news editor and judge, so I should focus on journalistic standards and common AI pitfalls.
+
+First, I'll read the article carefully. The main points are that the EU Parliament approved extending trade liberalization measures for Ukraine, specifically focusing on steel, to support their economy. The extension is for three years until June 2028, and it was passed with 354 votes in favor. The rapporteur, Karin Karlsbro, emphasized the mutual benefits and the resilience of Ukraine's steel industry despite the war.
+
+Now, looking at the headline: "Parliament backs extension of trade liberalisation measure for Ukrainian imports." The headline is clear and matches the article's content. It uses active voice ("backs") and specifies the measure's extension. However, it mentions "imports" generally, while the article specifies steel. Maybe being more specific here would improve clarity.
+
+The lead states: "MEPs voted on Thursday to renew the suspension of import duties and quotas for certain imports from Ukraine, such as iron and steel, due to expire on 5 June 2025." The lead answers the who (MEPs), what (renewed suspension), when (Thursday, though the article doesn't specify the exact date), where (EU), why (expiry on 5 June 2025). However, the article says the current measures expire on 5 June 2025, but the new extension is until 2028. The lead mentions 2025, which might be confusing. Also, the article's vote count and the three-year extension aren't mentioned in the lead, which are key details.
+
+Checking for inaccuracies: The headline says "measure" singular, but the article refers to "measures" plural. The lead mentions "iron and steel," which aligns with the article's focus on steel. However, the expiration date in the lead (2025) refers to the current measures, not the new extension to 2028. This could be misleading as the extension's duration is a critical point.
+
+Coherence between headline and lead: Both mention the renewal, but the headline doesn't specify steel, while the lead does. The lead's mention of 2025 might confuse readers about the extension's timeframe. The article clearly states the new regulation lasts until 2028, so the lead's reference to 2025 is incorrect in context.
+
+Typical AI issues: The lead has a potential inaccuracy regarding the expiration date. The headline is accurate but could be more specific. There's a slight coherence issue because the lead's expiration date doesn't match the article's new timeline. However, the main facts are present, and the structure is mostly good.
+
+Rating: The headline is clear but could be more specific. The lead has an inaccuracy with the expiration date and misses the three-year extension detail. However, it does cover the main action and reason. Considering the guidelines, this would be a 3 because it's serviceable but needs editing for accuracy and clarity.
+</think>
+
+**Headline Analysis**  
+- **Clarity**: The headline clearly states the main action (extension of trade measures) and the actor (Parliament). However, it uses "measure" (singular) despite the article referencing multiple "measures" [1][2], which could imply a narrower scope.  
+- **Accuracy**: The term "Ukrainian imports" is broad. The article specifies that the focus is on **steel** [1][3], which is not highlighted in the headline.  
+- **Sensationalism**: Neutral and factual, avoiding exaggeration.  
+
+**Lead Analysis**  
+- **Five Ws**:  
+  - **Who**:
+
+

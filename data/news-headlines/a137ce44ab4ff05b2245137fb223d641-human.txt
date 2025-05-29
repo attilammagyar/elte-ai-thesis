@@ -1,0 +1,237 @@
+URL: https://interestingengineering.com/health/study-finds-25-genes-linked-to-ocd
+Generator: human
+Headline: Breakthrough study reveals 25 genes that may trigger obsessive-compulsive disorder
+Lead: Researchers analyzed DNA samples from over 53,000 individuals diagnosed with OCD, alongside more than 2 million controls.
+
+Article:
+
+Long seen as a purely psychological problem, obsessive-compulsive diso...
+
+(...3789 characters...)
+
+...fessor Derks said.
+
+The study has been published in  Nature Genetics .
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and how well they represent the article.
+
+**Headline Assessment:**
+The headline "Breakthrough study reveals 25 genes that may trigger obsessive-compulsive disorder" is accurate and captures the main finding of the study. It uses appropriate language ("may trigger" rather than definitively stating causation) and highlights the specific number of genes identified (25), which is mentioned in the article. The term "breakthrough" is justified given the article quotes researchers calling this "the first time that actual genes playing a role in OCD have been found."
+
+**Lead Assessment:**
+The lead is brief but lacks crucial information. While it accurately mentions the scale of the study (53,000 individuals with OCD and 2 million controls), it fails to communicate the significance of the findings or their implications. It doesn't answer the "why" or "so what" questions that would make the discovery meaningful to readers. The lead doesn't mention that this represents a shift from viewing OCD as purely psychological to understanding its biological basis, which is a key point from the article.
+
+**Overall Impression:**
+The headline is strong and accurately represents the main discovery, but the lead is incomplete. It focuses only on the methodology rather than the significance of the findings. A better lead would have mentioned the paradigm shift in understanding OCD as having a biological basis and potentially leading to new treatments. The headline and lead together don't fully capture the importance of the genetic links to other conditions or the potential for personalized medicine mentioned in the article.
+
+The headline is accurate and effective, but the lead needs improvement to better summarize the article's key points and significance.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+The headline effectively captures the main breakthrough of the study—identifying 25 genes linked to OCD—and uses strong, active language ("reveals," "trigger") without being sensational. It is clear and concise, aligning well with the article's focus on genetic discoveries.
+
+The lead succinctly summarizes the study's scope by mentioning the large sample size (53,000 individuals with OCD and 2 million controls), which is a key point in the article. It answers the "what" and "who" but could briefly hint at the significance (e.g., "uncovering genetic markers") to better tie into the headline.
+
+Overall, the headline and lead work well together, accurately representing the article's main points. Minor improvements could make the lead slightly more informative, but they are already strong as a pair.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Breakthrough study reveals 25 genes that may trigger obsessive-compulsive disorder" is strong.
+*   It is clear, attention-grabbing ("Breakthrough study"), and specific ("25 genes").
+*   It uses active voice ("reveals").
+*   The phrase "may trigger" is suitably cautious while still conveying impact. It accurately reflects the article's statement about genes being "likely contributors."
+
+**Lead Observations:**
+*   The lead "Researchers analyzed DNA samples from over 53,000 individuals diagnosed with OCD, alongside more than 2 million controls" is problematic.
+*   While brief (19 words) and factually correct regarding the study's scale, it fails to be sufficiently informative about the core news.
+*   It primarily answers *how* the research was conducted (large scale analysis) but omits the crucial *what* (the discovery of the genes themselves, as highlighted in the headline) and the *why* it matters (new understanding, potential for new treatments).
+*   It doesn't effectively build upon the headline. The headline announces a genetic discovery, but the lead only describes the sample size, not the findings or their significance.
+
+**Overall Impression and Justification:**
+The headline is good and effectively captures a key finding of the article. However, the lead is weak and does not adequately support the headline or summarize the article's main news point. A good lead should elaborate on the headline's core message. This lead focuses on a methodological detail (the scale of the study) rather than the actual discovery (the 25 genes) or its implications. This creates a misalignment between the headline and the lead. The lead is accurate in what it states, but it's not the most pertinent information to lead the story, especially given the headline. It misses the opportunity to immediately convey the significance of the "breakthrough" mentioned in the headline.
+
+The lead needs to be rewritten to include the actual findings and their importance to better serve its purpose and align with the strong headline. For example, it could have mentioned the identification of the genes and the new hope this brings.
+
+Rating:
+2
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear, concise, and accurately reflects the main finding of the article: the identification of 25 genes linked to OCD.
+- It uses strong but not sensational language ("Breakthrough study reveals"), which is appropriate for the significance of the research.
+- The phrase "may trigger" is cautious and accurate, given the nature of genetic associations.
+
+Lead:
+- The lead is brief and informative, but it only covers the "what" and "how many" (the scale of the study), and partially the "who" (researchers).
+- It omits the "where" (QIMR Berghofer and University of Florida), "when" (recent), and the "why" (to identify genetic markers for OCD).
+- It does not summarize the main finding (the identification of 25 genes), which is the key newsworthy point and is present in the headline.
+- The lead and headline are somewhat aligned, but the lead could be more informative by including the main result.
+
+Overall impression:
+- The headline is strong and accurate.
+- The lead is serviceable but lacks key information and does not fully deliver on the promise of the headline.
+- Minor improvements to the lead would make the package much stronger.
+
+Rating:
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for the given article. The user wants an expert news editor's impartial judgment based on journalistic standards and typical AI weaknesses. 
+
+First, I'll read the article carefully to grasp the main points. The article discusses a large genetic study on OCD, identifying 25 genes linked to the disorder, and mentions the implications for understanding its biological basis and potential treatments. Key points include the study's size (53,000 individuals with OCD vs. 2 million controls), the use of GWAS, the specific genes found, the brain regions involved (like the striatum), and the genetic overlaps with other conditions like anxiety and anorexia.
+
+Next, I'll examine the headline: "Breakthrough study reveals 25 genes that may trigger obsessive-compulsive disorder." The headline is clear and attention-grabbing. It uses "breakthrough" which is strong but not sensational. It mentions the number of genes, which is specific. However, "may trigger" is cautious but accurate since the study suggests association, not causation. The headline aligns with the article's emphasis on genetic discovery.
+
+Now the lead: "Researchers analyzed DNA samples from over 53,000 individuals diagnosed with OCD, alongside more than 2 million controls." The lead is concise and answers the 'what' and 'who' (researchers, the study). It includes the sample size, which is a key strength. However, it misses the 'why' (purpose of the study) and the main finding (the 25 genes). The lead is factual but could be more informative by summarizing the outcome.
+
+Checking for AI weaknesses: The headline and lead don't have inaccuracies. The numbers match the article. The headline's "may trigger" is appropriate, avoiding overstatement. The lead is coherent with the headline but doesn't fully capture the study's significance. There's a slight misalignment because the lead focuses on methodology without mentioning the breakthrough or genes, which the headline highlights. This could make the connection between the two less seamless.
+
+Rating guidelines: The headline is strong (4-5), but the lead, while accurate, lacks the main finding, which might lower the score. Considering typical AI issues like coherence between headline and lead, the lead could be improved by including the key result. Overall, the pair is good but has room for minor improvements. I'd rate it a 4 because the headline is excellent, but the lead, though accurate, misses an opportunity to highlight the discovery more effectively.
+</think>
+
+**Headline Observations**  
+- Accurately reflects the study's main finding (25 genes linked to OCD) and uses "breakthrough" to emphasize significance without sensationalism.  
+- "May trigger" is cautious yet aligns with the study's language about genetic associations rather than definitive causation.  
+- Clear and concise, meeting guidelines for readability.  
+
+**Lead Observations**  
+- States the study’s scope (53,000 OCD cases vs. 2 million controls) but omits the key discovery (genes) and broader implications.  
+- Answers "who" (researchers) and "what" (DNA analysis) but lacks "why" (purpose: identifying genetic causes) and "where" (institutions involved).  
+- Technically accurate but underdeveloped; adding a second sentence about the findings would strengthen coherence with the headline.  
+
+**Overall Impression**  
+The headline effectively summarizes the study’s impact, while the lead focuses narrowly on methodology without contextualizing the results. This creates a minor coherence gap, as the lead does not directly support the headline’s emphasis on genetic discoveries. However, both are factually accurate and free of hallucinations.  
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and their accuracy in representing the article.
+
+**Headline Analysis:**
+The headline "Breakthrough study reveals 25 genes that may trigger obsessive-compulsive disorder" is accurate and captures the main point of the article. It correctly mentions the 25 genes identified and uses appropriate qualifying language ("may trigger"). The term "breakthrough" is justified given the article describes this as "the first time that actual genes playing a role in OCD have been found." The headline is clear, concise, and avoids sensationalism while still being attention-grabbing.
+
+**Lead Analysis:**
+The lead "Researchers analyzed DNA samples from over 53,000 individuals diagnosed with OCD, alongside more than 2 million controls" is factually accurate but incomplete as a lead. It only describes the methodology and fails to mention the key finding (identification of genes linked to OCD). It doesn't adequately answer the "what" (the discovery) or "why" (significance) elements of the Five Ws. The lead focuses on a secondary detail rather than the main news value of the study.
+
+**Overall Impression:**
+While the headline is strong and accurately represents the article's main point, the lead fails to complement it by not highlighting the significance of the findings. The lead merely states the methodology without explaining what was discovered or why it matters. A better lead would have mentioned the breakthrough nature of identifying genes linked to OCD and how this changes our understanding of the disorder from psychological to biological. The headline and lead don't work together effectively - the headline promises information about a breakthrough that the lead doesn't deliver.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline is clear and attention-grabbing, accurately summarizing the main finding of the study (25 genes linked to OCD). It avoids sensationalism while still being engaging. The lead is concise and provides key details (who: researchers; what: analyzed DNA samples; scale: 53,000 individuals with OCD and 2 million controls). Both the headline and lead align well with the article's content and journalistic standards. There are no inaccuracies or coherence issues. 
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "Breakthrough study reveals 25 genes that may trigger obsessive-compulsive disorder" is generally good.
+*   It is clear, understandable, and uses strong words like "Breakthrough" and "reveals."
+*   It highlights a key specific finding (25 genes) which is accurate according to the article ("25 genes were identified as likely contributors").
+*   The phrase "may trigger" is suitably cautious and reflects the scientific uncertainty often present in such discoveries.
+
+**Lead Observations:**
+The lead "Researchers analyzed DNA samples from over 53,000 individuals diagnosed with OCD, alongside more than 2 million controls" has issues.
+*   It is brief (19 words) and factually correct based on the article.
+*   It answers *who* (researchers) and *what they did* (analyzed DNA samples from a large cohort).
+*   However, it focuses on the *methodology and scale* of the study rather than its *primary finding or significance*, which is the identification of the genes mentioned in the headline.
+*   A lead should ideally summarize the most newsworthy aspect. Here, the news is the *discovery* of the genes, not just the fact that samples were analyzed.
+*   It doesn't directly connect to or expand upon the "reveals 25 genes" part of the headline. The reader expects the lead to elaborate on this revelation, not just describe the input data.
+
+**Overall Impression and Coherence:**
+The headline effectively captures a major point of the article. However, the lead fails to follow up on the headline's promise. While factually accurate, the lead describes *how* the research was done (in part) rather than *what was found*, which is the core news. This creates a disconnect and makes the lead feel incomplete or like it's burying the lede. The lead should have immediately reinforced the "25 genes" discovery. For example: "A breakthrough study has identified 25 genes potentially linked to OCD after researchers analyzed DNA from over 53,000 patients, offering new biological insights." The current lead is too focused on a supporting detail (the impressive sample size) rather than the main outcome.
+
+The combination is serviceable because the headline is strong and the lead is not inaccurate, but it requires editing for the lead to properly support the headline and convey the main news.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear and understandable, and it accurately highlights the main finding: the identification of 25 genes linked to OCD.
+- The use of "breakthrough" is attention-grabbing but not overly sensational.
+- "May trigger" is a bit imprecise; the article says the genes are "likely contributors" and "playing a role," which is slightly more cautious than "trigger," but not a major inaccuracy.
+
+Lead:
+- The lead is brief and factual, but it only covers the "what" (DNA analysis) and "who" (researchers), and partially the "how many" (sample size).
+- It does not mention the main finding (the identification of 25 genes), nor does it provide context about the significance or implications of the study.
+- The lead is not as informative as it could be, missing the "what" (discovery of genes), "why" (to understand OCD), and "so what" (potential for new treatments).
+
+Overall impression:
+- The headline is strong and mostly accurate, but the lead is too bare-bones and does not summarize the key result or its importance.
+- There is a coherence issue: the headline promises a breakthrough and a specific finding, but the lead does not deliver on that promise or provide enough context.
+- Some editing is needed to make the lead more informative and aligned with the headline.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to evaluate the headline and lead based on the provided guidelines and the article content. 
+
+Starting with the headline: "Breakthrough study reveals 25 genes that may trigger obsessive-compulsive disorder." The article mentions that 25 genes were identified as likely contributors. The term "trigger" might be a bit strong since the study suggests association, not necessarily causation. Also, the article talks about hundreds of genetic markers, but the headline focuses on 25 genes. That could be a simplification but not entirely inaccurate.
+
+The lead: "Researchers analyzed DNA samples from over 53,000 individuals diagnosed with OCD, alongside more than 2 million controls." It answers the what and who, but misses the why and the significance. The lead is concise but lacks context about the study's findings or implications. It doesn't mention the key takeaway about the genetic links or the potential for new treatments.
+
+Checking for AI weaknesses: The headline uses "breakthrough" which is a bit sensational but acceptable. The lead is factual but too brief, not capturing the study's impact. They work together okay, but the lead doesn't support the headline's claim about the 25 genes. There's a slight coherence issue because the lead doesn't mention the genes, leaving the headline's claim unsupported in the lead.
+
+Inaccuracies? The article does mention 25 genes, so that's correct. However, the study also found hundreds of markers, which the headline doesn't acknowledge, possibly oversimplifying. The lead is accurate but incomplete.
+
+Overall, the headline is attention-grabbing but slightly overstates causation. The lead is accurate but lacks depth. Together, they don't fully align because the lead doesn't mention the genes. Rating-wise, this might be a 3 because there are some issues but it's serviceable with minor edits needed.
+</think>
+
+**Headline Observations**  
+- **Clarity and Accuracy**: The headline states "25 genes that may trigger OCD," which aligns with the article's mention of 25 genes identified as "likely contributors." However, the article emphasizes that OCD involves *hundreds* of genetic markers, with these 25 being particularly notable. The word "trigger" oversimplifies the causal relationship, as the study identifies associations, not definitive triggers[1][2][3].  
+- **Sensationalism**: "Breakthrough" is slightly hyperbolic but acceptable given the study's scale and novelty.  
+
+**Lead Observations**  
+- **Completeness**: The lead specifies the sample size (53,000 OCD cases vs. 2 million controls) but omits key findings (e.g., genetic overlaps with other disorders, brain regions involved, or therapeutic implications)[1][2][3].  
+- **Conciseness**: At 27 words, it meets length guidelines but lacks context about why the study matters.  
+
+**Coherence and Alignment**  
+- The headline focuses on the 25 genes, while the lead describes methodology without linking to the headline’s claim. This creates a disconnect: the lead does not explain how the analysis led to the genetic discoveries highlighted in the headline[1][2][3].  
+
+**Overall Impression**  
+- The headline and lead are factually accurate but lack synergy. The lead’s omission of the study’s significance weakens its ability to support the headline. Minor edits (e.g., adding a phrase about the genetic findings) would improve coherence.  
+
+**Rating**: 3  
+
+3
+
+

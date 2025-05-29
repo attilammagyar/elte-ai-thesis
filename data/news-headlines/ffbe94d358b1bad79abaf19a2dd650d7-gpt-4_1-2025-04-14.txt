@@ -1,0 +1,221 @@
+URL: https://www.theguardian.com/environment/2025/may/14/toxic-wildfire-pollution-infiltrates-homes-of-1bn-people-a-year-study-finds
+Generator: gpt-4.1-2025-04-14
+Headline: Wildfire Smoke Puts Over a Billion Indoors at Risk Every Year
+Lead: New global research reveals that toxic particles from wildfires have polluted homes of more than a billion people annually since 2003, with scientists calling for urgent solutions as climate change drives more frequent and intense blazes worldwide.
+
+Article:
+
+Toxic pollution from  wildfires  has infiltrated the homes of more tha...
+
+(...4097 characters...)
+
+...ease in cooking indoors during wildfires adds to the pollution levels.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and how well they represent the article.
+
+**Headline Assessment:**
+"Wildfire Smoke Puts Over a Billion Indoors at Risk Every Year"
+- Clear and understandable at a glance
+- Accurately captures the main finding of the research
+- Uses active language without being sensational
+- Correctly emphasizes the indoor exposure aspect, which is the novel element of the study
+- Good length and structure
+
+**Lead Assessment:**
+"New global research reveals that toxic particles from wildfires have polluted homes of more than a billion people annually since 2003, with scientists calling for urgent solutions as climate change drives more frequent and intense blazes worldwide."
+- Informative and covers most of the key points
+- Addresses who (researchers), what (toxic wildfire pollution in homes), when (since 2003), and why (climate change)
+- Accurately represents the time period (2003-2022) mentioned in the article
+- Slightly long at approximately 42 words, but still readable
+- Correctly emphasizes the global nature of the study and the climate connection
+
+**Overall Impression:**
+The headline and lead work well together to represent the article accurately. The headline focuses on the key finding about indoor exposure affecting over a billion people annually, while the lead expands on this with additional context about the timeframe, climate connection, and urgency. Both are factually accurate and avoid common AI pitfalls like hallucination or misrepresentation. The lead could be slightly more concise, but it effectively communicates the essential information.
+
+The headline and lead successfully highlight what makes this study newsworthy - that it's the first global, high-resolution study of indoor wildfire pollution exposure, distinguishing it from previous outdoor-focused research.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+The headline effectively captures the main point of the article—wildfire smoke affecting over a billion people indoors annually—and is clear and concise. It avoids sensationalism while still being attention-grabbing. The lead expands on the headline by providing additional context, including the timeframe (since 2003) and the role of climate change in exacerbating wildfires. Both the headline and lead align well with the article's content, accurately summarizing the key findings and urgency of the issue. There are no inaccuracies or coherence problems. 
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "Wildfire Smoke Puts Over a Billion Indoors at Risk Every Year" is concise, attention-grabbing, and uses an active verb ("Puts"). It accurately reflects the article's main finding regarding the scale of people affected ("Over a Billion"), the location of the risk ("Indoors" – a key aspect of the new research), and the frequency ("Every Year"). The phrasing "a Billion Indoors" is a compact way to convey "a billion people who are indoors" and is acceptable for headline brevity.
+
+**Lead Observations:**
+The lead "New global research reveals that toxic particles from wildfires have polluted homes of more than a billion people annually since 2003, with scientists calling for urgent solutions as climate change drives more frequent and intense blazes worldwide" is highly informative and well-structured. It successfully incorporates the key "Five Ws":
+*   **Who:** More than a billion people; scientists.
+*   **What:** Homes polluted by toxic wildfire particles; call for urgent solutions.
+*   **When:** Annually since 2003 (pollution); now (call for solutions).
+*   **Where:** Global (implied by "global research," "worldwide").
+*   **Why:** Climate change driving more frequent/intense blazes.
+At 36 words and one sentence, it is brief yet comprehensive, highlighting the novelty of the research, the timeframe, the cause, and the call to action.
+
+**Overall Impression:**
+The headline and lead work exceptionally well together. The headline effectively captures the core message and scale of the issue, emphasizing the crucial "indoor" aspect of the research. The lead immediately follows up by providing essential context, including the nature of the research, the specific timeframe, the link to climate change, and the call for solutions. There are no inaccuracies or AI-related issues like hallucination. Both components adhere closely to journalistic standards and the provided guidelines. The lead is particularly strong in its ability to convey a significant amount of information concisely and clearly. The package is accurate, coherent, and effectively represents the article's main points.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear, concise, and accurately reflects the main finding of the article: that over a billion people are at risk from indoor wildfire smoke each year.
+- It uses active language and is attention-grabbing without being sensational.
+- The phrase "Puts Over a Billion Indoors at Risk" is a bit awkward; "Puts Over a Billion at Risk Indoors" or "Puts Over a Billion at Indoor Risk" might be smoother, but the meaning is still clear.
+
+Lead:
+- The lead summarizes the key findings: new global research, toxic wildfire particles, over a billion people affected annually since 2003.
+- It mentions the cause (climate change driving more wildfires) and the call for urgent solutions, which aligns with the article's focus.
+- The lead is a bit long (about 40 words), but it remains within acceptable limits and covers the Five Ws: who (over a billion people), what (toxic particles from wildfires polluting homes), when (since 2003), where (globally), and why (climate change driving more wildfires).
+- The lead is informative and matches the tone and content of the article.
+
+Overall impression:
+- The headline and lead work well together, accurately representing the article's main points.
+- Minor improvements could be made for flow and brevity, but both are strong and meet journalistic standards.
+- No major issues with accuracy, coherence, or alignment.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for the article about wildfire smoke's impact on indoor air quality. The user wants a score from 1 to 5 based on accuracy, adherence to guidelines, and how well they work together.
+
+First, I'll read the article carefully to grasp the main points. The key findings are that over a billion people annually are exposed to indoor wildfire pollution, which is more toxic than urban pollution. The study spans 2003-2022, highlights regions like South America, Africa, North America, Australia, and Asia, and discusses solutions like air purifiers and policy changes. There's also a mention of climate injustice in low-income countries.
+
+Now, looking at the headline: "Wildfire Smoke Puts Over a Billion Indoors at Risk Every Year." It's clear and uses strong verbs. It mentions the scale (over a billion) and the risk, which aligns with the article. However, "indoors" might be slightly awkward; maybe "Indoor" would flow better. Also, "at risk" is a bit vague but still effective.
+
+The lead: "New global research reveals that toxic particles from wildfires have polluted homes of more than a billion people annually since 2003, with scientists calling for urgent solutions as climate change drives more frequent and intense blazes worldwide." It answers the Five Ws: who (scientists), what (toxic particles polluting homes), when (since 2003), where (globally), why (climate change). It's concise, under 40 words. The connection to climate change is accurate from the article.
+
+Checking for AI weaknesses. The headline and lead match the article's content. No misinformation spotted. The study's duration (2003-2022) is correctly mentioned in the lead. The lead also ties in the call for solutions, which is present in the article's discussion about policy and air purifiers.
+
+Possible improvements: The headline could specify that it's about indoor pollution, which it does with "Indoors." The lead might benefit from mentioning the regions affected, but that's a minor point. The headline uses "Puts...at Risk," which is accurate as the article discusses health risks. The lead's "urgent solutions" reflect the scientists' calls for action, which is correct.
+
+Coherence between headline and lead: Both emphasize the scale (billion people) and the cause (wildfires/climate change). They work well together without redundancy. The lead adds context about the time frame and the call to action, which the headline doesn't cover, which is good.
+
+Rating: The headline and lead are accurate, concise, and aligned. They follow the guidelines. The only minor issue is the slight awkwardness in the headline's phrasing, but it's still effective. I'd rate this a 4 because it's good with room for minor tweaks, but maybe others think it's a 5. Wait, the headline is clear and the lead is comprehensive. Maybe the lead could be a bit shorter, but it's within the word limit. The study's global scope and the call for solutions are well captured. No major issues, so maybe a 5. But the headline's "Indoors" vs. "Indoor" is a tiny nitpick. However, the guidelines say 5 is excellent with no room for improvement. Since the issues are very minor, perhaps a 4 is safer, but I'm torn. Let me check again.
+
+The headline accurately reflects the article's main finding. The lead includes key elements: new research, toxic particles, billion people annually since 2003, climate change driving blazes. It's all correct. No hallucinations or inaccuracies. The coherence is strong. So maybe a 5. The guidelines for 5 say "excellent, no room for improvement." But the lead is 44 words (the user said 25-30, maybe 40). That's slightly over. The word count might push it to a 4. Let me count: "New global research reveals that toxic particles from wildfires have polluted homes of more than a billion people annually since 2003, with scientists calling for urgent solutions as climate change drives more frequent and intense blazes worldwide." That's 44 words. The guideline says 25-30, maybe 40. So it's a bit long. That's a point against it, so maybe a 4. Also, the headline uses "Puts...at Risk," which is correct, but the article mentions specific health effects. The lead could mention health risks explicitly, but it's implied. Given the word count issue in the lead, I'll go with 4.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about indoor wildfire pollution.
+
+**Headline: "Wildfire Smoke Puts Over a Billion Indoors at Risk Every Year"**
+- Accurately captures the main point about indoor wildfire pollution affecting over a billion people annually
+- Clear and understandable at a glance
+- Uses active language without being sensational
+- Concise while conveying the scale of the problem
+
+**Lead: "New global research reveals that toxic particles from wildfires have polluted homes of more than a billion people annually since 2003, with scientists calling for urgent solutions as climate change drives more frequent and intense blazes worldwide."**
+- Covers the key information from the article
+- Mentions the timeframe (since 2003) which is accurate
+- Includes the climate change connection
+- Conveys the urgency expressed by scientists
+- Slightly long at approximately 40 words, but still within acceptable range
+- Addresses most of the Five Ws (who, what, when, why)
+
+**Overall impression:**
+The headline and lead work well together to represent the article accurately. The headline focuses on the scale of the problem, while the lead expands with more context about the timeframe, cause, and urgency. There are no factual errors or hallucinations. The information presented aligns with the article's content. The only minor issue is that the lead is at the upper limit of recommended length, but it remains clear and informative.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline effectively captures the main point of the article—wildfire smoke affecting over a billion people indoors—and is clear and concise. It avoids sensationalism while still being attention-grabbing. The lead expands on the headline by providing additional context, including the time frame (since 2003) and the role of climate change in exacerbating the issue. Both the headline and lead align well with the article's content, accurately summarizing the key findings and urgency expressed by the researchers. There are no inaccuracies or coherence issues. 
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "Wildfire Smoke Puts Over a Billion Indoors at Risk Every Year" is concise, impactful, and accurately reflects a key finding of the article. It highlights the scale ("Over a Billion"), the agent ("Wildfire Smoke"), the specific context ("Indoors" – crucial as the article focuses on indoor pollution), the consequence ("at Risk"), and the frequency ("Every Year"). The use of "at Risk" is justified by the article's mention of health impacts like early deaths and worsened diseases. It's attention-grabbing without being overly sensational.
+
+**Lead Observations:**
+The lead "New global research reveals that toxic particles from wildfires have polluted homes of more than a billion people annually since 2003, with scientists calling for urgent solutions as climate change drives more frequent and intense blazes worldwide" is highly informative and well-structured. It successfully summarizes the "who" (over a billion people, scientists), "what" (homes polluted, call for solutions), "when" (annually since 2003), "where" (global), and "why" (wildfires, exacerbated by climate change). At 36 words, it's within acceptable length guidelines for a comprehensive single-sentence lead. It accurately captures the study's findings, its novelty (new global research on indoor pollution), and the broader context.
+
+**Overall Impression:**
+The headline and lead work exceptionally well together. The headline piques interest with a startling statistic and a clear danger, and the lead immediately follows up with the source, details of the pollution, the timeframe, the underlying cause, and the call for action. There are no discernible inaccuracies or AI hallucinations. The language is appropriate for a news report. Both elements adhere well to journalistic standards and the specific guidelines provided. The focus on "indoors" in the headline is particularly good as it reflects a key aspect of the new research highlighted in the article.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+- The headline is clear and understandable, accurately reflecting the main finding: over a billion people are at risk indoors from wildfire smoke each year.
+- The headline is concise and avoids sensationalism, but "Puts Over a Billion Indoors at Risk" could be slightly ambiguous—does it mean people are forced indoors, or that indoor air is at risk? However, the meaning is mostly clear in context.
+- The lead is informative, summarizing the key findings: global scale, toxic particles, over a billion affected annually, since 2003, and the link to climate change.
+- The lead is a bit long (over 40 words) and could be tightened, but it covers the Five Ws reasonably well.
+- Both headline and lead are aligned with the article and do not contain inaccuracies or hallucinations.
+- The tone is appropriate and not sensational.
+- Minor improvement could be made for brevity and clarity, especially in the headline's phrasing and the lead's length.
+
+Overall Impression:
+- The headline and lead work well together, accurately representing the article's main points.
+- Minor edits could improve clarity and conciseness, but there are no major issues.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to carefully read the article and then evaluate the headline and lead provided. The article is about a new study showing that wildfire smoke has affected over a billion people indoors annually over two decades, with a focus on the health risks and economic implications, especially in poorer countries. The headline is "Wildfire Smoke Puts Over a Billion Indoors at Risk Every Year" and the lead mentions the global research findings and the call for urgent solutions due to climate change.
+
+Starting with the headline guidelines: it should be clear, attention-grabbing without being sensational, use active verbs. The headline here is concise and uses "puts...at risk" which is active. It mentions the key figure of a billion people, which is accurate from the article. However, "indoors" might be slightly misleading because the study is about indoor pollution levels, but the headline could imply that people are being forced indoors, which isn't the case. Also, "at risk" is a bit vague—risk of what? The article specifies health issues, but the headline doesn't mention health, which might be a minor issue.
+
+Looking at the lead: it needs to answer the Five Ws. The lead mentions the who (scientists), what (toxic particles polluting homes), when (since 2003), where (globally), why (climate change driving more blazes). It's concise, under 40 words. However, the article mentions that the study was published in Science Advances and covers 2003-2022, but the lead says "since 2003" which is accurate. The lead also ties it to climate change, which is correct as per the article.
+
+Checking for AI weaknesses: misinformation or inaccuracies. The headline's "at risk" is a bit vague but not inaccurate. The lead seems accurate. Coherence between headline and lead: both focus on the billion people affected and the global scale, so they align well. The article emphasizes the economic aspects and climate injustice, which aren't in the headline or lead, but the main points are covered.
+
+Possible improvements: The headline could specify health risks to make it clearer. The lead might benefit from mentioning the indoor aspect more clearly, as the study's novelty is about indoor pollution. Also, the lead uses "blazes worldwide" which is a bit colloquial; maybe "wildfires" instead of "blazes" would be more precise. However, the guidelines say to avoid sensationalism, and "blazes" might be slightly dramatic. 
+
+The headline and lead together effectively summarize the study's main findings without hallucinations. They don't include any misinformation from what I can see in the article. The main issue is the slight vagueness in "at risk" and the possible implication of "indoors" in the headline. The lead is strong but could be slightly tightened for precision. Overall, this is good but has minor areas for improvement, so a rating of 2 seems appropriate.
+</think>
+
+**Headline Observations**  
+- **Clarity**: The headline clearly states the scale (over a billion people) and the risk (wildfire smoke indoors). However, "at risk" is vague and does not specify health impacts, which are central to the article[1][2][3].  
+- **Sensationalism**: "Puts...at risk" is attention-grabbing but not overly sensational.  
+- **Active Language**: Uses "puts" as a strong verb, though "indoors" could imply confinement rather than indoor pollution exposure[4][5].  
+
+**Lead Observations**  
+- **Five Ws**: Answers *who* (scientists), *what* (toxic particles polluting homes), *when* (since 2003), *where* (global), and *why* (climate change). However, it omits *how* (indoor pollution modeling) and key details like the study’s publication in *Science Advances*.  
+- **Brevity**: At 37 words, it meets length guidelines but lacks specificity about mitigation strategies (e.g., air purifiers) and climate injustice highlighted in the article[4][5].  
+- **Coherence with Headline**: Aligns with the headline’s focus on scale and urgency but does not address the economic disparities or policy solutions discussed in the article.  
+
+**Overall Impression**  
+The headline and lead accurately summarize the study’s scope and urgency but lack precision about health impacts, mitigation measures, and equity issues. Minor improvements could enhance clarity and alignment with the article’s emphasis on indoor pollution’s unique risks and socioeconomic challenges.  
+
+2
+
+

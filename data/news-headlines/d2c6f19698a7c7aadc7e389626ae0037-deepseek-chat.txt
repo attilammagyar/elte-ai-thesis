@@ -1,0 +1,223 @@
+URL: https://www.theguardian.com/wellness/2025/may/12/autoimmune-disease-inverse-vaccines
+Generator: deepseek-chat
+Headline: "Inverse Vaccines: A Precision Strike Against Autoimmune Diseases"
+Lead: Researchers are developing "inverse vaccines," a breakthrough therapy that targets only the malfunctioning part of the immune system, offering hope to millions suffering from autoimmune diseases like celiac disease and multiple sclerosis. Early trials show promising results, with potential applications for allergies as well.
+
+Article:
+
+A utoimmune diseases affect as many as 800 million people around the w...
+
+(...7582 characters...)
+
+...y not,” says Miller. “Today, I can say that it will happen. No doubt.”
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+# Evaluation of Headline and Lead
+
+## Headline: "Inverse Vaccines: A Precision Strike Against Autoimmune Diseases"
+- Clear and understandable at a glance
+- Accurately captures the main topic of the article
+- Uses the metaphor of "precision strike" which aligns with the article's "scalpel rather than sledgehammer" quote
+- Avoids sensationalism while still being attention-grabbing
+
+## Lead: "Researchers are developing "inverse vaccines," a breakthrough therapy that targets only the malfunctioning part of the immune system, offering hope to millions suffering from autoimmune diseases like celiac disease and multiple sclerosis. Early trials show promising results, with potential applications for allergies as well."
+- Informative and covers the key points of the article
+- Answers who (researchers), what (inverse vaccines), why (targets malfunctioning immune system)
+- Mentions specific diseases discussed in the article (celiac disease, MS)
+- Includes the extension to allergies, which is an important secondary point
+- Slightly long at approximately 45 words (guideline suggested 25-40)
+
+## Overall impression:
+The headline and lead work well together to represent the article accurately. The headline introduces the concept clearly, and the lead expands on it with appropriate details. The lead is slightly longer than ideal but contains essential information without being verbose. There are no inaccuracies or hallucinations - all information is drawn directly from the article. The headline and lead effectively communicate the article's focus on a new approach to treating autoimmune diseases that targets only specific parts of the immune system.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "Inverse Vaccines: A Precision Strike Against Autoimmune Diseases" is strong.
+*   It clearly identifies the main subject ("Inverse Vaccines") and their application ("Autoimmune Diseases").
+*   The phrase "Precision Strike" is catchy, uses strong imagery, and accurately reflects the article's description of the technology as a "scalpel rather than a sledgehammer," contrasting with current, broader treatments.
+*   It is concise and understandable at a glance.
+*   It avoids sensationalism while still grabbing attention.
+
+**Lead Observations:**
+The lead is: "Researchers are developing "inverse vaccines," a breakthrough therapy that targets only the malfunctioning part of the immune system, offering hope to millions suffering from autoimmune diseases like celiac disease and multiple sclerosis. Early trials show promising results, with potential applications for allergies as well."
+*   It is informative, summarizing key aspects: the "what" (inverse vaccines), the "how" (targets only malfunctioning part), the "why/for whom" (hope for millions with autoimmune diseases, citing celiac and MS as examples), the "current status" (promising early trials), and "further potential" (allergies).
+*   It accurately reflects the article's content and tone, using terms like "breakthrough therapy."
+*   It answers the main Ws (Who: Researchers; What: developing inverse vaccines; Why: to treat autoimmune diseases/allergies; When: ongoing development, early trials).
+*   The lead consists of two sentences and 46 words. This is slightly over the suggested guideline of "maybe 40 words." While highly informative, it could be more concise.
+
+**Overall Impression:**
+The headline and lead work very well together. The headline introduces the topic and its targeted nature effectively, and the lead expands on this with crucial details and context from the article. Both are accurate and well-aligned with the article's content, successfully highlighting the main topic and key points without introducing misinformation or AI hallucinations. The primary area for minor improvement is the length of the lead, which could be trimmed slightly to better adhere to journalistic brevity guidelines without significant loss of essential information. The quality of the content in both is high.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear, concise, and uses strong, active language ("Precision Strike").
+- It accurately captures the main topic: inverse vaccines as a targeted treatment for autoimmune diseases.
+- The phrase "Precision Strike" is attention-grabbing but not sensationalistic.
+- The headline does not mention allergies, which are a secondary but notable point in the article.
+
+Lead:
+- The lead succinctly introduces the concept of "inverse vaccines" and their targeted approach.
+- It mentions the potential impact on "millions" and gives examples (celiac disease, multiple sclerosis), which aligns with the article.
+- It notes that early trials are promising and hints at broader applications (allergies).
+- The lead is slightly long (about 40 words) but remains within acceptable limits.
+- It answers most of the Five Ws: who (researchers), what (developing inverse vaccines), why (to help those with autoimmune diseases), and hints at when (early trials), but does not specify where.
+
+Overall Impression:
+- The headline and lead work well together, accurately representing the article's main points.
+- Both are clear, informative, and engaging, with no major inaccuracies or misalignments.
+- Minor improvements could include a more explicit mention of the ongoing nature of research or the early stage of human trials, and perhaps a nod to the potential for allergy treatment in the headline.
+- Overall, this is a strong pairing that meets journalistic standards.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to evaluate the headline and lead based on the provided guidelines and the article content. 
+
+Starting with the headline: "Inverse Vaccines: A Precision Strike Against Autoimmune Diseases". It's clear and uses "precision strike" as a strong metaphor, which grabs attention without being sensational. The term "inverse vaccines" is accurate as per the article, which explains they suppress rather than amplify the immune response. The headline is concise and active, meeting the guidelines.
+
+Now the lead: It mentions researchers developing inverse vaccines, targeting the malfunctioning immune system, and notes early trials in celiac and MS, plus potential for allergies. The lead answers the who (researchers), what (developing inverse vaccines), why (to treat autoimmune diseases), and mentions the diseases involved. It's brief, around two sentences, and under 40 words. 
+
+Checking for accuracy against the article. The article does discuss inverse vaccines as a new approach, targeting specific immune responses. Early trials in celiac and MS are mentioned, including human trials by Anokion. Allergies are also covered, with studies on mice for peanut allergies and asthma. So the lead's claims are accurate.
+
+Looking for AI
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+# Evaluation of Headline and Lead
+
+## Headline: "Inverse Vaccines: A Precision Strike Against Autoimmune Diseases"
+- Clear and understandable at a glance
+- Accurately captures the main topic of the article
+- Uses appropriate metaphor ("precision strike") that aligns with the article's "scalpel rather than sledgehammer" quote
+- Concise and informative
+
+## Lead: "Researchers are developing "inverse vaccines," a breakthrough therapy that targets only the malfunctioning part of the immune system, offering hope to millions suffering from autoimmune diseases like celiac disease and multiple sclerosis. Early trials show promising results, with potential applications for allergies as well."
+- Covers the key who (researchers), what (inverse vaccines), why (targets malfunctioning immune system)
+- Mentions specific diseases discussed in the article (celiac disease, MS)
+- Accurately notes the extension to allergies
+- Slightly long at approximately 43 words (guideline suggested 25-40)
+- Accurately represents the article's content about early trials showing promise
+
+## Overall impression:
+The headline and lead work well together to represent the article accurately. The headline introduces the concept clearly, and the lead expands on it with appropriate details. The lead is slightly longer than ideal but contains relevant information without any inaccuracies or hallucinations. The content accurately reflects the article's focus on inverse vaccines as a targeted approach to treating autoimmune diseases, with mentions of early successes and potential applications for allergies.
+
+There's room for minor improvement in the lead's length, but the content is accurate and informative.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "Inverse Vaccines: A Precision Strike Against Autoimmune Diseases" is clear, concise, and effectively uses the strong imagery of a "precision strike" to convey the targeted nature of the therapy, which is a key theme in the article. It's attention-grabbing without being overly sensational and accurately reflects a core aspect of the article.
+
+**Lead Observations:**
+The lead is highly informative and well-written. It successfully covers the "who" (researchers), "what" (developing inverse vaccines, their targeted mechanism), "why" (offering hope for autoimmune diseases), and provides key examples (celiac disease, multiple sclerosis). It also correctly includes the current status (early promising trials) and broader potential (allergies). The content is accurate and aligns well with the article.
+The main issue is its length. At 46 words and two sentences, it exceeds the guideline of "25 to 30 words, maybe 40." The first sentence (33 words) is a strong, self-contained lead. The addition of the second sentence, while adding valuable information, pushes the total word count significantly over the suggested limit.
+
+**Overall Impression:**
+The AI has done a good job of understanding the article's main topic and key points. The headline is excellent. The content of the lead is also excellent – accurate, comprehensive for a brief summary, and well-phrased. The headline and lead work well together to represent the article.
+However, the lead's length is a notable deviation from the provided guidelines. While the information is valuable, a news editor would likely require it to be shortened to meet typical brevity standards for a lead. This need for editing due to a constraint violation is the primary drawback. There are no issues of inaccuracy or hallucination.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear and understandable, using the phrase "Precision Strike" to convey the targeted nature of the therapy.
+- It avoids sensationalism and is concise.
+- The term "Inverse Vaccines" is accurate and central to the article.
+- The phrase "Precision Strike" is metaphorical but appropriate, given the article's emphasis on targeted treatment.
+
+Lead:
+- The lead is brief and informative, introducing the concept of "inverse vaccines" and their targeted approach.
+- It mentions key diseases (celiac disease, multiple sclerosis) and the broader hope for autoimmune diseases.
+- It references early trial results and potential for allergies, which aligns with the article's content.
+- The lead answers most of the Five Ws: who (researchers), what (developing inverse vaccines), why (to help those with autoimmune diseases), and hints at when (early trials, potential future applications). The where is less explicit but not critical for this context.
+
+Overall Impression:
+- The headline and lead work well together, accurately representing the article's main topic and key points.
+- There are no major inaccuracies, hallucinations, or coherence issues.
+- Minor improvements could be made for even greater specificity (e.g., mentioning that the therapy is still in trials), but this is not a significant flaw.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to understand the article's main points. The article discusses inverse vaccines as a new treatment for autoimmune diseases. These vaccines target specific immune responses instead of suppressing the entire immune system. It mentions successful trials in celiac disease and MS, potential applications for allergies, and collaborations with pharmaceutical companies. The headline is "Inverse Vaccines: A Precision Strike Against Autoimmune Diseases," and the lead highlights the breakthrough therapy, targeting the malfunctioning immune system, early trials, and potential for allergies.
+
+Now, checking the headline guidelines. It should be clear and understandable. "Precision Strike" is a strong metaphor, maybe a bit sensational but not overly so. It uses active language. The lead needs to answer the Five Ws. The lead mentions researchers developing inverse vaccines (who), targeting the immune system (what), autoimmune diseases like celiac and MS (where/what), offering hope (why), and early trials (when implied). It's concise, around two sentences. 
+
+Looking for AI weaknesses. The headline and lead align with the article. The term "breakthrough" might be a bit strong, but the article does mention successful trials and partnerships, so it's somewhat justified. The lead mentions allergies, which the article also covers, so that's accurate. No obvious misinformation. The headline and lead work together, focusing on the targeted approach. 
+
+Potential issues: The article states that some estimates say 3-5 years for availability, others 10. The lead says "potential applications for allergies as well," which is accurate. The headline's "precision strike" is a metaphor but not misleading. The lead could maybe specify that it's in early trials, which it does. 
+
+Rating: The headline and lead accurately reflect the article's content without sensationalism. They're clear, concise, and aligned. Minor points might be the use of "breakthrough" and the metaphor, but overall, it's good. I'd rate it a 2 because there's room for minor tweaks, like clarifying the stage of research, but it's mostly solid.
+</think>
+
+**Headline Analysis**  
+- **Clarity and Attention**: The headline effectively uses "precision strike" as a metaphor to convey targeted therapy, avoiding sensationalism while maintaining engagement. It clearly identifies the subject (inverse vaccines) and their purpose (combating autoimmune diseases).  
+- **Accuracy**: The term "precision" aligns with the article’s emphasis on specificity over broad immunosuppression. No inaccuracies detected[1][4].  
+
+**Lead Analysis**  
+- **Five Ws**:  
+  - **Who**: Researchers (specifically named in the article, e.g., Stephen Miller, Jeffrey Hubbell).  
+  - **What**: Development of inverse vaccines targeting malfunctioning immune responses.  
+  - **Why**: To offer hope to millions with autoimmune diseases.  
+  - **Where**: Mentioned diseases (celiac, MS) and applications (allergies).  
+  - **When**: Implied through "early trials" and future estimates (3–10 years).  
+- **Conciseness**: The lead is two sentences (34 words total), adhering to guidelines.  
+
+**Coherence and Alignment**  
+- The headline’s focus on "precision" matches the lead’s emphasis on targeted therapy. Both highlight autoimmune diseases and early trial success, reflecting the article’s core narrative[1][3][4].  
+
+**Potential Improvements**  
+- The lead could specify that trials are in early phases (Phase II) to manage expectations.  
+- "Breakthrough" might overstate readiness, as the article notes timelines ranging from 3–10 years for approval.  
+
+**Overall Impression**  
+The headline and lead are well-structured, accurate, and aligned with the article. Minor adjustments could enhance precision, but no major flaws exist.  
+
+2
+
+

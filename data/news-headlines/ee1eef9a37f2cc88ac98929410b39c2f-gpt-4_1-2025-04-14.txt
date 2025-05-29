@@ -1,0 +1,220 @@
+URL: https://www.theguardian.com/science/2025/may/14/sperm-donor-who-boasts-of-180-children-loses-custody-battle
+Generator: gpt-4.1-2025-04-14
+Headline: ‘Joe Donor’ Loses UK Custody Bid After Fathering 180 Children
+Lead: American sperm donor Robert Albon, known as "Joe Donor," was denied custody of a three-year-old in Middlesbrough court on Wednesday, after a judge cited concerns over his treatment of vulnerable women and history of seeking parental rights across the UK.
+
+Article:
+
+An unregistered sperm donor who says he has fathered more than 180 chi...
+
+(...3060 characters...)
+
+... said: “I’ve had about 180 live births and I’ve met about 60 of them.”
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and how well they represent the article.
+
+**Headline: 'Joe Donor' Loses UK Custody Bid After Fathering 180 Children**
+
+Observations:
+- Clear and concise, easily understood at a glance
+- Accurately captures the main news event (custody denial)
+- Includes the key detail about his claim of fathering 180 children
+- Uses the pseudonym in quotes appropriately
+- Avoids sensationalism while still being attention-grabbing
+
+**Lead: American sperm donor Robert Albon, known as "Joe Donor," was denied custody of a three-year-old in Middlesbrough court on Wednesday, after a judge cited concerns over his treatment of vulnerable women and history of seeking parental rights across the UK.**
+
+Observations:
+- Covers most of the Five Ws (who, what, when, where, why)
+- Provides his real name and pseudonym
+- Accurately states the court's location and timing
+- Includes the judge's reasoning for denial
+- Appropriate length (39 words)
+- Accurately represents the article's content
+
+**Overall impression:**
+The headline and lead work well together to represent the article accurately. The headline is attention-grabbing without being sensational, and the lead expands on it with key details. They correctly identify the main story (custody denial) and provide context about who Albon is. The lead could have mentioned that this was one of multiple custody attempts, but it does reference his "history of seeking parental rights." There are no factual errors or hallucinations, and the tone is appropriately neutral for news reporting.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "‘Joe Donor’ Loses UK Custody Bid After Fathering 180 Children" is clear, concise, and attention-grabbing.
+*   It correctly identifies the main subject by his well-known pseudonym and the central event (losing a custody bid).
+*   The phrase "After Fathering 180 Children" effectively conveys a key characteristic of the subject that contributes to his notoriety, as reported in the article (his claim of fathering this many children). While "after" can sometimes imply sequence or causality, here it primarily serves to identify *who* this "Joe Donor" is, which is a common headline technique.
+*   It uses a strong active verb ("Loses") and is short enough for impact.
+
+**Lead Observations:**
+*   The lead "American sperm donor Robert Albon, known as "Joe Donor," was denied custody of a three-year-old in Middlesbrough court on Wednesday, after a judge cited concerns over his treatment of vulnerable women and history of seeking parental rights across the UK" is brief (36 words) yet highly informative.
+*   It successfully answers the key journalistic questions (Who, What, When, Where, Why).
+*   It accurately names the individual, the outcome, the location, the timing (based on the judgment's release), and crucially, provides a well-summarized reason for the court's decision, which is supported by details throughout the article (e.g., judge's previous comments, vulnerability of the women involved).
+*   It aligns perfectly with the headline by elaborating on the core event.
+
+**Overall Impression:**
+The headline and lead work exceptionally well together. The headline captures the essence of the story in a catchy way, and the lead immediately provides the necessary context and crucial details. Both are accurate based on the provided article and adhere to journalistic standards. The AI has successfully identified the main topic and key points, presenting them without apparent misinformation or hallucination. The phrasing is professional and appropriate for a news item. The summary of the judge's reasoning in the lead is particularly strong.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear, concise, and attention-grabbing without being sensational.
+- It accurately summarizes the main event: "Joe Donor" (Robert Albon) losing a UK custody bid.
+- The mention of "Fathering 180 Children" provides important context and intrigue.
+
+Lead:
+- The lead identifies the who (Robert Albon/"Joe Donor"), what (denied custody), when (Wednesday), and where (Middlesbrough court).
+- It also gives the why (judge cited concerns over his treatment of vulnerable women and history of seeking parental rights).
+- The lead is informative and concise, though it could be slightly clearer that the custody bid was for a specific three-year-old child, not a general bid for all his children.
+- The lead and headline are well-aligned and coherent with the article content.
+
+Overall Impression:
+- The headline and lead work well together, accurately and succinctly representing the article's main points.
+- Minor improvement could be made for absolute clarity in the lead, but it is within acceptable journalistic standards.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to carefully read the article and then evaluate the provided headline and lead based on the guidelines given.
+
+Starting with the headline: "‘Joe Donor’ Loses UK Custody Bid After Fathering 180 Children". The headline uses the pseudonym "Joe Donor", which is mentioned in the article, so that's accurate. It mentions the custody loss and the number of children, which are key points. The verb "Loses" is active and clear. However, the article specifies that the custody case involved a three-year-old, but the headline just says "custody bid" without specifying which child. Also, the term "fathering" might imply active parenting, whereas the article states he's a sperm donor, so maybe "fathered" would be more precise. The headline is attention-grabbing but could be more specific about the case.
+
+Now the lead: "American sperm donor Robert Albon, known as 'Joe Donor,' was denied custody of a three-year-old in Middlesbrough court on Wednesday, after a judge cited concerns over his treatment of vulnerable women and history of seeking parental rights across the UK." The lead answers who (Robert Albon), what (denied custody), when (Wednesday), where (Middlesbrough court), and why (concerns over treatment of women and history of seeking rights). It's concise, around 40 words. However, the article mentions two children in this case, a three-year-old and a two-year-old, but the lead only mentions the three-year-old. Also, the judge's reasoning included more specifics about control and using women as commodities, which the lead simplifies to "treatment of vulnerable women." The lead is informative but misses some nuances from the article.
+
+Checking for accuracy: The headline uses "Joe Donor" correctly, and the number 180 is from Albon's own claim. The lead correctly states the denial and the judge's concerns. No apparent misinformation, but some details are simplified or omitted.
+
+Coherence between headline and lead: Both focus on the custody denial and the number of children. The lead adds context about the judge's concerns, which aligns with the article's emphasis on Albon's behavior. They work together but could better reflect the multiple cases mentioned in the article.
+
+Potential issues: The headline's "fathering" might be slightly misleading. The lead doesn't mention the second child in the recent case. Also, the article highlights that Albon has applied four times in the UK, which the lead mentions as a "history" but could be more specific. However, the lead is within word limits, so some simplification is necessary.
+
+Considering the guidelines, the headline is clear and attention-grabbing but could be more precise. The lead answers the Five Ws but misses some details. Both are accurate and coherent but have minor omissions. The AI didn't hallucinate any facts, and there's no misinformation. The main issues are slight imprecision and omitted details, but they don't severely impact the overall accuracy. 
+
+Rating: The headline and lead are good but could use minor improvements, like specifying the custody case details and including both children. However, they meet most guidelines effectively. I'd rate this a 4.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and their accuracy in representing the article.
+
+**Headline: 'Joe Donor' Loses UK Custody Bid After Fathering 180 Children**
+
+Observations:
+- The headline is clear and concise, capturing the main event (custody denial).
+- The "180 children" claim is mentioned in the article, though it's self-reported by Albon.
+- The headline doesn't sensationalize beyond what's in the article.
+- It uses the pseudonym "Joe Donor" which is appropriate as it's how he's known.
+
+**Lead: American sperm donor Robert Albon, known as "Joe Donor," was denied custody of a three-year-old in Middlesbrough court on Wednesday, after a judge cited concerns over his treatment of vulnerable women and history of seeking parental rights across the UK.**
+
+Observations:
+- The lead accurately identifies who (Robert Albon/"Joe Donor"), what (denied custody), where (Middlesbrough court), and when (Wednesday).
+- It provides context about the judge's reasoning, which aligns with the article.
+- The lead is a bit long (41 words) but still readable.
+- It correctly notes his nationality and occupation.
+
+**Overall impression:**
+The headline and lead work well together and accurately represent the core of the article. The headline is attention-grabbing without being misleading, and the lead provides essential context. The "180 children" claim is mentioned in the article as Albon's own statement, so it's not fabricated. The lead correctly identifies the location and timing of the court decision. There are no significant inaccuracies or misrepresentations of the article's content.
+
+One minor issue is that the lead is slightly longer than the ideal 25-30 words, but it remains clear and informative.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+Key observations:
+
+Headline: "‘Joe Donor’ Loses UK Custody Bid After Fathering 180 Children"
+*   **Clarity and Catchiness:** The headline is clear, short, and uses the subject's well-known pseudonym, making it attention-grabbing.
+*   **Accuracy:** It correctly states that "Joe Donor" lost a UK custody bid. However, it presents his claim of "Fathering 180 Children" as an established fact. The article explicitly states, "An unregistered sperm donor who *says* he has fathered more than 180 children..." and later, "he *said*: 'I’ve had about 180 live births...'" Omitting the attribution ("says" or "claims") is a significant inaccuracy.
+*   **Verb Choice:** "Loses" is a strong, active verb.
+
+Lead: "American sperm donor Robert Albon, known as "Joe Donor," was denied custody of a three-year-old in Middlesbrough court on Wednesday, after a judge cited concerns over his treatment of vulnerable women and history of seeking parental rights across the UK."
+*   **Informativeness and Brevity:** The lead is concise (36 words) and effectively summarizes the key information.
+*   **The Five Ws:** It successfully answers Who (Robert Albon/"Joe Donor"), What (denied custody), When (Wednesday), Where (Middlesbrough court), and Why (judge's concerns about his conduct).
+*   **Accuracy:** The lead is accurate and aligns well with the details provided in the article, including the reasons for the judge's decision.
+
+Overall impression:
+The lead is well-crafted, accurate, and informative, adhering to journalistic standards. The headline is catchy and conveys the main event but suffers from a notable inaccuracy by presenting Albon's *claim* about the number of children he has fathered as a verified fact. This lack of attribution is a journalistic flaw and a typical AI weakness. While the headline and lead together convey the essence of the story, and the lead is strong, the headline's factual imprecision requires editing. The lead's quality prevents a worse rating, but the headline's error means the pair is not "good" without changes.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear and concise, accurately identifying the main subject ("Joe Donor"/Robert Albon), the action (loses custody bid), and the context (after fathering 180 children).
+- It is attention-grabbing without being sensational.
+- The headline is factually accurate and aligns with the article’s main focus.
+
+Lead:
+- The lead provides the who (Robert Albon/"Joe Donor"), what (denied custody), when (Wednesday), and where (Middlesbrough court).
+- It also gives the why (judge cited concerns over his treatment of vulnerable women and history of seeking parental rights).
+- The lead is brief, informative, and covers the key points.
+- The lead is slightly long (about 38 words), but still within acceptable range.
+- There is strong alignment between the headline and the lead, and both accurately represent the article’s content.
+
+Overall impression:
+- The headline and lead work well together, are accurate, and meet journalistic standards.
+- There are no major issues with coherence, accuracy, or tone.
+- Only minor improvements could be made for brevity or flow.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to carefully read the article and then evaluate the provided headline and lead based on the guidelines given.
+
+Starting with the headline: "‘Joe Donor’ Loses UK Custody Bid After Fathering 180 Children". The main points from the article are that Robert Albon, using the pseudonym Joe Donor, lost a custody case in the UK, claims to have fathered over 180 children, and has a history of problematic behavior. The headline uses "Joe Donor" which is his pseudonym, mentions the custody loss, and the number of children. It's concise and attention-grabbing. However, "fathered" might imply he raised them, whereas the article states he's a sperm donor. Also, the article mentions he's American, which isn't in the headline. The term "bid" is a bit vague but common in headlines. Overall, it's clear but could be slightly misleading about his role as a donor versus a traditional father.
+
+Now the lead: "American sperm donor Robert Albon, known as 'Joe Donor,' was denied custody of a three-year-old in Middlesbrough court on Wednesday, after a judge cited concerns over his treatment of vulnerable women and history of seeking parental rights across the UK." The lead answers who (Robert Albon), what (denied custody), when (Wednesday), where (Middlesbrough court), and why (concerns over treatment of women and history). It's concise, under 40 words. However, the article mentions two custody cases (a three-year-old and another child), but the lead only mentions the three-year-old. Also, the judge's description of him using women as a "commodity" isn't included, which is a key point. The lead accurately mentions his history but could be more specific about the judge's criticisms.
+
+Checking for inaccuracies: The headline says "fathered 180 children," which matches his claim in the article. The lead correctly states he's American and the custody denial. No clear misinformation here. However, the headline's "fathered" might be slightly misleading since he's a sperm donor, not a traditional parent. The lead doesn't mention the mother's suicidal state, which is a significant part of the article's emotional impact.
+
+Coherence between headline and lead: Both focus on the custody loss and his role as a donor. The lead provides context the headline doesn't, like the judge's concerns. They work together but could better highlight the exploitation angle.
+
+Typical AI issues: The headline uses a pseudonym correctly but might sensationalize by emphasizing the number 180. The lead is accurate but omits some key details from the article, like multiple custody attempts and the judge's stronger language. There's a minor coherence issue in not mentioning both cases, but the lead focuses on the main one.
+
+Rating: The headline and lead are mostly accurate and concise but could improve by clarifying his role as a donor (not a traditional father) and including the judge's harsher critique. They miss some nuances but aren't misleading. I'd rate this a 3 because it's serviceable but needs minor edits for clarity and completeness.
+</think>
+
+3
+
+

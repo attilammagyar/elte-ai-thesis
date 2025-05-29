@@ -1,0 +1,239 @@
+URL: https://www.engadget.com/gaming/nows-a-good-time-to-check-in-on-your-steam-account-security-205807479.html
+Generator: gemini-2.5-pro-preview-05-06
+Headline: Valve Confirms Steam Safe After Data Leak Scare
+Lead: Valve confirmed on Tuesday its Steam platform was not breached and identifying user data remains secure, adding that a recent data leak only involved old SMS codes and phone numbers not linked to specific user accounts.
+
+Article:
+
+Update May 14, 6:38PM ET:  Valve has confirmed that Steam systems were...
+
+(...1996 characters...)
+
+...en compromised, be extra alert to possible phishing attempts via text.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article content and journalistic standards.
+
+Headline: "Valve Confirms Steam Safe After Data Leak Scare"
+- Clear and understandable at a glance
+- Accurately reflects the main news (Valve's confirmation of security)
+- Concise and uses active language
+- Not sensationalist while still conveying the seriousness
+
+Lead: "Valve confirmed on Tuesday its Steam platform was not breached and identifying user data remains secure, adding that a recent data leak only involved old SMS codes and phone numbers not linked to specific user accounts."
+- Informative and covers the key information
+- Answers who (Valve), what (confirmation of no breach), and provides context about what was actually leaked
+- Length is appropriate (32 words)
+- Accurately summarizes the most important update in the article
+
+Key observations:
+- The headline and lead correctly prioritize the update (Valve's confirmation) rather than the original allegation
+- They accurately represent what was and wasn't compromised according to Valve
+- The lead provides sufficient context about the nature of the leaked data
+- The date "Tuesday" isn't explicitly mentioned in the article, but this is a minor issue as the update is dated May 14
+- Together they provide a balanced view that acknowledges the incident while conveying Valve's assurances
+
+Overall impression:
+The headline and lead work well together to accurately represent the most important information in the article. They avoid sensationalism while still conveying the news value. The lead expands on the headline appropriately, providing necessary context about what data was actually involved. There are no factual errors or misrepresentations of the article content.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+**Key Observations:**
+
+1. **Headline:**
+   - Clear and concise, accurately summarizing the main point of the article.
+   - Uses strong verbs ("Confirms," "Safe") and avoids sensationalism.
+   - Effectively grabs attention while remaining factual.
+
+2. **Lead:**
+   - Brief and informative, answering the key questions (who, what, when, why).
+   - Aligns well with the headline, providing additional context without redundancy.
+   - No misinformation or hallucination; accurately reflects the article's content.
+
+3. **Alignment:**
+   - The headline and lead work well together, with the lead expanding on the headline's claim.
+   - Both are coherent and aligned with the article's main topic (Steam's security status post-leak scare).
+
+**Overall Impression:**
+- The headline and lead are well-crafted, meeting journalistic standards and avoiding typical AI pitfalls.
+- They accurately represent the article's content and work effectively as a pair.
+
+**Rating:** 5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "Valve Confirms Steam Safe After Data Leak Scare" is clear, concise, and accurately reflects the main point of the article, especially prioritizing the update which is the most current information. It uses an active verb ("Confirms") and grabs attention appropriately with "Data Leak Scare" without being overly sensational.
+
+**Lead Observations:**
+The lead "Valve confirmed on Tuesday its Steam platform was not breached and identifying user data remains secure, adding that a recent data leak only involved old SMS codes and phone numbers not linked to specific user accounts" is brief (35 words) and informative. It effectively summarizes the key details from Valve's confirmation. It addresses the "who" (Valve), "what" (Steam safe, nature of leak), and "where" (Steam platform). The "when" is stated as "on Tuesday." The article update is dated "May 14," but doesn't explicitly state the day of the week. While "Tuesday" might be correct if May 14 was a Tuesday, its inclusion without direct textual support is a minor point of concern, potentially an AI embellishment.
+
+**Overall Impression:**
+The headline and lead work very well together, presenting the resolution of the data leak scare as the primary news, which aligns with the article's structure (update first). They are accurate in conveying Valve's statement that Steam systems were not breached and user data is secure. The AI successfully identified the most crucial information. The only minor weakness is the inclusion of "on Tuesday" in the lead, which is not explicitly stated in the provided article text, though it's a common journalistic practice to include the day. This could be a minor inaccuracy or an unverified addition. Despite this, the overall quality is high, accurately capturing the essence of the update.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+- The headline is clear, concise, and accurately reflects the main update: Valve has confirmed Steam is safe after concerns about a data leak.
+- The headline avoids sensationalism and uses active language.
+- The lead summarizes the key points: Valve's confirmation, the nature of the data leak (old SMS codes and phone numbers), and the fact that no identifying user data was compromised.
+- The lead answers the Five Ws: who (Valve), what (confirmed Steam not breached, data leak limited), when (Tuesday), and what data was involved (old SMS codes, phone numbers not linked to accounts).
+- Both headline and lead are well-aligned with the article's main update and provide a clear, accurate summary.
+- Minor improvement: The lead could be slightly more concise, but it remains within acceptable length and clarity.
+
+Overall Impression:
+- The headline and lead work well together, are accurate, and meet journalistic standards. Only minor tightening could be considered.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for a news article about the Steam data breach. The user has given specific guidelines for headlines and leads, as well as common AI issues to watch out for. The rating scale is from 1 to 5.
+
+First, I'll read the article carefully. The main points are that Valve confirmed no breach of Steam's systems, the leaked data was old SMS codes and phone numbers not linked to accounts, and the source might be a third-party vendor. The article also mentions Valve's investigation and advises users on security practices.
+
+Now, looking at the headline: "Valve Confirms Steam Safe After Data Leak Scare." It's clear and concise. "Confirms" is a strong verb. It addresses the main point—Steam is safe. However, "Safe" might be a bit vague. The original article says "not breached" and data wasn't linked to accounts, so maybe "Safe" could be more precise. Also, "Scare" might lean slightly sensational, but it's not too bad.
+
+The lead: "Valve confirmed on Tuesday its Steam platform was not breached and identifying user data remains secure, adding that a recent data leak only involved old SMS codes and phone numbers not linked to specific user accounts." It answers who (Valve), what (confirmed no breach), when (Tuesday), where (Steam platform), why (data leak details). It's within the word limit. However, "identifying user data remains secure" could be clearer. The article specifies that the leaked data didn't link phone numbers to accounts, so maybe the lead could mention that the leaked data isn't tied to personal info. Also, "old SMS codes" is accurate since they were one-time codes valid for 15 minutes.
+
+Checking for AI issues: The headline and lead align with the article. No misinformation here. The article mentions the leak involved third-party vendors, but the lead doesn't specify that. However, the lead's focus is on Valve's confirmation, which is accurate. The headline uses "Scare," which the article refers to as a "kerfuffle," so that's a bit dramatic but acceptable. Coherence between headline and lead is good; both emphasize no breach and the nature of the leak.
+
+Possible improvements: The headline could specify "No Breach" instead of "Safe" for more precision. The lead might clarify that the SMS codes were expired and not linked to accounts, which it does mention. However, it's already concise. The lead's second part is a bit long but still under 40 words.
+
+Overall, the headline and lead accurately reflect the article's content without sensationalism. They are clear, concise, and answer the key points. The main issue is minor wording choices that could be slightly more precise but don't detract significantly. So, I'd rate this a 4. There's room for minor tweaks, but it's good.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article content and journalistic standards.
+
+Headline: "Valve Confirms Steam Safe After Data Leak Scare"
+- Accurate: Correctly states Valve's confirmation that Steam systems weren't breached
+- Clear and concise: Easy to understand at a glance
+- Balanced: Acknowledges both the concern (leak) and resolution (confirmation of safety)
+- Appropriate tone: Not sensationalist while still conveying importance
+
+Lead: "Valve confirmed on Tuesday its Steam platform was not breached and identifying user data remains secure, adding that a recent data leak only involved old SMS codes and phone numbers not linked to specific user accounts."
+- Accurate: Correctly summarizes Valve's statement about no breach and limited data exposure
+- Informative: Covers what happened and what data was affected
+- Complete: Addresses who (Valve), what (confirmation of security), and details about the leak
+- Length: Appropriate at 36 words
+
+Key observations:
+- The headline and lead accurately represent the article's main point - Valve's confirmation that Steam wasn't breached
+- The lead correctly summarizes the limited nature of the leak (old SMS codes, phone numbers)
+- The time element "Tuesday" isn't explicitly mentioned in the article (which says "May 14"), but this is a minor issue
+- Both headline and lead work well together to convey the most important information
+
+Overall impression:
+The headline and lead are accurate, clear, and effectively summarize the most important information from the article. They work well together to provide readers with the key takeaway - that despite concerns, Valve has confirmed Steam's systems weren't breached. The only very minor issue is the specific day reference, but this doesn't impact the overall quality significantly.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Valve Confirms Steam Safe After Data Leak Scare" accurately reflects the main news from the article's crucial update, which is Valve's confirmation that Steam systems were not breached.
+*   It effectively uses "Data Leak Scare" to provide context for the confirmation, acknowledging the preceding uncertainty.
+*   The headline is clear, concise, and uses a strong active verb ("Confirms").
+
+**Lead Observations:**
+*   The lead, "Valve confirmed on Tuesday its Steam platform was not breached and identifying user data remains secure, adding that a recent data leak only involved old SMS codes and phone numbers not linked to specific user accounts," correctly summarizes the key details from Valve's statement as presented in the article's update.
+*   It is brief (36 words) and informative, covering the who, what, and key details of why user data is considered secure.
+*   The phrase "on Tuesday" is a point of concern. The article update is dated "May 14," but it does not state that Valve's confirmation or blog post occurred "on Tuesday," nor does it provide the day of the week for May 14. This specific day is an unverified detail within the provided text and could be an inaccuracy or AI hallucination.
+
+**Overall Impression:**
+The headline and lead work well together to represent the most current and important information in the article – Valve's clarification following a data leak scare. They correctly prioritize the update over the original, more speculative part of the story. The core message is accurate and well-conveyed. However, the inclusion of the unverified specific day "on Tuesday" in the lead introduces a potential factual inaccuracy, which is a notable weakness requiring editorial intervention (verification or removal). Aside from this specific point, the headline and lead are of good quality.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is clear, concise, and accurately reflects the main update: Valve has confirmed Steam is safe after a data leak scare.
+- The headline avoids sensationalism and uses active language.
+- The lead is brief, informative, and answers the Five Ws: who (Valve), what (confirmed Steam not breached, user data secure), when (Tuesday), and what the leak involved (old SMS codes and phone numbers not linked to accounts).
+- The lead aligns well with the headline and the main points of the article, emphasizing that identifying user data was not compromised.
+- No inaccuracies, hallucinations, or coherence issues are present.
+- Both headline and lead work well together to represent the article.
+
+Overall impression: The headline and lead are accurate, clear, and meet journalistic standards. Only very minor stylistic tweaks could be considered.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to evaluate the given headline and lead based on the provided guidelines and the article content. The user wants a rating from 1 to 5, with 1 being the best. 
+
+First, I'll look at the headline: "Valve Confirms Steam Safe After Data Leak Scare." The guidelines say headlines should be clear, attention-grabbing without sensationalism, use short active sentences. The headline here is concise. It mentions Valve confirming safety after a scare, which aligns with the article's update where Valve states no breach occurred. However, the article's update date is May 14, and the headline says "Tuesday." Checking the current date given in the system prompt is Tuesday, May 20, 2025. Wait, May 14 was a week prior, which was a Wednesday. So the headline's "Tuesday" is incorrect. That's an inaccuracy. Also, "Steam Safe" might be a bit vague. The article specifies that the leak involved old SMS codes and phone numbers not linked to accounts. The headline doesn't mention that the leak was of older data, which is a key point from Valve's statement.
+
+Next, the lead: "Valve confirmed on Tuesday its Steam platform was not breached and identifying user data remains secure, adding that a recent data leak only involved old SMS codes and phone numbers not linked to specific user accounts." The lead should answer the Five Ws. Who: Valve. What: Confirmed no breach, data secure. When: Tuesday (but the article's update was May 14, which was a Wednesday). Where: Steam platform. Why: Because the leak involved old SMS codes and phone numbers. The lead is concise, but the "Tuesday" date is incorrect. The original article's update was on May 14, which according to the current date (May 20, 2025) would have been a Wednesday. So the lead's mention of Tuesday is wrong. Also, the article mentions that the leaked data didn't associate phone numbers with Steam accounts, which the lead correctly states. However, the lead uses "recent data leak," but the leak was of older messages. The article says "older text messages," so "recent" might be misleading here. 
+
+Looking at the guidelines for leads: it should be brief, answer the Five Ws. The lead does cover most, but the inaccuracies in the date and the use of "recent" instead of "older" are issues. Also, the headline and lead together: the headline says "Data Leak Scare," which the lead explains, but the date discrepancy and the "recent" vs. "older" could cause coherence problems. The article's update was on May 14, and the original story was before that. The lead's "Tuesday" would be May 20, but the confirmation happened on May 14. So the date in the lead is incorrect, which is a factual error. 
+
+Typical AI problems include inaccuracies and coherence issues. Here, the date is wrong, and the description of the leak's timeliness ("recent" vs. "older") might be a misrepresentation. The headline and lead together have alignment issues because of the date inaccuracy and the description of the leak's content. 
+
+Rating guideline: 1 is excellent, 5 is worst. The headline and lead have factual inaccuracies (wrong day, mischaracterizing the leak's recency), which are significant. However, the main points are correct—Valve confirmed no breach, data involved old SMS codes and phone numbers. But the inaccuracies push the rating towards a 4 because there are several problems (date, "recent" vs. "older"), but not completely wrong. Alternatively, maybe a 3 if the issues are considered minor. But since dates are crucial in news, the incorrect day is a notable error. Also, the headline uses "Scare" which might be slightly sensational, but the article does mention the "kerfuffle" and initial panic. 
+
+Wait, the article's update says Valve confirmed on May 14, which is a Wednesday (since May 20 is Tuesday). So the lead's "Tuesday" is wrong. That's a clear inaccuracy. The lead also says "recent data leak," but the leak was of older messages. So two inaccuracies. Additionally, the headline's "Safe After Data Leak Scare" might imply the scare is over, which is true, but the article's original story was about the alleged breach. The headline and lead do align in stating Valve's confirmation, but the inaccuracies in date and recency of the leak are problems. 
+
+Considering the rating guidelines, a 4 (poor, several problems) seems appropriate. The errors in date and the description of the leak's timing are significant enough to affect accuracy and coherence. The headline could be improved by specifying that the leaked data was older, and the lead needs the correct date and clarification on the data's age.
+</think>
+
+**Headline Analysis**  
+- **Clarity and Accuracy**: The headline states "Steam Safe After Data Leak Scare," which aligns with Valve’s confirmation of no breach. However, it omits critical context about the *older* SMS codes and phone numbers, potentially understating the leak’s scope[1][3][4].  
+- **Sensationalism**: "Scare" slightly dramatizes the situation, though the article itself references initial panic, making this borderline acceptable[5].  
+
+**Lead Analysis**  
+- **Five Ws**:  
+  - *Who*: Valve (correct).  
+  - *What*: Confirmed no breach and clarified leak details (accurate)[2][4].  
+  - *When*: Incorrectly states "Tuesday" instead of the actual update date (May 14, a Wednesday)[1][3].  
+  - *Where*: Steam platform (correct).  
+  - *Why*: Leak involved old SMS codes and unlinked phone numbers (accurate)[3][4].  
+- **Brevity**: At 38 words, it meets length guidelines but includes the erroneous "Tuesday" detail.  
+
+**Coherence Issues**  
+- The headline’s "Data Leak Scare" and lead’s "recent data leak" conflict with the article’s emphasis on *older* messages, creating a misalignment[3][4].  
+- The incorrect date undermines credibility, as timeliness is critical in news reporting[1][3].  
+
+**Overall Impression**  
+While the headline and lead broadly reflect Valve’s stance, the date inaccuracy and failure to explicitly note the *age* of the leaked data introduce misinformation risks. These issues, combined with slight sensationalism, detract from an otherwise clear summary.  
+
+**Rating**: 4  
+
+4
+
+

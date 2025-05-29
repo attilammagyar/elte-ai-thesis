@@ -1,0 +1,239 @@
+URL: https://www.theguardian.com/world/2025/may/15/new-zealand-mps-haka-parliament-suspended
+Generator: human
+Headline: New Zealand MPs who performed haka in parliament given unprecedented punishment
+Lead: Te Pāti Māori co-leaders and youngest member to be temporarily suspended from parliament after performance protesting controversial bill.
+
+Article:
+
+Three  New Zealand  MPs who performed a haka in parliament will be tem...
+
+(...3575 characters...)
+
+...undreds of thousands of our people being harmed,” Ngarewa Packer said.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+# Evaluation of Headline and Lead
+
+## Headline: "New Zealand MPs who performed haka in parliament given unprecedented punishment"
+
+**Observations:**
+- Accurate and clear, capturing the main news event
+- Appropriate length and straightforward language
+- Includes key elements: New Zealand MPs, haka, parliament, and the unprecedented nature of the punishment
+- Avoids sensationalism while still conveying the significance
+
+## Lead: "Te Pāti Māori co-leaders and youngest member to be temporarily suspended from parliament after performance protesting controversial bill."
+
+**Observations:**
+- Identifies who (Te Pāti Māori co-leaders and youngest member)
+- States what (temporary suspension from parliament)
+- Implies why (performance protesting controversial bill)
+- Concise at 20 words
+- Missing specific information about the length of suspensions and the exact nature of the "performance" (haka)
+
+## Overall Impression:
+The headline is strong, accurate, and appropriately conveys the unprecedented nature of the punishment. The lead provides good supplementary information but could be more specific about the suspension lengths (three weeks for co-leaders, seven days for the youngest member) and could have mentioned the haka explicitly rather than using the more generic term "performance." Together, they provide a solid representation of the article's main points without any factual errors or hallucinations. The headline and lead work well together, with the headline focusing on the punishment and the lead adding context about who is being punished and why.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+The headline effectively captures the main event—the unprecedented punishment of New Zealand MPs for performing a haka in parliament. It is clear, concise, and avoids sensationalism while still being attention-grabbing. The lead succinctly answers the key questions: who (Te Pāti Māori co-leaders and youngest member), what (temporary suspension), why (protesting controversial bill), and where (parliament). Both the headline and lead align well with the article's content, accurately summarizing the key points without any inaccuracies or hallucinations. They work together cohesively to represent the article's main topic and tone.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline accurately captures the main event (MPs performing haka) and the significant outcome (unprecedented punishment).
+*   "Unprecedented punishment" is a strong and accurate hook, reflecting the article's emphasis.
+*   The verb "given" is passive. While acceptable, an active verb like "face" or "set for" could be slightly more dynamic and precise about the punishment's current status (recommended by committee, awaiting final parliamentary vote). However, "given" can be interpreted as the committee having "given" its recommendation, which the article supports ("toughest punishment the committee had ever handed out").
+
+**Lead Observations:**
+*   The lead is concise (20 words) and highly informative.
+*   It effectively answers the key "Five Ws": Who (Te Pāti Māori co-leaders and youngest member), What (to be temporarily suspended), Where (parliament), Why (performance protesting controversial bill).
+*   The phrase "to be temporarily suspended" is accurate, reflecting that the suspension is recommended and pending final affirmation.
+
+**Overall Impression:**
+The headline and lead work well together to represent the article. The headline is catchy and conveys the gravity of the situation. The lead provides essential context and clarifies the status of the punishment, mitigating any slight ambiguity from the headline's use of "given." There are no significant inaccuracies or AI-specific problems. The package is strong, with the lead being particularly effective. A minor tweak to the headline's verb could enhance precision, but as a whole, they are good.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear, concise, and accurately summarizes the main event: New Zealand MPs being punished for performing a haka in parliament.
+- The use of "unprecedented punishment" is strong but not sensational, and it reflects the article's emphasis on the severity of the penalty.
+- The headline avoids unnecessary details, making it easy to understand at a glance.
+
+Lead:
+- The lead identifies the "who" (Te Pāti Māori co-leaders and youngest member), "what" (temporary suspension from parliament), and "why" (performance protesting controversial bill).
+- It is brief and informative, but could be slightly improved by specifying the bill (Treaty Principles Bill) for added clarity.
+- The lead aligns well with the headline and the article, maintaining coherence and accuracy.
+
+Overall Impression:
+- The headline and lead work well together, accurately representing the article's main topic and key points.
+- Minor improvement could be made by naming the bill in the lead, but the essential information is present.
+- No major issues with misinformation, hallucination, or misalignment.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for the article about the Māori MPs performing a haka in parliament and facing suspension. The user wants me to act as an expert news editor and judge, focusing on accuracy, adherence to guidelines, and how well the headline and lead work together.
+
+First, I'll read the article carefully to grasp the main points. The key elements are: three Māori MPs performed a haka during a vote on the Treaty Principles Bill, which was controversial. The bill aimed to reinterpret the Treaty of Waitangi, leading to protests. The privileges committee recommended suspensions, which are the harshest ever. The MPs argue the haka was a justified response, while the committee cites intimidation and contempt of parliament.
+
+Next, I'll look at the headline: "New Zealand MPs who performed haka in parliament given unprecedented punishment." It mentions the haka, the punishment, and that it's unprecedented. The guidelines say headlines should be clear, use active verbs, and avoid sensationalism. The headline is concise and uses "performed" and "given," which are active. It doesn't use sensational language, but "unprecedented" is strong yet accurate based on the committee's statement. However, it doesn't specify that the MPs are Māori, which is a key detail since the protest is tied to their cultural identity and the bill's impact on Māori rights. Missing that might be a weakness.
+
+Now the lead: "Te Pāti Māori co-leaders and youngest member to be temporarily suspended from parliament after performance protesting controversial bill." It answers who (Te Pāti Māori co-leaders and youngest member), what (suspended), when (after the performance), where (parliament), why (protesting controversial bill). The lead is brief, under 40 words. However, it's a bit vague. "Performance" could be clearer—specifying it's a haka would add context. Also, mentioning the Treaty Principles Bill by name would make it more informative. The lead doesn't mention the unprecedented nature of the punishment, which the headline does. There's a slight coherence issue because the lead's "controversial bill" isn't named, while the headline mentions the haka but not the Māori aspect.
+
+Checking for AI weaknesses: The headline and lead don't contain misinformation. They align with the article's facts. However, both could be more specific. The headline omits the Māori identity of the MPs, which is central to the story. The lead uses "performance" instead of "haka," which might be less clear. There's a minor coherence gap since the lead's "controversial bill" isn't named, but the article emphasizes the Treaty Principles Bill. The connection between the haka and the bill's content (Māori rights) isn't explicit in the headline or lead, which might leave readers unaware of the cultural significance.
+
+Adherence to guidelines: The headline uses a short, active sentence but could be more specific. The lead answers the Five Ws but lacks some specifics. They avoid sensationalism and commanding verbs. The AI might have missed emphasizing the cultural context (Māori) and the bill's name, which are crucial for understanding the story's significance.
+
+Overall, the headline and lead are accurate but could be improved by including the MPs' Māori affiliation and the bill's name. The coherence between them is okay, but there's room for better alignment. The penalties being unprecedented is mentioned in the headline but not the lead. Considering typical AI issues, the main problems are lack of specificity and minor coherence gaps. The rating would be a 3 or 4. Since the headline and lead are serviceable but need minor edits for clarity and specificity, I'll lean towards 3. However, if the main points are covered adequately despite the omissions, maybe a 4. Wait, the headline does say "unprecedented," and the lead mentions the suspension. The key facts are there, just not all specifics. Maybe a 4 because it's good but has minor areas for improvement.
+</think>
+
+**Headline Analysis**  
+- **Clarity & Accuracy**: The headline accurately states the unprecedented nature of the punishment and references the haka. However, it omits the MPs’ Māori identity, a critical contextual detail tied to the protest’s cultural significance[1][2][3].  
+- **Sensationalism**: Avoids hyperbole but could be more specific (e.g., naming the bill or clarifying the cultural context).  
+- **Structure**: Uses active verbs (“performed,” “given”) and concise phrasing, aligning with guidelines[5].  
+
+**Lead Analysis**  
+- **Five Ws**: Identifies the *who* (Te Pāti Māori leaders/member), *what* (suspension), *when* (after the protest), *where* (parliament), and *why* (controversial bill). However, it lacks the bill’s name (*Treaty Principles Bill*) and the cultural significance of the haka[1][3].  
+- **Brevity**: At 32 words, it meets length guidelines but sacrifices specificity[5].  
+- **Coherence with Headline**: The lead’s “controversial bill” aligns with the headline’s focus on punishment but misses the opportunity to highlight the Māori rights context[1][3].  
+
+**AI Weaknesses**  
+- **Omission of Key Context**: Both headline and lead underemphasize the protest’s connection to Māori rights and the bill’s intent to reinterpret the Treaty of Waitangi[1][3].  
+- **Ambiguity**: “Performance” in the lead is vague compared to explicitly naming the haka[1][2].  
+- **Cohesion Gap**: The headline’s “unprecedented punishment” isn’t echoed in the lead, which could clarify the severity (e.g., “harshest ever penalties”)[3].  
+
+**Overall Impression**  
+The headline and lead are accurate and avoid sensationalism but lack specificity about the cultural and political stakes. Minor edits (e.g., “Māori MPs,” “Treaty Principles Bill”) would enhance clarity and alignment with the article’s focus.  
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this news article about New Zealand MPs being suspended for performing a haka in parliament.
+
+**Headline Analysis:**
+"New Zealand MPs who performed haka in parliament given unprecedented punishment"
+- Accurate: Correctly states that NZ MPs who performed a haka are receiving a punishment described as unprecedented
+- Clear and understandable at a glance
+- Avoids sensationalism while still conveying the significance
+- Uses active language appropriately
+
+**Lead Analysis:**
+"Te Pāti Māori co-leaders and youngest member to be temporarily suspended from parliament after performance protesting controversial bill."
+- Accurate: Identifies the specific MPs (Te Pāti Māori co-leaders and youngest member) and the consequence (temporary suspension)
+- Provides context that it was a protest against a controversial bill
+- Appropriate length (21 words)
+- However, it doesn't specify the exact suspension durations (3 weeks for co-leaders, 7 days for youngest member), which is a key detail
+- Doesn't mention that this is considered the "harshest ever penalty" for parliamentarians, which is emphasized in the article
+
+**Overall Impression:**
+The headline is accurate and effective. The lead is generally good but misses an opportunity to emphasize the unprecedented severity of the punishment, which is a central point of the article. Together they provide a serviceable introduction to the story, but could be improved by highlighting the historic nature of the punishment more explicitly in the lead.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline is clear and accurately reflects the main point of the article, which is the unprecedented punishment given to the MPs for performing a haka in parliament. It avoids sensationalism while still being attention-grabbing. The lead succinctly answers the who, what, and why, providing context about the protest and the controversial bill. Both the headline and lead align well with the article's content and maintain journalistic standards. There are no inaccuracies or coherence issues. 
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline accurately identifies the core subjects (New Zealand MPs), the action (performed haka), and the significant consequence ("unprecedented punishment").
+*   It is concise and attention-grabbing.
+*   However, the use of "given" implies the punishment has been finalized and administered. The article states the privileges committee "recommended" the suspension, and it is "expected to be affirmed by vote." Thus, the punishment has not yet been formally "given" by the full parliament. This is a slight but important inaccuracy regarding the current status of the event. A word like "face" or "set for" or "to be given" would have been more precise.
+
+**Lead Observations:**
+*   The lead is brief (19 words) and informative.
+*   It correctly identifies the "who" (Te Pāti Māori co-leaders and youngest member), "what" (to be temporarily suspended), "where" (from parliament), and "why" (after performance protesting controversial bill).
+*   The phrase "to be temporarily suspended" accurately reflects the pending nature of the punishment, aligning well with the article's details.
+
+**Overall Impression and Justification:**
+The lead is excellent – concise, informative, and accurate regarding the status of the suspension. The headline captures the main point effectively but falters on precision with the word "given," which suggests a completed action rather than a recommended one awaiting final approval. This creates a slight factual inaccuracy in the headline and a minor incoherence with the more precise lead. While the core message is conveyed, the headline would require an edit to ensure full accuracy regarding the procedural stage of the punishment. The lead, on the other hand, is very well-crafted. As a whole, the package is serviceable but the headline's imprecision prevents a higher rating.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear and understandable, accurately summarizing the main event: New Zealand MPs punished for performing a haka in parliament.
+- "Unprecedented punishment" is accurate, as the article states this is the harshest penalty ever issued.
+- The headline is concise and avoids sensationalism.
+
+Lead:
+- The lead identifies the "who" (Te Pāti Māori co-leaders and youngest member), "what" (temporary suspension), "where" (parliament), and "why" (performance protesting controversial bill).
+- The "when" is missing (recently/after a November event, but the lead could be clearer on timing).
+- The lead is brief and informative, but could be slightly more specific by naming the bill or clarifying the context (Treaty Principles Bill).
+- The lead and headline are well-aligned and coherent with the article.
+
+Overall impression:
+- The headline and lead together accurately and succinctly represent the article's main points.
+- Minor improvements could be made for specificity and timing, but there are no major issues of inaccuracy, coherence, or alignment.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to carefully read the article and then evaluate the headline and lead provided. The user wants me to act as an expert news editor and judge, so I should focus on journalistic standards and common AI pitfalls.
+
+Starting with the headline: "New Zealand MPs who performed haka in parliament given unprecedented punishment." The headline mentions the key elements—MPs, haka, parliament, and unprecedented punishment. It's clear and concise. However, "unprecedented" is a strong term. The article does mention that the penalties are the harshest ever, with suspensions longer than any in the past, which supports "unprecedented." So that's accurate.
+
+The lead: "Te Pāti Māori co-leaders and youngest member to be temporarily suspended from parliament after performance protesting controversial bill." It answers who (Te Pāti Māori co-leaders and youngest member), what (temporary suspension), when (implied recent), where (parliament), why (protesting controversial bill). It's brief but covers the Five Ws. However, the lead could be more specific about the punishment's severity and the bill's name. The article mentions the Treaty Principles Bill, which isn't in the lead. Also, the suspension durations (21 days and 7 days) aren't included, which might be important for context.
+
+Checking for misinformation: The headline uses "unprecedented," which aligns with the committee's report and Speaker's comments. The lead mentions the protest against the bill, which is accurate. No clear inaccuracies here.
+
+Coherence between headline and lead: Both mention the suspension and the haka protest. The lead adds the context of the controversial bill, which the headline doesn't, but that's okay as the lead should provide more detail. They work together well, but maybe the lead could tie back to the "unprecedented" aspect mentioned in the headline.
+
+Potential issues: The lead doesn't specify the exact punishment durations, which the article details. Also, the headline's "unprecedented" is correct, but the lead could reinforce that by mentioning the severity. Another point is the article notes the bill was defeated in April, but the lead doesn't mention that the protest was during its first reading. However, the lead's purpose is to summarize, so maybe that's acceptable.
+
+AI weaknesses: The lead is a bit vague on specifics (like the bill's name and suspension lengths), which could be improved. Also, the headline and lead don't mention the political reactions (Labour and Greens' responses), but those might be beyond the lead's scope. The lead is within the word limit, so it's concise enough.
+
+Overall, the headline and lead are accurate and coherent but could be slightly more detailed in the lead. The punishment's unprecedented nature is covered, and the main facts are present. I'd rate this a 2 because it's good but has minor areas for improvement, like adding the bill's name and suspension lengths in the lead.
+</think>
+
+**Observations:**  
+- **Headline:** Accurately captures the unprecedented nature of the punishment and the MPs’ action. However, “unprecedented punishment” could be slightly clarified (e.g., “longest suspensions in parliamentary history”) to align with the article’s emphasis on severity.  
+- **Lead:** Answers the Five Ws but omits key context: the bill’s name (*Treaty Principles Bill*) and the suspension durations (21 days for co-leaders, 7 days for Maipi-Clarke). The phrase “temporarily suspended” is vague compared to the article’s specifics.  
+- **Coherence:** Headline and lead align on the core event but lack synergy in emphasizing the punishment’s historic severity. The lead’s omission of the bill’s defeat in April (mentioned in the article) weakens the protest’s relevance.  
+
+**Overall Impression:**  
+The headline and lead are factually accurate and concise but miss opportunities to enhance clarity and contextual depth. Minor edits would resolve these issues, but the current version is serviceable.  
+
+2
+
+

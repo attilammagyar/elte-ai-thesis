@@ -1,0 +1,240 @@
+URL: https://www.telegraph.co.uk/business/2025/05/15/graduate-scheme-jobs-slump-in-wake-of-reeves-tax-raid/
+Generator: human
+Headline: Graduate scheme jobs slump in wake of Reeves tax raid
+Lead: Bosses are hiring few university leavers and prioritising the retention of existing staff.
+
+Article:
+
+The number of graduate schemes in Britain plunged by a third last year...
+
+(...2961 characters...)
+
+...hardest time to find a job since January 2017, excluding the pandemic.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and their representation of the article.
+
+**Headline Analysis:**
+"Graduate scheme jobs slump in wake of Reeves tax raid"
+- Clear and understandable at a glance
+- Accurately captures the main topic (decline in graduate schemes)
+- Correctly attributes it to Reeves's tax changes
+- Uses strong verb "slump" which is appropriate for the 33% decline
+- Concise and attention-grabbing without being sensational
+
+**Lead Analysis:**
+"Bosses are hiring few university leavers and prioritising the retention of existing staff."
+- Brief (14 words) but lacks some key information
+- Partially answers "who" (bosses) and "what" (hiring fewer graduates)
+- Missing "when" (last year), "where" (Britain), and specific numbers (33% decline)
+- Doesn't mention the Budget or tax raid that was highlighted in the headline
+- The retention of existing staff is mentioned in the article but isn't the primary focus
+
+**Overall Impression:**
+The headline is strong and accurately represents the article's main point. The lead, while not inaccurate, is somewhat weak and missing key information that would make it more informative. It doesn't provide the specific data points (33% decline, 794 down from 1,224) that would strengthen it, nor does it connect clearly to the tax raid mentioned in the headline. The lead fails to mention Britain or the timeframe, which are important context elements.
+
+The headline and lead together provide a serviceable summary, but the lead could be significantly improved by including more specific information from the first two paragraphs of the article.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+**Key Observations:**
+
+1. **Headline:**
+   - The headline is clear and concise, accurately summarizing the main topic (graduate scheme jobs declining due to tax changes).
+   - It uses strong verbs ("slump") and avoids sensationalism while still being attention-grabbing.
+   - It aligns well with the article's focus on the impact of Rachel Reeves’s Budget tax raid.
+
+2. **Lead:**
+   - The lead is brief and informative, answering the "who" (bosses), "what" (hiring fewer university leavers), and "why" (prioritizing existing staff).
+   - It captures a key point from the article but could slightly expand to mention the tax raid's role more explicitly for better context.
+   - It is coherent with the headline and avoids any misinformation or hallucination.
+
+**Overall Impression:**
+- The headline and lead work well together, accurately representing the article's main points.
+- The headline is excellent, while the lead is good but could be slightly more detailed to fully align with the depth of the article.
+- No major issues with accuracy, coherence, or alignment.
+
+**Rating:** 4
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Graduate scheme jobs slump in wake of Reeves tax raid" is short, clear, and uses a strong verb ("slump").
+*   It accurately reflects the article's main assertion in the first paragraph, including the specific attribution to "Rachel Reeves’s Budget tax raid" which the article itself makes.
+*   It is attention-grabbing due to "slump" and "tax raid" without being overly sensational, as "tax raid" is the article's own terminology.
+
+**Lead Observations:**
+*   The lead "Bosses are hiring few university leavers and prioritising the retention of existing staff" is very brief (13 words) and informative.
+*   It directly summarizes a key consequence detailed in the article: "Employers have slashed hiring... bosses have reduced the most junior roles in favour of retaining existing staff."
+*   It answers the "who" (Bosses) and "what" (hiring fewer graduates, retaining existing staff). The "why" is strongly implied by the headline and the article's focus on cost-cutting.
+
+**Overall Impression:**
+The headline and lead work very well together. The headline identifies the core problem (slump in graduate jobs) and the article's stated primary cause ("Reeves tax raid"). The lead immediately follows up by explaining the direct impact of this on employers' hiring strategies. Both are accurate representations of the information and framing presented *in the provided article*. The AI has successfully extracted key information and presented it concisely and effectively, adhering to journalistic style guidelines. The brevity of the lead is acceptable as it is impactful and the headline provides significant context. There are no apparent AI weaknesses like hallucination or misalignment with the source text.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear and concise, accurately reflecting the main topic: a significant drop in graduate scheme jobs following Rachel Reeves's tax policies.
+- The phrase "Reeves tax raid" is attention-grabbing but borders on being slightly sensational; however, it is supported by the article's language.
+- The headline effectively summarizes the cause (tax raid) and effect (graduate scheme jobs slump).
+
+Lead:
+- The lead is brief but lacks some key details. It mentions that bosses are hiring fewer university leavers and prioritising existing staff, which is accurate, but it does not specify the scale, timing, or direct cause (the Budget/tax changes).
+- It misses the "when" (last year), "where" (Britain), and the "why" (cost-cutting after the Budget/tax changes), which are important for context.
+- The lead could be improved by including at least one of these missing elements for a fuller picture.
+
+Overall impression:
+- The headline and lead are aligned and accurate, but the lead is too vague and omits important context that would make it more informative and compelling.
+- Minor improvements to the lead would make the package stronger, but as it stands, it is serviceable and clear.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to rate the headline and lead generated by an AI for a news article based on the provided guidelines and the article content. 
+
+First, I need to understand the article's main points. The article discusses a significant drop in graduate schemes in Britain, attributing it to Rachel Reeves's Budget tax raid, specifically mentioning a 33% decrease in entry-level programs. It highlights industries like hospitality and accounting being hit hard, with employer National Insurance contributions increasing costs. There's also a mention of graduate salaries now aligning with the minimum wage, making degrees less valuable.
+
+Next, I'll evaluate the headline: "Graduate scheme jobs slump in wake of Reeves tax raid." The headline is clear and uses active language. It mentions the "slump" which grabs attention without being sensational. It correctly identifies the cause (Reeves tax raid) and the subject (graduate scheme jobs). However, "slump" might be a bit vague; the article specifies a 33% decrease, which could be more precise. Also, "Reeves tax raid" is accurate as per the article, but "tax raid" might be a bit strong, though the article uses similar language.
+
+Now the lead: "Bosses are hiring few university leavers and prioritising the retention of existing staff." The lead is concise and answers the 'who' (bosses), 'what' (hiring fewer graduates), and 'why' (prioritizing existing staff). However, it misses some of the Five Ws—specifically 'when' (last year) and 'where' (Britain). The lead is under 30 words, which fits the guideline. But it doesn't mention the tax raid's role, which is a key point from the article. The connection to the Budget's impact is crucial for context, which the lead omits.
+
+Checking for AI weaknesses: The headline and lead align with the article's content. There's no misinformation, but the lead could be more informative by including the tax raid's effect. The coherence between headline and lead is okay, but the lead doesn't fully support the headline's mention of the tax raid. The headline's "slump" is supported by the article's 33% drop, so that's accurate.
+
+Rating: The headline is strong but could be more specific. The lead is too brief, missing key context. Together, they're coherent but lack some depth. Considering the guidelines, I'd rate this a 3. It's serviceable but needs minor edits, like adding the tax raid's impact in the lead and specifying the percentage drop in the headline.
+</think>
+
+4
+
+The headline effectively captures the core issue (graduate job decline linked to tax changes) with clear, active language. While "slump" succinctly conveys decline, specifying the 33% drop from the article would strengthen precision. The lead concisely identifies key actors (employers) and their strategy (prioritizing retention), but omits the tax policy's direct role in driving this shift, which is central to the article's causation narrative. Both elements avoid sensationalism and align factually with the source material, though the lead's exclusion of the Budget's impact creates a minor coherence gap with the headline's reference to the "tax raid."
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and their accuracy in representing the article.
+
+**Headline Analysis:**
+"Graduate scheme jobs slump in wake of Reeves tax raid"
+- Accurately captures the main topic of the article - the decline in graduate schemes
+- Correctly attributes this to Rachel Reeves's tax changes
+- Uses strong verb "slump" which is appropriate for the 33% decline mentioned
+- Clear and understandable at a glance
+- Avoids sensationalism while still being attention-grabbing
+
+**Lead Analysis:**
+"Bosses are hiring few university leavers and prioritising the retention of existing staff."
+- Accurately reflects a key point from the article
+- However, it's incomplete in addressing the Five Ws:
+  - Missing specific numbers (33% decline, from 1,224 to 794)
+  - No timeframe mentioned (12 months to April)
+  - No mention of the specific tax (employer National Insurance contributions)
+- At 14 words, it's brief but perhaps too brief, missing important context
+
+**Overall Impression:**
+The headline is strong and accurate, capturing the essence of the article. The lead, while not inaccurate, is too sparse and fails to provide enough of the key information from the article. It doesn't mention the scale of the decline or the specific tax changes that caused it. A reader would need to continue to the article to understand the basic facts of the story, which defeats the purpose of a good lead.
+
+The headline and lead work together reasonably well, but the lead doesn't fully deliver on the promise of the headline by explaining the "slump" with specific figures or properly contextualizing the "tax raid" mentioned in the headline.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline effectively captures the main topic (graduate scheme jobs declining due to tax changes) and uses strong, active language ("slump") without being sensational. It aligns well with the article's focus on the impact of Rachel Reeves’s Budget tax raid. The lead succinctly summarizes the key point (fewer hires for graduates, focus on retaining staff) and answers the "who" (bosses) and "what" (hiring fewer university leavers). Both are brief, clear, and avoid AI-generated pitfalls like misinformation or incoherence. They work well together to represent the article's main points.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Graduate scheme jobs slump in wake of Reeves tax raid" is concise, uses a strong verb ("slump"), and directly addresses the main topic (drop in graduate schemes) and the cause attributed in the article ("Reeves tax raid").
+*   It is attention-grabbing and reflects the article's opening statement accurately.
+
+**Lead Observations:**
+*   The lead "Bosses are hiring few university leavers and prioritising the retention of existing staff" is very brief (13 words).
+*   While factually supported by a statement within the article, it fails to convey the primary news: the significant quantitative drop in graduate schemes.
+*   It describes a consequence or a related employer behavior rather than summarizing the core "what" (the one-third plunge in schemes) and "where" (Britain) of the main story.
+*   It doesn't mention "graduate schemes" specifically, which is the central subject of the headline and article.
+
+**Overall Impression and Justification:**
+The headline is effective and accurately captures the article's main thrust. However, the lead is weak and does not adequately support the headline or summarize the article's most critical information. A good lead should immediately follow up on the headline by providing the essential facts of the story (the "Five Ws"). This lead omits the central fact – the actual slump in the number of graduate schemes – and instead focuses on a secondary consequence. This creates a disconnect between the headline and the lead, and the lead fails in its primary role of concisely informing the reader about the core news. The lead is too generic and doesn't specify the key subject (graduate schemes) or the magnitude of the issue. Therefore, the headline and lead do not work well together to represent the article effectively. The lead requires a significant rewrite to address the main news point.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is clear and concise, accurately reflecting the main topic: a significant drop in graduate scheme jobs linked to Rachel Reeves's tax policies.
+- The phrase "Reeves tax raid" is attention-grabbing but borders on being slightly sensational; however, it is supported by the article's language.
+- The lead is brief but lacks key details. It does not specify the scale of the decline, the time frame, or the direct cause (the Budget/tax changes). It also omits the "where" (Britain) and "when" (last year).
+- The lead is somewhat generic and could apply to many situations, missing the specificity that would make it informative and aligned with the article.
+- There is coherence between the headline and lead, but the lead does not fully deliver on the headline's promise of context and detail.
+
+Overall impression:
+- The headline is strong and mostly appropriate, but the lead is too vague and misses several of the Five Ws, reducing the overall quality and informativeness.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to understand the article's main points. The article discusses a significant drop in graduate schemes in Britain, attributing it to Rachel Reeves's Budget tax raid, specifically mentioning a 33% decrease in entry-level programs. It highlights industries like hospitality and accounting being hit hard, with employer National Insurance contributions cited as a cause. The lead mentions bosses cutting hiring and retaining staff, which aligns with the article. 
+
+Now, looking at the headline: "Graduate scheme jobs slump in wake of Reeves tax raid." The term "slump" is accurate given the 33% drop. Mentioning Reeves's tax raid is correct as per the article. The headline is clear and concise.
+
+The lead: "Bosses are hiring few university leavers and prioritising the retention of existing staff." It answers who (bosses), what (hiring fewer graduates), why (prioritizing existing staff). However, the article also mentions the tax increase's impact on employer costs, which the lead doesn't address. The lead is brief but could include the 'why' more clearly related to the tax changes.
+
+Checking for AI weaknesses: The headline and lead don't seem to have misinformation. They align with the article's data. However, the lead could be more specific about the cause (tax raid) to better connect with the headline. The coherence is there, but the link between the tax raid and hiring decisions isn't explicit in the lead. 
+
+The headline uses "slump" which is strong but not sensational. The lead is under 30 words, so it meets the guidelines. However, the lead's second part about prioritizing staff is mentioned in the article but isn't the central cause; the tax raid is the main driver. 
+
+Potential issues: The lead doesn't mention the tax raid, which is a key element from the headline. This creates a slight coherence gap. Also, the article mentions specific figures like the 41% drop in hospitality, which the headline and lead don't include, but that's okay as they're summarizing.
+
+Rating: The headline is accurate, but the lead could better explain the cause. They work together but could be tighter. Minor improvements needed, so a 2.
+</think>
+
+**Headline Observations**  
+- Accurately reflects the 33% decline in graduate schemes mentioned in the article ("slump") and links it to the tax raid.  
+- Uses concise, active language ("slump," "wake of") without sensationalism.  
+
+**Lead Observations**  
+- Correctly identifies the trend of reduced hiring and retention focus but omits the tax raid’s role as a causal factor.  
+- Fails to mention the broader economic context (e.g., National Insurance increases) highlighted in the article.  
+
+**Coherence Issues**  
+- The headline emphasizes the tax raid, but the lead does not explicitly connect hiring cuts to this policy, creating a slight disconnect.  
+- The lead’s focus on "prioritising existing staff" is supported in the article but lacks the depth of the article’s analysis (e.g., salary comparisons, sector-specific impacts).  
+
+**Overall Impression**  
+The headline is strong and accurate, but the lead undersells the article’s central argument (tax policy’s impact). While not misleading, the pair could be more tightly aligned. Minor edits to the lead to include the tax raid’s influence would improve coherence.  
+
+2
+
+

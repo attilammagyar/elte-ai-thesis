@@ -1,0 +1,252 @@
+URL: https://www.engadget.com/gaming/nows-a-good-time-to-check-in-on-your-steam-account-security-205807479.html
+Generator: claude-3-7-sonnet-20250219
+Headline: Valve Debunks Major Steam Data Breach Claims
+Lead: Gaming giant Valve has confirmed that Steam systems were not breached despite earlier reports claiming hackers had obtained 89 million user records, clarifying that only unassociated phone numbers and expired one-time codes were leaked.
+
+Article:
+
+Update May 14, 6:38PM ET:  Valve has confirmed that Steam systems were...
+
+(...1996 characters...)
+
+...en compromised, be extra alert to possible phishing attempts via text.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article and journalistic standards.
+
+Headline: "Valve Debunks Major Steam Data Breach Claims"
+- Accurate: The headline correctly states that Valve has denied a major breach
+- Clear: Easy to understand at a glance
+- Concise: Uses strong verbs ("debunks") without being sensational
+- Informative: Captures the main update to the story
+
+Lead: "Gaming giant Valve has confirmed that Steam systems were not breached despite earlier reports claiming hackers had obtained 89 million user records, clarifying that only unassociated phone numbers and expired one-time codes were leaked."
+- Comprehensive: Covers the key information from the update
+- Accurate: Correctly summarizes Valve's statement about what was and wasn't compromised
+- Informative: Includes the context of the original claim (89 million records)
+- Complete: Addresses who (Valve), what (denial of breach), and provides context on what was actually leaked
+- Length: At 39 words, it's slightly longer than ideal but still reasonable
+
+The headline and lead work well together to accurately represent the article's main point - that Valve has officially denied a major security breach while acknowledging a more limited leak of data. The lead expands on the headline appropriately, providing necessary context about both the original claims and Valve's clarification. The headline doesn't oversell the story, and the lead provides the essential details without straying into speculation.
+
+Both elements accurately reflect the article's content and focus on the most newsworthy aspect - the update from Valve. They avoid common AI pitfalls like hallucination or misrepresentation of facts.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+**Key Observations:**
+
+1. **Headline:**
+   - **Clarity & Accuracy:** The headline is clear and accurately reflects the main point of the article—Valve debunking claims of a major data breach.
+   - **Attention-Grabbing:** It grabs attention without being sensational, using strong verbs like "debunks."
+   - **Relevance:** Directly ties to the article's focus on Valve's clarification about the breach claims.
+
+2. **Lead:**
+   - **Brevity & Informativeness:** The lead is concise (around 30 words) and effectively answers the Five Ws—who (Valve), what (debunked breach claims), when (implied recent), where (Steam systems), why (earlier reports were inaccurate).
+   - **Alignment with Headline:** The lead expands on the headline, providing context about the nature of the leaked data (unassociated phone numbers and expired codes).
+   - **No Hallucination/Misinformation:** The lead accurately summarizes Valve's statement without adding incorrect details.
+
+3. **Overall Impression:**
+   - The headline and lead work well together, with the headline setting up the key takeaway and the lead providing necessary details.
+   - No coherence or alignment issues; both are grounded in the article's facts.
+   - No typical AI weaknesses (e.g., hallucination, inaccuracies) are present.
+
+**Rating:** 5
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "Valve Debunks Major Steam Data Breach Claims" is clear, concise, and uses a strong active verb ("Debunks"). It accurately reflects the main point of the article, especially considering the update from Valve is presented first and is the most current information. It grabs attention without being overly sensational.
+
+**Lead Observations:**
+The lead "Gaming giant Valve has confirmed that Steam systems were not breached despite earlier reports claiming hackers had obtained 89 million user records, clarifying that only unassociated phone numbers and expired one-time codes were leaked" is informative and directly supports the headline. It correctly identifies Valve as the source, states the core message (no breach of systems), contrasts it with the earlier claims (89 million records), and specifies what was actually leaked (unassociated phone numbers, expired codes). It covers the key "who," "what," and clarifies the "why" (debunking claims). At 34 words, it's a good length.
+
+**Overall Impression:**
+The headline and lead work very well together and accurately represent the most crucial information in the article – Valve's official statement debunking the breach. They correctly prioritize the update provided by Valve. There are no apparent inaccuracies or AI hallucinations. The language is appropriate for a news report.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear, concise, and accurately reflects the main update in the article: Valve has denied the major breach claims.
+- It uses active language ("debunks") and is attention-grabbing without being sensational.
+- The headline is short and understandable at a glance.
+
+Lead:
+- The lead succinctly summarizes the key points: Valve's confirmation, the context of earlier breach claims, and the clarification about what was actually leaked.
+- It answers the Five Ws: who (Valve), what (confirmed no breach, clarified leak details), when (implied by "despite earlier reports"), where (Steam), and why (to clarify the situation).
+- The lead is brief, informative, and fits within the recommended word count.
+- There is good alignment between the headline and the lead, and both accurately represent the article's content.
+- No evidence of misinformation, hallucination, or coherence issues.
+
+Overall Impression:
+- The headline and lead work well together, are accurate, and meet journalistic standards. Only minor stylistic tweaks could be considered, but there are no substantive issues.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for the article about the Steam data breach. The user wants an expert evaluation based on journalistic standards and typical AI weaknesses. 
+
+First, I'll read the article carefully. The main points are that Valve denied a breach, the leaked data included old SMS codes and phone numbers not linked to accounts, and the source might be a third-party vendor. The original reports suggested a major breach, but Valve clarified it wasn't their systems.
+
+Now, looking at the headline: "Valve Debunks Major Steam Data Breach Claims." It's clear and uses "debunks" which is strong. It addresses the main conflict between initial reports and Valve's statement. The word "major" might be a bit sensational, but it's accurate because the claims were about 89 million users.
+
+The lead: "Gaming giant Valve has confirmed that Steam systems were not breached despite earlier reports claiming hackers had obtained 89 million user records, clarifying that only unassociated phone numbers and expired one-time codes were leaked." It answers who (Valve), what (confirmed no breach), when (implied recent), where (Steam), why (clarification of earlier reports). It's concise, around 40 words. 
+
+Checking for accuracy: The article says Valve confirmed no breach, and the leaked data was old codes and phone numbers not tied to accounts. The headline and lead reflect this. No misinformation here. 
+
+Coherence between headline and lead: The headline mentions debunking claims, the lead explains the confirmation and what was leaked. They align well. 
+
+Potential issues: The headline uses "debunks," which is a strong verb. Maybe "denies" is more neutral, but "debunks" implies evidence, which Valve provided. The lead mentions "unassociated phone numbers," which matches the article's statement that numbers weren't linked to Steam accounts. 
+
+AI weaknesses: The headline and lead don't show hallucination or coherence issues. They accurately summarize the article's key points without adding unsupported claims. 
+
+Rating: The headline and lead are accurate, concise, and work together. They address the main points without sensationalism. Minor points might be the strength of "debunks" and the length of the lead, but overall, it's solid. I'd rate it a 4. There's a slight room for improvement, maybe making the lead a bit shorter, but it's good.
+</think>
+
+**Headline Analysis**  
+- **Clarity and Accuracy**: The headline effectively communicates Valve's refutation of breach claims while maintaining factual accuracy. The term "debunks" strongly conveys Valve's active role in disproving allegations[1][3][5].  
+- **Attention-Grabbing**: "Major Steam Data Breach Claims" highlights the severity of initial reports without sensationalism, balancing urgency with restraint[2][4].  
+
+**Lead Analysis**  
+- **Conciseness**: At 38 words, the lead efficiently answers the Five Ws:  
+  - **Who**: Valve  
+  - **What**: Denied breach, clarified leak details  
+  - **When**: Implied recent (tied to May 14 updates)  
+  - **Where**: Steam systems  
+  - **Why**: Earlier reports claimed 89M records compromised[1][3][5].  
+- **Technical Precision**: Specifies "unassociated phone numbers" and "expired one-time codes," aligning with Valve's statement about non-linkage to accounts/passwords[4][5].  
+
+**Coherence Check**  
+- The headline and lead form a logical chain: Refutation → Context (89M claim) → Specifics of actual leak.  
+- Avoids AI pitfalls like hallucination by strictly adhering to Valve’s verified statements[1][3][5].  
+
+**Improvement Opportunities**  
+- **Headline**: Replace "Debunks" with "Denies" for slightly more neutral tone.  
+- **Lead**: Simplify "unassociated phone numbers" to "standalone phone numbers" for broader accessibility.  
+
+**Final Rating**: 4  
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article and journalistic standards.
+
+Headline: "Valve Debunks Major Steam Data Breach Claims"
+- Accurate: The headline correctly states that Valve has denied a major breach
+- Clear: It communicates the main point at a glance
+- Concise: Uses appropriate length and active language
+- Balanced: Not sensationalist while still conveying importance
+
+Lead: "Gaming giant Valve has confirmed that Steam systems were not breached despite earlier reports claiming hackers had obtained 89 million user records, clarifying that only unassociated phone numbers and expired one-time codes were leaked."
+- Informative: Covers the key facts from the article
+- Complete: Addresses who (Valve), what (denial of breach), and provides context about what was actually leaked
+- Accurate: Correctly represents Valve's statement that systems weren't breached
+- Length: At 39 words, it's slightly longer than ideal but still reasonable
+
+The headline and lead work well together to accurately represent the article's main point - that Valve has denied a major breach while acknowledging a more limited leak of data. The lead provides appropriate context about what was actually leaked according to Valve. The headline and lead properly prioritize the update (Valve's statement) over the original claim, which is appropriate given the article structure.
+
+No significant inaccuracies or misrepresentations are present. The headline and lead capture the essence of the article effectively.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline "Valve Debunks Major Steam Data Breach Claims" is excellent. It is clear, concise, and accurately reflects the main point of the article, which is Valve's refutation of a significant data breach. It uses a strong active verb ("Debunks") and grabs attention without being overly sensational. It correctly identifies the subject (Valve/Steam) and the core action (debunking breach claims).
+
+**Lead Observations:**
+The lead "Gaming giant Valve has confirmed that Steam systems were not breached despite earlier reports claiming hackers had obtained 89 million user records, clarifying that only unassociated phone numbers and expired one-time codes were leaked" is also very strong. It is brief (34 words, one sentence) yet highly informative. It successfully answers the key "W" questions: Who (Valve), What (confirmed no major breach, clarified minor leak), and implicitly When/Where (recent, Steam systems). It accurately summarizes Valve's clarification, contrasting it with the earlier, more alarming reports mentioned in the article. The phrasing "unassociated phone numbers" and "expired one-time codes" correctly captures the nuances of Valve's statement.
+
+**Overall Impression:**
+The headline and lead work together exceptionally well. The headline sets the stage by announcing the debunking, and the lead provides the essential details of what was debunked and what the actual, less severe situation entails. The AI correctly prioritized the update provided at the beginning of the article, which is crucial for conveying the most current and accurate information. There are no apparent inaccuracies, hallucinations, or significant coherence issues. The AI has adhered well to journalistic standards for headlines and leads. The lead is a single, somewhat dense sentence, but it remains clear and effectively conveys the necessary information within the desired length.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is clear, concise, and accurately reflects the main update: Valve has denied a major breach.
+- The headline avoids sensationalism and uses strong, active language ("debunks").
+- The lead is brief and informative, summarizing the key points: Valve's confirmation, the scale of the alleged breach, and the clarification about what was actually leaked.
+- The lead answers the Five Ws: who (Valve), what (confirmed no breach, clarified leak), when (implied by "despite earlier reports"), where (Steam), and why (to clarify the situation).
+- The lead is slightly long but still within reasonable limits.
+- There is good coherence between the headline, lead, and article content.
+- No evidence of misinformation or hallucination.
+
+Overall impression: The headline and lead work well together, are accurate, and meet journalistic standards. Only minor tightening could be considered for brevity.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided based on the article and the given guidelines. The user wants a score from 1 to 5, with 1 being the best. 
+
+First, I'll read the article carefully. The main points are that Valve denied a breach of Steam's systems, explaining that leaked data included old text messages with expired one-time codes and phone numbers, not linked to accounts or personal data. The original reports suggested a breach via a third-party vendor, possibly Twilio, but Valve clarified they don't use Twilio. They also mentioned users should still check security practices.
+
+Now, looking at the headline: "Valve Debunks Major Steam Data Breach Claims." The headline is clear and uses "debunks" which is a strong verb. It accurately reflects Valve's denial of the breach. It's concise and not sensational.
+
+The lead: "Gaming giant Valve has confirmed that Steam systems were not breached despite earlier reports claiming hackers had obtained 89 million user records, clarifying that only unassociated phone numbers and expired one-time codes were leaked." It answers the who (Valve), what (confirmation of no breach), when (implied by the update date), where (Steam systems), why (earlier reports). It's a bit long—maybe over 30 words. Checks the Five Ws but could be more concise.
+
+Checking for AI weaknesses. The headline and lead align with the article. No misinformation here. The lead mentions "unassociated phone numbers," which matches the article's statement that phone numbers weren't linked to Steam accounts. The headline uses "Major" which might be slightly sensational, but the article does mention 89 million records, so it's justified. The lead is accurate but a bit wordy. Coherence between headline and lead is good; both focus on Valve's denial and the nature of the leak. 
+
+Potential issues: The lead could be shorter. Also, the article mentions that the leak came from a third-party vendor, which isn't addressed in the headline or lead. However, the lead does mention "unassociated," which indirectly refers to the third-party aspect. The headline's "debunks" is strong but accurate. 
+
+Rating guidelines: The score is based on inaccuracy and how badly they work together. Since both are accurate and coherent, but the lead is a bit lengthy, maybe a 2. Minor improvements possible, like shortening the lead. No major inaccuracies or misalignment. So, final score 2.
+</think>
+
+**Headline Analysis**  
+- **Clarity and Accuracy**: The headline clearly states Valve's refutation of breach claims. "Debunks" effectively conveys action while maintaining factual accuracy[1][3][4].  
+- **Sensationalism**: "Major" emphasizes scale but aligns with the article's mention of 89 million records, avoiding exaggeration[1][2].  
+
+**Lead Analysis**  
+- **Completeness**: Answers "who" (Valve), "what" (denial of breach), "when" (implied via "confirmed"), and "why" (earlier reports). However, it omits the "how" (third-party SMS routing)[2][3].  
+- **Conciseness**: At 37 words, it slightly exceeds the 30-word ideal but remains informative without redundancy[2][4].  
+
+**Coherence and Alignment**  
+- The lead directly supports the headline by elaborating on the nature of the leaked data (expired codes, unlinked phone numbers)[3][4].  
+- Both avoid speculative language, sticking to Valve’s confirmed statements[1][5].  
+
+**Areas for Improvement**  
+- The lead could be tightened: *"Valve confirmed Steam systems weren’t breached, clarifying leaked data included only expired one-time codes and phone numbers unlinked to user accounts."* (28 words)  
+- Specifying "third-party vendors" in the lead would address the article’s nuance about SMS routing[2][3].  
+
+**Final Rating**: The headline and lead are accurate and aligned but could be slightly more concise and detailed.  
+
+2
+
+

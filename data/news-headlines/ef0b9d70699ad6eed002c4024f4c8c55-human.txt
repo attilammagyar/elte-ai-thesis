@@ -1,0 +1,234 @@
+URL: https://interestingengineering.com/transportation/waymo-recalls-1200-robotaxis-after-cars-crash-into-chains-gates-and-utility-poles
+Generator: human
+Headline: Waymo recalls 1,200 robotaxis after cars crash into chains, gates and utility poles
+Lead: A software glitch caused Waymo’s robotaxis to hit visible objects, prompting a wide recall.
+
+Article:
+
+Looks like the autonomous future is still a long shot, given the hiccu...
+
+(...3120 characters...)
+
+...latory pressure, especially after a serious pedestrian injury in 2023.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about Waymo's recall of self-driving vehicles.
+
+**Headline Analysis:**
+"Waymo recalls 1,200 robotaxis after cars crash into chains, gates and utility poles"
+- Accurate in mentioning the recall of approximately 1,200 vehicles (article states 1,212)
+- Correctly identifies the issue (crashes into barriers like chains and gates)
+- Includes utility poles, which is mentioned in the article as a separate incident with a different recall
+- Clear, concise, and informative without being sensational
+- Uses active language appropriately
+
+**Lead Analysis:**
+"A software glitch caused Waymo's robotaxis to hit visible objects, prompting a wide recall."
+- Accurately identifies the core issue (software glitch causing collisions with visible objects)
+- Mentions the recall, connecting to the headline
+- Brief at 15 words, well under the guideline of 25-30 words
+- However, it's missing some key information that would strengthen it:
+  - The number of vehicles affected (1,212)
+  - When this occurred (the timeline of incidents from 2022-2024)
+  - That a software update has already been deployed to fix the issue
+
+**Overall Impression:**
+The headline is strong and accurate, capturing the key information. The lead is accurate but somewhat thin, missing opportunities to include more of the "Five Ws" that would give readers a more complete picture. It could benefit from mentioning the number of vehicles, the timeframe, and that a fix has been deployed. The headline and lead work together cohesively, but the lead could be more informative while still remaining concise.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline is catchy and uses active language ("recalls," "crash"). It correctly identifies Waymo and the approximate number of vehicles. However, it inaccurately includes "utility poles" as a primary reason for *this specific* recall of 1,200 (actually 1,212) vehicles. The article states this recall is for a flaw making robotaxis "prone to crashing into chains, gates, and similar barriers." The mention of a robotaxi striking a "wooden telephone pole" is explicitly linked to a *separate, previous* recall in June involving 670 vehicles. This conflation is a significant factual error for the headline.
+
+**Lead Observations:**
+The lead is brief (15 words), informative, and accurately summarizes the core issue: a software glitch leading to Waymo robotaxis hitting visible objects, which prompted a recall. It effectively covers the "who," "what," and "why."
+
+**Overall Impression and Justification:**
+The lead is well-written – concise, accurate, and informative. However, the headline contains a notable inaccuracy by misattributing the cause of the current recall. While the article mentions a utility pole incident, it specifies this was related to a *different* recall. By including "utility poles" alongside "chains, gates" as the reason for the 1,200-vehicle recall, the headline misleads the reader about the specific scope of the software flaw addressed by *this* particular recall. This lack of precision and conflation of distinct events in the headline significantly undermines its quality, despite the strength of the lead. The headline needs a factual correction to accurately reflect the article's content regarding the current recall.
+
+2
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear and understandable, accurately summarizing the main event: Waymo recalling 1,200 robotaxis due to crashes into stationary objects.
+- It is concise and uses active language.
+- However, it mentions "utility poles," which is not entirely accurate. The article specifies a single incident with a wooden telephone pole, and the main recall is due to chains and gates, not utility poles. This could be seen as a slight exaggeration or inaccuracy.
+
+Lead:
+- The lead is brief and informative, stating the cause (software glitch), the effect (robotaxis hitting visible objects), and the result (a wide recall).
+- It does not specify the "who" (Waymo) and "what" (recall) as clearly as it could, and omits the "when" and "where."
+- The lead could be improved by including more specifics, such as the number of vehicles or the timeframe.
+
+Overall impression:
+- The headline and lead work together to represent the article, but both could be more precise. The headline slightly overreaches with "utility poles," and the lead is a bit too vague and lacks key details.
+- The main topic and key points are captured, but minor inaccuracies and lack of detail prevent a higher score.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to act as an expert news editor and judge, rating the quality of a headline and lead generated by an AI for a news article about Waymo's recall. The main task is to evaluate based on journalistic standards, check for AI weaknesses, and provide a score from 1 to 5.
+
+First, I need to understand the article's content. The article discusses Waymo recalling over 1,200 self-driving vehicles due to a software flaw causing collisions with barriers like chains and gates. The recall follows a NHTSA investigation, and Waymo deployed a software update. There's mention of previous recalls and expansion plans despite setbacks.
+
+Next, I'll look at the provided headline and lead. The headline is "Waymo recalls 1,200 robotaxis after cars crash into chains, gates and utility poles." The lead states, "A software glitch caused Waymo’s robotaxis to hit visible objects, prompting a wide recall."
+
+Now, applying the guidelines for headlines: it should be clear, attention-grabbing without sensationalism, use active verbs. The headline here is clear and concise, mentions the key points (recall, number, reason). However, the article mentions utility poles in a different recall (June incident), which isn't part of the current 1,212 vehicle recall. Including "utility poles" here might be inaccurate, as the current recall is specifically about chains and gates. That's a potential misinformation issue.
+
+For the lead: it should answer the Five Ws. The lead mentions the software glitch (why), Waymo's robotaxis (who), hitting visible objects (what), prompting a recall (what). It's brief but misses the 'when' and 'where.' The article states the recall happened after a NHTSA investigation opened in May 2024, and the software update was in late 2024. The lead doesn't specify the time frame, which is part of the Five Ws. Also, "wide recall" is vague; the exact number (1,212) is in the headline but not the lead, though maybe that's okay since the headline has it.
+
+Checking for AI weaknesses: The headline's inclusion of "utility poles" might be a hallucination or mixing details from past recalls. The article mentions a June recall involving a utility pole, but the current recall is about chains and gates. This could be a coherence issue between the headline and the article. The lead uses "visible objects," which aligns with NHTSA's statement about "clearly visible objects," so that's accurate. However, the lead doesn't mention the lack of injuries, which the article emphasizes, but maybe that's acceptable for brevity.
+
+Other points: The headline uses "robotaxis" and "cars" which might be redundant. Also, "crash into" is active but could be more precise. The lead's "prompting a wide recall" is a bit vague; specifying it's a recall of 1,200 vehicles (as in the headline) would strengthen it, but since the headline already has the number, maybe it's okay. However, the lead could benefit from mentioning the NHTSA investigation as the prompting factor, which adds context.
+
+The headline and lead together should accurately reflect the article. The main issue is the headline's mention of utility poles, which aren't part of this specific recall. That's a factual inaccuracy. The lead is mostly accurate but lacks some context. The rating would be affected by these inaccuracies and coherence issues. Considering the guidelines, this might fall into a 3 or 4. But since the headline has a clear inaccuracy, it's more serious. However, the lead is mostly correct. Balancing both, maybe a 3 because the headline's error is significant, but the lead is okay. Alternatively, if the utility pole is a minor part, maybe a 4. Wait, the article's current recall is about chains and gates, but the June incident was a separate recall. The headline here combines both into one, which is incorrect. That's a major inaccuracy, so the score should be lower. Maybe a 2 or 3. Let me check the NHTSA filing in the article: the recall is for 1,212 vehicles due to collisions with chains, gates, etc. The utility pole was a previous recall. So including it here is wrong. That's a factual error, which is a big issue. So the headline is misleading. The lead doesn't have that error. So the headline is inaccurate, which is a key part. Therefore, the score would be lower. Considering the rating guidelines, a 2 (poor, several problems) because the headline has a significant inaccuracy, even though the lead is mostly okay. Alternatively, if the rest is good, maybe a 3. But misinformation is a critical flaw. The user's guidelines say a 1 is unacceptable, needs complete rewrite. The headline's inaccuracy is a major problem, so maybe a 2. However, the lead is accurate except for missing some details. The headline's error is severe enough to warrant a lower score. So final rating: 2.
+</think>
+
+**Headline Observations:**  
+- **Accuracy Issue:** The headline mentions "utility poles," which were part of a separate June 2024 recall, not the current 1,212-vehicle recall focused on chains and gates. This conflates distinct incidents, introducing misinformation.  
+- **Clarity:** "Robotaxis" and "cars" are redundant. The active verb "crash" is appropriate, but the inclusion of unrelated details weakens precision.  
+
+**Lead Observations:**  
+- **Brevity:** The lead succinctly identifies the cause (software glitch) and consequence (recall) but omits key context like the NHTSA investigation and timeframe.  
+- **Five Ws:** Missing "when" (2024 recall) and "where" (U.S. operations). "Visible objects" aligns with NHTSA’s wording but lacks specificity about barriers.  
+
+**Coherence:**  
+- The headline’s reference to utility poles creates a misalignment with the article’s focus on chains/gates, undermining accuracy. The lead avoids this error but lacks depth.  
+
+**Overall Impression:**  
+While the lead is functional, the headline’s factual error and redundancy significantly detract from its credibility. The pairing earns a **2** due to critical inaccuracies and missed contextual details.  
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article content and journalistic standards.
+
+**Headline Analysis:**
+The headline "Waymo recalls 1,200 robotaxis after cars crash into chains, gates and utility poles" is mostly accurate but has a minor inaccuracy. The article states 1,212 vehicles were recalled, not 1,200. The headline correctly mentions crashes into chains and gates, but adds "utility poles" which is somewhat misleading - the article mentions one incident with a wooden telephone pole, but this was a separate recall in June, not part of the current recall being discussed.
+
+**Lead Analysis:**
+The lead "A software glitch caused Waymo's robotaxis to hit visible objects, prompting a wide recall" is very brief but lacks specificity. It doesn't provide the number of vehicles recalled or when this occurred. It also doesn't mention that Waymo has already deployed a software update to address the issue. The lead fails to answer most of the Five Ws adequately.
+
+**Overall Impression:**
+The headline and lead provide the basic information but contain inaccuracies and lack important details. The headline incorrectly rounds the number of vehicles and conflates separate recall incidents. The lead is too vague and misses key information about the timing of events and the resolution. Together, they don't fully represent the article's content and could mislead readers about the scope and nature of the issues.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline is clear and attention-grabbing, accurately summarizing the main issue (recall due to crashes into specific objects). However, it slightly exaggerates by including "utility poles," which were mentioned in a different recall context in the article, not the current one. The lead succinctly captures the key points (software glitch, visible objects, recall) but could be more precise by specifying the number of vehicles recalled. Both align well with the article's content but have minor inaccuracies. 
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+Key observations:
+
+Headline: "Waymo recalls 1,200 robotaxis after cars crash into chains, gates and utility poles"
+*   **Accuracy:** The headline contains a significant factual inaccuracy. While the article mentions Waymo robotaxis hitting "chains" and "gates" leading to the current recall of 1,212 vehicles, the inclusion of "utility poles" is misleading in this context. The article states that a *separate, previous* recall in June (for 670 vehicles) was due to a robotaxi striking a "wooden telephone pole." The current recall of 1,212 vehicles is for a software flaw making them "prone to crashing into chains, gates, and similar barriers." The AI has conflated details from two distinct recall events.
+*   **Specificity:** The number "1,200" is a slight rounding down from the article's "1,212". While rounding can be acceptable in headlines, "1,212" is also concise. This is a minor point compared to the factual error.
+*   **Clarity & Conciseness:** The headline is otherwise clear, uses active verbs ("Waymo recalls," "cars crash"), and is of reasonable length.
+
+Lead: "A software glitch caused Waymo’s robotaxis to hit visible objects, prompting a wide recall."
+*   **Accuracy:** The lead is accurate. It correctly identifies a "software glitch" as the cause and states that robotaxis were hitting "visible objects," which aligns with the article's description of the problem ("clearly visible objects," "chains, gates, and similar barriers").
+*   **Informativeness & Brevity:** The lead is brief (16 words) and informative, covering the core "what" (hitting objects, recall) and "why" (software glitch) and "who" (Waymo).
+*   **Alignment:** The lead is more general and correct than the flawed headline.
+
+Overall impression:
+The lead is well-crafted – concise, accurate, and informative. However, the headline suffers from a critical factual error by incorrectly associating "utility poles" with the specific recall of 1,212 vehicles that is the main subject of the article. This error stems from conflating information about the current recall with a separate, past recall mentioned in the text, a common AI weakness. This inaccuracy in the headline significantly undermines the pair's effectiveness and journalistic integrity, as the headline is the first point of contact for the reader and sets a misleading premise. While the lead is good, the headline's error is severe enough to warrant a poor rating for the combination.
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is mostly clear and understandable, but it slightly overreaches by including "utility poles" as a main cause for the recall. The article specifies that the recall was due to crashes into chains, gates, and similar barriers, while the utility pole incident was a separate recall.
+- The number "1,200" is a rounded version of the actual 1,212 vehicles, which is acceptable for headlines.
+- The headline is active and concise, but could be more precise about the nature of the recall.
+
+Lead:
+- The lead is brief and informative, but lacks some of the Five Ws: it does not specify who (Waymo) is recalling, how many vehicles, or when.
+- The phrase "prompting a wide recall" is vague; it could specify the number or scope.
+- The lead does not mention the regulatory investigation, which is a key context in the article.
+
+Overall impression:
+- The headline and lead are generally aligned with the article, but both could be more precise and informative. The headline slightly misrepresents the scope of the recall by including utility poles, and the lead is too vague and omits key details. Some minor editing is needed for accuracy and completeness.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided based on the article. The user wants an impartial judgment focusing on accuracy, adherence to guidelines, and typical AI weaknesses.
+
+First, I'll read the article carefully. The main points are: Waymo recalled 1,212 self-driving cars due to a software flaw causing collisions with barriers like gates and chains. The recall was issued after NHTSA's investigation, but the fix was already deployed in late 2024. There were 16 incidents with no injuries. Previous recalls in 2024 are mentioned, and Waymo is expanding despite issues.
+
+Now, looking at the headline: "Waymo recalls 1,200 robotaxis after cars crash into chains, gates and utility poles." The article mentions utility poles in a different recall (June 2024), not this one. The current recall is specifically about chains, gates, and similar barriers. Including utility poles here is inaccurate. Also, the number is 1,212, not 1,200. Rounding down might be acceptable, but precision is better. The term "robotaxis" is correct.
+
+The lead: "A software glitch caused Waymo’s robotaxis to hit visible objects, prompting a wide recall." It mentions the cause (software glitch) and effect (recall). However, the article states the fix was already deployed before the recall, which the lead doesn't mention. The lead also doesn't specify the number of vehicles or the timeframe. The "wide recall" is vague; specifying the number would be better. Also, the article notes that NHTSA's investigation is ongoing, which isn't mentioned here.
+
+Checking guidelines for headlines: Should be clear, not sensational. The headline's inaccuracy with "utility poles" is a problem. It also uses "crash," which might be more intense than the article's "minor collisions" or "incidents." However, "crash" is used in some sources, so maybe acceptable. The number discrepancy is a minor inaccuracy.
+
+For the lead: It should answer the Five Ws. Who: Waymo. What: Recall due to software glitch. When: Not mentioned. Where: Implied U.S. Why: Collisions with visible objects. The lead is brief but misses the deployment of the fix and the recall's procedural nature (already fixed). The article emphasizes that the update was deployed before the recall, which is a key point missing here.
+
+Coherence between headline and lead: Both mention the recall and cause, but the headline's mention of utility poles isn't supported in the current recall context. The lead doesn't address the prior fix, which the article highlights. This creates a misalignment because the article explains the recall is more about regulatory compliance post-fix, not an ongoing issue.
+
+Typical AI problems: The headline has inaccuracies (utility poles, exact number). The lead omits important context about the fix already being in place, potentially misleading readers into thinking the problem is current. There's a coherence issue because the lead doesn't align with the article's emphasis on the fix being deployed earlier.
+
+Rating: The headline's inaccuracies and the lead's omission of key details (fix already deployed, regulatory obligation) are significant. However, the main facts (recall, software issue, objects hit) are present. The errors push it towards a 4, but considering the guidelines, maybe a 3. But the utility pole mention is a clear inaccuracy, and the lead's lack of context about the fix being deployed earlier is a major oversight. So, a 4 seems appropriate because there are several problems that need editing, but it's not entirely unacceptable.
+</think>
+
+**Headline Observations**  
+- **Inaccuracy**: Mentions "utility poles," which were part of a separate June 2024 recall, not this incident focused on gates/chains[1][2][4].  
+- **Number discrepancy**: Uses "1,200" instead of the precise 1,212 vehicles recalled[1][5].  
+- **Sensational tone**: "Crash" implies severity, while the article describes "minor collisions" with no injuries[2][4].  
+
+**Lead Observations**  
+- **Missing context**: Fails to note the software fix was deployed in late 2024, making the recall procedural rather than reactive[1][2][5].  
+- **Omission of regulatory role**: Does not mention NHTSA’s investigation or Waymo’s obligation to report[1][4].  
+- **Vague phrasing**: "Wide recall" lacks specificity about the scale (1,212 vehicles) and geographic scope[5].  
+
+**Coherence Issues**  
+- The headline’s reference to utility poles creates misalignment with the lead and article, which focus on gates/chains[1][3][4].  
+- The lead’s emphasis on "prompting a recall" conflicts with the article’s explanation that the recall followed a resolved issue[1][2].  
+
+**Overall Impression**  
+While the headline and lead capture the core event (recall due to software-related collisions), inaccuracies, omitted details, and tonal mismatches reduce clarity and alignment with the article. The errors reflect common AI pitfalls like hallucination (utility poles) and incomplete context.  
+
+**Rating**  
+4
+
+

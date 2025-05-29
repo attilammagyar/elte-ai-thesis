@@ -1,0 +1,233 @@
+URL: https://www.theguardian.com/technology/2025/may/14/ai-can-spontaneously-develop-human-like-communication-study-finds
+Generator: human
+Headline: AI can spontaneously develop human-like communication, study finds
+Lead: Groups of large language model artificial intelligence agents can adopt social norms as humans do, report says.
+
+Article:
+
+Artificial intelligence can spontaneously develop human-like social co...
+
+(...3191 characters...)
+
+...Bias in LLM Populations, is published in the journal Science Advances.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and how well they represent the article.
+
+**Headline Analysis:**
+The headline "AI can spontaneously develop human-like communication, study finds" is accurate and captures the core finding of the research. It's clear, concise, and avoids sensationalism while still being attention-grabbing. The verb "can" appropriately indicates possibility rather than certainty. The headline effectively communicates that this is about AI developing communication patterns similar to humans, which is the central point of the article.
+
+**Lead Analysis:**
+The lead "Groups of large language model artificial intelligence agents can adopt social norms as humans do, report says" is informative and concise at 17 words. It expands on the headline by specifying that this involves "groups" of LLM AI agents and that they specifically "adopt social norms." The lead addresses the "who" (LLM AI agents), "what" (adopt social norms like humans), and implies the "how" (in groups). It could potentially benefit from including a brief mention of the research institutions involved, but this is a minor point.
+
+**Coherence between headline, lead, and article:**
+The headline and lead work well together and accurately represent the article's content. They focus on the main finding that AI can develop social conventions spontaneously when interacting in groups, which is indeed the central point of the research described in the article. There's no misinformation or hallucination present.
+
+**Overall impression:**
+The headline and lead are accurate, clear, and effectively capture the essence of the article. They work well together to provide a concise summary of the research findings. The headline grabs attention appropriately without exaggeration, and the lead provides additional context. There are no factual errors or misrepresentations.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "AI can spontaneously develop human-like communication, study finds" is clear, concise, and attention-grabbing.
+*   It accurately reflects a key aspect of the study, particularly the emergence of "naming conventions" which are a form of communication.
+*   "Spontaneously develop" and "human-like" are well-chosen terms from the article.
+*   The attribution "study finds" is appropriate.
+
+**Lead Observations:**
+*   The lead "Groups of large language model artificial intelligence agents can adopt social norms as humans do, report says" is brief (18 words) and informative.
+*   It correctly highlights the core finding that AI agents can adopt social norms, aligning with the article's mention of "social norms" and "social conventions."
+*   It covers the key "Who" (LLM AI agents) and "What" (adopt social norms like humans).
+*   The phrase "report says" is a bit generic; "a study found" or "researchers say" would be slightly stronger and more consistent with the headline's attribution.
+
+**Overall Impression:**
+*   The headline and lead work well together to summarize the article's main findings. The headline focuses on the "communication" aspect (a specific manifestation of social conventions), while the lead addresses the broader "social norms." Both are well-supported by the article.
+*   There is good coherence between the headline, lead, and the article content. No inaccuracies or hallucinations are present.
+*   The AI has successfully created a catchy headline and an informative, brief lead.
+*   The primary area for minor improvement is the attribution in the lead, which could be more active and aligned with the headline.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear, concise, and accurately reflects the main finding of the article: that AI can develop human-like communication.
+- It avoids sensationalism and uses straightforward language.
+- The phrase "study finds" is a standard journalistic device for reporting research.
+
+Lead:
+- The lead is brief and informative, summarizing the main point that groups of LLM AI agents can adopt social norms like humans.
+- It answers the "who" (LLM AI agents), "what" (adopt social norms), and "how" (as humans do), and attributes the finding to a report.
+- However, it could be slightly more specific by mentioning the context of group interaction or the spontaneous emergence of conventions, which is a key nuance in the article.
+
+Alignment:
+- The headline and lead are well-aligned and accurately represent the article's main topic.
+- Both avoid inaccuracies or hallucinations and maintain coherence.
+
+Overall Impression:
+- The headline and lead together provide a clear, accurate, and concise summary of the article.
+- Minor improvement could be made by specifying the spontaneous or emergent nature of the conventions in the lead, but this is a small issue.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to act as an expert news editor and judge, rating the quality of a headline and lead generated by an AI for a news article. The main task is to evaluate how well the headline and lead meet journalistic standards, considering accuracy, clarity, and alignment with the article content. I need to watch out for typical AI issues like misinformation, hallucinations, or coherence problems.
+
+First, I'll start by reading the provided article carefully to understand the main points. The study found that groups of AI agents, specifically large language models (LLMs) like ChatGPT, can spontaneously form their own social conventions through interaction, similar to humans. The research was conducted by City St George’s and IT University of Copenhagen, led by Ariel Flint Ashery and Andrea Baronchelli. The experiments involved AI agents in a coordination game where they developed shared naming conventions without explicit programming. Key findings include the emergence of collective biases and the influence of small groups steering larger populations, akin to human critical mass dynamics.
+
+Next, I'll examine the given headline and lead. The headline is "AI can spontaneously develop human-like communication, study finds." The lead states, "Groups of large language model artificial intelligence agents can adopt social norms as humans do, report says."
+
+Now, applying the guidelines for headlines: it should be clear, attention-grabbing without sensationalism, using short, active sentences. The headline here is concise and uses "spontaneously develop," which is active. However, "human-like communication" might be slightly broad. The study specifically mentions social conventions and norms, not general communication. The term "communication" could be misleading if interpreted beyond the study's scope.
+
+For the lead, it needs to answer the Five Ws. The lead mentions who (LLM AI agents), what (adopt social norms), and how (as humans do), but lacks when (the study was published recently, May 2025) and where (the institutions involved). The lead is brief but misses some specifics. Also, "report says" is vague; attributing to the study or researchers would be better.
+
+Checking for accuracy: The article states that AI agents developed social conventions through interaction, not just adopting existing human norms. The headline's "human-like communication" might oversimplify. The lead's "adopt social norms as humans do" is accurate but could be more precise about the spontaneous formation.
+
+Coherence between headline and lead: Both focus on social norms, which aligns with the article. However, the headline's focus on "communication" might not fully capture the study's emphasis on social conventions and coordination.
+
+Potential AI issues: The headline's "human-like communication" could be a slight stretch, as the study is about social conventions in coordination games, not broader communication. The lead's "report says" is non-specific; citing the study or researchers would strengthen it. There's no hallucination, but some terms could be more precise.
+
+Considering the rating scale, the headline and lead are mostly accurate but have minor inaccuracies and vagueness. They serve the purpose but could be improved for clarity and specificity. I'd rate this a 3 or 4. Let me weigh the issues again. The headline's "communication" vs. "social conventions" is a notable point. The lead misses specific details like the institutions and timing. However, the core message is correct. Given the guidelines, a 3 might be too harsh, but a 4 allows for minor improvements. I'll go with 4.
+</think>
+
+**Headline Analysis**  
+- **Clarity & Accuracy**: The headline states "human-like communication," but the study specifically discusses "social conventions" (e.g., naming norms). While related, "communication" is broader and less precise than the study’s focus on coordination and convention formation[1][5].  
+- **Sensationalism**: "Spontaneously develop" is accurate but could imply unintended autonomy. The study emphasizes structured interaction (reward/penalty system)[5], which tempers the spontaneity claim.  
+
+**Lead Analysis**  
+- **Five Ws**:  
+  - **Who**: Mentions "LLM agents" but omits the institutions (City St George’s, IT University of Copenhagen)[1][5].  
+  - **What**: "Adopt social norms" is correct but lacks specificity about the experimental setup (coordination game with rewards)[5].  
+  - **When/Where**: No mention of the publication date (May 2025) or journal (*Science Advances*)[1][5].  
+- **Conciseness**: At 27 words, it meets length guidelines but sacrifices key details.  
+
+**Coherence**  
+- The headline and lead align on the core finding (social norm emergence) but oversimplify the mechanism. The article emphasizes *self-organization* through pairwise interactions, not direct imitation of humans[1][5].  
+
+**AI Weaknesses**  
+- **Imprecision**: "Human-like communication" risks conflating linguistic coordination with broader social behaviors. The study focuses on label conventions (e.g., naming), not full communication[1][5].  
+- **Omission**: The lead does not highlight critical findings like collective biases or tipping points in group behavior[5].  
+
+**Overall Impression**  
+The headline and lead accurately reflect the study’s conclusion but lack nuance about the experimental context and key mechanisms. Minor edits could improve precision without sacrificing brevity.  
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the provided guidelines and the article content.
+
+**Headline Analysis:**
+"AI can spontaneously develop human-like communication, study finds"
+- Accurately captures the main finding of the study
+- Clear and understandable at a glance
+- Uses active language without being sensational
+- Concise and informative
+
+**Lead Analysis:**
+"Groups of large language model artificial intelligence agents can adopt social norms as humans do, report says."
+- Provides additional context about the type of AI (large language models)
+- Clarifies that this happens in groups, which is a key aspect of the study
+- Mentions social norms, which aligns with the article's focus
+- Brief (16 words) and informative
+- Could potentially include when/where the study was conducted to better address the Five Ws
+
+**Overall Impression:**
+The headline and lead work well together to represent the article's main points. The headline captures the key finding about AI developing human-like social conventions, while the lead adds important context about how this happens in groups of LLMs. Both are accurate to the article content and avoid common AI pitfalls like hallucination or misrepresentation.
+
+The only minor improvement might be including information about the institutions involved (City St George's, University of London and IT University of Copenhagen) in the lead to better address the "who" and "where" elements, but this is a small consideration given the space constraints.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+The headline is clear and captures the main finding of the study, though it slightly oversimplifies the nuanced findings about social conventions. The lead is concise and aligns well with the headline, summarizing the key point about AI adopting social norms. Both are accurate and avoid sensationalism, though the lead could be slightly more specific about the study's context (e.g., mentioning the universities involved or the peer-reviewed nature of the study). Overall, they work well together and represent the article accurately.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+The headline, "AI can spontaneously develop human-like communication, study finds," is clear, concise, and accurately reflects a primary finding of the study. The use of "spontaneously develop" is particularly strong as it captures a key element of the research. "Human-like communication" is a good, accessible summary of the article's mention of "linguistic forms," "naming conventions," and "communication norms." It grabs attention without being overly sensational.
+
+**Lead Observations:**
+The lead, "Groups of large language model artificial intelligence agents can adopt social norms as humans do, report says," is very brief (17 words) yet informative. It correctly identifies the specific type of AI involved (LLM agents in groups) and the nature of the development ("adopt social norms as humans do"), which aligns well with the article's content. "Report says" is standard journalistic phrasing, though perhaps a slightly more active verb could be considered.
+
+**Overall Impression:**
+The headline and lead work very well together to represent the article's core message. The lead provides a bit more specificity (LLMs, social norms) that complements the slightly broader headline (AI, communication). Both are accurate, free of misinformation or hallucination, and adhere to journalistic standards for news writing. The AI has successfully distilled the main topic and key points of the article. While very good, there's a tiny margin for minor stylistic tweaks (e.g., the phrasing of "report says," or considering "social conventions" in the headline to directly mirror the article's first sentence, though "communication" is also well-justified). Overall, it's a high-quality output.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear and understandable, accurately reflecting the main finding of the article: AI can develop human-like communication.
+- It is concise and avoids sensationalism.
+- However, "communication" is a bit broad; the article specifically discusses the emergence of social conventions and norms, which is more precise than just "communication."
+
+Lead:
+- The lead is brief and informative, but it is somewhat vague.
+- It mentions that AI agents can adopt social norms as humans do, which is accurate, but it lacks specifics about the study (who, where, what exactly was found).
+- It does not mention the experiment, the universities involved, or the context (naming conventions, group dynamics).
+- The lead could be improved by specifying that the study found this behavior in groups of LLM agents interacting without outside involvement.
+
+Overall impression:
+- The headline and lead are aligned and not inaccurate, but both are a bit too general and miss some of the article's nuance and specificity.
+- The headline could be more precise, and the lead could include more of the Five Ws.
+- No major errors, but some editing is needed for clarity and detail.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. The user wants me to evaluate the headline and lead generated by an AI for a news article. The guidelines mention clarity, accuracy, and avoiding AI pitfalls like misinformation or coherence issues.
+
+First, the headline: "AI can spontaneously develop human-like communication, study finds." The article says AI agents formed social conventions, like naming, through interaction. The headline uses "human-like communication," but the study specifically mentions social norms and conventions, not communication itself. That's a bit of a stretch. Maybe "social norms" would be more accurate than "communication."
+
+Next, the lead: "Groups of large language model artificial intelligence agents can adopt social norms as humans do, report says." The lead is concise and mentions the main actors (AI groups), what they did (adopt social norms), and the source (report). But the article specifies that these norms emerged without human help, which the lead doesn't mention. Also, "as humans do" is a bit vague. The study compared it to human social conventions, but the lead could be clearer on that.
+
+Looking for inaccuracies: The headline's "communication" might be misleading since the study is about social conventions like naming. The lead misses the spontaneous aspect without human intervention. Also, the study's lead author mentions that real-world AI systems involve interacting agents, which the lead doesn't capture fully.
+
+Coherence between headline and lead: The headline talks about communication, while the lead mentions social norms. They're related but not perfectly aligned. The headline should reflect social norms or conventions to match the lead and article.
+
+Other issues: The lead uses "report says," but it's a study published in a journal. "Study finds" would be more precise. Also, the headline could be more specific about the spontaneous formation without human help.
+
+Considering the rating guidelines, the main issues are inaccuracy in the headline's focus on communication instead of social norms, the lead missing key details like lack of human involvement, and some coherence issues between headline and lead. These points might place it around a 3 or 4. However, since the lead is mostly accurate but lacks some specifics, and the headline is somewhat misleading, I'll lean towards a 3. It's serviceable but needs editing for accuracy and alignment.
+</think>
+
+3
+
+

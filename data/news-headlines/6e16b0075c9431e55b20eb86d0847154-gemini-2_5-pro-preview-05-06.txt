@@ -1,0 +1,232 @@
+URL: https://www.telegraph.co.uk/business/2025/05/15/graduate-scheme-jobs-slump-in-wake-of-reeves-tax-raid/
+Generator: gemini-2.5-pro-preview-05-06
+Headline: Firms Axe a Third of UK Grad Schemes Amid Tax Squeeze
+Lead: British employers have cut the number of graduate schemes by a third in the 12 months to April, as companies slash costs in response to increased tax burdens, such as higher National Insurance, and a challenging economic climate.
+
+Article:
+
+The number of graduate schemes in Britain plunged by a third last year...
+
+(...2961 characters...)
+
+...hardest time to find a job since January 2017, excluding the pandemic.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and how well they represent the article.
+
+**Headline Analysis:**
+"Firms Axe a Third of UK Grad Schemes Amid Tax Squeeze"
+- Clear and concise, communicating the main point at a glance
+- Uses strong verb "Axe" which is appropriate for the content
+- Accurately reflects the 33% drop in graduate schemes mentioned in the article
+- Correctly attributes this to tax issues, though "Tax Squeeze" is somewhat vague
+- Avoids sensationalism while still conveying the significance
+
+**Lead Analysis:**
+"British employers have cut the number of graduate schemes by a third in the 12 months to April, as companies slash costs in response to increased tax burdens, such as higher National Insurance, and a challenging economic climate."
+- Covers the key information: who (British employers), what (cut graduate schemes by a third), when (12 months to April)
+- Provides context about why this is happening (tax burdens, specifically National Insurance)
+- Accurately reflects the article's content about Rachel Reeves's Budget and employer NICs
+- Length is appropriate at 39 words, though slightly on the longer side
+- Maintains neutrality while being informative
+
+**Overall Impression:**
+The headline and lead work well together to accurately summarize the article's main points. The headline captures attention with the significant statistic (one-third reduction) and the lead expands on this with necessary context. They correctly identify the central theme of the article - that graduate schemes have declined significantly due to tax increases and economic challenges. The information presented is accurate and there are no signs of hallucination or misrepresentation of the article's content.
+
+The only minor improvement might be to make the lead slightly more concise or to more explicitly mention Rachel Reeves's Budget, which the article emphasizes. However, these are minor points in an otherwise strong headline and lead combination.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline is short, clear, and uses a strong active verb ("Axe").
+*   It accurately reflects the main topic (drop in UK graduate schemes) and the key statistic (a third).
+*   "Tax Squeeze" is a concise and understandable way to summarize the primary cause mentioned in the article (increased tax burdens, National Insurance).
+*   It grabs attention without being overly sensational.
+
+**Lead Observations:**
+*   The lead is brief (36 words, within the "maybe 40" guideline) and highly informative.
+*   It successfully answers the key Ws: Who (British employers), What (cut graduate schemes by a third), When (12 months to April), Where (Britain, implied), Why (slash costs due to increased tax burdens like National Insurance, and challenging economic climate).
+*   It accurately summarizes the core information and the reasons provided in the article.
+*   It aligns perfectly with the headline, expanding on the information presented.
+
+**Overall Impression:**
+The headline and lead are excellent. They are accurate, concise, and adhere well to journalistic standards. The headline is catchy and informative, and the lead provides the necessary context and key details from the article. There are no signs of AI weaknesses like misinformation or hallucination. They work together effectively to represent the article's main points. The lead's length is acceptable given the information it conveys.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear, concise, and accurately summarizes the main point: a significant reduction in UK graduate schemes due to financial pressures.
+- "Axe" is a strong, active verb that grabs attention without being sensational.
+- "Tax Squeeze" effectively conveys the reason for the cuts, aligning with the article's focus on increased employer costs due to tax changes.
+
+Lead:
+- The lead succinctly answers the who (British employers), what (cut graduate schemes by a third), when (12 months to April), and why (cost-cutting due to increased tax burdens and economic challenges).
+- It is brief, informative, and provides context by mentioning higher National Insurance and the economic climate.
+- The lead is well-aligned with the headline and the article content, with no hallucinations or inaccuracies.
+
+Overall impression:
+- The headline and lead work well together, accurately representing the article's main points.
+- Both are clear, direct, and meet journalistic standards for news writing.
+- Only minor improvement could be made by specifying "graduate schemes" as "entry-level graduate schemes" for extra clarity, but this is not essential.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's start by understanding the task. I need to rate the headline and lead provided for the given article. The user wants an expert news editor's impartial judgment based on journalistic standards and typical AI weaknesses.
+
+First, I'll read the article carefully to grasp the main points. The article discusses a significant drop in UK graduate schemes, attributing it to employers cutting costs after Rachel Reeves’s Budget tax changes, specifically mentioning a 33% decrease in entry-level programs. It highlights sectors like hospitality and accounting being hit hard, with reduced salaries and increased competition. The Chancellor's tax policies, including higher National Insurance contributions, are cited as key factors. There's also mention of the National Living Wage now aligning with graduate salaries, raising questions about the value of degrees.
+
+Next, I'll examine the headline: "Firms Axe a Third of UK Grad Schemes Amid Tax Squeeze." The headline uses "Axe" which is strong and attention-grabbing. It mentions the main fact (a third reduction) and the cause (tax squeeze). However, "Grad Schemes" is a bit informal. The term "Tax Squeeze" is concise but could be more specific, like mentioning National Insurance. The headline is clear and aligns with the article's content but could be slightly more precise.
+
+Now the lead: "British employers have cut the number of graduate schemes by a third in the 12 months to April, as companies slash costs in response to increased tax burdens, such as higher National Insurance, and a challenging economic climate." The lead answers the who (British employers), what (cut graduate schemes by a third), when (12 months to April), why (tax burdens, higher National Insurance, economic climate). It's concise, under 40 words. It accurately reflects the article's key points without sensationalism. The mention of specific taxes adds clarity. However, it could briefly note the impact on sectors or salaries, but the lead is already comprehensive.
+
+Checking for AI weaknesses: The headline and lead don't show misinformation. They accurately reflect the article's data. There's no hallucination; all elements are present in the article. The headline and lead are coherent, both focusing on the tax-related reasons for the cuts. The term "axe" is strong but not sensationalist. The lead effectively summarizes without unnecessary details.
+
+Potential improvements: The headline could specify "National Insurance tax squeeze" for more clarity. The lead might include a brief mention of the hardest-hit sectors, but that's optional given word limits. Overall, the headline and lead work well together, accurately and concisely conveying the article's essence without errors or misalignment.
+
+Rating: Considering accuracy, clarity, adherence to guidelines, and coherence, the headline and lead are strong. Minor tweaks could push it to a 5, but as is, it's a solid 4. However, since there's no misinformation and it's well-structured, maybe a 4.5. But since the scale is integers, I'll round up to 5. Wait, but the headline's informality ("Grad Schemes") and lack of specific tax mention might hold it back. Alternatively, maybe a 4. Let me check again. The guidelines say 5 is excellent with no room for improvement. The headline could be slightly more formal and specific, so a 4 is more accurate. The lead is excellent, but the headline has a minor issue. So overall, 4.
+</think>
+
+**Headline Analysis**  
+- **Clarity & Impact**: "Firms Axe a Third of UK Grad Schemes Amid Tax Squeeze" is concise and attention-grabbing. "Axe" conveys urgency, while "Tax Squeeze" succinctly links the cause. However, "Grad Schemes" is informal for a headline; "Graduate Schemes" would align better with formal journalistic standards.  
+- **Accuracy**: The 33% reduction matches the article’s data (794 vs. 1,224 roles). The tax reference aligns with the Budget’s NICs increase, though specifying "National Insurance" could improve precision.  
+
+**Lead Analysis**  
+- **Brevity & Completeness**: The lead answers *who* (employers), *what* (33% cut), *when* (12 months to April), and *why* (tax burdens, economic climate). At 34 words, it adheres to length guidelines.  
+- **Context**: Mentioning "higher National Insurance" adds specificity, though highlighting hardest-hit sectors (e.g., hospitality) could strengthen relevance.  
+
+**Coherence & AI Weaknesses**  
+- The headline and lead align well, both emphasizing tax pressures and reduced hiring. No factual inaccuracies or hallucinations are present.  
+- Minor improvements: Formalizing "Grad" to "Graduate" in the headline and adding a sector example in the lead would enhance clarity without sacrificing brevity.  
+
+**Overall Impression**  
+The headline and lead effectively summarize the article’s core findings with accuracy and concision. While minor stylistic tweaks could elevate the headline’s professionalism, the pairing is coherent, informative, and free of major errors.  
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on journalistic standards and their accuracy in representing the article.
+
+**Headline: "Firms Axe a Third of UK Grad Schemes Amid Tax Squeeze"**
+- Accurately captures the main point that graduate schemes in Britain decreased by a third
+- Correctly attributes this to tax issues
+- Clear and concise, using strong verbs ("Axe") without being sensational
+- Understandable at a glance
+
+**Lead: "British employers have cut the number of graduate schemes by a third in the 12 months to April, as companies slash costs in response to increased tax burdens, such as higher National Insurance, and a challenging economic climate."**
+- Accurately states the key fact about the one-third reduction in graduate schemes
+- Correctly identifies the timeframe (12 months to April)
+- Properly attributes the cause to tax burdens, specifically mentioning National Insurance
+- Includes the economic climate context
+- Answers who (British employers), what (cut graduate schemes), when (12 months to April), and why (tax burdens)
+- Length is appropriate at 39 words, though slightly on the longer side
+
+**Overall impression:**
+The headline and lead work well together and accurately represent the article's main points. They correctly identify the scale of the reduction (one-third), the timeframe, and attribute it to Rachel Reeves's tax changes, particularly the National Insurance contributions increase. The lead expands on the headline appropriately without contradicting it. There are no factual inaccuracies or hallucinations.
+
+The only minor improvement might be to make the lead slightly more concise, but it's still within acceptable length parameters.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Firms Axe a Third of UK Grad Schemes Amid Tax Squeeze" is concise, clear, and uses a strong, active verb ("Axe").
+*   It accurately reflects the main statistic from the article (a third reduction) and a primary cause ("Tax Squeeze," representing increased tax burdens).
+*   It is attention-grabbing without being overly sensational. "Tax Squeeze" is a common and understandable term in this context.
+
+**Lead Observations:**
+*   The lead "British employers have cut the number of graduate schemes by a third in the 12 months to April, as companies slash costs in response to increased tax burdens, such as higher National Insurance, and a challenging economic climate" is well-written.
+*   It is brief (36 words) yet informative, successfully covering the key "Five Ws" (Who: British employers; What: cut grad schemes by a third; When: 12 months to April; Why: cost-cutting due to tax burdens/NICs and challenging economic climate; Where: UK, implied).
+*   It accurately reflects the details and reasons provided in the article, including the specific mention of National Insurance and the broader economic context.
+
+**Overall Impression:**
+The headline and lead work very well together and accurately represent the core information of the article. The headline is punchy and highlights the key impact and a major cause. The lead effectively expands on this, providing essential context and details in a concise manner. The AI has successfully identified the main topic and key points, including the magnitude of the drop in graduate schemes and the contributing factors (tax burdens and economic conditions). The language used is appropriate for a news summary. The term "Tax Squeeze" in the headline is a reasonable and common journalistic shorthand for the "increased tax burdens" detailed in the lead and the article's "tax raid" references. The lead's inclusion of both tax burdens and the economic climate as reasons for cost-cutting is a good synthesis of information presented throughout the article. There are no apparent inaccuracies or hallucinations.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is clear, concise, and accurately summarizes the main point: a third of UK graduate schemes have been cut due to a "tax squeeze."
+- The phrase "Firms Axe a Third of UK Grad Schemes" is attention-grabbing but not sensational, and "Tax Squeeze" is a fair summary of the article's explanation for the cuts.
+- The lead is informative, giving the who (British employers), what (cut grad schemes by a third), when (12 months to April), and why (cost-cutting due to increased taxes and economic challenges).
+- The lead is a bit long and could be tightened, but it covers the main points without factual errors or hallucinations.
+- Both headline and lead are well-aligned with the article and with each other.
+- Minor improvement: The lead could be slightly more concise and perhaps mention the impact on graduates, but this is not a major flaw.
+
+Overall impression: The headline and lead are accurate, clear, and work well together, with only minor room for tightening.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this. The user wants me to rate the headline and lead generated by an AI for a news article. The guidelines mention checking for accuracy, coherence, and typical AI issues like misinformation or hallucinations. 
+
+First, I need to read the article carefully. The main points seem to be a 1/3 drop in graduate schemes in the UK, linked to Rachel Reeves's Budget tax changes, specifically the increase in employer National Insurance contributions. The hospitality sector was hit hard, with a 41% drop. There's also mention of salaries aligning with the minimum wage and the competitive job market.
+
+Now, looking at the headline: "Firms Axe a Third of UK Grad Schemes Amid Tax Squeeze." The article says the number of graduate schemes dropped by a third, which matches. The term "tax squeeze" refers to the increased NICs, which is accurate. The word "axe" is a bit strong but acceptable in headlines. The headline is clear and concise.
+
+The lead: "British employers have cut the number of graduate schemes by a third in the 12 months to April, as companies slash costs in response to increased tax burdens, such as higher National Insurance, and a challenging economic climate." It mentions the who (British employers), what (cut grad schemes by a third), when (12 months to April), why (tax burdens and economic climate). The lead is brief and covers the main points. It doesn't mention the specific sectors affected, but maybe that's okay for a lead. 
+
+Checking for inaccuracies: The article cites Adzuna's figures, which the lead uses correctly. The tax burden reference is accurate as the NIC increase is a key point. The lead doesn't mention Rachel Reeves's Budget by name, but "tax burdens" alludes to it. The economic climate is mentioned in the article, so that's correct.
+
+Coherence between headline and lead: Both focus on the same key points—reduction in grad schemes and tax reasons. They align well without being repetitive. 
+
+Potential issues: The headline uses "Amid Tax Squeeze," which is a bit vague. The lead could specify it's the employer's NIC increase, but maybe that's too detailed. Also, the article mentions the impact on salaries and the competitive market, which aren't in the headline or lead. However, the lead's job is to summarize the main point, so that's acceptable. 
+
+AI weaknesses: The headline and lead don't seem to have hallucinations. They stick to the article's data. The term "axe" is dramatic but not sensationalist. The lead is concise and answers the Five Ws. 
+
+Rating: The headline and lead accurately reflect the article's content without major issues. They are clear, concise, and coherent. Minor improvements could be specifying the tax change as employer NICs, but it's not necessary. I'd rate this a 2 because it's good with minor room for improvement, like adding a bit more specificity in the lead.
+</think>
+
+**Observations:**  
+- **Headline:** Accurately reflects the 33% reduction in graduate schemes and links it to tax pressures. However, "tax squeeze" is vague and omits explicit reference to employer National Insurance (NIC) hikes, a key detail from the article.  
+- **Lead:** Clearly states the scale and timeframe of the decline and cites tax burdens (e.g., NIC) and economic challenges. However, it does not mention the hospitality sector’s disproportionate impact or the salary stagnation issue, which are central to the article’s narrative.  
+- **Coherence:** The headline and lead align on the core message but lack nuance about sector-specific effects and wage concerns. The term "tax squeeze" in the headline is partially clarified in the lead but could be more precise.  
+
+**Overall Impression:** While factually accurate and concise, the headline and lead oversimplify the article’s nuanced analysis of sectoral impacts and wage dynamics. The omission of specific tax policy details (e.g., NIC) and salary comparisons weakens the connection to the article’s broader critique of graduate employment trends.  
+
+**Rating:** 2  
+
+2
+
+

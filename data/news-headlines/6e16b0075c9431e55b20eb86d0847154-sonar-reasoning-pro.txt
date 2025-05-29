@@ -1,0 +1,209 @@
+URL: https://www.telegraph.co.uk/business/2025/05/15/graduate-scheme-jobs-slump-in-wake-of-reeves-tax-raid/
+Generator: sonar-reasoning-pro
+Headline: Graduate Schemes Slashed as Tax Hike Bites
+Lead: UK graduate job opportunities fell by a third last year after employers cut entry-level roles to offset budget tax increases, leaving graduates facing the toughest hiring market in nearly a decade.
+
+Article:
+
+The number of graduate schemes in Britain plunged by a third last year...
+
+(...2961 characters...)
+
+...hardest time to find a job since January 2017, excluding the pandemic.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this news article about the decline in graduate schemes in Britain.
+
+**Headline: "Graduate Schemes Slashed as Tax Hike Bites"**
+- Clear and concise, communicating the main point effectively
+- Uses strong verb "slashed" which accurately reflects the 33% drop mentioned in the article
+- Establishes clear cause-and-effect relationship between tax increases and job cuts
+- Avoids sensationalism while still being attention-grabbing
+- Appropriate length for a headline
+
+**Lead: "UK graduate job opportunities fell by a third last year after employers cut entry-level roles to offset budget tax increases, leaving graduates facing the toughest hiring market in nearly a decade."**
+- Accurately captures the key information from the article
+- Includes the who (UK employers), what (cut graduate schemes), when (last year), why (tax increases)
+- Provides the specific figure (one-third drop) that's central to the story
+- Adds context about the impact on graduates
+- Slightly long at 36 words, but still within acceptable range
+- The "toughest hiring market in nearly a decade" is supported by the article's final paragraph
+
+**Overall impression:**
+The headline and lead work well together to accurately represent the article's main points. The headline is concise and impactful, while the lead expands with the necessary details. They correctly identify the central theme of declining graduate schemes due to tax increases. There are no factual errors or hallucinations. The only minor issue is that the lead is slightly on the longer side, but it remains clear and informative.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Graduate Schemes Slashed as Tax Hike Bites" is concise, clear, and uses strong, active verbs ("Slashed," "Bites").
+*   It accurately reflects the main cause (tax hike) and effect (reduction in graduate schemes) described in the article.
+*   It grabs attention without being overly sensational.
+
+**Lead Observations:**
+*   The lead is brief (32 words) and informative, attempting to cover the key Ws.
+*   It correctly states that UK graduate job opportunities fell by a third and attributes this to employers cutting roles to offset budget tax increases.
+*   However, the final clause, "leaving graduates facing the toughest hiring market in nearly a decade," has an accuracy issue. The article states the *overall* job market (not specifically the graduate market) is the "hardest time to find a job since January 2017," which is just over 7 years, not "nearly a decade." While graduates are affected, the lead makes a more direct and slightly exaggerated claim about the timeframe for *their* specific market conditions than the article explicitly supports.
+
+**Overall Impression:**
+The headline is excellent and effectively summarizes the core issue. The lead starts strong and accurately conveys the central facts about the decline in graduate schemes and its primary cause. However, the concluding part of the lead concerning the severity of the hiring market for graduates overstates the timeframe ("nearly a decade" instead of just over seven years) and applies a general market statistic more directly to graduates than the article explicitly does for that specific timeframe. This inaccuracy, while not a complete misrepresentation, requires editing for precision. The headline and lead work together thematically, but the lead's slight overstatement on the market conditions for graduates detracts from its overall quality.
+
+3
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is concise and uses strong, active language ("Slashed," "Bites").
+- It clearly conveys the main event: a significant reduction in graduate schemes due to a tax hike.
+- The phrase "Tax Hike Bites" is attention-grabbing but not sensational.
+
+Lead:
+- The lead summarizes the main points: who (graduates), what (job opportunities fell by a third), when (last year), why (employers cut roles to offset tax increases), and the impact (toughest hiring market in nearly a decade).
+- It is brief, informative, and aligns well with the article content.
+- The lead could be slightly clearer by specifying "Rachel Reeves’s Budget tax raid" or "Chancellor's tax hike" for context, but "budget tax increases" is serviceable.
+
+Overall impression:
+- The headline and lead work well together, accurately representing the article's main topic and key points.
+- There is strong alignment and no evidence of misinformation or hallucination.
+- Minor improvement could be made by specifying the source of the tax hike in the lead, but this is not a major issue.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to understand the article's main points. The article discusses a significant drop in graduate schemes in the UK, attributing it to employers cutting costs after tax increases from Rachel Reeves's Budget. Key figures include a 33% decrease in entry-level programs, specific sector impacts like hospitality and accounting, and salaries aligning with the minimum wage. The lead and headline need to accurately reflect these points without sensationalism.
+
+Looking at the headline: "Graduate Schemes Slashed as Tax Hike Bites." "Slashed" is strong but not sensational. It clearly connects the tax hike to the reduction in schemes. The lead mentions a third decrease, which matches the article's data. It also notes the toughest hiring market in nearly a decade, which the article supports by referencing the post-2017 job market. 
+
+Checking for accuracy: The article does state a drop from 1,224 to 794, which is about a third. The tax hike is linked to employer decisions. The lead's mention of the toughest market since 2017 aligns with the ONS data cited. 
+
+Potential issues: The headline uses "Tax Hike," which the article attributes to Rachel Reeves's Budget. The lead says "budget tax increases," which is accurate. The article mentions the National Living Wage increase affecting salaries, but the headline and lead focus on tax impacts, which is the primary cause discussed. 
+
+Coherence between headline and lead: Both focus on tax-related cuts leading to fewer jobs. They don't mention sectors like hospitality or salary specifics, but the main point is the overall decline due to taxes. The lead's "toughest hiring market in nearly a decade" is supported by the article's reference to the worst since 2017, excluding the pandemic. 
+
+Possible improvements: The headline could specify it's the UK, but the lead does. The lead is concise, answers the Five Ws, and stays within word limits. No misinformation detected. The rating would be 4 because it's good but could slightly clarify the tax's source in the headline, though it's covered in the lead.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead based on the article content and journalistic standards.
+
+**Headline: "Graduate Schemes Slashed as Tax Hike Bites"**
+- Clear and concise, communicates the main point effectively
+- Uses strong verb "slashed" which accurately reflects the 33% drop
+- Correctly connects the decline to tax increases
+- Avoids sensationalism while still being attention-grabbing
+
+**Lead: "UK graduate job opportunities fell by a third last year after employers cut entry-level roles to offset budget tax increases, leaving graduates facing the toughest hiring market in nearly a decade."**
+- Accurately states the key fact about graduate schemes falling by a third
+- Correctly attributes this to employers cutting costs due to tax increases
+- The claim about "toughest hiring market in nearly a decade" is problematic - the article only states it's the hardest time to find a job since January 2017 (excluding the pandemic), which is about 7 years, not "nearly a decade"
+- Otherwise covers the who, what, when, why effectively
+- Slightly long at approximately 32 words, but within acceptable range
+
+**Overall impression:**
+The headline is effective and accurate. The lead is mostly good but contains one inaccuracy about the timeframe ("nearly a decade" vs. 7 years). This is a relatively minor issue but does represent a factual error that shouldn't be present in professional journalism. The headline and lead work well together to represent the article's main points, though the lead could be more precise with its timeframe claim.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Graduate Schemes Slashed as Tax Hike Bites" is short, catchy, and uses strong active verbs ("Slashed," "Bites").
+*   It accurately reflects the article's main topic (reduction in graduate schemes) and the attributed cause (tax increases impacting employer costs).
+*   It avoids the potentially confusing specific attribution to "Rachel Reeves's Budget" found in the article's first sentence, opting for a more general "Tax Hike," which is appropriate given the article also refers to "the Chancellor’s" actions.
+
+**Lead Observations:**
+*   The lead "UK graduate job opportunities fell by a third last year after employers cut entry-level roles to offset budget tax increases, leaving graduates facing the toughest hiring market in nearly a decade" is informative and covers most of the Five Ws.
+*   It accurately states the one-third drop in opportunities and the reason (employers cutting roles due to tax increases).
+*   However, the phrase "toughest hiring market in nearly a decade" is an exaggeration. The article specifies "hardest time to find a job since January 2017." Assuming the article is relatively current to its data (up to April of "last year"), January 2017 is approximately 7 years prior, not "nearly a decade" (which implies 8-9 years). This is a factual inaccuracy.
+*   The lead is a single sentence of 31 words, which is acceptable but at the higher end of the preferred length for conciseness.
+
+**Overall Impression:**
+The headline is strong and effective. The lead successfully summarizes the core information but introduces a notable inaccuracy regarding the timeframe of the "toughest hiring market." While the AI correctly identified the key elements of the story, the exaggeration in the lead undermines its overall quality. The headline and lead work together coherently in terms of topic, but the factual discrepancy in the lead is a significant flaw. The AI did well to generalize the "tax" aspect, avoiding the article's own internal confusion about attribution. However, the temporal exaggeration needs correction.
+
+3
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is concise and attention-grabbing, accurately reflecting the main cause (tax hike) and effect (graduate schemes slashed) described in the article.
+- The lead summarizes the main points: a one-third drop in graduate job opportunities, the reason (employers offsetting tax increases), and the impact (toughest hiring market in nearly a decade).
+- Both headline and lead are factually accurate and aligned with the article’s content.
+- The lead answers the Five Ws: who (graduates), what (job opportunities fell by a third), when (last year), where (UK), and why (employers cut roles due to tax increases).
+- The language is clear, not sensational, and the information is presented succinctly.
+- Minor improvement: The lead could mention the specific tax (National Insurance contributions) for added clarity, but this is not essential for a brief lead.
+
+Overall impression: The headline and lead work well together, are accurate, and meet journalistic standards with only minor room for improvement.
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this query. The user wants me to act as an expert news editor and judge, rating the headline and lead generated by an AI for a news article. The main task is to evaluate based on accuracy, alignment with the article, and adherence to journalistic standards, then provide a score from 1 to 5.
+
+First, I need to read the article carefully. The article discusses a significant drop in graduate schemes in Britain, attributing it to employers cutting costs after Rachel Reeves’s Budget tax increases. It mentions a 33% decline in entry-level programs, specific sectors like hospitality being hit hard, and the impact on salaries compared to the minimum wage. There are quotes from industry leaders and data from Adzuna and ONS.
+
+Next, I'll look at the provided headline and lead. The headline is "Graduate Schemes Slashed as Tax Hike Bites." The lead states that UK graduate job opportunities fell by a third last year due to employers cutting entry-level roles to offset tax increases, leading to the toughest hiring market in nearly a decade.
+
+Now, checking for accuracy. The article does mention a 33% drop in graduate schemes (from 1,224 to 794), which aligns with the "third" in the lead. The tax hike reference is accurate as the article blames Rachel Reeves’s Budget for increased NICs. The lead's mention of the toughest hiring market since 2017 matches the article's statement about the hardest time since January 2017, excluding the pandemic. So, the headline and lead seem factually correct.
+
+Looking for potential issues. The headline uses "slashed," which is strong but not sensational. The lead mentions "toughest hiring market in nearly a decade," which the article supports. However, the headline attributes the tax hike to the current situation, which the article does, but it's worth noting that the lead could specify the time frame more clearly. The article's data is up to April, and the lead says "last year," which is consistent.
+
+Coherence between headline and lead: Both focus on the tax hike causing reduced graduate schemes. They align well with the article's main points. The lead answers the Five Ws: who (UK graduates), what (job opportunities fell by a third), when (last year), why (tax increases), and where (UK). It's concise, under 40 words.
+
+Checking for AI weaknesses like misinformation or hallucinations. The numbers and reasons cited in the headline and lead match the article. No apparent inaccuracies. The terms "slashed" and "tax hike bites" are attention-grabbing but not exaggerated. The lead doesn't include any information not present in the article.
+
+Possible improvements: The headline could mention the specific tax (NICs) for clarity, but it's concise as is. The lead might benefit from specifying the sectors most affected, but it's already brief. Overall, minor tweaks could enhance it, but it's solid.
+
+Considering the rating guidelines, a score of 2 (good with minor improvements possible) seems appropriate. The headline and lead are accurate, coherent, and adhere to guidelines, but there's slight room for improvement in specificity without compromising brevity.
+</think>
+
+**Observations:**  
+- **Headline:** Accurately captures the main cause (tax hike) and effect (reduced graduate schemes). "Slashed" is strong but appropriate. However, it omits the specific tax (NICs) and timeframe.  
+- **Lead:** Concise, answers key "Five Ws," and aligns with the article’s data (33% drop, toughest market since 2017). The phrase "nearly a decade" slightly understates the article’s "since January 2017" (8 years), but this is minor.  
+- **Coherence:** Headline and lead work well together, focusing on tax impacts and hiring challenges. No misalignment with the article’s content.  
+- **Potential improvements:** Specify the tax (NICs) in the headline for precision. The lead could note sectors like hospitality as hardest-hit, but brevity is maintained.  
+
+**Overall impression:** Strong alignment with the article, no inaccuracies, and adherence to journalistic standards. Minor enhancements possible but not critical.  
+
+**Rating:** 2  
+
+2
+
+

@@ -1,0 +1,239 @@
+URL: https://interestingengineering.com/innovation/us-robot-solve-rubiks-cube
+Generator: gemini-2.5-pro-preview-05-06
+Headline: Purdue Robot Solves Cube Faster Than a Blink
+Lead: Students at Purdue University have built a robot, Purdubik’s Cube, that recently shattered the Guinness World Record for solving a puzzle cube, achieving the feat in an astonishing 0.103 seconds to push the boundaries of robotic speed and precision.
+
+Article:
+
+A high-speed robotic system named Purdubik’s Cube has shattered the Gu...
+
+(...3550 characters...)
+
+...or of electrical and computer engineering at Purdue, in a  statement .
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about the record-breaking Rubik's Cube solving robot.
+
+**Headline: "Purdue Robot Solves Cube Faster Than a Blink"**
+- Clear and understandable at a glance
+- Grabs attention with the "faster than a blink" comparison, which is factually accurate per the article
+- Uses active language and conveys the core achievement
+- Concise but informative
+
+**Lead: "Students at Purdue University have built a robot, Purdubik's Cube, that recently shattered the Guinness World Record for solving a puzzle cube, achieving the feat in an astonishing 0.103 seconds to push the boundaries of robotic speed and precision."**
+- Covers most of the Five Ws: who (students at Purdue), what (shattered record with robot), how fast (0.103 seconds)
+- Includes the robot's name (Purdubik's Cube)
+- Accurately represents the article's main point
+- Slightly long at approximately 40 words, but still within acceptable range
+- Captures the significance of the achievement
+
+**Overall impression:**
+The headline and lead work well together to represent the article accurately. The headline is catchy and uses the eye-blink comparison that's directly mentioned in the article. The lead expands on this with the specific details about the record and who built it. There are no factual errors or hallucinations. The only minor issue is that the lead is at the upper limit of recommended length, but it uses the space efficiently to convey the key information.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Purdue Robot Solves Cube Faster Than a Blink" is clear, concise, and attention-grabbing.
+*   It uses an active verb ("Solves") and highlights a key, relatable comparison ("Faster Than a Blink") which is directly supported by the article's content.
+*   It accurately identifies the "who" (Purdue Robot) and "what" (solves cube quickly).
+
+**Lead Observations:**
+*   The lead is a single, well-constructed sentence of 36 words, fitting the length guideline.
+*   It effectively summarizes the key information:
+    *   **Who:** Students at Purdue University.
+    *   **What:** Built a robot (Purdubik’s Cube) that shattered the Guinness World Record for solving a puzzle cube.
+    *   **When:** "recently" (appropriate given the article's phrasing and lack of a specific date for the record itself).
+    *   **Where:** Purdue University (for the development).
+    *   **Key detail:** The record time (0.103 seconds).
+    *   **Why/Significance:** "to push the boundaries of robotic speed and precision," which reflects the article's statements.
+*   The lead is accurate based on the provided article. The term "astonishing" is slightly editorial but acceptable in context, as the article itself uses strong descriptors for the speed.
+*   Crucially, the lead avoids the potentially problematic "December 2024" date mentioned in the article for the robot's unveiling (which would be in the future if the article is current and refers to a May 2024 previous record), opting for the safer "recently."
+
+**Overall Impression:**
+The headline and lead work very well together. The headline piques interest with a compelling fact, and the lead immediately follows up with the core details of the story. Both are accurate representations of the article's main topic and key points. The AI successfully navigated the information, including avoiding a confusing date from the source material in its summary. The language is appropriate for a news item. There are no significant AI weaknesses like hallucination or misinformation based on the provided text.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key Observations:
+
+Headline:
+- The headline is clear, concise, and attention-grabbing.
+- "Faster Than a Blink" is catchy and accurate, as the article notes a human blink is slower than the robot's time.
+- "Purdue Robot Solves Cube" succinctly identifies the main subject and action.
+- The headline avoids sensationalism and is easy to understand at a glance.
+
+Lead:
+- The lead answers the Five Ws: who (students at Purdue University), what (built a robot that broke the world record for solving a puzzle cube), when (recently), where (Purdue University), and why (to push the boundaries of robotic speed and precision).
+- It is brief and informative, though it is on the longer side (could be trimmed slightly).
+- The lead accurately reflects the article’s main points and aligns well with the headline.
+- The phrase "push the boundaries of robotic speed and precision" is supported by the article.
+
+Overall Impression:
+- The headline and lead work well together, are accurate, and represent the article faithfully.
+- Minor improvement could be made by tightening the lead for brevity, but it is within acceptable length and provides all key information.
+- No major issues with coherence, accuracy, or alignment.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to evaluate the headline and lead based on the provided guidelines and the article content.
+
+Starting with the headline: "Purdue Robot Solves Cube Faster Than a Blink." It's clear and uses active verbs. The mention of "Purdue Robot" gives the subject, and "Faster Than a Blink" is catchy. However, the article mentions the robot's name is Purdubik’s Cube, which isn't in the headline. The guidelines from source [1] say to include specific subjects and active verbs, which the headline does. But maybe the name should be included for clarity. Also, "Cube" is a bit vague—since it's a Rubik's Cube, specifying that might be better. The headline is under the 60-character limit suggested in some sources, so that's good.
+
+The lead: It answers who (Purdue students), what (built a robot that broke the record), when (recently), where (Purdue University), and why (to push robotic boundaries). It's concise, around 30 words. The lead mentions the robot's name and the exact time, which is good. However, the article states the previous record was 0.305 seconds, which the lead doesn't include. Including that comparison could strengthen it. Also, the lead uses "astonishing," which might be a bit sensational, but it's factual. 
+
+Checking for AI weaknesses: The headline and lead align well with the article. No misinformation spotted. The headline uses "Cube" instead of "Rubik's Cube," but the article uses both terms. The lead accurately reflects the record time and the university. No coherence issues between headline, lead, and article. 
+
+Possible improvements: Headline could include the robot's name and specify "Rubik's Cube." The lead might benefit from mentioning the previous record for context. However, both are clear and accurate. 
+
+Rating: Considering the guidelines, the headline and lead are strong but have minor areas for improvement. They’re accurate, attention-grabbing without being sensational, and concise. I'd rate this a 4 because it's good but could use slight tweaks for clarity and completeness.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this article about the record-breaking Rubik's Cube solving robot.
+
+**Headline: "Purdue Robot Solves Cube Faster Than a Blink"**
+- Clear and understandable at a glance
+- Captures attention without being sensational
+- Uses active language and conveys the key achievement
+- Accurately represents the main point of the article
+- The "faster than a blink" element is directly supported by the article
+
+**Lead: "Students at Purdue University have built a robot, Purdubik's Cube, that recently shattered the Guinness World Record for solving a puzzle cube, achieving the feat in an astonishing 0.103 seconds to push the boundaries of robotic speed and precision."**
+- Covers most of the Five Ws (who, what, when implied as recent, why)
+- Includes the key facts: students, Purdue University, robot name, world record, time
+- Accurately represents the article's content
+- Slightly long at approximately 40 words, but still within acceptable range
+- The "pushing boundaries" aspect aligns with quotes in the article
+
+**Overall impression:**
+The headline and lead work well together and accurately represent the article's content. The headline is catchy and factual, while the lead provides the essential details. There are no inaccuracies or hallucinations. The only minor issue is that the lead is at the upper limit of recommended length, but it remains clear and informative.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Purdue Robot Solves Cube Faster Than a Blink" is clear, concise, and attention-grabbing.
+*   It uses an active verb ("Solves") and accurately reflects a key comparison made in the article (0.103 seconds vs. 200-300 milliseconds for a blink).
+*   It successfully highlights the "what" (solves cube), "who" (Purdue robot, implicitly students), and a key aspect of the "how fast."
+
+**Lead Observations:**
+*   The lead "Students at Purdue University have built a robot, Purdubik’s Cube, that recently shattered the Guinness World Record for solving a puzzle cube, achieving the feat in an astonishing 0.103 seconds to push the boundaries of robotic speed and precision" is informative and covers the essential Ws:
+    *   **Who:** Students at Purdue University.
+    *   **What:** Built a robot (Purdubik’s Cube) that shattered the Guinness World Record for solving a puzzle cube.
+    *   **When:** "recently."
+    *   **How (fast/details):** In 0.103 seconds.
+    *   **Why (significance):** "to push the boundaries of robotic speed and precision."
+*   It is a single sentence of 36 words, which fits within the "maybe 40 words" guideline.
+*   The word "astonishing" is slightly editorial, but arguably justified by the context of a record being "shattered" at such a speed.
+*   The lead accurately summarizes the core achievement and its significance as presented in the article.
+
+**Overall Impression and Coherence:**
+*   The headline and lead work well together. The lead directly elaborates on the claim made in the headline.
+*   Both are accurate and do not contain misinformation or hallucinations.
+*   They effectively capture the main topic and key points of the article.
+*   The lead, while a single long sentence, is grammatically sound and conveys the information effectively. Minor stylistic improvements (e.g., toning down "astonishing" or slightly rephrasing for conciseness) could be considered but are not essential.
+
+The generated headline and lead are of good quality, accurately representing the article and adhering well to journalistic standards.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear, concise, and attention-grabbing.
+- "Faster Than a Blink" is accurate and supported by the article, which compares the robot's speed to a human blink.
+- The headline mentions Purdue and the robot, but does not specify "Rubik's Cube" or "puzzle cube," which could be slightly clearer.
+
+Lead:
+- The lead answers the who (students at Purdue University), what (built a robot that shattered the Guinness World Record for solving a puzzle cube), and how (in 0.103 seconds).
+- The lead is a bit long (over 40 words) and could be tightened for brevity.
+- The phrase "push the boundaries of robotic speed and precision" is accurate and reflects the article's emphasis.
+- The lead does not specify the previous record or the context of the achievement (e.g., previous record holders, competition), but this is not strictly necessary for a brief lead.
+
+Overall impression:
+- The headline and lead are accurate, aligned, and informative.
+- Minor improvements could be made for brevity and clarity (e.g., specifying "Rubik's Cube" or "puzzle cube" in the headline, tightening the lead).
+- No major issues with inaccuracy, hallucination, or misalignment.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to evaluate the headline and lead based on the provided guidelines and the article content.
+
+Starting with the headline: "Purdue Robot Solves Cube Faster Than a Blink." It's catchy and uses a metaphor (faster than a blink) which is good for grabbing attention. The guidelines mention using short, active sentences. "Solves Cube" is active, but "Purdue Robot" is the subject. However, the original record was for a puzzle cube, not specifically a Rubik's Cube, but the article uses both terms. The headline is clear but could be more precise by specifying "Puzzle Cube" instead of just "Cube." Also, the previous record holder was Mitsubishi Electric, which isn't mentioned, but headlines often omit such details for brevity.
+
+The lead: "Students at Purdue University have built a robot, Purdubik’s Cube, that recently shattered the Guinness World Record for solving a puzzle cube, achieving the feat in an astonishing 0.103 seconds to push the boundaries of robotic speed and precision." It answers who (students), what (built a robot), when (recently), where (Purdue), why (push boundaries). The lead is a bit long at around 40 words, which is at the upper limit of the guideline. It includes the record time and the impact. However, it mentions "recently" without a specific date, whereas the article states the previous record was May 2024 and the new one in May 2025. The lead could be more precise with the date. Also, "Purdubik’s Cube" is the robot's name, which is correctly included.
+
+Checking for inaccuracies: The headline says "Cube" instead of "Puzzle Cube," but the article uses both terms, so it's acceptable. The lead mentions "shattered the Guinness World Record," which aligns with the article. The time 0.103 seconds is correct. The team members are students, which is accurate. The lead doesn't mention the previous record time, but that's okay as it's covered in the article body.
+
+Coherence between headline and lead: Both focus on the record time and the robot's speed. The headline's metaphor is supported by the lead's specific time. However, the lead could better connect to the "faster than a blink" by including the human blink time mentioned in the article (200-300ms), but that's a minor point.
+
+Potential issues: The headline uses "Cube" which might be vague, but the lead clarifies it's a puzzle cube. The lead uses "recently" without a specific date, but the article's date is May 2025. Since the current date is May 2025, "recently" is appropriate. The lead is a bit wordy but stays within guidelines. No hallucinations or misinformation detected.
+
+Rating: The headline and lead are accurate and coherent. The headline could be slightly more precise, and the lead might benefit from tightening, but overall, they meet the guidelines well. Minor improvements possible, so a rating of 2.
+</think>
+
+**Headline Analysis**  
+- **Clarity and Engagement**: The headline "Purdue Robot Solves Cube Faster Than a Blink" is concise and attention-grabbing, using the relatable analogy of a blink to emphasize speed. However, "Cube" is slightly vague—specifying "Puzzle Cube" would align better with the article’s terminology [2][4].  
+- **Active Voice**: Uses strong verbs ("Solves") and avoids passive construction, adhering to guidelines [5].  
+
+**Lead Analysis**  
+- **Brevity and Informativeness**: The lead answers the Five Ws (who, what, when, where, why) but stretches to ~40 words, nearing the upper limit. Including the exact date (May 2025) instead of "recently" would improve precision [2][4].  
+- **Coherence with Headline**: The lead supports the headline’s focus on speed and precision but misses an opportunity to explicitly link the "blink" analogy to the article’s mention of human blink duration (200–300ms) [4].  
+
+**Alignment and Accuracy**  
+- Both headline and lead accurately reflect the article’s key details: the record time (0.103s), the team’s affiliation (Purdue), and the broader significance (advancing robotics). No factual inaccuracies or hallucinations are present [1][2][4].  
+- The headline’s omission of "Puzzle Cube" and the lead’s vague timing ("recently") are minor flaws but do not compromise overall clarity.  
+
+**Improvements**  
+- Headline: Specify "Puzzle Cube" for clarity.  
+- Lead: Shorten slightly and include the record-certification date (May 2025).  
+
+**Final Rating**: 2  
+
+2
+
+

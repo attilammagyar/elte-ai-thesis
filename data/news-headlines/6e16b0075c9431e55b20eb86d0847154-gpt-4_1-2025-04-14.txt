@@ -1,0 +1,233 @@
+URL: https://www.telegraph.co.uk/business/2025/05/15/graduate-scheme-jobs-slump-in-wake-of-reeves-tax-raid/
+Generator: gpt-4.1-2025-04-14
+Headline: Graduate Job Openings Plummet Amid Tax Hikes
+Lead: Graduate schemes in Britain dropped by a third over the past year, as employers slashed entry-level roles following increased business costs from Rachel Reeves’s Budget, leaving new graduates facing the toughest job market in years.
+
+Article:
+
+The number of graduate schemes in Britain plunged by a third last year...
+
+(...2961 characters...)
+
+...hardest time to find a job since January 2017, excluding the pandemic.
+
+Evaluation with positive prompt template (1=worst, 5=best) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this news article about the decline in graduate schemes in Britain.
+
+**Headline: "Graduate Job Openings Plummet Amid Tax Hikes"**
+
+Observations:
+- Clear and concise, easily understood at a glance
+- Uses strong verb "plummet" which accurately reflects the 33% drop mentioned in the article
+- Correctly connects the decline to tax increases, which is a central theme of the article
+- Avoids sensationalism while still conveying urgency
+
+**Lead: "Graduate schemes in Britain dropped by a third over the past year, as employers slashed entry-level roles following increased business costs from Rachel Reeves's Budget, leaving new graduates facing the toughest job market in years."**
+
+Observations:
+- Provides the key statistic (one-third drop) from the article
+- Identifies the who (employers), what (cutting graduate schemes), where (Britain), when (past year), and why (increased costs from Budget)
+- Captures the main consequence (toughest job market in years)
+- At approximately 39 words, it's slightly on the longer side but still within acceptable range
+- The claim about "toughest job market in years" is supported by the article's final paragraph
+
+**Overall impression:**
+The headline and lead work well together to accurately represent the article's main points. The headline is attention-grabbing without being misleading, and the lead expands on it with specific details. They correctly identify Rachel Reeves's Budget and the resulting tax increases as the primary cause of the decline in graduate schemes. The only minor issue is that the lead is slightly longer than ideal, but it remains clear and informative.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by deepseek-chat
+===========================================================================
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Graduate Job Openings Plummet Amid Tax Hikes" is concise, clear, and uses a strong, active verb ("Plummet").
+*   It accurately identifies the main subject (graduate job openings) and a key contributing factor mentioned in the article (tax hikes/Budget changes).
+*   It grabs attention without being overly sensational, as "plummet" is justified by the "plunged by a third" statistic in the article.
+
+**Lead Observations:**
+*   The lead is a single, well-constructed sentence of 36 words, fitting within the suggested length.
+*   It is informative, covering the key "Five Ws":
+    *   **Who:** Graduates, employers in Britain.
+    *   **What:** Graduate schemes dropped by a third, entry-level roles slashed.
+    *   **When:** Over the past year.
+    *   **Where:** Britain.
+    *   **Why:** Increased business costs from Rachel Reeves’s Budget.
+*   It accurately reflects the article's core information, including the magnitude of the drop, the attributed cause, and the significant consequence for graduates ("toughest job market in years").
+*   It aligns well with the headline, expanding on the information presented.
+
+**Overall Impression:**
+The headline and lead are of high quality. They are accurate, concise, and adhere to journalistic standards. The headline effectively captures the essence of the story, and the lead provides a solid summary of the key facts. There are no apparent AI weaknesses like misinformation or hallucination; the information is directly and correctly sourced from the article. They work very well together to introduce the news story.
+
+5
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+
+Headline:
+- The headline is clear and concise, accurately reflecting the main topic: a significant drop in graduate job openings.
+- "Plummet" is a strong but appropriate verb, grabbing attention without being sensational.
+- "Amid Tax Hikes" succinctly points to the cause, aligning with the article's focus on increased employer costs due to the Budget.
+
+Lead:
+- The lead is brief and informative, summarizing the main points: a one-third drop in graduate schemes, the link to increased business costs from the Budget, and the impact on new graduates.
+- It answers the Five Ws: who (graduates/employers), what (drop in schemes), when (past year), where (Britain), and why (increased costs from Budget).
+- The phrase "toughest job market in years" is supported by the article's data.
+- The lead is slightly long but remains within reasonable limits and is packed with relevant information.
+
+Overall impression:
+- The headline and lead work well together, accurately representing the article's content and main points.
+- There are no major issues with coherence, accuracy, or alignment.
+- Minor improvement could be made by specifying the scale of the drop in the headline, but this is not essential.
+
+4
+
+
+Evaluation with positive prompt template (1=worst, 5=best) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this rating. First, I need to evaluate the headline and lead based on the provided guidelines and the article content.
+
+Starting with the headline: "Graduate Job Openings Plummet Amid Tax Hikes." It's clear and concise, using "plummet" which is a strong verb. It mentions the main factors: tax hikes and the drop in job openings. The article does talk about a significant decrease in graduate schemes, so the headline aligns with that. However, the article specifies a third decline, but "plummet" might be a bit dramatic. Also, the tax hikes are linked to Rachel Reeves's Budget, which the headline doesn't mention, but maybe that's okay for brevity.
+
+Next, the lead: "Graduate schemes in Britain dropped by a third over the past year, as employers slashed entry-level roles following increased business costs from Rachel Reeves’s Budget, leaving new graduates facing the toughest job market in years." It answers the who (graduates, employers), what (drop in schemes), when (past year), where (Britain), why (tax hikes from the Budget). The lead is concise, under 40 words. It accurately reflects the article's data from Adzuna about the 1/3 decline. The mention of the toughest job market ties into the competition mentioned in the article and the ONS figures about job ads falling.
+
+Checking for accuracy: The numbers in the lead match the article. The article says 794 entry-level programs vs 1,224 the previous year, which is about a 35% drop, close enough to a third. The Budget's role in increasing employer costs is correctly attributed. The lead doesn't mention specific sectors like hospitality's 41% drop, but that's okay as the lead summarizes the main point.
+
+Coherence between headline and lead: Both focus on the drop in graduate jobs due to tax-related costs. The lead provides more context about the Budget, which the headline omits, but they complement each other well.
+
+Potential issues: The headline uses "Amid Tax Hikes," which the article attributes to Rachel Reeves's Budget. The lead specifies the Budget, so that's good. The term "plummet" is strong but accurate given the significant drop. The lead mentions "toughest job market in years," which the article supports with data about the lowest job ads since 2017, excluding the pandemic. No misinformation here.
+
+AI weaknesses check: No hallucinations noticed. The headline and lead stick to the article's content without adding unsupported claims. They are coherent and aligned with each other and the article.
+
+Possible improvements: The headline could specify "UK" instead of a general statement, but "Britain" is in the lead. The lead is solid, but maybe "slashed" is a bit informal. However, it's acceptable in journalism. The headline might benefit from mentioning the Budget explicitly, but space is limited.
+
+Overall, the headline and lead are accurate, concise, and work well together. They effectively summarize the article's key points without sensationalism. Minor tweaks could be made, but they're not necessary. Rating: 4.5, but since it's an integer, I'll round up to 5. Wait, the guidelines say 1-5 as integers. The lead and headline are very good, but maybe not perfect. Let me check again. The headline's "Amid Tax Hikes" is a bit vague, and the lead could clarify that the tax hike is specifically employer NICs. However, the lead does mention the Budget's increased business costs, which is accurate. Considering the guidelines, a 4 might be more appropriate if there's room for minor improvements. But the instructions say 5 is excellent with no room for improvement. The headline and lead are strong, so maybe a 4. Hmm. Alternatively, since the main points are covered accurately and concisely, and the issues are minor, a 4 is better. Wait, the lead is 44 words, which is slightly over the 40-word suggestion. That might be a minor issue. Also, the headline uses "Plummet," which is a bit strong but acceptable. Given the word count and the slight exaggeration, maybe a 4. But the user's guidelines say 5 is excellent. If the lead is over by a few words but still effective, maybe it's still a 4. I think the answer is 4.
+</think>
+
+4
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by claude-3-7-sonnet-20250219
+========================================================================================
+
+I'll evaluate the headline and lead for this news article about the decline in graduate schemes in Britain.
+
+**Headline: "Graduate Job Openings Plummet Amid Tax Hikes"**
+
+Observations:
+- Clear and concise, easily understood at a glance
+- Uses strong verb "plummet" which accurately reflects the 33% drop mentioned in the article
+- Correctly identifies the connection to tax increases
+- Avoids sensationalism while still conveying urgency
+
+**Lead: "Graduate schemes in Britain dropped by a third over the past year, as employers slashed entry-level roles following increased business costs from Rachel Reeves's Budget, leaving new graduates facing the toughest job market in years."**
+
+Observations:
+- Accurately captures the key statistic (one-third drop in graduate schemes)
+- Correctly identifies the timeframe (past year)
+- Properly attributes the cause to Rachel Reeves's Budget and increased business costs
+- Includes the impact on graduates (toughest job market in years)
+- Slightly long at approximately 42 words, but still readable
+- The claim about "toughest job market in years" is supported by the article's final paragraph
+
+**Overall impression:**
+The headline and lead work well together to accurately summarize the article's main points. The headline is appropriately concise while the lead expands on the key details. Both correctly identify the main topic (decline in graduate schemes), the scale (one-third drop), the cause (tax increases from the Budget), and the impact (difficult job market for graduates). There are no factual inaccuracies or hallucinations. The only minor issue is that the lead is slightly longer than the ideal 25-30 word guideline.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by deepseek-chat
+===========================================================================
+
+1
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gemini-2.5-pro-preview-05-06
+==========================================================================================
+
+**Headline Observations:**
+*   The headline "Graduate Job Openings Plummet Amid Tax Hikes" is strong, clear, and uses an active, impactful verb ("Plummet").
+*   It accurately reflects the main topic (a sharp decrease in graduate jobs) and a key reason cited in the article ("Rachel Reeves’s Budget tax raid," summarized as "Tax Hikes").
+*   It is concise and attention-grabbing without being overly sensational.
+
+**Lead Observations:**
+*   The lead "Graduate schemes in Britain dropped by a third over the past year, as employers slashed entry-level roles following increased business costs from Rachel Reeves’s Budget, leaving new graduates facing the toughest job market in years" is informative and covers the essential "Five Ws."
+*   It accurately quantifies the drop ("by a third"), states the timeframe ("over the past year"), location ("Britain"), the cause ("increased business costs from Rachel Reeves’s Budget"), and the consequence ("toughest job market in years").
+*   At 36 words, it is within the suggested length guidelines, though it is a dense single sentence. It could perhaps be slightly more readable if split or rephrased, but it is grammatically correct and conveys the information effectively.
+
+**Overall Impression:**
+The headline and lead work very well together and accurately represent the core information of the article. The headline is punchy and highlights the severity and a primary cause. The lead provides specific details and context, directly supporting the headline. There are no apparent inaccuracies or hallucinations. The AI has successfully identified the main points and adhered to journalistic standards. The lead's density is a minor point that doesn't significantly detract from its overall quality.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by gpt-4.1-2025-04-14
+================================================================================
+
+Key observations:
+- The headline is clear and concise, accurately reflecting the main topic: a sharp decline in graduate job openings linked to tax hikes.
+- The headline uses strong, active language ("Plummet") and avoids sensationalism.
+- The lead is informative, summarizing the main points: the scale of the drop (a third), the cause (employer cost-cutting after the Budget), and the impact (tough job market for graduates).
+- The lead answers most of the Five Ws: who (graduates/employers), what (drop in schemes), when (past year), where (Britain), and why (tax hikes/business costs).
+- Both headline and lead are well-aligned with the article’s content and with each other.
+- The lead is a bit long (over 40 words) and could be tightened, but it remains clear and informative.
+- No major inaccuracies, hallucinations, or coherence issues.
+
+Overall impression: The headline and lead work well together, are accurate, and meet journalistic standards, with only minor room for tightening the lead.
+
+2
+
+
+Evaluation with negative prompt template (1=best, 5=worst) by sonar-reasoning-pro
+=================================================================================
+
+<think>
+Okay, let's tackle this. The user wants me to rate the headline and lead provided for the given article. The guidelines mention checking for clarity, accuracy, alignment between headline and lead, and typical AI issues like misinformation or hallucinations.
+
+First, I'll read the article carefully. The main points are a significant drop in graduate job openings, specifically a third decrease in schemes, with sectors like hospitality and accounting hit hard. The reasons cited are tax increases from Rachel Reeves's Budget, leading employers to cut costs by reducing entry-level roles. There's also mention of graduate salaries now being close to the minimum wage.
+
+Now, looking at the headline: "Graduate Job Openings Plummet Amid Tax Hikes." "Plummet" is a strong verb, which is good for attention, but maybe a bit sensational. The article says a third drop, which "plummet" might exaggerate? Wait, the article says graduate schemes dropped by a third, which is a significant decrease. "Plummet" could be acceptable, but maybe slightly hyperbolic. The tax hikes are correctly attributed to the Budget, so that's accurate.
+
+The lead: "Graduate schemes in Britain dropped by a third over the past year, as employers slashed entry-level roles following increased business costs from Rachel Reeves’s Budget, leaving new graduates facing the toughest job market in years." The lead mentions the 1/3 drop, which matches the article. It connects the tax hikes to the budget, which is correct. The "toughest job market in years" is supported by the article's mention of the hardest time since 2017, excluding the pandemic. So the lead seems to cover the main points: who (graduates), what (schemes dropped), when (past year), why (tax hikes), and where (Britain). The Five Ws are addressed.
+
+Checking for coherence between headline and lead: Both mention the drop in graduate jobs and link it to tax increases. The lead provides specific numbers (a third), which the headline doesn't, but that's okay. They align well.
+
+Potential issues: The headline uses "Tax Hikes" which the article attributes to Rachel Reeves's Budget. The lead specifies it's from the Budget, so that's accurate. The article mentions employer National Insurance contributions (NICs) increasing, which is part of the tax hikes. No misinformation here.
+
+The lead says "leaving new graduates facing the toughest job market in years." The article states it's the hardest since 2017, excluding the pandemic. So "toughest in years" is accurate. 
+
+Are there any hallucinations? The headline and lead stick to the article's content. No added information. The numbers match. The reasons are correctly cited. 
+
+Possible improvements: The headline could specify it's a third drop, but that might make it longer. The lead is concise, under 40 words. Maybe "slashed" is a bit strong, but the article uses "slashed hiring," so it's okay. 
+
+The lead mentions Rachel Reeves's Budget, which is correct as per the article. The headline says "Tax Hikes," which is accurate. 
+
+No coherence issues. Both work together to summarize the article. 
+
+Rating: The headline and lead are accurate, concise, and aligned. They cover the main points without sensationalism. Maybe a minor point: "plummet" is a bit dramatic, but the drop is significant. The lead could mention specific sectors affected, but it's already concise. Overall, this seems like a 2 (good, minor improvements possible) or maybe 1. But since the guidelines say 1 is excellent with no room for improvement, and there's a slight exaggeration with "plummet," maybe 2. However, the article does say a third drop, which is substantial. Maybe "plummet" is acceptable. Alternatively, if the guidelines consider "plummet" as slightly sensational, that could be a minor issue. But the lead is accurate. I think it's a 2 because it's good but could have a minor tweak, like specifying the exact percentage in the headline for clarity. However, headlines often avoid exact numbers for brevity. So maybe it's a 1. Wait, the rating guideline says 1 is excellent, no room for improvement. If the headline and lead are accurate, concise, and aligned without issues, then 1. But the lead is 44 words (let me check: "Graduate schemes in Britain dropped by a third over the past year, as employers slashed entry-level roles following increased business costs from Rachel Reeves’s Budget, leaving new graduates facing the toughest job market in years." That's 44 words. The guideline says 25-30, maybe 40. So the lead is slightly over the word limit. That's a problem. The lead should be 25-30, maybe up to 40. 44 is over, so that's a flaw. Also, the headline uses "Amid Tax Hikes" which is correct, but the lead specifies "Rachel Reeves’s Budget," which is better. However, the lead's length is an issue. Therefore, the lead is too long, which violates the user's guidelines. That would push the rating to 3 or 4. Wait, the user's guidelines for leads say "No more than 1, maybe 2 sentences, and 25 to 30 words, maybe 40." The lead here is one sentence, 44 words. So it's over the recommended limit. That's a problem. Also, the headline says "Job Openings," but the article focuses on graduate schemes, which are specific types of jobs. The lead correctly uses "graduate schemes," but the headline uses "Job Openings," which is a bit broader. The article mentions both graduate schemes and roles, so maybe that's acceptable. However, "schemes" are specific programs, so "job openings" might be slightly less precise. That's a minor inaccuracy. 
+
+Additionally, the lead mentions "the toughest job market in years," which the article supports by comparing to 2017, so that's accurate. 
+
+So issues: lead is too long (44 words vs 40 max), headline uses "Job Openings" instead of "schemes" (though the terms are related), and "plummet" might be slightly hyperbolic. These are minor issues, so the rating would be 2 (good, possibility of minor improvements). Alternatively, if the word count is a significant issue, maybe 3. But the user's guidelines say 25-30 words, maybe 40. The lead is 44, which is 10% over. That's a notable flaw. Also, the headline and lead both refer to tax hikes, which is correct, but the article specifies employer NICs. However, the Budget's tax raid is the cause, so that's accurate. 
+
+Another point: the lead says "employers slashed entry-level roles following increased business costs from Rachel Reeves’s Budget." The article mentions the Budget tax raid leading to employers cutting costs by reducing junior roles. So the lead accurately connects the Budget to increased costs. 
+
+Considering all factors: the lead's length is a problem, the headline's "plummet" might be slightly strong but acceptable, and the terms are accurate. The lead could be trimmed to meet the word limit. Therefore, the rating is 3 (serviceable, some editing needed) because the lead is over the word limit, which is a clear guideline violation. Alternatively, if the word count is a minor issue, maybe 2. But since the user emphasized the 25-30 words, maybe 40, and the lead is 44, it's a notable issue. So I'll go with 3.
+</think>
+
+3
+
+
