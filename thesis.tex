@@ -145,9 +145,9 @@
       --- which in the early 2020s became commercialized and widely adopted in
       both industry and popular discourse.
 
-      A generative LLM is a model which has a parameter count on the order of
-      hundreds of billions or more (hence "large"), and predicts the conditional
-      probability \cite{llms}
+      A generative LLM is a model which has a parameter count often on the
+      order of hundreds of billions or more (hence "large"), and predicts the
+      conditional probability \cite{llms}
 
       \begin{align} \label{eqautoreg}
         P(w_m | w_0, \cdots, w_{m-1})
@@ -249,7 +249,7 @@
       prompt engineering techniques like \textbf{chain-of-thought} prompting
       \cite{cot,zscot}, where the model is instructed to articulate intermediate
       reasoning steps before arriving at its final answer ("Let's think step by
-      step"), optionally with examples provided to step by step solutions to
+      step"), optionally provided with examples of step-by-step solutions to
       related problems. It is worth emphasizing that --- recalling formula
       \ref{eqautoreg} and the autoregressive text generation process --- the
       chain-of-thought is only effective if it is placed \emph{before} the
@@ -363,7 +363,7 @@ After providing your explanation, please rate the response on a scale of
         until the LLM-judge can reliably produce evaluations that are
         sufficiently close to a set of human-labeled examples.
 
-        The juding model may also be fine-tuned using evaluation data
+        The judging model may also be fine-tuned using evaluation data
         constructed either manually or with the assistance of advanced models
         like GPT-4.
 
@@ -577,7 +577,7 @@ After providing your explanation, please rate the response on a scale of
                 to filter potentially harmful inputs.
 
           \item \textbf{LLM-based output filtering}: using smaller, cheaper
-                LLMs to detect unusual response from the judge,
+                LLMs to detect unusual responses from the judge,
 
           \item \textbf{Multi-model committee}: assembling a committee from
                 heterogeneous models to reduce the probability of an attack
@@ -622,7 +622,7 @@ After providing your explanation, please rate the response on a scale of
                       \right)
       \end{align*}}
 
-      While it goes with expectations that a model which performs better on
+      While it aligns with expectations that a model which performs better on
       text generation tasks would also prove more reliable as a judge, is has
       also been observed \cite{reason} that model capability can have a positive
       correlation with overconfidence in the form of harmful self-preference.
@@ -679,8 +679,8 @@ After providing your explanation, please rate the response on a scale of
 
     State-of-the-art commercial LLMs will be tasked with generating short and
     catchy yet not sensationalist headlines and informative leads for 100
-    randomly picked recent news articles (as of May, 2025), with respect to well
-    established journalistic practices \cite{news}, with
+    randomly picked recent news articles (as of May, 2025), with respect to
+    well-established journalistic practices \cite{news}, with
     \texttt{temperature=1.0}.
 
     The recency of the stories ensures that none of the participating models
@@ -715,7 +715,7 @@ After providing your explanation, please rate the response on a scale of
     \subsection{Grades}
 
       The overwhelming majority of LLM-judge prompts in the literature
-      associates higher scores with higher quality responses. As a consequence,
+      associate higher scores with higher quality responses. As a consequence,
       it is unclear whether LLMs exhibiting self-preference bias give
       themselves \emph{higher} scores or \emph{better} scores. In order to
       investigate this question, each generated solution will be graded twice:
@@ -743,7 +743,7 @@ After providing your explanation, please rate the response on a scale of
       reveal the presence of unjustified (harmful) self-preference.
       \footnote{Positional bias is not applicable in this scenario, and some
       amount of inverse length bias is desirable, since the headline and the
-      lead is usually expected to be brief. No signs of prompt injection
+      lead are usually expected to be brief. No signs of prompt injection
       attempts were observed, however, Sonar randomly translated a word in a
       lead into Chinese for no apparent reason, as shown in figure
       \ref{fignewsch}.}
@@ -984,7 +984,7 @@ After providing your explanation, please rate the response on a scale of
         \item Even state-of-the-art commercial LLMs do exhibit bias when it
               comes to judging their own generations. Somewhat unexpectedly,
               Claude 3.7 Sonnet underestimates its own outputs relative to the
-              scores received by other models rather than overstimating it ---
+              scores received by other models rather than overestimating it ---
               yet it still gives itself better scores than it gives to peers.
               The latter may be justified to some extent however, taking into
               account that this model received the best scores in the
@@ -999,9 +999,9 @@ After providing your explanation, please rate the response on a scale of
               self-enhancement bias.
 
         \item Inverting the grading scale and using negative framing can
-              decrease the self-preference bias of the latest (as of May, 2025)
-              preview version of Gemini 2.5 Pro, and increase it for GPT 4.1.
-              For Sonar Reasoning Pro, the inversion turns the slight
+              slightly reduce the self-preference bias of the latest (as of
+              May, 2025) preview version of Gemini 2.5 Pro, but increase it for
+              GPT 4.1.  For Sonar Reasoning Pro, the inversion turns the slight
               overestimation of the model's own performance into a significant
               underestimation.
       \end{itemize}
@@ -1013,7 +1013,7 @@ After providing your explanation, please rate the response on a scale of
     Rigorous statistical testing confirmed that state-of-the-art LLM-judges can
     systematically over or underestimate the quality of their own generated
     texts, and that the resulting bias can be sensitive to the framing of the
-    evaluation and the invertedness of the grading scale.
+    evaluation and the inversion of the grading scale.
 
     \subsection{Further Research}
 
