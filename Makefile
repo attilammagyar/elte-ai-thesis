@@ -69,14 +69,7 @@ $(BUILD_DIR)/thesis.pdf: \
 		img/logo.png \
 		img/softmax-temperature.png \
 		img/ch-bar.png \
-		img/eval-dictionary-correctness_score.png \
-		img/eval-dictionary-space_score.png \
-		img/eval-dictionary-time_score.png \
-		img/eval-distortion-aa_score.png \
-		img/eval-distortion-signal_score.png \
-		img/eval-distortion-time_score.png \
 		img/eval-news.png \
-		img/eval-question-answers.png \
 		| $(BUILD_DIR)
 	$(PDFLATEX) $(PDFLATEX_FLAGS) $<
 	$(BIBER) $(BIBER_FLAGS) thesis
